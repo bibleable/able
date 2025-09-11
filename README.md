@@ -7,8 +7,9 @@
 
 - Curate simple words to narrate the bible story
 - Avoid abstract words that stumble learners.
-- Use Grade 1 Vocabulary.
-- Use emoji to convey emotions 🥹♥️
+- Use grade 1 vocabulary for simplicity
+- Use simple grammar for ease of reading & clarity
+- Use emoji to convey emotions 🥹♥️ 
 - Match the speaker/subject at the start of the sentence.
 - Use consistent sentence structure for maximal learning advantage. Repetition builds comprehension and memory.
 
