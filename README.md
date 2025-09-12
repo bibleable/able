@@ -12,6 +12,7 @@
 - Use emoji to convey emotions 🥹♥️ 
 - Match the speaker/subject at the start of the sentence.
 - Use consistent sentence structure for maximal learning advantage. Repetition builds comprehension and memory.
+- Public domain since day 1 🆓
 
 # Getting Started 
 
@@ -25,3 +26,10 @@ Each file is a markdown. The name format is <chapter><chapter_number>_<timestamp
 ## Contact
 
 [bibleable.project@gmail.com](mailto:bibleable.project@gmail.com)
+
+
+## LICENSE
+
+CC0 & MIT License
+
+
