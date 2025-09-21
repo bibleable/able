@@ -17,7 +17,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 
 # Getting Started 
 
-let's start with book of mark, go to [Mark 1](https://github.com/bibleable/able/blob/main/mark/mark1_1757488307.md) here. And start reading! Let's go. Then, go to [Mark 2](https://github.com/bibleable/able/blob/main/mark/mark2_1757488422.md)
+let's start with book of mark, go to [Mark 1](https://github.com/bibleable/able/blob/main/paraphrases/mark/mark1_1757488307.md) here. And start reading! Let's go. Then, go to [Mark 2](https://github.com/bibleable/able/blob/main/paraphrases/mark/mark2_1757488422.md)
 
 
 # How is the file named? 
