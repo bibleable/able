@@ -2,9 +2,9 @@
 
 `ABLE` is a bible paraphrase for special needs (and intellectually challenged and young learners). ABLE stands for `Accessible Bible for Learners with Extra needs`. We believe that God's word is for every mind and heart!
 
+See [paraphrases](/paraphrases/) and [stories](/stories/)
 
 ## Features
-
 - Curate simple words to narrate the bible story
 - Avoid abstract words that stumble learners.
 - Use grade 1 vocabulary for simplicity
@@ -12,6 +12,7 @@
 - Use emoji to convey emotions 🥹♥️ 
 - Match the speaker/subject at the start of the sentence.
 - Use consistent sentence structure for maximal learning advantage. Repetition builds comprehension and memory.
+- Paraphrasing at each verse level
 - Public domain since day 1 🆓
 
 # Getting Started 
