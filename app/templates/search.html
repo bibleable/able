@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Results for {{ query }}</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #7c3aed;
+      --border: #e2e8f0;
+      --highlight: #f0f9ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --text: #f1f5f9;
+        --muted: #94a3b8;
+        --border: #334155;
+        --highlight: #1e293b;
+      }
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .results {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+    
+    .verse-container {
+      margin-top: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .verse-reference {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+    
+    .translation {
+      margin-bottom: 12px;
+      padding: 12px;
+      border-radius: 6px;
+      position: relative; /* For positioning the copy button */
+    }
+    
+    .translation-name {
+      font-weight: bold;
+      margin-bottom: 4px;
+      font-size: 0.9rem;
+    }
+    
+    .able {
+      background-color: var(--highlight);
+      border-left: 4px solid var(--primary);
+    }
+    
+    .kjv {
+      border-left: 4px solid #94a3b8;
+    }
+    
+    .bsb {
+      border-left: 4px solid #64748b;
+    }
+    
+    .verse-text {
+      line-height: 1.6;
+    }
+    
+    .actions {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .action-link {
+      color: var(--primary);
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    
+    .action-link:hover {
+      background: var(--highlight);
+    }
+    
+    .copy-btn {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    
+    .copy-btn:hover {
+      background-color: var(--highlight);
+      color: var(--primary);
+    }
+    
+    .copy-btn.copied {
+      background-color: #10b981;
+      color: white;
+      border-color: #10b981;
+    }
+    
+    .copy-icon {
+      width: 14px;
+      height: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← Back</a>
+    
+    <div class="results">
+      <h2>Results for: {{ query }}</h2>
+      
+      <div class="actions">
+        <a href="/verses?passage=John+3:16-17" class="action-link">View John 3:16-17 in ABLE only</a>
+        <a href="/verses?passage=Psalm+23" class="action-link">View Psalm 23 in ABLE only</a>
+      </div>
+      
+      <!-- Example result for John 3:16 -->
+      <div class="verse-container">
+        <div class="verse-reference">John 3:16</div>
+        
+        <div class="translation able">
+          <div class="translation-name">ABLE (Simplified)</div>
+          <div class="verse-text">
+            Jesus said, God's love is big. God gave His one Son, Jesus. If anyone trusts Him, they will not die. They will have life that lasts. 🌍❤️🎁👶✝️⏳♾️
+          </div>
+          <button class="copy-btn" data-verse="Jesus said, God's love is big. God gave His one Son, Jesus. If anyone trusts Him, they will not die. They will have life that lasts. 🌍❤️🎁👶✝️⏳♾️">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation kjv">
+          <div class="translation-name">KJV</div>
+          <div class="verse-text">
+            For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+          </div>
+          <button class="copy-btn" data-verse="For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation bsb">
+          <div class="translation-name">BSB</div>
+          <div class="verse-text">
+            For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.
+          </div>
+          <button class="copy-btn" data-verse="For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+      </div>
+      
+      <!-- This would be dynamically generated based on search results -->
+      <p class="muted">Note: In a real implementation, verses would be dynamically populated based on search results.</p>
+    </div>
+  </div>
+  
+  <script>
+    // Copy to clipboard functionality
+    document.querySelectorAll('.copy-btn').forEach(button => {
+      button.addEventListener('click', function() {
+        const verse = this.getAttribute('data-verse');
+        navigator.clipboard.writeText(verse).then(() => {
+          // Visual feedback
+          this.classList.add('copied');
+          this.innerHTML = '<svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Copied!';
+          
+          // Reset button after 2 seconds
+          setTimeout(() => {
+            this.classList.remove('copied');
+            this.innerHTML = '<svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy';
+          }, 2000);
+        }).catch(err => {
+          console.error('Failed to copy: ', err);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
