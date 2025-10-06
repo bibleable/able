@@ -143,7 +143,7 @@
     <a href="/" class="back-link">← Back</a>
     
     <div class="verses-container">
-      <h2>
+      <!-- <h2>
         John 3:16-17
         <span class="translation-label">ABLE Bible</span>
       </h2>
@@ -156,7 +156,22 @@
       <a href="/search?q=John+3:17" class="verse">
         <span class="verse-number">17</span>
         <span class="verse-text">Jesus said, God did not send Me to punish the world. God sent Me to save the world. 🚫⚖️ 🌍 ➡️ 🛟❤️</span>
+      </a> -->
+
+
+      <!-- In verses.html, replace the static verses with this -->
+      {% for verse in verses %}
+      <a href="/search?q={{ verse.reference }}" class="verse">
+        <span class="verse-number">{{ verse.verse_number }}</span>
+        <span class="verse-text">{{ verse.text_able }}</span>
       </a>
+      {% else %}
+      <p class="muted">No verses found for the passage "{{ passage }}".</p>
+      {% endfor %}
+
+      {% if error %}
+      <p class="error muted">{{ error }}</p>
+      {% endif %}      
       
       <!-- More verses would be dynamically added here based on the passage requested -->
     </div>

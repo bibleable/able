@@ -157,11 +157,105 @@
       width: 14px;
       height: 14px;
     }
+    
+    /* Search bar styles */
+    .search-container {
+      margin-bottom: 24px;
+    }
+    
+    .input-group {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .form-control {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    
+    .btn-primary {
+      background-color: var(--primary);
+      border: none;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .btn-primary:hover {
+      background-color: #6d28d9;
+    }
+
+    /* Emoji toggle styles */
+    .emoji-toggle-container {
+      margin-bottom: 24px;
+    }
+    
+    .form-check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .form-check-input {
+      cursor: pointer;
+    }
+    
+    .form-check-label {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    /* Hide emojis when toggle is off */
+    body.hide-emojis .verse-text {
+      font-family: system-ui, sans-serif;
+    }
+
+    body.hide-emojis .verse-text::after {
+      content: '';
+    }
+
+    /* More specific emoji hiding using regex-like approach */
+    body.hide-emojis .verse-text {
+      position: relative;
+    }
+
+    /* Alternative approach: Use JavaScript to filter emojis */
+    .emoji-hidden {
+      display: none;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <a href="/" class="back-link">← Back</a>
+    
+    <!-- Search bar -->
+    <div class="search-container">
+      <form action="/search" method="get">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" name="q" placeholder="Search by reference or word..." aria-label="Search" value="{{ request.query_params.get('q', '') }}">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+    
+    <!-- Emoji and Emotion toggles -->
+    <div class="emoji-toggle-container mb-3">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="emojiToggle" checked>
+        <label class="form-check-label" for="emojiToggle">Show Emojis</label>
+      </div>
+      <div class="form-check form-switch" style="margin-top: 8px;">
+        <input class="form-check-input" type="checkbox" id="emotionToggle" checked>
+        <label class="form-check-label" for="emotionToggle">Show Emotion</label>
+      </div>
+    </div>
     
     <div class="results">
       <h2>Results for: {{ query }}</h2>
@@ -172,7 +266,7 @@
       </div>
       
       <!-- Example result for John 3:16 -->
-      <div class="verse-container">
+      <!-- <div class="verse-container">
         <div class="verse-reference">John 3:16</div>
         
         <div class="translation able">
@@ -216,8 +310,62 @@
             Copy
           </button>
         </div>
-      </div>
+      </div> -->
+      <!-- Modify the verse container section in search.html to use actual data -->
       
+      {% for verse in results %}
+      <div class="verse-container">
+        <div class="verse-reference">{{ verse.reference }}</div>
+        
+        <div class="translation able">
+          <div class="translation-name">ABLE (Simplified)</div>
+          <div class="verse-text">
+            {{ verse.text_able }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_able }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation kjv">
+          <div class="translation-name">KJV</div>
+          <div class="verse-text">
+            {{ verse.text_kjv }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_kjv }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation bsb">
+          <div class="translation-name">BSB</div>
+          <div class="verse-text">
+            {{ verse.text_bsb }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_bsb }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+      </div>
+      {% else %}
+      <p class="muted">No results found for "{{ query }}".</p>
+      {% endfor %}
+
+      {% if error %}
+      <p class="error muted">{{ error }}</p>
+      {% endif %}
       <!-- This would be dynamically generated based on search results -->
       <p class="muted">Note: In a real implementation, verses would be dynamically populated based on search results.</p>
     </div>
@@ -242,6 +390,33 @@
           console.error('Failed to copy: ', err);
         });
       });
+    });
+    
+    // Emoji toggle functionality
+    document.getElementById('emojiToggle').addEventListener('change', function() {
+      document.body.classList.toggle('hide-emojis', !this.checked);
+      
+      // Save preference to localStorage
+      localStorage.setItem('showEmojis', this.checked);
+    });
+    
+    // Emotion toggle functionality
+    document.getElementById('emotionToggle').addEventListener('change', function() {
+      document.body.classList.toggle('hide-emotions', !this.checked);
+      
+      // Save preference to localStorage
+      localStorage.setItem('showEmotions', this.checked);
+    });
+    
+    // Load saved preferences on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const showEmojis = localStorage.getItem('showEmojis') !== 'false';
+      document.getElementById('emojiToggle').checked = showEmojis;
+      document.body.classList.toggle('hide-emojis', !showEmojis);
+      
+      const showEmotions = localStorage.getItem('showEmotions') !== 'false';
+      document.getElementById('emotionToggle').checked = showEmotions;
+      document.body.classList.toggle('hide-emotions', !showEmotions);
     });
   </script>
 </body>
