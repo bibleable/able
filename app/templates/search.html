@@ -229,6 +229,62 @@
     .emoji-hidden {
       display: none;
     }
+
+    /* Pagination styles */
+    .pagination {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .pagination-info {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    
+    .pagination-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    
+    .page-link {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    
+    .page-link:hover:not(.disabled):not(.current) {
+      background: var(--highlight);
+      color: var(--primary);
+    }
+    
+    .page-link.current {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    
+    .page-link.disabled {
+      color: var(--muted);
+      cursor: not-allowed;
+    }
+    
+    .page-link.ellipsis {
+      border: none;
+      padding: 6px 4px;
+    }
+    
+    .page-link.prev,
+    .page-link.next {
+      font-weight: 500;
+    }
   </style>
 </head>
 <body>
@@ -259,11 +315,6 @@
     
     <div class="results">
       <h2>Results for: {{ query }}</h2>
-      
-      <div class="actions">
-        <a href="/verses?passage=John+3:16-17" class="action-link">View John 3:16-17 in ABLE only</a>
-        <a href="/verses?passage=Psalm+23" class="action-link">View Psalm 23 in ABLE only</a>
-      </div>
       
       <!-- Example result for John 3:16 -->
       <!-- <div class="verse-container">
@@ -318,7 +369,7 @@
         <div class="verse-reference">{{ verse.reference }}</div>
         
         <div class="translation able">
-          <div class="translation-name">ABLE (Simplified)</div>
+          <div class="translation-name">ABLE</div>
           <div class="verse-text">
             {{ verse.text_able }}
           </div>
@@ -345,6 +396,20 @@
           </button>
         </div>
         
+        <div class="translation asv">
+          <div class="translation-name">ASV</div>
+          <div class="verse-text">
+            {{ verse.text_asv }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_asv }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
         <div class="translation bsb">
           <div class="translation-name">BSB</div>
           <div class="verse-text">
@@ -358,6 +423,10 @@
             Copy
           </button>
         </div>
+        
+        <div class="actions">
+          <a href="/verses?passage={{ verse.reference }}" class="action-link">View in context</a>
+        </div>
       </div>
       {% else %}
       <p class="muted">No results found for "{{ query }}".</p>
@@ -366,8 +435,38 @@
       {% if error %}
       <p class="error muted">{{ error }}</p>
       {% endif %}
-      <!-- This would be dynamically generated based on search results -->
-      <p class="muted">Note: In a real implementation, verses would be dynamically populated based on search results.</p>
+      
+      <!-- Pagination -->
+      {% if total_pages > 1 %}
+      <div class="pagination">
+        <div class="pagination-info">
+          Showing {{ (page_num - 1) * items_per_page + 1 }}-{{ [page_num * items_per_page, total_items]|min }} of {{ total_items }} results
+        </div>
+        <div class="pagination-controls">
+          {% if page_num > 1 %}
+            <a href="/search?q={{ query }}&page={{ page_num - 1 }}" class="page-link prev">← Previous</a>
+          {% else %}
+            <span class="page-link disabled">← Previous</span>
+          {% endif %}
+          
+          {% for p in range(1, total_pages + 1) %}
+            {% if p == page_num %}
+              <span class="page-link current">{{ p }}</span>
+            {% elif p <= 3 or p >= total_pages - 2 or (p >= page_num - 1 and p <= page_num + 1) %}
+              <a href="/search?q={{ query }}&page={{ p }}" class="page-link">{{ p }}</a>
+            {% elif p == 4 and page_num > 5 or p == total_pages - 3 and page_num < total_pages - 4 %}
+              <span class="page-link ellipsis">…</span>
+            {% endif %}
+          {% endfor %}
+          
+          {% if page_num < total_pages %}
+            <a href="/search?q={{ query }}&page={{ page_num + 1 }}" class="page-link next">Next →</a>
+          {% else %}
+            <span class="page-link disabled">Next →</span>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
   
