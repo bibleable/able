@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ passage }} - ABLE Bible</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #7c3aed;
+      --border: #e2e8f0;
+      --highlight: #f0f9ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --text: #f1f5f9;
+        --muted: #94a3b8;
+        --border: #334155;
+        --highlight: #1e293b;
+      }
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .verses-container {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .translation-label {
+      font-size: 0.9rem;
+      font-weight: normal;
+      color: var(--primary);
+      padding: 2px 8px;
+      background: var(--highlight);
+      border-radius: 4px;
+    }
+
+    .verse {
+      padding: 36px 0;  /* Extremely increased padding */
+      border-bottom: 2px solid var(--border);
+      cursor: pointer;
+      margin-bottom: 40px; /* Even larger margin between verses */
+      border-radius: 8px;
+      position: relative; /* For positioning */
+      transition: all 0.2s ease-in-out; /* Add transition for smooth hover effects */
+    }
+    
+    .verse:last-child {
+      border-bottom: none;
+      margin-bottom: 0; /* No margin for last item */
+    }
+    
+    /* Add visual separator between verses */
+    .verse::after {
+      content: "";
+      height: 10px;
+      position: absolute;
+      bottom: -20px;
+      left: 10%;
+      right: 10%;
+      border-bottom: 1px dashed var(--border);
+      display: block;
+    }
+    
+    .verse:last-child::after {
+      display: none; /* Hide for last verse */
+    }
+    
+    .verse:hover {
+      background-color: rgba(124, 58, 237, 0.08); /* Lighter purple background with transparency */
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border-left: 4px solid var(--primary); /* Left accent border */
+      padding-left: 16px; /* Add padding to accommodate the left border */
+    }
+    
+    .verse:hover .verse-number {
+      color: var(--primary);
+    }
+    
+    .verse:hover .verse-text {
+      color: var(--text); /* Ensure text remains the default color for better visibility */
+      font-weight: 500; /* Slightly bolder on hover */
+    }
+    
+    .verse-number {
+      font-weight: bold;
+      margin-right: 12px; /* Increased spacing */
+      color: var(--primary);
+      font-size: 1.3rem; /* Much larger verse numbers */
+      display: inline-block;
+      min-width: 28px;
+    }
+    
+    .verse-text {
+      line-height: 1.8; /* Increased line height */
+      font-size: 1.25rem; /* Much larger text size */
+    }
+    
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← Back</a>
+    
+    <div class="verses-container">
+      <!-- <h2>
+        John 3:16-17
+        <span class="translation-label">ABLE Bible</span>
+      </h2>
+      
+      <a href="/search?q=John+3:16" class="verse">
+        <span class="verse-number">16</span>
+        <span class="verse-text">Jesus said, God's love is big. God gave His one Son, Jesus. If anyone trusts Him, they will not die. They will have life that lasts. 🌍❤️🎁👶✝️⏳♾️</span>
+      </a>
+      
+      <a href="/search?q=John+3:17" class="verse">
+        <span class="verse-number">17</span>
+        <span class="verse-text">Jesus said, God did not send Me to punish the world. God sent Me to save the world. 🚫⚖️ 🌍 ➡️ 🛟❤️</span>
+      </a> -->
+
+
+      <!-- In verses.html, replace the static verses with this -->
+      {% for verse in verses %}
+      <a href="/search?q={{ verse.reference }}" class="verse">
+        <span class="verse-number">{{ verse.verse_number }}</span>
+        <span class="verse-text">{{ verse.text_able }}</span>
+      </a>
+      {% else %}
+      <p class="muted">No verses found for the passage "{{ passage }}".</p>
+      {% endfor %}
+
+      {% if error %}
+      <p class="error muted">{{ error }}</p>
+      {% endif %}      
+      
+      <!-- More verses would be dynamically added here based on the passage requested -->
+    </div>
+  </div>
+</body>
+</html>

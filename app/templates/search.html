@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Results for {{ query }}</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #7c3aed;
+      --border: #e2e8f0;
+      --highlight: #f0f9ff;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --text: #f1f5f9;
+        --muted: #94a3b8;
+        --border: #334155;
+        --highlight: #1e293b;
+      }
+    }
+
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .results {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+    
+    .verse-container {
+      margin-top: 24px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+      margin-bottom: 16px;
+    }
+    
+    .verse-reference {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+    }
+    
+    .translation {
+      margin-bottom: 12px;
+      padding: 12px;
+      border-radius: 6px;
+      position: relative; /* For positioning the copy button */
+    }
+    
+    .translation-name {
+      font-weight: bold;
+      margin-bottom: 4px;
+      font-size: 0.9rem;
+    }
+    
+    .able {
+      background-color: var(--highlight);
+      border-left: 4px solid var(--primary);
+    }
+    
+    .kjv {
+      border-left: 4px solid #94a3b8;
+    }
+    
+    .bsb {
+      border-left: 4px solid #64748b;
+    }
+    
+    .verse-text {
+      line-height: 1.6;
+    }
+    
+    .actions {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .action-link {
+      color: var(--primary);
+      text-decoration: none;
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    
+    .action-link:hover {
+      background: var(--highlight);
+    }
+    
+    .copy-btn {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      background-color: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    
+    .copy-btn:hover {
+      background-color: var(--highlight);
+      color: var(--primary);
+    }
+    
+    .copy-btn.copied {
+      background-color: #10b981;
+      color: white;
+      border-color: #10b981;
+    }
+    
+    .copy-icon {
+      width: 14px;
+      height: 14px;
+    }
+    
+    /* Search bar styles */
+    .search-container {
+      margin-bottom: 24px;
+    }
+    
+    .input-group {
+      display: flex;
+      gap: 8px;
+    }
+    
+    .form-control {
+      flex: 1;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+    
+    .btn-primary {
+      background-color: var(--primary);
+      border: none;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+    
+    .btn-primary:hover {
+      background-color: #6d28d9;
+    }
+
+    /* Emoji toggle styles */
+    .emoji-toggle-container {
+      margin-bottom: 24px;
+    }
+    
+    .form-check {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .form-check-input {
+      cursor: pointer;
+    }
+    
+    .form-check-label {
+      cursor: pointer;
+      user-select: none;
+    }
+
+    /* Hide emojis when toggle is off */
+    body.hide-emojis .verse-text {
+      font-family: system-ui, sans-serif;
+    }
+
+    body.hide-emojis .verse-text::after {
+      content: '';
+    }
+
+    /* More specific emoji hiding using regex-like approach */
+    body.hide-emojis .verse-text {
+      position: relative;
+    }
+
+    /* Alternative approach: Use JavaScript to filter emojis */
+    .emoji-hidden {
+      display: none;
+    }
+
+    /* Pagination styles */
+    .pagination {
+      margin-top: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .pagination-info {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    
+    .pagination-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+    
+    .page-link {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    
+    .page-link:hover:not(.disabled):not(.current) {
+      background: var(--highlight);
+      color: var(--primary);
+    }
+    
+    .page-link.current {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    
+    .page-link.disabled {
+      color: var(--muted);
+      cursor: not-allowed;
+    }
+    
+    .page-link.ellipsis {
+      border: none;
+      padding: 6px 4px;
+    }
+    
+    .page-link.prev,
+    .page-link.next {
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-link">← Back</a>
+    
+    <!-- Search bar -->
+    <div class="search-container">
+      <form action="/search" method="get">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" name="q" placeholder="Search by reference or word..." aria-label="Search" value="{{ request.query_params.get('q', '') }}">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+      </form>
+    </div>
+    
+    <!-- Emoji and Emotion toggles -->
+    <div class="emoji-toggle-container mb-3">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="emojiToggle" checked>
+        <label class="form-check-label" for="emojiToggle">Show Emojis</label>
+      </div>
+      <div class="form-check form-switch" style="margin-top: 8px;">
+        <input class="form-check-input" type="checkbox" id="emotionToggle" checked>
+        <label class="form-check-label" for="emotionToggle">Show Emotion</label>
+      </div>
+    </div>
+    
+    <div class="results">
+      <h2>Results for: {{ query }}</h2>
+      
+      <!-- Example result for John 3:16 -->
+      <!-- <div class="verse-container">
+        <div class="verse-reference">John 3:16</div>
+        
+        <div class="translation able">
+          <div class="translation-name">ABLE (Simplified)</div>
+          <div class="verse-text">
+            Jesus said, God's love is big. God gave His one Son, Jesus. If anyone trusts Him, they will not die. They will have life that lasts. 🌍❤️🎁👶✝️⏳♾️
+          </div>
+          <button class="copy-btn" data-verse="Jesus said, God's love is big. God gave His one Son, Jesus. If anyone trusts Him, they will not die. They will have life that lasts. 🌍❤️🎁👶✝️⏳♾️">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation kjv">
+          <div class="translation-name">KJV</div>
+          <div class="verse-text">
+            For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.
+          </div>
+          <button class="copy-btn" data-verse="For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation bsb">
+          <div class="translation-name">BSB</div>
+          <div class="verse-text">
+            For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.
+          </div>
+          <button class="copy-btn" data-verse="For God so loved the world that He gave His one and only Son, that everyone who believes in Him shall not perish but have eternal life.">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+      </div> -->
+      <!-- Modify the verse container section in search.html to use actual data -->
+      
+      {% for verse in results %}
+      <div class="verse-container">
+        <div class="verse-reference">{{ verse.reference }}</div>
+        
+        <div class="translation able">
+          <div class="translation-name">ABLE</div>
+          <div class="verse-text">
+            {{ verse.text_able }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_able }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation kjv">
+          <div class="translation-name">KJV</div>
+          <div class="verse-text">
+            {{ verse.text_kjv }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_kjv }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation asv">
+          <div class="translation-name">ASV</div>
+          <div class="verse-text">
+            {{ verse.text_asv }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_asv }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="translation bsb">
+          <div class="translation-name">BSB</div>
+          <div class="verse-text">
+            {{ verse.text_bsb }}
+          </div>
+          <button class="copy-btn" data-verse="{{ verse.text_bsb }}">
+            <svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            Copy
+          </button>
+        </div>
+        
+        <div class="actions">
+          <a href="/verses?passage={{ verse.reference }}" class="action-link">View in context</a>
+        </div>
+      </div>
+      {% else %}
+      <p class="muted">No results found for "{{ query }}".</p>
+      {% endfor %}
+
+      {% if error %}
+      <p class="error muted">{{ error }}</p>
+      {% endif %}
+      
+      <!-- Pagination -->
+      {% if total_pages > 1 %}
+      <div class="pagination">
+        <div class="pagination-info">
+          Showing {{ (page_num - 1) * items_per_page + 1 }}-{{ [page_num * items_per_page, total_items]|min }} of {{ total_items }} results
+        </div>
+        <div class="pagination-controls">
+          {% if page_num > 1 %}
+            <a href="/search?q={{ query }}&page={{ page_num - 1 }}" class="page-link prev">← Previous</a>
+          {% else %}
+            <span class="page-link disabled">← Previous</span>
+          {% endif %}
+          
+          {% for p in range(1, total_pages + 1) %}
+            {% if p == page_num %}
+              <span class="page-link current">{{ p }}</span>
+            {% elif p <= 3 or p >= total_pages - 2 or (p >= page_num - 1 and p <= page_num + 1) %}
+              <a href="/search?q={{ query }}&page={{ p }}" class="page-link">{{ p }}</a>
+            {% elif p == 4 and page_num > 5 or p == total_pages - 3 and page_num < total_pages - 4 %}
+              <span class="page-link ellipsis">…</span>
+            {% endif %}
+          {% endfor %}
+          
+          {% if page_num < total_pages %}
+            <a href="/search?q={{ query }}&page={{ page_num + 1 }}" class="page-link next">Next →</a>
+          {% else %}
+            <span class="page-link disabled">Next →</span>
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  
+  <script>
+    // Copy to clipboard functionality
+    document.querySelectorAll('.copy-btn').forEach(button => {
+      button.addEventListener('click', function() {
+        const verse = this.getAttribute('data-verse');
+        navigator.clipboard.writeText(verse).then(() => {
+          // Visual feedback
+          this.classList.add('copied');
+          this.innerHTML = '<svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg> Copied!';
+          
+          // Reset button after 2 seconds
+          setTimeout(() => {
+            this.classList.remove('copied');
+            this.innerHTML = '<svg class="copy-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg> Copy';
+          }, 2000);
+        }).catch(err => {
+          console.error('Failed to copy: ', err);
+        });
+      });
+    });
+    
+    // Emoji toggle functionality
+    document.getElementById('emojiToggle').addEventListener('change', function() {
+      document.body.classList.toggle('hide-emojis', !this.checked);
+      
+      // Save preference to localStorage
+      localStorage.setItem('showEmojis', this.checked);
+    });
+    
+    // Emotion toggle functionality
+    document.getElementById('emotionToggle').addEventListener('change', function() {
+      document.body.classList.toggle('hide-emotions', !this.checked);
+      
+      // Save preference to localStorage
+      localStorage.setItem('showEmotions', this.checked);
+    });
+    
+    // Load saved preferences on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      const showEmojis = localStorage.getItem('showEmojis') !== 'false';
+      document.getElementById('emojiToggle').checked = showEmojis;
+      document.body.classList.toggle('hide-emojis', !showEmojis);
+      
+      const showEmotions = localStorage.getItem('showEmotions') !== 'false';
+      document.getElementById('emotionToggle').checked = showEmotions;
+      document.body.classList.toggle('hide-emotions', !showEmotions);
+    });
+  </script>
+</body>
+</html>
