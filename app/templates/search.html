@@ -285,6 +285,12 @@
     .page-link.next {
       font-weight: 500;
     }
+    
+    /* Jesus text highlighting */
+    jesus {
+      color: red;
+      font-weight: 500;
+    }
   </style>
 </head>
 <body>
@@ -425,7 +431,7 @@
         </div>
         
         <div class="actions">
-          <a href="/verses?passage={{ verse.reference }}" class="action-link">View in context</a>
+          <a href="/verses?passage={{ verse.reference.split(':')[0] }}" class="action-link">View entire chapter</a>
         </div>
       </div>
       {% else %}
@@ -516,6 +522,22 @@
       const showEmotions = localStorage.getItem('showEmotions') !== 'false';
       document.getElementById('emotionToggle').checked = showEmotions;
       document.body.classList.toggle('hide-emotions', !showEmotions);
+    });
+    
+    // Process Jesus tags in text
+    function processJesusTags() {
+      document.querySelectorAll('.verse-text').forEach(element => {
+        const html = element.innerHTML;
+        element.innerHTML = html.replace(
+          /&lt;jesus&gt;(.*?)&lt;\/jesus&gt;/g,
+          '<jesus>$1</jesus>'
+        );
+      });
+    }
+
+    // Run on page load
+    document.addEventListener('DOMContentLoaded', function() {
+      processJesusTags();
     });
   </script>
 </body>

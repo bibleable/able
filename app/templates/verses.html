@@ -122,19 +122,26 @@
       font-weight: bold;
       margin-right: 12px; /* Increased spacing */
       color: var(--primary);
-      font-size: 1.3rem; /* Much larger verse numbers */
+      font-size: 1.6rem; /* Increased from 1.3rem to match text size */
       display: inline-block;
       min-width: 28px;
     }
     
     .verse-text {
-      line-height: 1.8; /* Increased line height */
-      font-size: 1.25rem; /* Much larger text size */
+      line-height: 2.2; /* Even more increased line height */
+      font-size: 1.6rem; /* Larger text size */
+      letter-spacing: 0.01em; /* Slightly increased letter spacing for readability */
     }
     
     a {
       color: inherit;
       text-decoration: none;
+    }
+    
+    /* Jesus text highlighting */
+    jesus {
+      color: red;
+      font-weight: 500;
     }
   </style>
 </head>
@@ -176,5 +183,23 @@
       <!-- More verses would be dynamically added here based on the passage requested -->
     </div>
   </div>
+
+  <script>
+  // Process Jesus tags in text
+  function processJesusTags() {
+    document.querySelectorAll('.verse-text').forEach(element => {
+      const html = element.innerHTML;
+      element.innerHTML = html.replace(
+        /&lt;jesus&gt;(.*?)&lt;\/jesus&gt;/g,
+        '<jesus>$1</jesus>'
+      );
+    });
+  }
+
+  // Run on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    processJesusTags();
+  });
+</script>
 </body>
 </html>

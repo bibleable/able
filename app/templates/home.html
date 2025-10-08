@@ -12,6 +12,7 @@
       --muted: #64748b;
       --primary: #7c3aed;
       --border: #e2e8f0;
+      --highlight: #d1fae5;
     }
 
     @media (prefers-color-scheme: dark) {
@@ -21,6 +22,7 @@
         --text: #f1f5f9;
         --muted: #94a3b8;
         --border: #334155;
+        --highlight: #065f46;
       }
     }
 
@@ -132,6 +134,20 @@
       text-decoration: none;
       color: var(--text);
     }
+
+    .hidden {
+      display: none;
+    }
+    
+    .more-button {
+      background-color: var(--highlight);
+      cursor: pointer;
+      font-weight: 500;
+    }
+    
+    .more-button:hover {
+      background-color: var(--border);
+    }
   </style>
 </head>
 <body>
@@ -161,22 +177,75 @@
     </form>
 
     <div class="quick-picks">
-      <div class="quick-label">Quick picks</div>
+      <h2>Quick picks</h2>
       <div class="chips">
-        <a class="chip" href="/search?q=Psalm+23">Psalm 23</a>
-        <a class="chip" href="/search?q=John+3:16">John 3:16</a>
-        <a class="chip" href="/search?q=Genesis+1">Genesis 1</a>
-        <a class="chip" href="/search?q=Romans+8">Romans 8</a>
-        <a class="chip" href="/search?q=Matthew+5">Matthew 5</a>
-        <a class="chip" href="/search?q=Philippians+4:6-7">Philippians 4:6-7</a>
-        <a class="chip" href="/search?q=Proverbs+3:5-6">Proverbs 3:5-6</a>
-        <a class="chip" href="/search?q=Isaiah+41:10">Isaiah 41:10</a>
-        <a class="chip" href="/search?q=John+14:6">John 14:6</a>
-        <a class="chip" href="/search?q=Luke+2:11">Luke 2:11</a>
-        <a class="chip" href="/search?q=Psalm+119:105">Psalm 119:105</a>
-        <a class="chip" href="/search?q=Psalm+139">Psalm 139</a>
+        <a href="/verses?passage=John+3:16" class="chip">John 3:16</a>
+        <a href="/verses?passage=Psalms+23" class="chip">Psalms 23</a>
+        <a href="/verses?passage=Philippians+4:13" class="chip">Philippians 4:13</a>
+        <a href="/verses?passage=Romans+8:28" class="chip">Romans 8:28</a>
+        <a href="/verses?passage=Jeremiah+29:11" class="chip">Jeremiah 29:11</a>
+        <a href="/verses?passage=Matthew+5" class="chip">Matthew 5</a>
+        <a href="/verses?passage=Philippians+4:6-7" class="chip">Philippians 4:6-7</a>
+        <button id="moreButton" class="chip more-button">More +</button>
+      </div>
+      
+      <!-- Hidden section with more quick picks -->
+      <div id="extraPicks" class="chips hidden">
+        <a href="/verses?passage=Proverbs+3:5-6" class="chip">Proverbs 3:5-6</a>
+        <a href="/verses?passage=Isaiah+41:10" class="chip">Isaiah 41:10</a>
+        <a href="/verses?passage=John+14:6" class="chip">John 14:6</a>
+        <a href="/verses?passage=Luke+2:11" class="chip">Luke 2:11</a>
+        <a href="/verses?passage=Psalm+119:105" class="chip">Psalm 119:105</a>
+        <a href="/verses?passage=Psalm+139" class="chip">Psalm 139</a>
+        <a href="/verses?passage=1+Corinthians+13" class="chip">1 Corinthians 13</a>
+        <a href="/verses?passage=Genesis+1:1" class="chip">Genesis 1:1</a>
+        <a href="/verses?passage=Matthew+28:19-20" class="chip">Matthew 28:19-20</a>
+        <a href="/verses?passage=John+1:1" class="chip">John 1:1</a>
+        <a href="/verses?passage=Romans+12:1-2" class="chip">Romans 12:1-2</a>
+        <a href="/verses?passage=2+Timothy+3:16" class="chip">2 Timothy 3:16</a>
+        
+        <a href="/verses?passage=John+11:35" class="chip">John 11:35</a>
+        <a href="/verses?passage=Romans+3:23" class="chip">Romans 3:23</a>
+        <a href="/verses?passage=Ephesians+2:8-9" class="chip">Ephesians 2:8-9</a>
+        <a href="/verses?passage=Galatians+5:22-23" class="chip">Galatians 5:22-23</a>
+        <a href="/verses?passage=Hebrews+11:1" class="chip">Hebrews 11:1</a>
+        <a href="/verses?passage=Revelation+21:4" class="chip">Revelation 21:4</a>
+        <a href="/verses?passage=Matthew+6:9-13" class="chip">Matthew 6:9-13</a>
+        <a href="/verses?passage=Psalm+51:10" class="chip">Psalm 51:10</a>
+        <a href="/verses?passage=Genesis+1:26-27" class="chip">Genesis 1:26-27</a>
+        <a href="/verses?passage=Exodus+20:1-17" class="chip">Ten Commandments</a>
+        <a href="/verses?passage=Joshua+1:9" class="chip">Joshua 1:9</a>
+        <a href="/verses?passage=Isaiah+53:5" class="chip">Isaiah 53:5</a>
+        <a href="/verses?passage=Micah+6:8" class="chip">Micah 6:8</a>
+        <a href="/verses?passage=Proverbs+31" class="chip">Proverbs 31</a>
+        <a href="/verses?passage=Ecclesiastes+3:1-8" class="chip">Ecclesiastes 3:1-8</a>
+        <a href="/verses?passage=Matthew+22:37-40" class="chip">Greatest Commandment</a>
+        <a href="/verses?passage=John+15:13" class="chip">John 15:13</a>
+        <a href="/verses?passage=1+John+4:7-8" class="chip">1 John 4:7-8</a>
+        <a href="/verses?passage=Acts+1:8" class="chip">Acts 1:8</a>
+        <a href="/verses?passage=James+1:2-4" class="chip">James 1:2-4</a>
+        <a href="/verses?passage=Colossians+3:23" class="chip">Colossians 3:23</a>
+        <a href="/verses?passage=1+Peter+5:7" class="chip">1 Peter 5:7</a>
+        <a href="/verses?passage=Isaiah+40:31" class="chip">Isaiah 40:31</a>
+        <a href="/verses?passage=2+Corinthians+5:17" class="chip">2 Corinthians 5:17</a>
       </div>
     </div>
   </div>
+
+  <!-- Add JavaScript to toggle the hidden section -->
+  <script>
+    document.getElementById('moreButton').addEventListener('click', function() {
+      const extraPicks = document.getElementById('extraPicks');
+      const moreButton = document.getElementById('moreButton');
+      
+      if (extraPicks.classList.contains('hidden')) {
+        extraPicks.classList.remove('hidden');
+        moreButton.textContent = 'Less -';
+      } else {
+        extraPicks.classList.add('hidden');
+        moreButton.textContent = 'More +';
+      }
+    });
+  </script>
 </body>
 </html>

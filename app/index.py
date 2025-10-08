@@ -254,41 +254,35 @@ async def verses(request: Request, passage: str = ""):
         print(f"\n--- VERSES REQUEST: '{passage}' ---")
         
         # Parse the passage (support: Book Chapter, Book Chapter:Verse, Book Chapter:Start-End)
+        # Use regex to handle books with numbers (like "1 John")
         import re
-
-        parts = passage.split()
-        if not parts:
-            return templates.TemplateResponse("verses.html", {"request": request, "passage": passage, "verses": []})
-
-        book = parts[0]
-        print(f"Parsed book: '{book}'")
-
-        conditions = {}
+        
+        ref_pattern = re.compile(r"^((?:\d+\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+)(?:-(\d+))?)?$")
+        m = ref_pattern.match(passage.strip())
+        
+        if not m:
+            return templates.TemplateResponse("verses.html", {
+                "request": request, 
+                "passage": passage, 
+                "verses": [],
+                "error": "Could not parse the passage reference."
+            })
+            
+        book = m.group(1)  # This now correctly captures "1 John" as a whole
+        chapter = m.group(2)
+        start_verse = m.group(3)
+        end_verse = m.group(4)
+        
+        print(f"Parsed book: '{book}', chapter: {chapter}, verses: {start_verse}-{end_verse}")
+        
+        conditions = {"book": book, "chapter": chapter}
         verse_range = None
-
-        if len(parts) > 1:
-            chapter_verse = parts[1]
-            # match patterns like 3, 3:16, 4:6-7
-            m = re.match(r"^(\d+)(?::(\d+)(?:-(\d+))?)?$", chapter_verse)
-            # Note: fallback simple parsing if regex fails
-            if m:
-                chapter = m.group(1)
-                start_verse = m.group(2)
-                end_verse = m.group(3)
-                conditions = {"book": book, "chapter": chapter}
-                if start_verse and end_verse:
-                    verse_range = (start_verse, end_verse)
-                elif start_verse:
-                    verse_range = (start_verse, start_verse)
-            else:
-                # fallback: treat as chapter if it's numeric
-                if chapter_verse.isdigit():
-                    conditions = {"book": book, "chapter": chapter_verse}
-                else:
-                    # unknown format: try to match book only
-                    conditions = {"book": book}
-        else:
-            conditions = {"book": book}
+        
+        if start_verse:
+            if end_verse:  # verse range like 4:6-7
+                verse_range = [start_verse, end_verse]
+            else:  # single verse like 4:6
+                conditions["verse"] = start_verse
         
         # Get verses from ABLE database
         conn_able = get_db_connection("able")
@@ -410,3 +404,7 @@ async def verses(request: Request, passage: str = ""):
             "verses.html", 
             {"request": request, "passage": passage, "verses": [], "error": error_message}
         )
+
+# In your server code before sending to templates
+def process_jesus_tags(text):
+    return text.replace('<jesus>', '<span class="jesus-words">').replace('</jesus>', '</span>')
