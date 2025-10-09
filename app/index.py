@@ -39,6 +39,46 @@ def get_db_connection(version="able"):
     conn.row_factory = sqlite3.Row  # Return rows as dictionaries
     return conn
 
+# Add this function before your search endpoint
+def normalize_bible_reference(reference):
+    """
+    Normalize Bible references to handle common variations:
+    - Convert lowercase to proper case: "john 3:16" → "John 3:16"
+    - Add space between book and chapter: "john3:16" → "John 3:16"
+    - Handle numeric books: "1john 4:7" → "1 John 4:7"
+    """
+    import re
+    
+    # Trim whitespace
+    reference = reference.strip()
+    
+    # Insert space between letters and numbers if missing: "John3:16" → "John 3:16"
+    reference = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', reference)
+    
+    # Handle numeric books like "1john" → "1 John"
+    reference = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', reference)
+    
+    # Split into components
+    parts = reference.split()
+    
+    if len(parts) >= 1:
+        # Capitalize book names
+        if len(parts) >= 2 and parts[0].isdigit():
+            # Handle "1 john" → "1 John"
+            parts[1] = parts[1].capitalize()
+        else:
+            # Handle "john" → "John"
+            parts[0] = parts[0].capitalize()
+    
+    # Recombine parts
+    normalized = ' '.join(parts)
+    
+    # Special case for Song of Solomon/Songs
+    normalized = normalized.replace('Song Of Solomon', 'Song of Solomon')
+    normalized = normalized.replace('Songs', 'Song of Solomon')
+    
+    return normalized
+
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
     return templates.TemplateResponse("home.html", {"request": request})
@@ -47,7 +87,6 @@ async def home(request: Request):
 async def search(request: Request, q: str = "", page: int = 1):
     items_per_page = 5  # Number of verses per page
     
-    # If no search query, return empty results
     if not q:
         return templates.TemplateResponse("search.html", {
             "request": request, 
@@ -59,15 +98,17 @@ async def search(request: Request, q: str = "", page: int = 1):
             "total_pages": 0
         })
     
-    # Connect to the database and search
     try:
-        print(f"\n--- SEARCH QUERY: '{q}' ---")
+        # Normalize the query to handle case and format variations
+        normalized_q = normalize_bible_reference(q)
+        
+        print(f"\n--- SEARCH QUERY: '{normalized_q}' ---")
         
         # Try to detect if the query is a reference (e.g. "John 3:16", "Philippians 4:6-7", "Genesis 1")
         import re
 
         ref_pattern = re.compile(r"^(.+?)\s+(\d+)(?::(\d+)(?:-(\d+))?)?$")
-        m = ref_pattern.match(q.strip())
+        m = ref_pattern.match(normalized_q.strip())
 
         conn_able = get_db_connection("able")
         cursor_able = conn_able.cursor()
@@ -128,7 +169,7 @@ async def search(request: Request, q: str = "", page: int = 1):
                 OR LOWER(text) LIKE LOWER(?)
                 LIMIT 10
             """
-            params = (f'%{q}%', f'%{q}%')
+            params = (f'%{normalized_q}%', f'%{normalized_q}%')
             cursor_able.execute(query, params)
             able_results = cursor_able.fetchall()
             conn_able.close()
