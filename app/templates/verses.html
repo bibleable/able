@@ -47,6 +47,29 @@
       font-weight: 500;
     }
 
+    .top-actions {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .search-view-btn {
+      display: inline-block;
+      color: white;
+      background-color: var(--primary);
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .search-view-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
+    }
+
     .verses-container {
       background: var(--card);
       border: 1px solid var(--border);
@@ -148,6 +171,10 @@
 <body>
   <div class="container">
     <a href="/" class="back-link">← Back</a>
+    
+    <div class="top-actions">
+      <a href="/search?q={{ passage }}" class="search-view-btn">Compare All Verses</a>
+    </div>
     
     <div class="verses-container">
       <!-- <h2>
