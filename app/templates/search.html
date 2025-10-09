@@ -291,6 +291,64 @@
       color: red;
       font-weight: 500;
     }
+
+    /* Disambiguation styles */
+    .disambiguation {
+      background: var(--highlight);
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 16px;
+      font-size: 0.9rem;
+    }
+
+    .disambiguation a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .disambiguation a:hover {
+      text-decoration: underline;
+    }
+
+    /* New disambiguation box styles */
+    .disambiguation-box {
+      background: var(--highlight);
+      border: 1px solid var(--border);
+      padding: 16px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    
+    .disambiguation-box p {
+      margin: 0 0 10px 0;
+      font-weight: 500;
+    }
+    
+    .disambiguation-options {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .disambiguation-option {
+      padding: 8px 16px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--primary);
+    }
+    
+    .disambiguation-option:hover {
+      background: var(--primary);
+      color: white;
+    }
+    
+    .or {
+      color: var(--muted);
+    }
   </style>
 </head>
 <body>
@@ -299,10 +357,10 @@
     
     <!-- Search bar -->
     <div class="search-container">
-      <form action="/search" method="get">
-        <div class="input-group mb-3">
-          <input type="text" class="form-control" name="q" placeholder="Search by reference or word..." aria-label="Search" value="{{ request.query_params.get('q', '') }}">
-          <button class="btn btn-primary" type="submit">Search</button>
+      <form action="/search" method="GET">
+        <div class="input-group">
+          <input type="text" class="form-control" name="q" value="{{ query }}" placeholder="Search by verse or keyword" aria-label="Search">
+          <button type="submit" class="btn-primary">Search</button>
         </div>
       </form>
     </div>
@@ -318,6 +376,22 @@
         <label class="form-check-label" for="emotionToggle">Show Emotion</label>
       </div>
     </div>
+    
+    <!-- Disambiguation box (conditionally rendered) -->
+    {% if ambiguous_options %}
+    <div class="disambiguation-box">
+      <p>Did you mean:</p>
+      <div class="disambiguation-options">
+        <a href="/search?q={{ ambiguous_options[0] }}" class="disambiguation-option">
+          {{ ambiguous_options[0] }} (chapter 1, verse 1)
+        </a>
+        <span class="or">or</span>
+        <a href="/search?q={{ ambiguous_options[1] }}" class="disambiguation-option">
+          {{ ambiguous_options[1] }} (entire chapter 11)
+        </a>
+      </div>
+    </div>
+    {% endif %}
     
     <div class="results">
       <h2>Results for: {{ query }}</h2>
@@ -442,6 +516,15 @@
       <p class="error muted">{{ error }}</p>
       {% endif %}
       
+      <!-- Disambiguation options -->
+      {% if ambiguous_options %}
+        <div class="disambiguation">
+          <p>Did you mean:</p>
+          <a href="/search?q={{ ambiguous_options[0] }}">{{ ambiguous_options[0] }}</a> or 
+          <a href="/search?q={{ ambiguous_options[1] }}">{{ ambiguous_options[1] }}</a>?
+        </div>
+      {% endif %}
+      
       <!-- Pagination -->
       {% if total_pages > 1 %}
       <div class="pagination">
@@ -538,6 +621,19 @@
     // Run on page load
     document.addEventListener('DOMContentLoaded', function() {
       processJesusTags();
+    });
+    
+    // Make sure this doesn't bypass the server-side logic
+    document.querySelector('form').addEventListener('submit', function(e) {
+      // Don't prevent default - let the form submit normally to trigger server-side code
+      // e.preventDefault(); // Remove this line if it exists
+      
+      // Any client-side form validation can go here
+      const query = document.querySelector('input[name="q"]').value;
+      if (!query.trim()) {
+        e.preventDefault();
+        alert('Please enter a search term');
+      }
     });
   </script>
 </body>

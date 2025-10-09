@@ -46,16 +46,35 @@ def normalize_bible_reference(reference):
     - Convert lowercase to proper case: "john 3:16" → "John 3:16"
     - Add space between book and chapter: "john3:16" → "John 3:16"
     - Handle numeric books: "1john 4:7" → "1 John 4:7"
+    - Handle condensed format: "john316" → "John 3:16"
+    - Detect ambiguous references: "genesis11" could be "Genesis 1:1" or "Genesis 11"
     """
     import re
     
     # Trim whitespace
     reference = reference.strip()
     
-    # Insert space between letters and numbers if missing: "John3:16" → "John 3:16"
-    reference = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', reference)
+    # Extract the book and digits for possible ambiguous references
+    book_digit_pattern = re.compile(r'^([a-zA-Z]+)(\d+)$')
+    match = book_digit_pattern.match(reference)
     
-    # Handle numeric books like "1john" → "1 John"
+    if match:
+        book = match.group(1)
+        digits = match.group(2)
+        
+        # Capitalize book name
+        book = book.capitalize()
+        
+        # Check if this could be an ambiguous reference
+        if len(digits) == 2:
+            ambiguous_options = handle_ambiguous_reference(book, digits)
+            if ambiguous_options:
+                # For now, default to the chapter interpretation
+                # (we'll handle the ambiguity in the search endpoint)
+                reference = ambiguous_options[1]  # Default to "Genesis 11" interpretation
+    
+    # Continue with normal normalization
+    reference = re.sub(r'([a-zA-Z])(\d)', r'\1 \2', reference)
     reference = re.sub(r'(\d)([a-zA-Z])', r'\1 \2', reference)
     
     # Split into components
@@ -85,7 +104,8 @@ async def home(request: Request):
 
 @app.get("/search", response_class=HTMLResponse)
 async def search(request: Request, q: str = "", page: int = 1):
-    items_per_page = 5  # Number of verses per page
+    items_per_page = 5
+    ambiguous_options = None
     
     if not q:
         return templates.TemplateResponse("search.html", {
@@ -99,7 +119,19 @@ async def search(request: Request, q: str = "", page: int = 1):
         })
     
     try:
-        # Normalize the query to handle case and format variations
+        # Check for possible ambiguous references before normalization
+        import re
+        book_digit_pattern = re.compile(r'^([a-zA-Z]+)(\d+)$')
+        match = book_digit_pattern.match(q.strip())
+        
+        if match:
+            book = match.group(1).capitalize()
+            digits = match.group(2)
+            
+            if len(digits) == 2:
+                ambiguous_options = handle_ambiguous_reference(book, digits)
+        
+        # Normalize the query
         normalized_q = normalize_bible_reference(q)
         
         print(f"\n--- SEARCH QUERY: '{normalized_q}' ---")
@@ -265,6 +297,7 @@ async def search(request: Request, q: str = "", page: int = 1):
         end_idx = start_idx + items_per_page
         paginated_results = results[start_idx:end_idx]
         
+        # Return the template with the added ambiguous_options parameter
         return templates.TemplateResponse(
             "search.html", 
             {
@@ -274,7 +307,8 @@ async def search(request: Request, q: str = "", page: int = 1):
                 "page_num": page,
                 "items_per_page": items_per_page,
                 "total_items": total_items,
-                "total_pages": total_pages
+                "total_pages": total_pages,
+                "ambiguous_options": ambiguous_options  # Pass ambiguous options to template
             }
         )
     except Exception as e:
@@ -296,9 +330,10 @@ async def verses(request: Request, passage: str = ""):
         
         # Parse the passage (support: Book Chapter, Book Chapter:Verse, Book Chapter:Start-End)
         # Use regex to handle books with numbers (like "1 John")
+        # Modified to allow optional "the" before book names
         import re
         
-        ref_pattern = re.compile(r"^((?:\d+\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+)(?:-(\d+))?)?$")
+        ref_pattern = re.compile(r"^(?:the\s+)?((?:\d+\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+)(?:-(\d+))?)?$")
         m = ref_pattern.match(passage.strip())
         
         if not m:
@@ -449,3 +484,39 @@ async def verses(request: Request, passage: str = ""):
 # In your server code before sending to templates
 def process_jesus_tags(text):
     return text.replace('<jesus>', '<span class="jesus-words">').replace('</jesus>', '</span>')
+
+def handle_ambiguous_reference(book, digits):
+    if len(digits) == 2 and int(digits) <= get_max_chapter(book):
+        # Could be chapter or chapter:verse
+        return [
+            f"{book} {digits[0]}:{digits[1]}",  # Genesis 1:1
+            f"{book} {digits}"                  # Genesis 11
+        ]
+    return None  # Not ambiguous
+
+def get_max_chapter(book):
+    """Return the maximum chapter number for a given Bible book."""
+    max_chapters = {
+        "Genesis": 50, "Exodus": 40, "Leviticus": 27, "Numbers": 36, "Deuteronomy": 34,
+        "Joshua": 24, "Judges": 21, "Ruth": 4, "1 Samuel": 31, "2 Samuel": 24,
+        "1 Kings": 22, "2 Kings": 25, "1 Chronicles": 29, "2 Chronicles": 36, "Ezra": 10,
+        "Nehemiah": 13, "Esther": 10, "Job": 42, "Psalm": 150, "Psalms": 150, "Proverbs": 31,
+        "Ecclesiastes": 12, "Song of Solomon": 8, "Isaiah": 66, "Jeremiah": 52,
+        "Lamentations": 5, "Ezekiel": 48, "Daniel": 12, "Hosea": 14, "Joel": 3,
+        "Amos": 9, "Obadiah": 1, "Jonah": 4, "Micah": 7, "Nahum": 3,
+        "Habakkuk": 3, "Zephaniah": 3, "Haggai": 2, "Zechariah": 14, "Malachi": 4,
+        "Matthew": 28, "Mark": 16, "Luke": 24, "John": 21, "Acts": 28,
+        "Romans": 16, "1 Corinthians": 16, "2 Corinthians": 13, "Galatians": 6, "Ephesians": 6,
+        "Philippians": 4, "Colossians": 4, "1 Thessalonians": 5, "2 Thessalonians": 3,
+        "1 Timothy": 6, "2 Timothy": 4, "Titus": 3, "Philemon": 1, "Hebrews": 13,
+        "James": 5, "1 Peter": 5, "2 Peter": 3, "1 John": 5, "2 John": 1,
+        "3 John": 1, "Jude": 1, "Revelation": 22
+    }
+    
+    normalized_book = book.strip()
+    if normalized_book.lower() == "psalms":
+        normalized_book = "Psalm"
+    if normalized_book.lower() == "song":
+        normalized_book = "Song of Solomon"
+        
+    return max_chapters.get(normalized_book, 150)  # Default to a large number if unknown
