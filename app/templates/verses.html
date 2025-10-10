@@ -166,6 +166,79 @@
       color: red;
       font-weight: 500;
     }
+    
+    /* Emoji toggle styles */
+    .toggle-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 16px;
+      padding: 8px 12px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 48px;
+      height: 24px;
+      margin-right: 10px;
+    }
+    
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .4s;
+      border-radius: 24px;
+    }
+    
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: .4s;
+      border-radius: 50%;
+    }
+    
+    input:checked + .toggle-slider {
+      background-color: var(--primary);
+    }
+    
+    input:focus + .toggle-slider {
+      box-shadow: 0 0 1px var(--primary);
+    }
+    
+    input:checked + .toggle-slider:before {
+      transform: translateX(24px);
+    }
+    
+    /* Hide emojis when toggle is off */
+    body.hide-emojis .verse-text {
+      unicode-bidi: isolate;
+      font-variant-emoji: no-emoji;
+    }
+    
+    /* For browsers that don't support font-variant-emoji */
+    body.hide-emojis .verse-text span.emoji {
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -174,6 +247,15 @@
     
     <div class="top-actions">
       <a href="/search?q={{ passage }}" class="search-view-btn">Compare All Verses</a>
+    </div>
+    
+    <!-- Add emoji toggle -->
+    <div class="toggle-container">
+      <label class="toggle-switch">
+        <input type="checkbox" id="emojiToggle" checked>
+        <span class="toggle-slider"></span>
+      </label>
+      <span>Show Emojis</span>
     </div>
     
     <div class="verses-container">
@@ -218,15 +300,43 @@
       const html = element.innerHTML;
       element.innerHTML = html.replace(
         /&lt;jesus&gt;(.*?)&lt;\/jesus&gt;/g,
-        '<jesus>$1</jesus>'
+        '<jesus>$1</jesjes>'
+      );
+    });
+  }
+  
+  // Process emojis for better toggling
+  function processEmojis() {
+    document.querySelectorAll('.verse-text').forEach(element => {
+      // This regex matches emoji characters
+      const emojiRegex = /[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu;
+      
+      // Replace emojis with span-wrapped versions
+      const html = element.innerHTML;
+      element.innerHTML = html.replace(emojiRegex, match => 
+        `<span class="emoji">${match}</span>`
       );
     });
   }
 
+  // Toggle emoji visibility
+  document.getElementById('emojiToggle').addEventListener('change', function() {
+    document.body.classList.toggle('hide-emojis', !this.checked);
+    
+    // Save preference to localStorage
+    localStorage.setItem('showEmojis', this.checked);
+  });
+  
   // Run on page load
   document.addEventListener('DOMContentLoaded', function() {
     processJesusTags();
+    processEmojis();
+    
+    // Check saved preference
+    const showEmojis = localStorage.getItem('showEmojis') !== 'false'; // Default to true
+    document.getElementById('emojiToggle').checked = showEmojis;
+    document.body.classList.toggle('hide-emojis', !showEmojis);
   });
-</script>
+  </script>
 </body>
 </html>
