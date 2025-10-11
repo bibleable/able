@@ -1,9 +1,11 @@
-from fastapi import FastAPI, Request
-from fastapi.responses import HTMLResponse
+from fastapi import FastAPI, Request, Depends, Form, Response, status
+from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 import os
 import sqlite3
 from pathlib import Path
+import secrets
+from typing import Optional
 
 app = FastAPI()
 
@@ -22,6 +24,10 @@ print(f"ABLE DB exists: {ABLE_DB_PATH.exists()}, path: {ABLE_DB_PATH}")
 print(f"KJV DB exists: {KJV_DB_PATH.exists()}, path: {KJV_DB_PATH}")
 print(f"ASV DB exists: {ASV_DB_PATH.exists()}, path: {ASV_DB_PATH}")
 print(f"BSB DB exists: {BSB_DB_PATH.exists()}, path: {BSB_DB_PATH}")
+
+# Add these variables for session management
+SECRET_KEY = secrets.token_hex(16)
+SESSION_COOKIE_NAME = "able_session"
 
 def get_db_connection(version="able"):
     """Create a connection to the selected SQLite database"""
@@ -322,9 +328,6 @@ async def search(request: Request, q: str = "", page: int = 1):
 
 @app.get("/verses", response_class=HTMLResponse)
 async def verses(request: Request, passage: str = ""):
-    if not passage:
-        return templates.TemplateResponse("verses.html", {"request": request, "passage": passage, "verses": []})
-    
     try:
         print(f"\n--- VERSES REQUEST: '{passage}' ---")
         
@@ -468,11 +471,41 @@ async def verses(request: Request, passage: str = ""):
         verses = list(combined_verses.values())
         print(f"Combined verses found: {len(verses)}")
         
+        # Determine if this is a full chapter
+        is_full_chapter = False
+        prev_chapter = None
+        next_chapter = None
+        
+        # Check if passage looks like a full chapter (e.g., "John 3" not "John 3:16")
+        import re
+        chapter_pattern = re.compile(r'^([\w\s]+)\s+(\d+)$')
+        match = chapter_pattern.match(passage)
+        
+        if match:
+            book = match.group(1)
+            chapter = int(match.group(2))
+            is_full_chapter = True
+            
+            # Set previous chapter (if not first chapter)
+            if chapter > 1:
+                prev_chapter = f"{book} {chapter - 1}"
+            
+            # Set next chapter (would need to check max chapters in the book)
+            # This is a simplified version - you'd need to check if next chapter exists
+            next_chapter = f"{book} {chapter + 1}"
+        
+        # Return template with chapter navigation data
         return templates.TemplateResponse(
             "verses.html", 
-            {"request": request, "passage": passage, "verses": verses}
+            {
+                "request": request,
+                "passage": passage,
+                "verses": verses,
+                "is_full_chapter": is_full_chapter,
+                "prev_chapter": prev_chapter,
+                "next_chapter": next_chapter
+            }
         )
-        
     except Exception as e:
         error_message = f"Database error: {str(e)}"
         print(f"ERROR in verses: {error_message}")
@@ -520,3 +553,47 @@ def get_max_chapter(book):
         normalized_book = "Song of Solomon"
         
     return max_chapters.get(normalized_book, 150)  # Default to a large number if unknown
+
+# Add this login route
+@app.get("/login", response_class=HTMLResponse)
+async def login_page(request: Request, error: Optional[str] = None):
+    return templates.TemplateResponse("login.html", {"request": request, "error": error})
+
+@app.post("/login", response_class=HTMLResponse)
+async def login_submit(
+    request: Request,
+    username: str = Form(...),
+    password: str = Form(...),
+):
+    # Simple auth logic - replace with your actual auth system
+    if username == "admin" and password == "password":
+        # Create session cookie
+        response = RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
+        response.set_cookie(
+            key=SESSION_COOKIE_NAME,
+            value=f"user:{username}",
+            httponly=True,
+            max_age=3600,
+            secure=False,  # Set to True in production with HTTPS
+        )
+        return response
+    else:
+        # Show login page with error
+        return templates.TemplateResponse(
+            "login.html",
+            {"request": request, "error": "Invalid credentials"}
+        )
+
+@app.get("/logout")
+async def logout():
+    response = RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
+    response.delete_cookie(SESSION_COOKIE_NAME)
+    return response
+
+# Optional: helper for checking authentication
+def get_current_user(request: Request):
+    session_cookie = request.cookies.get(SESSION_COOKIE_NAME)
+    if not session_cookie or not session_cookie.startswith("user:"):
+        return None
+    username = session_cookie.split(":", 1)[1]
+    return {"username": username}
