@@ -57,6 +57,9 @@
       flex-direction: column;
       gap: 10px;
       z-index: 100;
+      transition: opacity 1s, visibility 1s; /* Change from 2s to 1s for a 1-second fade */
+      opacity: 1;
+      visibility: visible;
     }
 
     @media (min-width: 1200px) {
@@ -325,7 +328,147 @@
       width: 20px;
       height: 20px;
     }
+    
+    /* QR Code Modal styles */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    
+    .modal-overlay.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .modal-content {
+      background-color: var(--card);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 90%;
+      width: 350px;
+      text-align: center;
+      position: relative;
+      transform: translateY(20px);
+      transition: transform 0.3s;
+    }
+    
+    .modal-overlay.visible .modal-content {
+      transform: translateY(0);
+    }
+    
+    .modal-title {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 1.4rem;
+    }
+    
+    .modal-close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .qrcode-container {
+      padding: 15px;
+      background-color: white;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    
+    /* QR code button indicator */
+    #showQRCode {
+      position: relative;
+    }
+    
+    #showQRCode::after {
+      content: "QR";
+      position: absolute;
+      bottom: -5px;
+      right: -8px;
+      background: var(--primary);
+      color: white;
+      padding: 2px 6px;
+      font-size: 8px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    
+    /* QR code tabs */
+    .qr-tabs {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 15px;
+      justify-content: center;
+    }
+    
+    .qr-tab {
+      padding: 6px 12px;
+      border-radius: 16px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    
+    .qr-tab.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    
+    .qr-tab:hover:not(.active) {
+      background: var(--highlight);
+    }
+    
+    .qrcode {
+      display: none;
+    }
+    
+    .qrcode.active {
+      display: block;
+    }
+    
+    /* Side button hide/show animation - updated for 1-second fade */
+    .side-button {
+      transition: opacity 1s, visibility 1s; /* Change from 2s to 1s for a 1-second fade */
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .side-button.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -357,7 +500,7 @@
         </svg>
       </a>
       
-      <!-- BibleHub Button with icon -->
+      <!-- BibleHub Button with icon - simplified approach -->
       <a href="https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}.htm?ref=bibleable.com" 
          class="search-view-btn"
          target="_blank" 
@@ -404,6 +547,14 @@
       <div class="side-action" id="copyLink" title="Copy link to this passage">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <div class="side-action" id="showQRCode" title="Show QR Code">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
         </svg>
       </div>
     </div>
@@ -474,6 +625,36 @@
         {% endif %}
       </div>
       {% endif %}
+    </div>
+  </div>
+
+  <!-- Modify the QR modal to support multiple QR codes -->
+  <div id="qrCodeModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="closeQRModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <h3 class="modal-title">Scan QR Code</h3>
+      
+      <!-- QR Code tabs -->
+      <div class="qr-tabs">
+        <button class="qr-tab active" data-target="bibleable">Bibleable</button>
+        <button class="qr-tab" data-target="biblegateway">BibleGateway</button>
+        <button class="qr-tab" data-target="biblehub">BibleHub</button>
+      </div>
+      
+      <div class="qrcode-container">
+        <div id="qrcode-bibleable" class="qrcode active"></div>
+        <div id="qrcode-biblegateway" class="qrcode"></div>
+        <div id="qrcode-biblehub" class="qrcode"></div>
+      </div>
+      
+      <p style="color: var(--muted); font-size: 0.9rem;" id="qr-description">
+        Scan with your device to open this page
+      </p>
     </div>
   </div>
 
@@ -567,6 +748,119 @@
     });
   });
 
+  // QR Code modal functionality - updated for multiple QR codes
+  document.getElementById('showQRCode').addEventListener('click', function() {
+    const qrCodeModal = document.getElementById('qrCodeModal');
+    showQRModal();
+  });
+  
+  // Handle QR code tab switching
+  document.querySelectorAll('.qr-tab').forEach(tab => {
+    tab.addEventListener('click', function() {
+      // Update active tab
+      document.querySelectorAll('.qr-tab').forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Show corresponding QR code
+      const target = this.getAttribute('data-target');
+      document.querySelectorAll('.qrcode').forEach(qr => qr.classList.remove('active'));
+      document.getElementById('qrcode-' + target).classList.add('active');
+      
+      // Update description
+      const qrDesc = document.getElementById('qr-description');
+      if (target === 'bibleable') {
+        qrDesc.textContent = 'Scan with your device to open this page';
+      } else if (target === 'biblegateway') {
+        qrDesc.textContent = 'Scan to open this passage in BibleGateway';
+      } else if (target === 'biblehub') {
+        qrDesc.textContent = 'Scan to open this passage in BibleHub';
+      }
+    });
+  });
+  
+  function showQRModal() {
+    const qrCodeModal = document.getElementById('qrCodeModal');
+    
+    // Generate BibleAble QR code (current page)
+    generateQR('qrcode-bibleable', window.location.href);
+    
+    // Generate BibleGateway QR code
+    const bibleGatewayUrl = 'https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com';
+    generateQR('qrcode-biblegateway', bibleGatewayUrl);
+    
+    // Generate BibleHub QR code
+    const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}.htm?ref=bibleable.com';
+    generateQR('qrcode-biblehub', bibleHubUrl);
+    
+    // Show modal
+    qrCodeModal.classList.add('visible');
+  }
+  
+  function generateQR(elementId, url) {
+    const container = document.getElementById(elementId);
+    
+    // Clear previous QR code if any
+    container.innerHTML = '';
+    
+    // Generate QR code
+    const qr = qrcode(0, 'L');
+    qr.addData(url);
+    qr.make();
+    
+    // Render QR code to DOM
+    container.innerHTML = qr.createImgTag(5);
+  }
+  
+  // Close modal when clicking close button
+  document.getElementById('closeQRModal').addEventListener('click', function() {
+    document.getElementById('qrCodeModal').classList.remove('visible');
+  });
+  
+  // Close modal when clicking outside content
+  document.getElementById('qrCodeModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+      this.classList.remove('visible');
+    }
+  });
+  
+  // Side button auto-hide functionality
+  const sideButtonContainer = document.querySelector('.side-button');
+  let hideTimeout;
+  
+  // Function to show the buttons
+  function showSideButtons() {
+    sideButtonContainer.classList.remove('hidden');
+    
+    // Clear any existing timeout
+    clearTimeout(hideTimeout);
+    
+    // Set a new timeout to hide buttons after 2 seconds
+    // (Fade will start at 2 seconds and complete by 4 seconds due to the 2s CSS transition)
+    hideTimeout = setTimeout(() => {
+      sideButtonContainer.classList.add('hidden');
+    }, 2000);
+  }
+  
+  // Initially show the buttons and start the timer
+  showSideButtons();
+  
+  // Add event listeners for mouse/touch movement and scrolling
+  ['mousemove', 'touchstart', 'touchmove', 'scroll'].forEach(eventType => {
+    document.addEventListener(eventType, showSideButtons);
+  });
+  
+  // Reset timeout on button interaction
+  document.querySelectorAll('.side-action').forEach(button => {
+    button.addEventListener('click', e => {
+      // Don't hide if actively interacting with buttons
+      clearTimeout(hideTimeout);
+      // Set hide timeout after interaction (also changed to 2 seconds)
+      hideTimeout = setTimeout(() => {
+        sideButtonContainer.classList.add('hidden');
+      }, 2000);
+    });
+  });
+  
   // Run on page load
   document.addEventListener('DOMContentLoaded', function() {
     processJesusTags();
