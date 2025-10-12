@@ -35,16 +35,98 @@
     }
 
     .container {
-      max-width: 600px;
+      max-width: 800px;  /* Increased from 600px */
       margin: 0 auto;
+      position: relative; /* For absolute positioning of the side button */
     }
 
+    /* For larger screens, allow even more width */
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1000px;
+      }
+    }
+
+    /* Add styles for floating side button */
+    .side-button {
+      position: fixed;
+      right: calc(50% - 450px); /* Positioned outside the container */
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 100;
+      transition: opacity 1s, visibility 1s; /* Change from 2s to 1s for a 1-second fade */
+      opacity: 1;
+      visibility: visible;
+    }
+
+    @media (min-width: 1200px) {
+      .side-button {
+        right: calc(50% - 550px); /* Adjust for wider container on larger screens */
+      }
+    }
+
+    @media (max-width: 900px) {
+      .side-button {
+        right: 10px; /* Move closer to edge on smaller screens */
+      }
+    }
+
+    .side-action {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--card);
+      color: var(--primary);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .side-action:hover {
+      background: var(--highlight);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* Rest of your existing styles */
     .back-link {
       display: inline-block;
       margin-bottom: 16px;
       color: var(--primary);
       text-decoration: none;
       font-weight: 500;
+    }
+
+    .top-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+
+    .search-view-btn {
+      display: inline-block;
+      color: white;
+      background-color: var(--primary);
+      padding: 8px 16px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+
+    .search-view-btn:hover {
+      opacity: 0.9;
+      transform: translateY(-1px);
     }
 
     .verses-container {
@@ -71,6 +153,61 @@
       border-radius: 4px;
     }
 
+    /* new subtitle / muted styles */
+    .muted {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 8px;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-top: -8px;
+      margin-bottom: 12px;
+    }
+    
+    /* Chapter navigation styles */
+    .chapter-navigation {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 24px;
+      margin-bottom: 16px;
+    }
+    
+    .nav-button {
+      display: inline-flex;
+      align-items: center;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 16px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background-color: var(--card);
+      transition: all 0.2s;
+    }
+    
+    .nav-button:hover {
+      background-color: var(--highlight);
+      transform: translateY(-1px);
+    }
+    
+    .nav-button svg {
+      width: 16px;
+      height: 16px;
+      margin: 0 6px;
+    }
+    
+    .nav-button-prev svg {
+      margin-left: 0;
+    }
+    
+    .nav-button-next svg {
+      margin-right: 0;
+    }
+    
     .verse {
       padding: 36px 0;  /* Extremely increased padding */
       border-bottom: 2px solid var(--border);
@@ -122,44 +259,337 @@
       font-weight: bold;
       margin-right: 12px; /* Increased spacing */
       color: var(--primary);
-      font-size: 1.3rem; /* Much larger verse numbers */
+      font-size: 1.6rem; /* Increased from 1.3rem to match text size */
       display: inline-block;
       min-width: 28px;
     }
     
     .verse-text {
-      line-height: 1.8; /* Increased line height */
-      font-size: 1.25rem; /* Much larger text size */
+      line-height: 2.2; /* Even more increased line height */
+      font-size: 1.6rem; /* Larger text size */
+      letter-spacing: 0.01em; /* Slightly increased letter spacing for readability */
     }
     
     a {
       color: inherit;
       text-decoration: none;
     }
+    
+    /* Jesus text highlighting */
+    jesus {
+      color: red;
+      font-weight: 500;
+    }
+    
+    /* Hide scroll to top button by default */
+    #scrollTop {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    
+    #scrollTop.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    /* Font size button states */
+    #toggleTextSize {
+      position: relative;
+    }
+    
+    #toggleTextSize::after {
+      content: "A";
+      position: absolute;
+      bottom: -3px;
+      right: -3px;
+      background: var(--primary);
+      color: white;
+      width: 16px;
+      height: 16px;
+      font-size: 10px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
+    #toggleTextSize.size-large::after {
+      content: "A";
+      font-size: 13px;
+      width: 18px;
+      height: 18px;
+    }
+    
+    #toggleTextSize.size-largest::after {
+      content: "A";
+      font-size: 16px;
+      width: 20px;
+      height: 20px;
+    }
+    
+    /* QR Code Modal styles */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    
+    .modal-overlay.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .modal-content {
+      background-color: var(--card);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 90%;
+      width: 350px;
+      text-align: center;
+      position: relative;
+      transform: translateY(20px);
+      transition: transform 0.3s;
+    }
+    
+    .modal-overlay.visible .modal-content {
+      transform: translateY(0);
+    }
+    
+    .modal-title {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 1.4rem;
+    }
+    
+    .modal-close {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: var(--bg);
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .qrcode-container {
+      padding: 15px;
+      background-color: white;
+      border-radius: 8px;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+    
+    /* QR code button indicator */
+    #showQRCode {
+      position: relative;
+    }
+    
+    #showQRCode::after {
+      content: "QR";
+      position: absolute;
+      bottom: -5px;
+      right: -8px;
+      background: var(--primary);
+      color: white;
+      padding: 2px 6px;
+      font-size: 8px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1;
+    }
+    
+    /* QR code tabs */
+    .qr-tabs {
+      display: flex;
+      gap: 5px;
+      margin-bottom: 15px;
+      justify-content: center;
+    }
+    
+    .qr-tab {
+      padding: 6px 12px;
+      border-radius: 16px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s;
+    }
+    
+    .qr-tab.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    
+    .qr-tab:hover:not(.active) {
+      background: var(--highlight);
+    }
+    
+    .qrcode {
+      display: none;
+    }
+    
+    .qrcode.active {
+      display: block;
+    }
+    
+    /* Side button hide/show animation - updated for 1-second fade */
+    .side-button {
+      transition: opacity 1s, visibility 1s; /* Change from 2s to 1s for a 1-second fade */
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    .side-button.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
 </head>
 <body>
   <div class="container">
     <a href="/" class="back-link">← Back</a>
     
-    <div class="verses-container">
-      <!-- <h2>
-        John 3:16-17
-        <span class="translation-label">ABLE Bible</span>
-      </h2>
+    <div class="top-actions">
+      <a href="/search?q={{ passage }}" class="search-view-btn">Compare All Verses</a>
       
-      <a href="/search?q=John+3:16" class="verse">
-        <span class="verse-number">16</span>
-        <span class="verse-text">Jesus said, God's love is big. God gave His one Son, Jesus. If anyone trusts Him, they will not die. They will have life that lasts. 🌍❤️🎁👶✝️⏳♾️</span>
+      <!-- View Entire Chapter button - only shown when not already viewing a full chapter -->
+      {% if not is_full_chapter %}
+      <a href="/verses?passage={{ passage.split(':')[0] }}" class="search-view-btn">
+        View Entire Chapter
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-left: 4px; position: relative; top: 1px;">
+          <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" />
+          <path fill-rule="evenodd" d="M12 5.414L14.586 8H13a1 1 0 01-1-1V5.414z" />
+        </svg>
+      </a>
+      {% endif %}
+      
+      <!-- BibleGateway Button with icon -->
+      <a href="https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com" 
+         class="search-view-btn"
+         target="_blank" 
+         rel="noopener">
+        BibleGateway
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-left: 4px; position: relative; top: 1px;">
+          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+        </svg>
       </a>
       
-      <a href="/search?q=John+3:17" class="verse">
-        <span class="verse-number">17</span>
-        <span class="verse-text">Jesus said, God did not send Me to punish the world. God sent Me to save the world. 🚫⚖️ 🌍 ➡️ 🛟❤️</span>
-      </a> -->
-
-
-      <!-- In verses.html, replace the static verses with this -->
+      <!-- BibleHub Button with icon - fixed for verse-specific links -->
+      <a href="{% if ':' in passage %}https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}-{{ passage.split(':')[1] }}.htm{% else %}https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1] }}.htm{% endif %}?ref=bibleable.com" 
+         class="search-view-btn"
+         target="_blank" 
+         rel="noopener">
+        BibleHub
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-left: 4px; position: relative; top: 1px;">
+          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+        </svg>
+      </a>
+    </div>
+    
+    <!-- Floating side buttons -->
+    <div class="side-button">
+      <div class="side-action" id="scrollTop" title="Scroll to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      
+      {% if is_full_chapter %}
+        {% if prev_chapter %}
+        <a href="/verses?passage={{ prev_chapter }}" class="side-action" title="Previous Chapter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        {% endif %}
+        
+        {% if next_chapter %}
+        <a href="/verses?passage={{ next_chapter }}" class="side-action" title="Next Chapter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        {% endif %}
+      {% endif %}
+      
+      <div class="side-action" id="toggleTextSize" title="Change text size">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <div class="side-action" id="copyLink" title="Copy link to this passage">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <div class="side-action" id="showQRCode" title="Show QR Code">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
+        </svg>
+      </div>
+    </div>
+    
+    <div class="verses-container">
+      <!-- Visible title showing context of the passage -->
+      <h2>
+        {{ passage }}
+        <span class="translation-label">ABLE Bible</span>
+      </h2>
+      <p class="subtitle">Showing {{ verses|length }} verse{{ 's' if verses|length != 1 else '' }} for "{{ passage }}"</p>
+      
+      <!-- Chapter navigation - only shown if displaying a full chapter -->
+      {% if is_full_chapter %}
+      <div class="chapter-navigation">
+        {% if prev_chapter %}
+        <a href="/verses?passage={{ prev_chapter }}" class="nav-button nav-button-prev">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+          Previous Chapter
+        </a>
+        {% endif %}
+        
+        {% if next_chapter %}
+        <a href="/verses?passage={{ next_chapter }}" class="nav-button nav-button-next">
+          Next Chapter
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        {% endif %}
+      </div>
+      {% endif %}
+      
       {% for verse in verses %}
       <a href="/search?q={{ verse.reference }}" class="verse">
         <span class="verse-number">{{ verse.verse_number }}</span>
@@ -173,8 +603,276 @@
       <p class="error muted">{{ error }}</p>
       {% endif %}      
       
-      <!-- More verses would be dynamically added here based on the passage requested -->
+      <!-- Repeat chapter navigation at bottom for convenience -->
+      {% if is_full_chapter %}
+      <div class="chapter-navigation">
+        {% if prev_chapter %}
+        <a href="/verses?passage={{ prev_chapter }}" class="nav-button nav-button-prev">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+          </svg>
+          Previous Chapter
+        </a>
+        {% endif %}
+        
+        {% if next_chapter %}
+        <a href="/verses?passage={{ next_chapter }}" class="nav-button nav-button-next">
+          Next Chapter
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+          </svg>
+        </a>
+        {% endif %}
+      </div>
+      {% endif %}
     </div>
   </div>
+
+  <!-- Modify the QR modal to support multiple QR codes -->
+  <div id="qrCodeModal" class="modal-overlay">
+    <div class="modal-content">
+      <button class="modal-close" id="closeQRModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <h3 class="modal-title">Scan QR Code</h3>
+      
+      <!-- QR Code tabs -->
+      <div class="qr-tabs">
+        <button class="qr-tab active" data-target="bibleable">Bibleable</button>
+        <button class="qr-tab" data-target="biblegateway">BibleGateway</button>
+        <button class="qr-tab" data-target="biblehub">BibleHub</button>
+      </div>
+      
+      <div class="qrcode-container">
+        <div id="qrcode-bibleable" class="qrcode active"></div>
+        <div id="qrcode-biblegateway" class="qrcode"></div>
+        <div id="qrcode-biblehub" class="qrcode"></div>
+      </div>
+      
+      <p style="color: var(--muted); font-size: 0.9rem;" id="qr-description">
+        Scan with your device to open this page
+      </p>
+    </div>
+  </div>
+
+  <script>
+  // Process Jesus tags in text
+  function processJesusTags() {
+    document.querySelectorAll('.verse-text').forEach(element => {
+      const html = element.innerHTML;
+      element.innerHTML = html.replace(
+        /&lt;jesus&gt;(.*?)&lt;\/jesus&gt;/g,
+        '<jesus>$1</jesus>'
+      );
+    });
+  }
+
+  // Show scroll button only when scrolled down
+  window.addEventListener('scroll', function() {
+    const scrollTopBtn = document.getElementById('scrollTop');
+    // Show button when scrolled down at least 300px
+    if (window.scrollY > 300) {
+      scrollTopBtn.classList.add('visible');
+    } else {
+      scrollTopBtn.classList.remove('visible');
+    }
+  });
+
+  // Side button functionality
+  document.getElementById('scrollTop').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  let textSizeState = 0; // 0 = normal, 1 = larger, 2 = largest
+  const toggleTextSizeBtn = document.getElementById('toggleTextSize');
+
+  toggleTextSizeBtn.addEventListener('click', function() {
+    const verses = document.querySelectorAll('.verse-text');
+    const verseNumbers = document.querySelectorAll('.verse-number');
+    textSizeState = (textSizeState + 1) % 3;
+    
+    // Remove all size classes first
+    toggleTextSizeBtn.classList.remove('size-large', 'size-largest');
+    
+    // Show a brief notification
+    const notification = document.createElement('div');
+    notification.style.position = 'fixed';
+    notification.style.bottom = '20px';
+    notification.style.left = '50%';
+    notification.style.transform = 'translateX(-50%)';
+    notification.style.background = 'var(--primary)';
+    notification.style.color = 'white';
+    notification.style.padding = '8px 16px';
+    notification.style.borderRadius = '4px';
+    notification.style.zIndex = '1000';
+    notification.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+    notification.style.opacity = '0';
+    notification.style.transition = 'opacity 0.3s';
+    
+    if (textSizeState === 0) {
+      verses.forEach(verse => verse.style.fontSize = '1.6rem'); // Normal
+      verseNumbers.forEach(num => num.style.fontSize = '1.6rem');
+      notification.textContent = 'Font Size: Normal';
+    } else if (textSizeState === 1) {
+      verses.forEach(verse => verse.style.fontSize = '2.0rem'); // More obviously larger
+      verseNumbers.forEach(num => num.style.fontSize = '2.0rem');
+      toggleTextSizeBtn.classList.add('size-large');
+      notification.textContent = 'Font Size: Large';
+    } else {
+      verses.forEach(verse => verse.style.fontSize = '2.4rem'); // Even larger
+      verseNumbers.forEach(num => num.style.fontSize = '2.4rem');
+      toggleTextSizeBtn.classList.add('size-largest');
+      notification.textContent = 'Font Size: Extra Large';
+    }
+    
+    // Show the notification
+    document.body.appendChild(notification);
+    setTimeout(() => notification.style.opacity = '1', 10);
+    
+    // Remove notification after 1.5 seconds
+    setTimeout(() => {
+      notification.style.opacity = '0';
+      setTimeout(() => notification.remove(), 300);
+    }, 1500);
+  });
+  
+  document.getElementById('copyLink').addEventListener('click', function() {
+    const url = window.location.href;
+    navigator.clipboard.writeText(url).then(() => {
+      alert('Link copied to clipboard');
+    }).catch(err => {
+      console.error('Could not copy text: ', err);
+    });
+  });
+
+  // QR Code modal functionality - updated for multiple QR codes
+  document.getElementById('showQRCode').addEventListener('click', function() {
+    const qrCodeModal = document.getElementById('qrCodeModal');
+    showQRModal();
+  });
+  
+  // Handle QR code tab switching
+  document.querySelectorAll('.qr-tab').forEach(tab => {
+    tab.addEventListener('click', function() {
+      // Update active tab
+      document.querySelectorAll('.qr-tab').forEach(t => t.classList.remove('active'));
+      this.classList.add('active');
+      
+      // Show corresponding QR code
+      const target = this.getAttribute('data-target');
+      document.querySelectorAll('.qrcode').forEach(qr => qr.classList.remove('active'));
+      document.getElementById('qrcode-' + target).classList.add('active');
+      
+      // Update description
+      const qrDesc = document.getElementById('qr-description');
+      if (target === 'bibleable') {
+        qrDesc.textContent = 'Scan with your device to open this page';
+      } else if (target === 'biblegateway') {
+        qrDesc.textContent = 'Scan to open this passage in BibleGateway';
+      } else if (target === 'biblehub') {
+        qrDesc.textContent = 'Scan to open this passage in BibleHub';
+      }
+    });
+  });
+  
+  function showQRModal() {
+    const qrCodeModal = document.getElementById('qrCodeModal');
+    
+    // Generate BibleAble QR code (current page)
+    generateQR('qrcode-bibleable', window.location.href);
+    
+    // Generate BibleGateway QR code
+    const bibleGatewayUrl = 'https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com';
+    generateQR('qrcode-biblegateway', bibleGatewayUrl);
+    
+    // Generate BibleHub QR code - fixed for verse-specific URLs
+    {% if ':' in passage %}
+    const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}-{{ passage.split(':')[1] }}.htm?ref=bibleable.com';
+    {% else %}
+    const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1] }}.htm?ref=bibleable.com';
+    {% endif %}
+    generateQR('qrcode-biblehub', bibleHubUrl);
+    
+    // Show modal
+    qrCodeModal.classList.add('visible');
+  }
+  
+  function generateQR(elementId, url) {
+    const container = document.getElementById(elementId);
+    
+    // Clear previous QR code if any
+    container.innerHTML = '';
+    
+    // Generate QR code
+    const qr = qrcode(0, 'L');
+    qr.addData(url);
+    qr.make();
+    
+    // Render QR code to DOM
+    container.innerHTML = qr.createImgTag(5);
+  }
+  
+  // Close modal when clicking close button
+  document.getElementById('closeQRModal').addEventListener('click', function() {
+    document.getElementById('qrCodeModal').classList.remove('visible');
+  });
+  
+  // Close modal when clicking outside content
+  document.getElementById('qrCodeModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+      this.classList.remove('visible');
+    }
+  });
+  
+  // Side button auto-hide functionality
+  const sideButtonContainer = document.querySelector('.side-button');
+  let hideTimeout;
+  
+  // Function to show the buttons
+  function showSideButtons() {
+    sideButtonContainer.classList.remove('hidden');
+    
+    // Clear any existing timeout
+    clearTimeout(hideTimeout);
+    
+    // Set a new timeout to hide buttons after 2 seconds
+    // (Fade will start at 2 seconds and complete by 4 seconds due to the 2s CSS transition)
+    hideTimeout = setTimeout(() => {
+      sideButtonContainer.classList.add('hidden');
+    }, 2000);
+  }
+  
+  // Initially show the buttons and start the timer
+  showSideButtons();
+  
+  // Add event listeners for mouse/touch movement and scrolling
+  ['mousemove', 'touchstart', 'touchmove', 'scroll'].forEach(eventType => {
+    document.addEventListener(eventType, showSideButtons);
+  });
+  
+  // Reset timeout on button interaction
+  document.querySelectorAll('.side-action').forEach(button => {
+    button.addEventListener('click', e => {
+      // Don't hide if actively interacting with buttons
+      clearTimeout(hideTimeout);
+      // Set hide timeout after interaction (also changed to 2 seconds)
+      hideTimeout = setTimeout(() => {
+        sideButtonContainer.classList.add('hidden');
+      }, 2000);
+    });
+  });
+  
+  // Run on page load
+  document.addEventListener('DOMContentLoaded', function() {
+    processJesusTags();
+    // Initially check scroll position
+    if (window.scrollY > 300) {
+      document.getElementById('scrollTop').classList.add('visible');
+    }
+  });
+  </script>
 </body>
 </html>
