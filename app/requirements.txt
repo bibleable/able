@@ -2,3 +2,7 @@ fastapi
 uvicorn
 jinja2
 bcrypt
+pytest
+pytest-cov
+httpx 
+python-multipart
