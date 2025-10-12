@@ -95,6 +95,13 @@
     .search-container {
       position: relative;
       margin-bottom: 1rem;
+      display: flex;
+      gap: 10px;
+    }
+
+    .search-input-wrapper {
+      position: relative;
+      flex-grow: 1;
     }
 
     .search-input {
@@ -117,11 +124,7 @@
     }
 
     .search-button {
-      display: block;
-      width: 100%;
-      box-sizing: border-box;
-      padding: 12px;
-      margin-top: 10px;
+      padding: 0 20px;
       background: var(--primary);
       color: white;
       border: none;
@@ -129,6 +132,7 @@
       font-size: 1rem;
       font-weight: bold;
       cursor: pointer;
+      min-width: 100px;
     }
 
     .quick-picks {
@@ -199,13 +203,14 @@
 
     <form method="get" action="/search">
       <div class="search-container">
-        <span class="search-icon">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
-        </span>
-        <input id="q" class="search-input" type="text" name="q" placeholder="Search the Bible..." />
+        <div class="search-input-wrapper">
+          <span class="search-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+          </span>
+          <input id="q" class="search-input" type="text" name="q" placeholder="Search the Bible..." />
+        </div>
+        <button class="search-button" type="submit">Search</button>
       </div>
-      
-      <button class="search-button" type="submit">Search</button>
     </form>
 
     <div class="quick-picks">

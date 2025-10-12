@@ -103,9 +103,11 @@
 
     .top-actions {
       display: flex;
-      justify-content: space-between;
+      gap: 10px;
+      justify-content: flex-start;
       align-items: center;
       margin-bottom: 16px;
+      flex-wrap: wrap;
     }
 
     .search-view-btn {
@@ -275,6 +277,54 @@
       color: red;
       font-weight: 500;
     }
+    
+    /* Hide scroll to top button by default */
+    #scrollTop {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.3s, visibility 0.3s;
+    }
+    
+    #scrollTop.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    /* Font size button states */
+    #toggleTextSize {
+      position: relative;
+    }
+    
+    #toggleTextSize::after {
+      content: "A";
+      position: absolute;
+      bottom: -3px;
+      right: -3px;
+      background: var(--primary);
+      color: white;
+      width: 16px;
+      height: 16px;
+      font-size: 10px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    
+    #toggleTextSize.size-large::after {
+      content: "A";
+      font-size: 13px;
+      width: 18px;
+      height: 18px;
+    }
+    
+    #toggleTextSize.size-largest::after {
+      content: "A";
+      font-size: 16px;
+      width: 20px;
+      height: 20px;
+    }
   </style>
 </head>
 <body>
@@ -283,6 +333,41 @@
     
     <div class="top-actions">
       <a href="/search?q={{ passage }}" class="search-view-btn">Compare All Verses</a>
+      
+      <!-- View Entire Chapter button - only shown when not already viewing a full chapter -->
+      {% if not is_full_chapter %}
+      <a href="/verses?passage={{ passage.split(':')[0] }}" class="search-view-btn">
+        View Entire Chapter
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-left: 4px; position: relative; top: 1px;">
+          <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" />
+          <path fill-rule="evenodd" d="M12 5.414L14.586 8H13a1 1 0 01-1-1V5.414z" />
+        </svg>
+      </a>
+      {% endif %}
+      
+      <!-- BibleGateway Button with icon -->
+      <a href="https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com" 
+         class="search-view-btn"
+         target="_blank" 
+         rel="noopener">
+        BibleGateway
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-left: 4px; position: relative; top: 1px;">
+          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+        </svg>
+      </a>
+      
+      <!-- BibleHub Button with icon -->
+      <a href="https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}.htm?ref=bibleable.com" 
+         class="search-view-btn"
+         target="_blank" 
+         rel="noopener">
+        BibleHub
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 20 20" fill="currentColor" style="margin-left: 4px; position: relative; top: 1px;">
+          <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+          <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+        </svg>
+      </a>
     </div>
     
     <!-- Floating side buttons -->
@@ -404,27 +489,75 @@
     });
   }
 
+  // Show scroll button only when scrolled down
+  window.addEventListener('scroll', function() {
+    const scrollTopBtn = document.getElementById('scrollTop');
+    // Show button when scrolled down at least 300px
+    if (window.scrollY > 300) {
+      scrollTopBtn.classList.add('visible');
+    } else {
+      scrollTopBtn.classList.remove('visible');
+    }
+  });
+
   // Side button functionality
   document.getElementById('scrollTop').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
   let textSizeState = 0; // 0 = normal, 1 = larger, 2 = largest
-  document.getElementById('toggleTextSize').addEventListener('click', function() {
+  const toggleTextSizeBtn = document.getElementById('toggleTextSize');
+
+  toggleTextSizeBtn.addEventListener('click', function() {
     const verses = document.querySelectorAll('.verse-text');
+    const verseNumbers = document.querySelectorAll('.verse-number');
     textSizeState = (textSizeState + 1) % 3;
     
-    verses.forEach(verse => {
-      if (textSizeState === 0) {
-        verse.style.fontSize = '1.6rem'; // Normal
-      } else if (textSizeState === 1) {
-        verse.style.fontSize = '1.8rem'; // Larger
-      } else {
-        verse.style.fontSize = '2.0rem'; // Largest
-      }
-    });
+    // Remove all size classes first
+    toggleTextSizeBtn.classList.remove('size-large', 'size-largest');
+    
+    // Show a brief notification
+    const notification = document.createElement('div');
+    notification.style.position = 'fixed';
+    notification.style.bottom = '20px';
+    notification.style.left = '50%';
+    notification.style.transform = 'translateX(-50%)';
+    notification.style.background = 'var(--primary)';
+    notification.style.color = 'white';
+    notification.style.padding = '8px 16px';
+    notification.style.borderRadius = '4px';
+    notification.style.zIndex = '1000';
+    notification.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+    notification.style.opacity = '0';
+    notification.style.transition = 'opacity 0.3s';
+    
+    if (textSizeState === 0) {
+      verses.forEach(verse => verse.style.fontSize = '1.6rem'); // Normal
+      verseNumbers.forEach(num => num.style.fontSize = '1.6rem');
+      notification.textContent = 'Font Size: Normal';
+    } else if (textSizeState === 1) {
+      verses.forEach(verse => verse.style.fontSize = '2.0rem'); // More obviously larger
+      verseNumbers.forEach(num => num.style.fontSize = '2.0rem');
+      toggleTextSizeBtn.classList.add('size-large');
+      notification.textContent = 'Font Size: Large';
+    } else {
+      verses.forEach(verse => verse.style.fontSize = '2.4rem'); // Even larger
+      verseNumbers.forEach(num => num.style.fontSize = '2.4rem');
+      toggleTextSizeBtn.classList.add('size-largest');
+      notification.textContent = 'Font Size: Extra Large';
+    }
+    
+    // Show the notification
+    document.body.appendChild(notification);
+    setTimeout(() => notification.style.opacity = '1', 10);
+    
+    // Remove notification after 1.5 seconds
+    setTimeout(() => {
+      notification.style.opacity = '0';
+      setTimeout(() => notification.remove(), 300);
+    }, 1500);
   });
-
+  
   document.getElementById('copyLink').addEventListener('click', function() {
     const url = window.location.href;
     navigator.clipboard.writeText(url).then(() => {
@@ -437,6 +570,10 @@
   // Run on page load
   document.addEventListener('DOMContentLoaded', function() {
     processJesusTags();
+    // Initially check scroll position
+    if (window.scrollY > 300) {
+      document.getElementById('scrollTop').classList.add('visible');
+    }
   });
   </script>
 </body>

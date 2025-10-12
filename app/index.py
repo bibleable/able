@@ -104,6 +104,32 @@ def normalize_bible_reference(reference):
     
     return normalized
 
+def handle_ambiguous_reference(book, digits):
+    """
+    Handle ambiguous references like "genesis11" which could be
+    "Genesis 1:1" or "Genesis 11".
+    Returns a list of possible interpretations.
+    """
+    # For a 2-digit number like "11", it could be:
+    # 1. Chapter 1, verse 1 (Genesis 1:1)
+    # 2. Chapter 11 (Genesis 11)
+    if len(digits) == 2:
+        option1 = f"{book} {digits[0]}:{digits[1]}"  # Genesis 1:1
+        option2 = f"{book} {digits}"                 # Genesis 11
+        return [option1, option2]
+    
+    # For a 3-digit number like "123", it could be:
+    # 1. Chapter 1, verse 23 (Genesis 1:23)
+    # 2. Chapter 12, verse 3 (Genesis 12:3)
+    # 3. Chapter 123 (Genesis 123) - usually invalid in Bible context
+    elif len(digits) == 3:
+        option1 = f"{book} {digits[0]}:{digits[1:3]}"    # Genesis 1:23
+        option2 = f"{book} {digits[0:2]}:{digits[2]}"    # Genesis 12:3
+        option3 = f"{book} {digits}"                     # Genesis 123
+        return [option1, option2, option3]
+    
+    return None  # Not ambiguous or couldn't determine
+
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
     return templates.TemplateResponse("home.html", {"request": request})
@@ -486,114 +512,81 @@ async def verses(request: Request, passage: str = ""):
             chapter = int(match.group(2))
             is_full_chapter = True
             
-            # Set previous chapter (if not first chapter)
+            # Bible books in order
+            bible_books = [
+                "Genesis", "Exodus", "Leviticus", "Numbers", "Deuteronomy",
+                "Joshua", "Judges", "Ruth", "1 Samuel", "2 Samuel", 
+                "1 Kings", "2 Kings", "1 Chronicles", "2 Chronicles",
+                "Ezra", "Nehemiah", "Esther", "Job", "Psalms", "Proverbs",
+                "Ecclesiastes", "Song of Solomon", "Isaiah", "Jeremiah",
+                "Lamentations", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos",
+                "Obadiah", "Jonah", "Micah", "Nahum", "Habakkuk", "Zephaniah",
+                "Haggai", "Zechariah", "Malachi",
+                "Matthew", "Mark", "Luke", "John", "Acts", "Romans",
+                "1 Corinthians", "2 Corinthians", "Galatians", "Ephesians", "Philippians",
+                "Colossians", "1 Thessalonians", "2 Thessalonians", "1 Timothy",
+                "2 Timothy", "Titus", "Philemon", "Hebrews", "James", "1 Peter",
+                "2 Peter", "1 John", "2 John", "3 John", "Jude", "Revelation"
+            ]
+            
+            # Maximum chapters per book
+            max_chapters = {
+                "Genesis": 50, "Exodus": 40, "Leviticus": 27, "Numbers": 36, "Deuteronomy": 34,
+                "Joshua": 24, "Judges": 21, "Ruth": 4, "1 Samuel": 31, "2 Samuel": 24, 
+                "1 Kings": 22, "2 Kings": 25, "1 Chronicles": 29, "2 Chronicles": 36,
+                "Ezra": 10, "Nehemiah": 13, "Esther": 10, "Job": 42, "Psalms": 150, "Proverbs": 31,
+                "Ecclesiastes": 12, "Song of Solomon": 8, "Isaiah": 66, "Jeremiah": 52,
+                "Lamentations": 5, "Ezekiel": 48, "Daniel": 12, "Hosea": 14, "Joel": 3, "Amos": 9,
+                "Obadiah": 1, "Jonah": 4, "Micah": 7, "Nahum": 3, "Habakkuk": 3, "Zephaniah": 3,
+                "Haggai": 2, "Zechariah": 14, "Malachi": 4,
+                "Matthew": 28, "Mark": 16, "Luke": 24, "John": 21, "Acts": 28, "Romans": 16,
+                "1 Corinthians": 16, "2 Corinthians": 13, "Galatians": 6, "Ephesians": 6, "Philippians": 4,
+                "Colossians": 4, "1 Thessalonians": 5, "2 Thessalonians": 3, "1 Timothy": 6,
+                "2 Timothy": 4, "Titus": 3, "Philemon": 1, "Hebrews": 13, "James": 5, "1 Peter": 5,
+                "2 Peter": 3, "1 John": 5, "2 John": 1, "3 John": 1, "Jude": 1, "Revelation": 22
+            }
+            
+            # Set previous chapter
             if chapter > 1:
                 prev_chapter = f"{book} {chapter - 1}"
+            else:
+                # We're at first chapter, need previous book's last chapter
+                try:
+                    book_index = bible_books.index(book)
+                    if book_index > 0:  # Not Genesis
+                        prev_book = bible_books[book_index - 1]
+                        prev_chapter = f"{prev_book} {max_chapters[prev_book]}"
+                except ValueError:
+                    prev_chapter = None
             
-            # Set next chapter (would need to check max chapters in the book)
-            # This is a simplified version - you'd need to check if next chapter exists
-            next_chapter = f"{book} {chapter + 1}"
+            # Set next chapter
+            if book in max_chapters and chapter < max_chapters[book]:
+                next_chapter = f"{book} {chapter + 1}"
+            else:
+                # We're at last chapter, need next book's first chapter
+                try:
+                    book_index = bible_books.index(book)
+                    if book_index < len(bible_books) - 1:  # Not Revelation
+                        next_book = bible_books[book_index + 1]
+                        next_chapter = f"{next_book} 1"
+                except ValueError:
+                    next_chapter = None
         
-        # Return template with chapter navigation data
-        return templates.TemplateResponse(
-            "verses.html", 
-            {
-                "request": request,
-                "passage": passage,
-                "verses": verses,
-                "is_full_chapter": is_full_chapter,
-                "prev_chapter": prev_chapter,
-                "next_chapter": next_chapter
-            }
-        )
+        # Return the template with the verses and chapter navigation
+        return templates.TemplateResponse("verses.html", {
+            "request": request, 
+            "passage": passage, 
+            "verses": verses,
+            "is_full_chapter": is_full_chapter,
+            "prev_chapter": prev_chapter,
+            "next_chapter": next_chapter
+        })
     except Exception as e:
-        error_message = f"Database error: {str(e)}"
+        error_message = f"Error fetching verses: {str(e)}"
         print(f"ERROR in verses: {error_message}")
-        return templates.TemplateResponse(
-            "verses.html", 
-            {"request": request, "passage": passage, "verses": [], "error": error_message}
-        )
-
-# In your server code before sending to templates
-def process_jesus_tags(text):
-    return text.replace('<jesus>', '<span class="jesus-words">').replace('</jesus>', '</span>')
-
-def handle_ambiguous_reference(book, digits):
-    if len(digits) == 2 and int(digits) <= get_max_chapter(book):
-        # Could be chapter or chapter:verse
-        return [
-            f"{book} {digits[0]}:{digits[1]}",  # Genesis 1:1
-            f"{book} {digits}"                  # Genesis 11
-        ]
-    return None  # Not ambiguous
-
-def get_max_chapter(book):
-    """Return the maximum chapter number for a given Bible book."""
-    max_chapters = {
-        "Genesis": 50, "Exodus": 40, "Leviticus": 27, "Numbers": 36, "Deuteronomy": 34,
-        "Joshua": 24, "Judges": 21, "Ruth": 4, "1 Samuel": 31, "2 Samuel": 24,
-        "1 Kings": 22, "2 Kings": 25, "1 Chronicles": 29, "2 Chronicles": 36, "Ezra": 10,
-        "Nehemiah": 13, "Esther": 10, "Job": 42, "Psalm": 150, "Psalms": 150, "Proverbs": 31,
-        "Ecclesiastes": 12, "Song of Solomon": 8, "Isaiah": 66, "Jeremiah": 52,
-        "Lamentations": 5, "Ezekiel": 48, "Daniel": 12, "Hosea": 14, "Joel": 3,
-        "Amos": 9, "Obadiah": 1, "Jonah": 4, "Micah": 7, "Nahum": 3,
-        "Habakkuk": 3, "Zephaniah": 3, "Haggai": 2, "Zechariah": 14, "Malachi": 4,
-        "Matthew": 28, "Mark": 16, "Luke": 24, "John": 21, "Acts": 28,
-        "Romans": 16, "1 Corinthians": 16, "2 Corinthians": 13, "Galatians": 6, "Ephesians": 6,
-        "Philippians": 4, "Colossians": 4, "1 Thessalonians": 5, "2 Thessalonians": 3,
-        "1 Timothy": 6, "2 Timothy": 4, "Titus": 3, "Philemon": 1, "Hebrews": 13,
-        "James": 5, "1 Peter": 5, "2 Peter": 3, "1 John": 5, "2 John": 1,
-        "3 John": 1, "Jude": 1, "Revelation": 22
-    }
-    
-    normalized_book = book.strip()
-    if normalized_book.lower() == "psalms":
-        normalized_book = "Psalm"
-    if normalized_book.lower() == "song":
-        normalized_book = "Song of Solomon"
-        
-    return max_chapters.get(normalized_book, 150)  # Default to a large number if unknown
-
-# Add this login route
-@app.get("/login", response_class=HTMLResponse)
-async def login_page(request: Request, error: Optional[str] = None):
-    return templates.TemplateResponse("login.html", {"request": request, "error": error})
-
-@app.post("/login", response_class=HTMLResponse)
-async def login_submit(
-    request: Request,
-    username: str = Form(...),
-    password: str = Form(...),
-):
-    # Simple auth logic - replace with your actual auth system
-    if username == "admin" and password == "password":
-        # Create session cookie
-        response = RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
-        response.set_cookie(
-            key=SESSION_COOKIE_NAME,
-            value=f"user:{username}",
-            httponly=True,
-            max_age=3600,
-            secure=False,  # Set to True in production with HTTPS
-        )
-        return response
-    else:
-        # Show login page with error
-        return templates.TemplateResponse(
-            "login.html",
-            {"request": request, "error": "Invalid credentials"}
-        )
-
-@app.get("/logout")
-async def logout():
-    response = RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
-    response.delete_cookie(SESSION_COOKIE_NAME)
-    return response
-
-# Optional: helper for checking authentication
-def get_current_user(request: Request):
-    session_cookie = request.cookies.get(SESSION_COOKIE_NAME)
-    if not session_cookie or not session_cookie.startswith("user:"):
-        return None
-    username = session_cookie.split(":", 1)[1]
-    return {"username": username}
+        return templates.TemplateResponse("verses.html", {
+            "request": request, 
+            "passage": passage, 
+            "verses": [],
+            "error": error_message
+        })

@@ -460,6 +460,12 @@
         
         <div class="actions">
           <a href="/verses?passage={{ verse.reference.split(':')[0] }}" class="action-link">View entire chapter</a>
+          <a href="https://www.biblegateway.com/passage/?search={{ verse.reference|urlencode }}&version=NIV&ref=bibleable.com" class="action-link" target="_blank" rel="noopener">
+            Open in BibleGateway
+          </a>
+          <a href="https://biblehub.com/{{ verse.reference.split()[0].lower() }}/{{ verse.reference.split()[1].split(':')[0] }}-{{ verse.reference.split(':')[1] }}.htm?ref=bibleable.com" class="action-link" target="_blank" rel="noopener">
+            Open in BibleHub
+          </a>
         </div>
       </div>
       {% else %}
