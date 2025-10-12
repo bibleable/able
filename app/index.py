@@ -6,6 +6,7 @@ import sqlite3
 from pathlib import Path
 import secrets
 from typing import Optional
+import bcrypt
 
 app = FastAPI()
 
@@ -28,6 +29,20 @@ print(f"BSB DB exists: {BSB_DB_PATH.exists()}, path: {BSB_DB_PATH}")
 # Add these variables for session management
 SECRET_KEY = secrets.token_hex(16)
 SESSION_COOKIE_NAME = "able_session"
+
+# Mock user database (in a real app, you'd use a database)
+users_db = {
+    "admin@example.com": {
+        "email": "admin@example.com",
+        "hashed_password": bcrypt.hashpw("adminpassword".encode(), bcrypt.gensalt()).decode(),
+        "name": "Admin User"
+    },
+    "user@example.com": {
+        "email": "user@example.com",
+        "hashed_password": bcrypt.hashpw("userpassword".encode(), bcrypt.gensalt()).decode(),
+        "name": "Regular User"
+    }
+}
 
 def get_db_connection(version="able"):
     """Create a connection to the selected SQLite database"""
@@ -130,12 +145,75 @@ def handle_ambiguous_reference(book, digits):
     
     return None  # Not ambiguous or couldn't determine
 
+# Get current user from session
+def get_current_user(request: Request) -> Optional[dict]:
+    session_email = request.cookies.get(SESSION_COOKIE_NAME)
+    if not session_email:
+        return None
+    
+    if session_email in users_db:
+        return users_db[session_email]
+    return None
+
+@app.get("/login", response_class=HTMLResponse)
+async def login_page(request: Request):
+    # Check if user is already logged in
+    user = get_current_user(request)
+    if user:
+        return RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
+    
+    return templates.TemplateResponse("login.html", {"request": request})
+
+@app.post("/login", response_class=HTMLResponse)
+async def login(request: Request, username: str = Form(...), password: str = Form(...)):
+    # For simplicity, we're treating username as email
+    email = username.lower()
+    
+    # Check if user exists
+    if email not in users_db:
+        return templates.TemplateResponse(
+            "login.html", 
+            {"request": request, "error": "Invalid email or password"}
+        )
+    
+    user = users_db[email]
+    stored_password = user["hashed_password"].encode()
+    
+    # Verify password
+    if not bcrypt.checkpw(password.encode(), stored_password):
+        return templates.TemplateResponse(
+            "login.html", 
+            {"request": request, "error": "Invalid email or password"}
+        )
+    
+    # Create session
+    response = RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
+    response.set_cookie(
+        key=SESSION_COOKIE_NAME,
+        value=email,
+        httponly=True,
+        max_age=3600 * 24 * 7,  # 1 week
+        secure=False,  # Set to True in production with HTTPS
+        samesite="lax"
+    )
+    
+    return response
+
+@app.get("/logout")
+async def logout(request: Request):
+    response = RedirectResponse(url="/", status_code=status.HTTP_302_FOUND)
+    response.delete_cookie(SESSION_COOKIE_NAME)
+    return response
+
+# Update the home route to include user info
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
-    return templates.TemplateResponse("home.html", {"request": request})
+    user = get_current_user(request)
+    return templates.TemplateResponse("home.html", {"request": request, "user": user})
 
 @app.get("/search", response_class=HTMLResponse)
 async def search(request: Request, q: str = "", page: int = 1):
+    user = get_current_user(request)
     items_per_page = 5
     ambiguous_options = None
     
@@ -340,7 +418,8 @@ async def search(request: Request, q: str = "", page: int = 1):
                 "items_per_page": items_per_page,
                 "total_items": total_items,
                 "total_pages": total_pages,
-                "ambiguous_options": ambiguous_options  # Pass ambiguous options to template
+                "ambiguous_options": ambiguous_options,
+                "user": user  # Add user info
             }
         )
     except Exception as e:
@@ -354,6 +433,8 @@ async def search(request: Request, q: str = "", page: int = 1):
 
 @app.get("/verses", response_class=HTMLResponse)
 async def verses(request: Request, passage: str = ""):
+    user = get_current_user(request)
+    
     try:
         print(f"\n--- VERSES REQUEST: '{passage}' ---")
         
@@ -579,7 +660,8 @@ async def verses(request: Request, passage: str = ""):
             "verses": verses,
             "is_full_chapter": is_full_chapter,
             "prev_chapter": prev_chapter,
-            "next_chapter": next_chapter
+            "next_chapter": next_chapter,
+            "user": user  # Add user info
         })
     except Exception as e:
         error_message = f"Error fetching verses: {str(e)}"
