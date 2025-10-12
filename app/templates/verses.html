@@ -500,8 +500,8 @@
         </svg>
       </a>
       
-      <!-- BibleHub Button with icon - simplified approach -->
-      <a href="https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}.htm?ref=bibleable.com" 
+      <!-- BibleHub Button with icon - fixed for verse-specific links -->
+      <a href="{% if ':' in passage %}https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}-{{ passage.split(':')[1] }}.htm{% else %}https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1] }}.htm{% endif %}?ref=bibleable.com" 
          class="search-view-btn"
          target="_blank" 
          rel="noopener">
@@ -788,8 +788,12 @@
     const bibleGatewayUrl = 'https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com';
     generateQR('qrcode-biblegateway', bibleGatewayUrl);
     
-    // Generate BibleHub QR code
-    const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}.htm?ref=bibleable.com';
+    // Generate BibleHub QR code - fixed for verse-specific URLs
+    {% if ':' in passage %}
+    const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}-{{ passage.split(':')[1] }}.htm?ref=bibleable.com';
+    {% else %}
+    const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1] }}.htm?ref=bibleable.com';
+    {% endif %}
     generateQR('qrcode-biblehub', bibleHubUrl);
     
     // Show modal
