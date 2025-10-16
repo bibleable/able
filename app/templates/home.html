@@ -367,6 +367,21 @@
       position: relative;
       visibility: visible;
     }
+
+    body.light-mode {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #7c3aed;
+      --border: #e2e8f0;
+      --highlight: #d1fae5;
+      --pastel1: #ffccf9;
+      --pastel2: #d8f3ff;
+      --pastel3: #e5ffe5;
+      --pastel4: #ffe9c9;
+      --pastel5: #ede6ff;
+    }
   </style>
 </head>
 <body>
@@ -406,6 +421,7 @@
           </svg>
           GitHub
         </a>
+        <button id="themeToggle" class="login-link" title="Toggle night mode">🌙</button>
       </div>
     </header>
 
@@ -634,7 +650,6 @@
       }
     });
     
-    // Add text transition functionality
     document.addEventListener('DOMContentLoaded', function() {
       const textOptions = document.querySelectorAll('.text-option');
       let currentIndex = 0;
@@ -649,6 +664,26 @@
         // Show the new text
         textOptions[currentIndex].classList.add('visible');
       }, 3000); // Change text every 3 seconds
+
+      // Theme toggle logic
+      const themeToggle = document.getElementById('themeToggle');
+      const body = document.body;
+      // Load preference
+      if (localStorage.getItem('lightMode') === 'true') {
+        body.classList.add('light-mode');
+        themeToggle.textContent = '☀️';
+      }
+      themeToggle.addEventListener('click', function() {
+        if (body.classList.contains('light-mode')) {
+          body.classList.remove('light-mode');
+          localStorage.setItem('lightMode', 'false');
+          themeToggle.textContent = '🌙';
+        } else {
+          body.classList.add('light-mode');
+          localStorage.setItem('lightMode', 'true');
+          themeToggle.textContent = '☀️';
+        }
+      });
     });
     
     // Function to generate random verse chips
