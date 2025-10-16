@@ -346,6 +346,27 @@
     .hidden {
       display: none;
     }
+    
+    /* Text transition effect */
+    .text-transition {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .text-option {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+      transition: opacity 1.2s ease-in-out;
+      visibility: hidden;
+    }
+    
+    .text-option.visible {
+      opacity: 1;
+      position: relative;
+      visibility: visible;
+    }
   </style>
 </head>
 <body>
@@ -362,7 +383,13 @@
     <header class="header">
       <div>
         <div class="title">ABLE 👦🏼🧒🏻</div>
-        <div class="subtitle">ABLE is a bible paraphrase with simple words for special needs.</div>
+        <div class="subtitle">ABLE is a bible paraphrase with simple words <span class="text-transition">
+          <span class="text-option visible">for special needs</span>
+          <span class="text-option">for anyone</span>
+          <span class="text-option">for young learners</span>
+          <span class="text-option">for new beginners</span>
+          <span class="text-option">for lower literacy</span>
+        </span></div>
       </div>
       <div class="header-buttons">
         <a href="/login" class="login-link" title="Log in">
@@ -396,15 +423,15 @@
 
     <!-- Add Bible category selector -->
     <div class="bible-category-selector">
-      <h2>Browse by category</h2>
+      <h2>Browse by category/chapter</h2>
       
       <div class="category-container">
         <div class="category-column">
           <div class="category-group">
-            <h3>Old Testament</h3>
+            <h3>📜 Old Testament</h3>
             
             <div class="category-section">
-              <h4>Pentateuch</h4>
+              <h4>📚 Pentateuch</h4>
               <div class="book-list">
                 <a href="/verses?passage=Genesis+1" class="book-link">Genesis</a>
                 <a href="/verses?passage=Exodus+1" class="book-link">Exodus</a>
@@ -415,7 +442,7 @@
             </div>
             
             <div class="category-section">
-              <h4>Historical Books</h4>
+              <h4>🏛️ Historical Books</h4>
               <div class="book-list">
                 <a href="/verses?passage=Joshua+1" class="book-link">Joshua</a>
                 <a href="/verses?passage=Judges+1" class="book-link">Judges</a>
@@ -433,7 +460,7 @@
             </div>
             
             <div class="category-section">
-              <h4>Wisdom Literature</h4>
+              <h4>🧠 Wisdom Literature</h4>
               <div class="book-list">
                 <a href="/verses?passage=Job+1" class="book-link">Job</a>
                 <a href="/verses?passage=Psalms+1" class="book-link">Psalms</a>
@@ -448,7 +475,7 @@
         <div class="category-column">
           <div class="category-group">
             <div class="category-section">
-              <h4>Major Prophets</h4>
+              <h4>📣 Major Prophets</h4>
               <div class="book-list">
                 <a href="/verses?passage=Isaiah+1" class="book-link">Isaiah</a>
                 <a href="/verses?passage=Jeremiah+1" class="book-link">Jeremiah</a>
@@ -459,7 +486,7 @@
             </div>
             
             <div class="category-section">
-              <h4>Minor Prophets</h4>
+              <h4>📢 Minor Prophets</h4>
               <div class="book-list">
                 <a href="/verses?passage=Hosea+1" class="book-link">Hosea</a>
                 <a href="/verses?passage=Joel+1" class="book-link">Joel</a>
@@ -480,10 +507,10 @@
         
         <div class="category-column">
           <div class="category-group">
-            <h3>New Testament</h3>
+            <h3>✝️ New Testament</h3>
             
             <div class="category-section">
-              <h4>Gospels & Acts</h4>
+              <h4>🕊️ Gospels & Acts</h4>
               <div class="book-list">
                 <a href="/verses?passage=Matthew+1" class="book-link">Matthew</a>
                 <a href="/verses?passage=Mark+1" class="book-link">Mark</a>
@@ -494,7 +521,7 @@
             </div>
             
             <div class="category-section">
-              <h4>Pauline Epistles</h4>
+              <h4>✉️ Pauline Epistles</h4>
               <div class="book-list">
                 <a href="/verses?passage=Romans+1" class="book-link">Romans</a>
                 <a href="/verses?passage=1+Corinthians+1" class="book-link">1 Corinthians</a>
@@ -513,7 +540,7 @@
             </div>
             
             <div class="category-section">
-              <h4>General Epistles & Revelation</h4>
+              <h4>📬 General Epistles & Revelation</h4>
               <div class="book-list">
                 <a href="/verses?passage=Hebrews+1" class="book-link">Hebrews</a>
                 <a href="/verses?passage=James+1" class="book-link">James</a>
@@ -605,6 +632,23 @@
         // Generate 10 additional random verses
         generateRandomVerseChips(10);
       }
+    });
+    
+    // Add text transition functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const textOptions = document.querySelectorAll('.text-option');
+      let currentIndex = 0;
+      
+      setInterval(function() {
+        // Hide the current text
+        textOptions[currentIndex].classList.remove('visible');
+        
+        // Move to next text option
+        currentIndex = (currentIndex + 1) % textOptions.length;
+        
+        // Show the new text
+        textOptions[currentIndex].classList.add('visible');
+      }, 3000); // Change text every 3 seconds
     });
     
     // Function to generate random verse chips
