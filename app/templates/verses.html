@@ -467,6 +467,117 @@
       opacity: 0;
       visibility: hidden;
     }
+    
+    /* Advanced Passage Selector styles */
+    .passage-selector {
+      margin-bottom: 2rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+
+    .selector-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 1rem;
+    }
+
+    .selector-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .selector-field {
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .selector-field label {
+      display: block;
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    .selector-dropdown {
+      width: 100%;
+      padding: 10px 12px;
+      border: 2px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg);
+      color: var(--text);
+      font-size: 1rem;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2364748b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      cursor: pointer;
+    }
+
+    .selector-dropdown:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .verse-range-inputs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .verse-dropdown {
+      width: calc(50% - 10px);
+    }
+
+    .verse-separator {
+      color: var(--muted);
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+
+    .selector-action {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .selector-button {
+      width: 100%;
+      padding: 10px 20px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+
+    .selector-button:hover:not([disabled]) {
+      opacity: 0.9;
+    }
+
+    .selector-button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    #passageSelectorWrapper.collapsed {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .selector-field {
+        width: 100%;
+        flex: none;
+      }
+      
+      .selector-action {
+        width: 100%;
+      }
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
 </head>
@@ -511,6 +622,64 @@
           <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
         </svg>
       </a>
+    </div>
+    
+    <!-- Passage selector -->
+    <button id="togglePassageSelector" style="margin-bottom: 1rem; background: var(--primary); color: white; border: none; border-radius: 6px; padding: 8px 16px; font-weight: 500; cursor: pointer;">
+      Show Passage Selector
+    </button>
+    <div id="passageSelectorWrapper">
+      <div class="passage-selector">
+        <div class="selector-row">
+          <div class="selector-field">
+            <label>Testament</label>
+            <select id="testament-select" class="selector-dropdown">
+              <option value="old">Old Testament</option>
+              <option value="new">New Testament</option>
+            </select>
+          </div>
+          
+          <div class="selector-field">
+            <label>Book Category</label>
+            <select id="category-select" class="selector-dropdown">
+              <!-- Dynamic options based on testament -->
+            </select>
+          </div>
+          
+          <div class="selector-field">
+            <label>Book</label>
+            <select id="book-select" class="selector-dropdown">
+              <!-- Dynamic options based on category -->
+            </select>
+          </div>
+        </div>
+        
+        <div class="selector-row">
+          <div class="selector-field">
+            <label>Chapter</label>
+            <select id="chapter-select" class="selector-dropdown" disabled>
+              <option value="">Select book first</option>
+            </select>
+          </div>
+          
+          <div class="selector-field verse-range">
+            <label>Verses</label>
+            <div class="verse-range-inputs">
+              <select id="verse-start" class="selector-dropdown verse-dropdown" disabled>
+                <option value="">From</option>
+              </select>
+              <span class="verse-separator">to</span>
+              <select id="verse-end" class="selector-dropdown verse-dropdown" disabled>
+                <option value="">End</option>
+              </select>
+            </div>
+          </div>
+          
+          <div class="selector-action">
+            <button id="go-to-passage" class="selector-button" disabled>Read Passage</button>
+          </div>
+        </div>
+      </div>
     </div>
     
     <!-- Floating side buttons -->
@@ -842,7 +1011,7 @@
     // (Fade will start at 2 seconds and complete by 4 seconds due to the 2s CSS transition)
     hideTimeout = setTimeout(() => {
       sideButtonContainer.classList.add('hidden');
-    }, 2000);
+    }, 500); // Changed from 2000 to 1000ms
   }
   
   // Initially show the buttons and start the timer
@@ -861,7 +1030,7 @@
       // Set hide timeout after interaction (also changed to 2 seconds)
       hideTimeout = setTimeout(() => {
         sideButtonContainer.classList.add('hidden');
-      }, 2000);
+      }, 1000); // Changed from 2000 to 1000ms
     });
   });
   
@@ -872,6 +1041,416 @@
     if (window.scrollY > 300) {
       document.getElementById('scrollTop').classList.add('visible');
     }
+  });
+  
+  // Bible Passage Selector
+  document.addEventListener('DOMContentLoaded', function() {
+    // References to DOM elements
+    const testamentSelect = document.getElementById('testament-select');
+    const categorySelect = document.getElementById('category-select');
+    const bookSelect = document.getElementById('book-select');
+    const chapterSelect = document.getElementById('chapter-select');
+    const verseStart = document.getElementById('verse-start');
+    const verseEnd = document.getElementById('verse-end');
+    const goButton = document.getElementById('go-to-passage');
+    
+    // Bible data structure
+    const bibleData = {
+      old: {
+        "Law (Pentateuch)": {
+          "Genesis": 50, "Exodus": 40, "Leviticus": 27, 
+          "Numbers": 36, "Deuteronomy": 34
+        },
+        "History": {
+          "Joshua": 24, "Judges": 21, "Ruth": 4, 
+          "1 Samuel": 31, "2 Samuel": 24, "1 Kings": 22, 
+          "2 Kings": 25, "1 Chronicles": 29, "2 Chronicles": 36, 
+          "Ezra": 10, "Nehemiah": 13, "Esther": 10
+        },
+        "Wisdom & Poetry": {
+          "Job": 42, "Psalms": 150, "Proverbs": 31,
+          "Ecclesiastes": 12, "Song of Solomon": 8
+        },
+        "Major Prophets": {
+          "Isaiah": 66, "Jeremiah": 52, "Lamentations": 5,
+          "Ezekiel": 48, "Daniel": 12
+        },
+        "Minor Prophets": {
+          "Hosea": 14, "Joel": 3, "Amos": 9, "Obadiah": 1, 
+          "Jonah": 4, "Micah": 7, "Nahum": 3, "Habakkuk": 3,
+          "Zephaniah": 3, "Haggai": 2, "Zechariah": 14, "Malachi": 4
+        }
+      },
+      new: {
+        "Gospels & Acts": {
+          "Matthew": 28, "Mark": 16, "Luke": 24, "John": 21, "Acts": 28
+        },
+        "Pauline Letters": {
+          "Romans": 16, "1 Corinthians": 16, "2 Corinthians": 13,
+          "Galatians": 6, "Ephesians": 6, "Philippians": 4,
+          "Colossians": 4, "1 Thessalonians": 5, "2 Thessalonians": 3,
+          "1 Timothy": 6, "2 Timothy": 4, "Titus": 3, "Philemon": 1
+        },
+        "General Letters": {
+          "Hebrews": 13, "James": 5, "1 Peter": 5, "2 Peter": 3,
+          "1 John": 5, "2 John": 1, "3 John": 1, "Jude": 1
+        },
+        "Apocalyptic": {
+          "Revelation": 22
+        }
+      }
+    };
+    
+    // Verse count data for each chapter in each book
+    const verseCountData = {
+      // Genesis verse counts by chapter
+      "Genesis": [31, 25, 24, 26, 32, 22, 24, 22, 29, 32, 32, 20, 18, 24, 21, 16, 27, 33, 38, 18, 34, 24, 20, 67, 34, 35, 46, 22, 35, 43, 55, 32, 20, 31, 29, 43, 36, 30, 23, 23, 57, 38, 34, 34, 28, 34, 31, 22, 33, 26],
+      // Add verse counts for other books as needed
+      "Psalms": [6, 12, 8, 8, 12, 10, 17, 9, 20, 18, 7, 8, 6, 7, 5, 11, 15, 50, 14, 9, 13, 31, 6, 10, 22, 12, 14, 9, 11, 12, 24, 11, 22, 22, 28, 12, 40, 22, 13, 17, 13, 11, 5, 26, 17, 11, 9, 14, 20, 23, 19, 9, 6, 7, 23, 13, 11, 11, 17, 12, 8, 12, 11, 10, 13, 20, 7, 35, 36, 5, 24, 20, 28, 23, 10, 12, 20, 72, 13, 19, 16, 8, 18, 12, 13, 17, 7, 18, 52, 17, 16, 15, 5, 23, 11, 13, 12, 9, 9, 5, 8, 28, 22, 35, 45, 48, 43, 13, 31, 7, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7, 8, 9, 4, 8, 5, 6, 5, 6, 8, 8, 3, 18, 3, 3, 21, 26, 9, 8, 24, 13, 10, 7, 12, 15, 21, 10, 20, 14, 9, 6],
+      // You should include data for books your users frequently access
+    };
+    
+    // Initialize category selector based on testament
+    function populateCategories() {
+      const testament = testamentSelect.value;
+      const categories = Object.keys(bibleData[testament]);
+      
+      categorySelect.innerHTML = '';
+      categories.forEach(category => {
+        const option = document.createElement('option');
+        option.value = category;
+        option.textContent = category;
+        categorySelect.appendChild(option);
+      });
+      
+      // Trigger book population
+      populateBooks();
+    }
+    
+    // Populate books based on selected category
+    function populateBooks() {
+      const testament = testamentSelect.value;
+      const category = categorySelect.value;
+      
+      if (!category) return;
+      
+      const books = Object.keys(bibleData[testament][category]);
+      
+      bookSelect.innerHTML = '';
+      bookSelect.disabled = false;
+      
+      // Add a default prompt
+      const defaultOption = document.createElement('option');
+      defaultOption.value = "";
+      defaultOption.textContent = "Select a book";
+      defaultOption.selected = true;
+      defaultOption.disabled = true;
+      bookSelect.appendChild(defaultOption);
+      
+      books.forEach(book => {
+        const option = document.createElement('option');
+        option.value = book;
+        option.textContent = book;
+        bookSelect.appendChild(option);
+      });
+      
+      // Reset chapter and verse selectors
+      chapterSelect.innerHTML = '<option value="" disabled selected>Select book first</option>';
+      chapterSelect.disabled = true;
+      verseStart.innerHTML = '<option value="" disabled selected>From</option>';
+      verseStart.disabled = true;
+      verseEnd.innerHTML = '<option value="" disabled selected>End</option>';
+      verseEnd.disabled = true;
+      
+      // Disable the go button
+      goButton.disabled = true;
+    }
+    
+    // Populate chapters based on selected book
+    function populateChapters() {
+      const testament = testamentSelect.value;
+      const category = categorySelect.value;
+      const book = bookSelect.value;
+      
+      if (!book) return;
+      
+      const chapterCount = bibleData[testament][category][book];
+      
+      chapterSelect.innerHTML = '';
+      chapterSelect.disabled = false;
+      
+      // Add a default prompt
+      const defaultOption = document.createElement('option');
+      defaultOption.value = "";
+      defaultOption.textContent = "Select chapter";
+      defaultOption.selected = true;
+      defaultOption.disabled = true;
+      chapterSelect.appendChild(defaultOption);
+      
+      for (let i = 1; i <= chapterCount; i++) {
+        const option = document.createElement('option');
+        option.value = i;
+        option.textContent = i;
+        chapterSelect.appendChild(option);
+      }
+      
+      // Reset verse selectors
+      verseStart.innerHTML = '<option value="" disabled selected>From</option>';
+      verseStart.disabled = true;
+      verseEnd.innerHTML = '<option value="" disabled selected>End</option>';
+      verseEnd.disabled = true;
+      
+      // Disable the go button
+      goButton.disabled = true;
+    }
+    
+    // Populate verse selectors based on chapter
+    function populateVerses() {
+      const testament = testamentSelect.value;
+      const category = categorySelect.value;
+      const book = bookSelect.value;
+      const chapter = chapterSelect.value;
+      
+      if (!chapter) return;
+      
+      let verseCount = 30; // Default verse count if specific data not available
+      
+      // Try to get specific verse count for this chapter if available
+      if (verseCountData[book] && verseCountData[book][chapter-1]) {
+        verseCount = verseCountData[book][chapter-1];
+      }
+      
+      verseStart.innerHTML = '';
+      verseEnd.innerHTML = '';
+      verseStart.disabled = false;
+      verseEnd.disabled = false;
+      
+      // Add "All verses" option
+      const allOption = document.createElement('option');
+      allOption.value = "all";
+      allOption.textContent = "All";
+      allOption.selected = true;
+      verseStart.appendChild(allOption);
+      
+      // Add individual verses
+      for (let i = 1; i <= verseCount; i++) {
+        // For start verse
+        const startOption = document.createElement('option');
+        startOption.value = i;
+        startOption.textContent = i;
+        verseStart.appendChild(startOption);
+        
+        // For end verse
+        const endOption = document.createElement('option');
+        endOption.value = i;
+        endOption.textContent = i;
+        verseEnd.appendChild(endOption);
+      }
+      
+      // Enable the go button
+      goButton.disabled = false;
+    }
+    
+    // Update end verse options based on start verse
+    function updateEndVerses() {
+      const startVerse = parseInt(verseStart.value);
+      const currentEndValue = verseEnd.value;
+      
+      // If "all" is selected, disable end selector
+      if (verseStart.value === "all") {
+        verseEnd.disabled = true;
+        verseEnd.innerHTML = '<option value="all" selected>All</option>';
+        return;
+      }
+      
+      // Get the max verse number from the existing options
+      const options = Array.from(verseStart.options);
+      const maxVerse = options[options.length - 1].value;
+      
+      // Re-enable end selector
+      verseEnd.disabled = false;
+      
+      // Clear and repopulate end verses starting from the selected start verse
+      const currentOptions = Array.from(verseEnd.options);
+      const existingValues = currentOptions.map(opt => opt.value);
+      
+      // If we need to repopulate
+      if (!existingValues.includes(String(startVerse))) {
+        verseEnd.innerHTML = '';
+        
+        for (let i = startVerse; i <= maxVerse; i++) {
+          const option = document.createElement('option');
+          option.value = i;
+          option.textContent = i;
+          
+          // Try to maintain the current selection if possible
+          if (i == currentEndValue) {
+            option.selected = true;
+          }
+          
+          verseEnd.appendChild(option);
+        }
+        
+        // If we couldn't maintain selection, select the start verse
+        if (!verseEnd.value) {
+          verseEnd.value = startVerse;
+        }
+      }
+    }
+    
+    // Navigate to the selected passage
+    function navigateToPassage() {
+      const book = bookSelect.value;
+      const chapter = chapterSelect.value;
+      let passage = `${book} ${chapter}`;
+      
+      // If specific verses are selected
+      if (verseStart.value !== "all") {
+        if (verseStart.value === verseEnd.value) {
+          passage += `:${verseStart.value}`;
+        } else {
+          passage += `:${verseStart.value}-${verseEnd.value}`;
+        }
+      }
+      
+      // Navigate to the passage
+      window.location.href = `/verses?passage=${encodeURIComponent(passage)}`;
+    }
+    
+    // Event listeners
+    testamentSelect.addEventListener('change', populateCategories);
+    categorySelect.addEventListener('change', populateBooks);
+    bookSelect.addEventListener('change', populateChapters);
+    chapterSelect.addEventListener('change', populateVerses);
+    verseStart.addEventListener('change', updateEndVerses);
+    goButton.addEventListener('click', navigateToPassage);
+    
+    // Initialize the selectors
+    populateCategories();
+    
+    // If there's a current passage, try to set the selectors to match it
+    const currentPassage = "{{ passage }}";
+    if (currentPassage) {
+      const parts = currentPassage.split(' ');
+      if (parts.length >= 2) {
+        const book = parts[0];
+        let chapter, verseRange;
+        
+        if (parts.length > 2) {
+          // Handle multi-word book names like "1 Samuel"
+          if (parts.length === 3) {
+            const bookName = parts[0] + ' ' + parts[1];
+            const chapterPart = parts[2];
+            
+            // Find if this book exists in our data
+            let bookFound = false;
+            for (const testament in bibleData) {
+              for (const category in bibleData[testament]) {
+                if (bookName in bibleData[testament][category]) {
+                  // We found the book
+                  bookFound = true;
+                  
+                  // Set the testament and category
+                  testamentSelect.value = testament;
+                  populateCategories();
+                  categorySelect.value = category;
+                  populateBooks();
+                  
+                  // Set the book
+                  bookSelect.value = bookName;
+                  populateChapters();
+                  
+                  // Parse chapter and verses
+                  if (chapterPart.includes(':')) {
+                    [chapter, verseRange] = chapterPart.split(':');
+                  } else {
+                    chapter = chapterPart;
+                  }
+                  
+                  break;
+                }
+              }
+              if (bookFound) break;
+            }
+          }
+        } else {
+          // Simple "Book Chapter" format
+          const chapterPart = parts[1];
+          
+          // Parse chapter and verses
+          if (chapterPart.includes(':')) {
+            [chapter, verseRange] = chapterPart.split(':');
+          } else {
+            chapter = chapterPart;
+          }
+          
+          // Find the book in our data
+          let bookFound = false;
+          for (const testament in bibleData) {
+            for (const category in bibleData[testament]) {
+              if (book in bibleData[testament][category]) {
+                // We found the book
+                bookFound = true;
+                
+                // Set the testament and category
+                testamentSelect.value = testament;
+                populateCategories();
+                categorySelect.value = category;
+                populateBooks();
+                
+                // Set the book
+                bookSelect.value = book;
+                populateChapters();
+                break;
+              }
+            }
+            if (bookFound) break;
+          }
+        }
+        
+        // Set the chapter if we found it
+        if (chapter) {
+          chapterSelect.value = chapter;
+          populateVerses();
+          
+          // Set verse range if present
+          if (verseRange) {
+            if (verseRange.includes('-')) {
+              // Handle verse range like 1-5
+              const [start, end] = verseRange.split('-');
+              verseStart.value = start;
+              updateEndVerses();
+              verseEnd.value = end;
+            } else {
+              // Handle single verse
+              verseStart.value = verseRange;
+              updateEndVerses();
+              verseEnd.value = verseRange;
+            }
+          }
+        }
+      }
+    }
+  });
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    // Passage selector collapse/expand
+    const toggleBtn = document.getElementById('togglePassageSelector');
+    const selectorWrapper = document.getElementById('passageSelectorWrapper');
+    let collapsed = true;
+    selectorWrapper.classList.add('collapsed');
+    toggleBtn.textContent = 'Show Passage Selector';
+
+    toggleBtn.addEventListener('click', function() {
+      collapsed = !collapsed;
+      if (collapsed) {
+        selectorWrapper.classList.add('collapsed');
+        toggleBtn.textContent = 'Show Passage Selector';
+      } else {
+        selectorWrapper.classList.remove('collapsed');
+        toggleBtn.textContent = 'Hide Passage Selector';
+      }
+    });
   });
   </script>
 </body>
