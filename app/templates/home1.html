@@ -1,0 +1,822 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ABLE - Bible Paraphrases for Lower Literacy</title>
+  <style>
+    /* Background: promote to its own composited layer and keep animations cheap */
+    .background-animation {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      overflow: hidden;
+      pointer-events: none;
+      -webkit-transform: translateZ(0); /* promote to GPU layer */
+      transform: translateZ(0);
+      will-change: transform, opacity;
+    }
+
+    .color-splash {
+      position: absolute;
+      opacity: 0.45;
+      /* blur is costly — lowered here; remove on mobile below */
+      filter: blur(18px);
+      /* only animate transform/opacity (avoid animating border-radius) */
+      animation: splash 20s infinite ease-in-out;
+      border-radius: 50% / 50%;
+      transform-origin: center;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      will-change: transform, opacity;
+    }
+
+    /* keep keyframes cheap — only transform and opacity */
+    @keyframes splash {
+      0%   { transform: translateY(0) translateX(0) scale(1) rotate(0deg); opacity: .45; }
+      33%  { transform: translateY(-20px) translateX(10px) scale(1.05) rotate(6deg); opacity: .5; }
+      66%  { transform: translateY(10px) translateX(-8px) scale(.98) rotate(-3deg); opacity: .45; }
+      100% { transform: translateY(0) translateX(0) scale(1) rotate(0deg); opacity: .45; }
+    }
+
+    /* Disable heavy effects on small / touch devices (Android) */
+    @media (max-width: 900px), (pointer: coarse) {
+      .background-animation { /* simpler background on mobile to avoid repaints */
+        /* optionally hide entirely if still problematic */
+        /* display: none; */
+      }
+      .color-splash {
+        animation: none !important;
+        filter: none !important;
+        opacity: 0.25;
+      }
+      .container {
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+        background-color: var(--bg);
+      }
+    }
+
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --primary: #7c3aed;
+      --border: #e2e8f0;
+      --highlight: #d1fae5;
+      
+      /* Pastel colors for shapes */
+      --pastel1: #ffccf9;
+      --pastel2: #d8f3ff;
+      --pastel3: #e5ffe5;
+      --pastel4: #ffe9c9;
+      --pastel5: #ede6ff;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --card: #1e293b;
+        --text: #f1f5f9;
+        --muted: #94a3b8;
+        --border: #334155;
+        --highlight: #065f46;
+        
+        /* Darker pastel colors for dark mode */
+        --pastel1: #552f52;
+        --pastel2: #253847;
+        --pastel3: #1e3a1e;
+        --pastel4: #3d2f1f;
+        --pastel5: #2a2642;
+      }
+    }
+    
+    @keyframes float {
+      0% {
+        transform: translateY(0) translateX(0) rotate(0);
+      }
+      33% {
+        transform: translateY(-40px) translateX(20px) rotate(10deg);
+      }
+      66% {
+        transform: translateY(20px) translateX(-15px) rotate(-5deg);
+      }
+      100% {
+        transform: translateY(0) translateX(0) rotate(0);
+      }
+    }
+    
+    /* Adding slight backdrop blur to make content stand out */
+    .container {
+      position: relative;
+      z-index: 1;
+      backdrop-filter: blur(1px);
+      -webkit-backdrop-filter: blur(1px);
+      background-color: rgba(var(--bg-rgb, 248, 250, 252), 0.85);
+      border-radius: 12px;
+      padding: 16px;       /* reduced padding for wider feel */
+      max-width: 880px;    /* slightly wider max so it reads wider on large screens */
+      margin: 0 auto;
+      padding-top: 4vh;    /* slightly less vertical padding */
+    }
+    
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 12px; /* reduce outer gutter so page feels wider */
+      min-height: 100vh;
+    }
+    
+    /* Update the container width to use more screen space */
+    .container {
+      max-width: 880px;
+      margin: 0 auto;
+      padding-top: 4vh;
+    }
+
+    /* For larger screens, allow even more width */
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1000px;
+      }
+    }
+
+    .header {
+      margin-bottom: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .subtitle {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    
+    .header-buttons {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    
+    .github-link, .login-link {
+      display: flex;
+      align-items: center;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      gap: 4px;
+      transition: color 0.2s;
+    }
+    
+    .github-link:hover, .login-link:hover {
+      color: var(--primary);
+    }
+    
+    .login-link {
+      padding: 4px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--card);
+    }
+
+    .search-container {
+      position: relative;
+      margin-bottom: 1rem;
+      display: flex;
+      gap: 10px;
+    }
+
+    .search-input-wrapper {
+      position: relative;
+      flex-grow: 1;
+    }
+
+    .search-input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px 12px 12px 40px;
+      font-size: 1rem;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      background: var(--card);
+      color: var(--text);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+    }
+
+    .search-button {
+      padding: 0 20px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      min-width: 100px;
+    }
+
+    .quick-picks {
+      margin-top: 1.5rem;
+    }
+
+    .quick-label {
+      color: var(--muted);
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 8px 12px;
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .hidden {
+      display: none;
+    }
+    
+    .more-button {
+      background-color: var(--highlight);
+      cursor: pointer;
+      font-weight: 500;
+    }
+    
+    .more-button:hover {
+      background-color: var(--border);
+    }
+
+    /* Add after your existing styles */
+    .emotions-section {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+    
+    .emotion-description {
+      color: var(--muted);
+      margin-bottom: 16px;
+      font-size: 0.9rem;
+    }
+    
+    .emotion-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    
+    .emotion-chip {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 10px 16px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .emotion-chip:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .emotion-icon {
+      font-size: 1.2rem;
+    }
+    
+    /* Subtle background colors for emotions */
+    .anxious { background: linear-gradient(to right, var(--card), #f0f4ff); }
+    .sad { background: linear-gradient(to right, var(--card), #f0faff); }
+    .happy { background: linear-gradient(to right, var(--card), #f3fff0); }
+    .afraid { background: linear-gradient(to right, var(--card), #fff8f0); }
+    .thankful { background: linear-gradient(to right, var(--card), #f8f0ff); }
+    .angry { background: linear-gradient(to right, var(--card), #fff0f0); }
+    .peaceful { background: linear-gradient(to right, var(--card), #f0fff8); }
+    .confused { background: linear-gradient(to right, var(--card), #fffaf0); }
+    .hopeful { background: linear-gradient(to right, var(--card), #f0fff5); }
+    .lonely { background: linear-gradient(to right, var(--card), #f5f0ff); }
+    .guilty { background: linear-gradient(to right, var(--card), #fff5f0); }
+    .discouraged { background: linear-gradient(to right, var(--card), #f0f5ff); }
+    .overwhelmed { background: linear-gradient(to right, var(--card), #fff0f5); }
+    .doubtful { background: linear-gradient(to right, var(--card), #f0f5ff); }
+    .grieving { background: linear-gradient(to right, var(--card), #fff0f5); }
+    .jealous { background: linear-gradient(to right, var(--card), #f5fff0); }
+    .proud { background: linear-gradient(to right, var(--card), #fffaf0); }
+    .restless { background: linear-gradient(to right, var(--card), #f0fffa); }
+    .ashamed { background: linear-gradient(to right, var(--card), #fff0fa); }
+    .rejected { background: linear-gradient(to right, var(--card), #f7f0ff); }
+    .tired { background: linear-gradient(to right, var(--card), #f0f7ff); }
+    .worried { background: linear-gradient(to right, var(--card), #f4f0ff); }
+    .blessed { background: linear-gradient(to right, var(--card), #fffff0); }
+    .content { background: linear-gradient(to right, var(--card), #f0fff4); }
+    .tempted { background: linear-gradient(to right, var(--card), #fff4f0); }
+    .frustrated { background: linear-gradient(to right, var(--card), #fff4f0); }
+    .inspired { background: linear-gradient(to right, var(--card), #f0f9ff); }
+    .brave { background: linear-gradient(to right, var(--card), #fff9f0); }
+    .grateful { background: linear-gradient(to right, var(--card), #fff0f9); }
+    .lost { background: linear-gradient(to right, var(--card), #f0f4ff); }
+    .joyful { background: linear-gradient(to right, var(--card), #fff8f0); }
+    .humble { background: linear-gradient(to right, var(--card), #f9fff0); }
+    .desperate { background: linear-gradient(to right, var(--card), #fff0f4); }
+
+    /* Dark mode variants */
+    @media (prefers-color-scheme: dark) {
+      .doubtful { background: linear-gradient(to right, var(--card), #1a2228); }
+      .grieving { background: linear-gradient(to right, var(--card), #281a22); }
+      .jealous { background: linear-gradient(to right, var(--card), #22281a); }
+      .proud { background: linear-gradient(to right, var(--card), #28251a); }
+      .restless { background: linear-gradient(to right, var(--card), #1a2825); }
+      .ashamed { background: linear-gradient(to right, var(--card), #281a25); }
+      .rejected { background: linear-gradient(to right, var(--card), #231a28); }
+      .tired { background: linear-gradient(to right, var(--card), #1a2328); }
+      .worried { background: linear-gradient(to right, var(--card), #1e1a28); }
+      .blessed { background: linear-gradient(to right, var(--card), #28281a); }
+      .content { background: linear-gradient(to right, var(--card), #1a281e); }
+      .tempted { background: linear-gradient(to right, var(--card), #281e1a); }
+      .frustrated { background: linear-gradient(to right, var(--card), #281e1a); }
+      .inspired { background: linear-gradient(to right, var(--card), #1a2428); }
+      .brave { background: linear-gradient(to right, var(--card), #28241a); }
+      .grateful { background: linear-gradient(to right, var(--card), #281a24); }
+      .lost { background: linear-gradient(to right, var(--card), #1a1e28); }
+      .joyful { background: linear-gradient(to right, var(--card), #28221a); }
+      .humble { background: linear-gradient(to right, var(--card), #24281a); }
+      .desperate { background: linear-gradient(to right, var(--card), #281a1e); }
+    }
+  </style>
+</head>
+<body>
+  <!-- Add splash background elements before the container -->
+  <div class="background-animation">
+    <div class="color-splash" style="background-color: var(--pastel1); width: 400px; height: 400px; left: 10%; top: 15%; animation-duration: 23s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel2); width: 350px; height: 350px; right: 15%; top: 10%; animation-duration: 27s; animation-delay: 1s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel3); width: 300px; height: 300px; left: 20%; bottom: 20%; animation-duration: 25s; animation-delay: 2s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel4); width: 450px; height: 450px; right: 15%; bottom: 10%; animation-duration: 30s; animation-delay: 3s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel5); width: 380px; height: 380px; left: 40%; top: 40%; animation-duration: 28s; animation-delay: 4s;"></div>
+  </div>
+  
+  <div class="container">
+    <header class="header">
+      <div>
+        <div class="title">ABLE 👦🏼🧒🏻</div>
+        <div class="subtitle">ABLE is a bible paraphrase with simple words for lower literacy.</div>
+      </div>
+      <div class="header-buttons">
+        <a href="/login" class="login-link" title="Log in">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+            <polyline points="10 17 15 12 10 7"></polyline>
+            <line x1="15" y1="12" x2="3" y2="12"></line>
+          </svg>
+          Login
+        </a>
+        <a href="https://github.com/bibleable/able" target="_blank" class="github-link" title="View on GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+      </div>
+    </header>
+
+    <!-- EMOTIONS SECTION MOVED TO TOP -->
+    <div class="emotions-section">
+      <h2>How are you feeling today?</h2>
+      <div class="emotion-description">Click an emotion to find relevant verses</div>
+      <div class="emotion-chips">
+        <div class="emotion-chip anxious" data-search="anxiety worry fear peace">
+          <span class="emotion-icon">😟</span>
+          <span class="emotion-text">Anxious</span>
+        </div>
+        <div class="emotion-chip sad" data-search="comfort sorrow grief psalm 23">
+          <span class="emotion-icon">😢</span>
+          <span class="emotion-text">Sad</span>
+        </div>
+        <div class="emotion-chip happy" data-search="joy rejoice happy glad">
+          <span class="emotion-icon">😊</span>
+          <span class="emotion-text">Happy</span>
+        </div>
+        <div class="emotion-chip afraid" data-search="fear courage strength Isaiah 41:10">
+          <span class="emotion-icon">😨</span>
+          <span class="emotion-text">Afraid</span>
+        </div>
+        <div class="emotion-chip thankful" data-search="thanks thanksgiving grateful psalm 118:24">
+          <span class="emotion-icon">🙏</span>
+          <span class="emotion-text">Thankful</span>
+        </div>
+        <div class="emotion-chip doubtful" data-search="faith doubt believe Mark 9:24">
+          <span class="emotion-icon">🤔</span>
+          <span class="emotion-text">Doubtful</span>
+        </div>
+        <div class="emotion-chip grieving" data-search="grief mourning comfort Revelation 21:4">
+          <span class="emotion-icon">💔</span>
+          <span class="emotion-text">Grieving</span>
+        </div>
+        <div class="chip more-button" id="moreEmotionsButton">More +</div>
+      </div>
+      <div id="extraEmotions" class="chips hidden">
+        <div class="emotion-chip angry" data-search="anger wrath patience peace">
+          <span class="emotion-icon">😠</span>
+          <span class="emotion-text">Angry</span>
+        </div>
+        <div class="emotion-chip peaceful" data-search="peace rest quiet John 14:27">
+          <span class="emotion-icon">😌</span>
+          <span class="emotion-text">Peaceful</span>
+        </div>
+        <div class="emotion-chip confused" data-search="wisdom guidance direction Proverbs 3:5-6">
+          <span class="emotion-icon">😕</span>
+          <span class="emotion-text">Confused</span>
+        </div>
+        <div class="emotion-chip hopeful" data-search="hope future promise Romans 15:13">
+          <span class="emotion-icon">🌈</span>
+          <span class="emotion-text">Hopeful</span>
+        </div>
+        <div class="emotion-chip lonely" data-search="comfort presence companion Psalm 27:10">
+          <span class="emotion-icon">🥺</span>
+          <span class="emotion-text">Lonely</span>
+        </div>
+        <div class="emotion-chip guilty" data-search="forgiveness mercy cleanse 1 John 1:9">
+          <span class="emotion-icon">😔</span>
+          <span class="emotion-text">Guilty</span>
+        </div>
+        <div class="emotion-chip discouraged" data-search="encouragement strength perseverance 2 Corinthians 4:16-18">
+          <span class="emotion-icon">😞</span>
+          <span class="emotion-text">Discouraged</span>
+        </div>
+        <div class="emotion-chip overwhelmed" data-search="rest burden light Matthew 11:28-30">
+          <span class="emotion-icon">😩</span>
+          <span class="emotion-text">Overwhelmed</span>
+        </div>
+        <div class="emotion-chip jealous" data-search="jealousy envy contentment Proverbs 14:30">
+          <span class="emotion-icon">😒</span>
+          <span class="emotion-text">Jealous</span>
+        </div>
+        <div class="emotion-chip proud" data-search="pride humility humble Proverbs 16:18">
+          <span class="emotion-icon">😏</span>
+          <span class="emotion-text">Proud</span>
+        </div>
+        <div class="emotion-chip restless" data-search="rest peace sleep Psalm 4:8">
+          <span class="emotion-icon">😫</span>
+          <span class="emotion-text">Restless</span>
+        </div>
+        <div class="emotion-chip ashamed" data-search="shame redemption honor Romans 10:11">
+          <span class="emotion-icon">😳</span>
+          <span class="emotion-text">Ashamed</span>
+        </div>
+        <div class="emotion-chip rejected" data-search="rejected accepted loved Isaiah 53:3">
+          <span class="emotion-icon">🥀</span>
+          <span class="emotion-text">Rejected</span>
+        </div>
+        <div class="emotion-chip tired" data-search="strength renewal rest Isaiah 40:29-31">
+          <span class="emotion-icon">😴</span>
+          <span class="emotion-text">Tired</span>
+        </div>
+        <div class="emotion-chip worried" data-search="worry anxiety trust Matthew 6:25-34">
+          <span class="emotion-icon">😰</span>
+          <span class="emotion-text">Worried</span>
+        </div>
+        <div class="emotion-chip blessed" data-search="blessed favored thanksgiving Psalm 103:1-5">
+          <span class="emotion-icon">✨</span>
+          <span class="emotion-text">Blessed</span>
+        </div>
+        <div class="emotion-chip content" data-search="contentment satisfaction peace Philippians 4:11-13">
+          <span class="emotion-icon">😌</span>
+          <span class="emotion-text">Content</span>
+        </div>
+        <div class="emotion-chip tempted" data-search="temptation resist overcome 1 Corinthians 10:13">
+          <span class="emotion-icon">😈</span>
+          <span class="emotion-text">Tempted</span>
+        </div>
+        <div class="emotion-chip frustrated" data-search="patience endurance perseverance James 1:2-4">
+          <span class="emotion-icon">😤</span>
+          <span class="emotion-text">Frustrated</span>
+        </div>
+        <div class="emotion-chip inspired" data-search="inspiration spirit filled creativity 2 Timothy 1:7">
+          <span class="emotion-icon">✨</span>
+          <span class="emotion-text">Inspired</span>
+        </div>
+        <div class="emotion-chip brave" data-search="courage strength boldness Joshua 1:9">
+          <span class="emotion-icon">🦁</span>
+          <span class="emotion-text">Brave</span>
+        </div>
+        <div class="emotion-chip grateful" data-search="gratitude thanksgiving praise Psalm 100:4-5">
+          <span class="emotion-icon">💝</span>
+          <span class="emotion-text">Grateful</span>
+        </div>
+        <div class="emotion-chip lost" data-search="direction guidance lost Luke 15:3-7">
+          <span class="emotion-icon">🧭</span>
+          <span class="emotion-text">Lost</span>
+        </div>
+        <div class="emotion-chip joyful" data-search="rejoice gladness celebration Psalm 16:11">
+          <span class="emotion-icon">🎉</span>
+          <span class="emotion-text">Joyful</span>
+        </div>
+        <div class="emotion-chip humble" data-search="humility meekness gentle James 4:10">
+          <span class="emotion-icon">🙇</span>
+          <span class="emotion-text">Humble</span>
+        </div>
+        <div class="emotion-chip desperate" data-search="help rescue salvation Psalm 40:1-3">
+          <span class="emotion-icon">🆘</span>
+          <span class="emotion-text">Desperate</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="quick-picks">
+      <h2>Quick picks</h2>
+      <div class="chips">
+        <a href="/verses?passage=John+3:16" class="chip">John 3:16</a>
+        <a href="/verses?passage=Psalms+23" class="chip">Psalms 23</a>
+        <a href="/verses?passage=Philippians+4:13" class="chip">Philippians 4:13</a>
+        <a href="/verses?passage=Romans+8:28" class="chip">Romans 8:28</a>
+        <a href="/verses?passage=Jeremiah+29:11" class="chip">Jeremiah 29:11</a>
+        <a href="/verses?passage=Matthew+5" class="chip">Matthew 5</a>
+        <a href="/verses?passage=Philippians+4:6-7" class="chip">Philippians 4:6-7</a>
+        <button id="moreButton" class="chip more-button">More +</button>
+      </div>
+      
+      <!-- Hidden section with more quick picks -->
+      <div id="extraPicks" class="chips hidden">
+        <a href="/verses?passage=Proverbs+3:5-6" class="chip">Proverbs 3:5-6</a>
+        <a href="/verses?passage=Isaiah+41:10" class="chip">Isaiah 41:10</a>
+        <a href="/verses?passage=John+14:6" class="chip">John 14:6</a>
+        <a href="/verses?passage=Luke+2:11" class="chip">Luke 2:11</a>
+        <a href="/verses?passage=Psalm+119:105" class="chip">Psalm 119:105</a>
+        <a href="/verses?passage=Psalm+139" class="chip">Psalm 139</a>
+        <a href="/verses?passage=1+Corinthians+13" class="chip">1 Corinthians 13</a>
+        <a href="/verses?passage=Genesis+1:1" class="chip">Genesis 1:1</a>
+        <a href="/verses?passage=Matthew+28:19-20" class="chip">Matthew 28:19-20</a>
+        <a href="/verses?passage=John+1:1" class="chip">John 1:1</a>
+        <a href="/verses?passage=Romans+12:1-2" class="chip">Romans 12:1-2</a>
+        <a href="/verses?passage=2+Timothy+3:16" class="chip">2 Timothy 3:16</a>
+        
+        <a href="/verses?passage=John+11:35" class="chip">John 11:35</a>
+        <a href="/verses?passage=Romans+3:23" class="chip">Romans 3:23</a>
+        <a href="/verses?passage=Ephesians+2:8-9" class="chip">Ephesians 2:8-9</a>
+        <a href="/verses?passage=Galatians+5:22-23" class="chip">Galatians 5:22-23</a>
+        <a href="/verses?passage=Hebrews+11:1" class="chip">Hebrews 11:1</a>
+        <a href="/verses?passage=Revelation+21:4" class="chip">Revelation 21:4</a>
+        <a href="/verses?passage=Matthew+6:9-13" class="chip">Matthew 6:9-13</a>
+        <a href="/verses?passage=Psalm+51:10" class="chip">Psalm 51:10</a>
+        <a href="/verses?passage=Genesis+1:26-27" class="chip">Genesis 1:26-27</a>
+        <a href="/verses?passage=Exodus+20:1-17" class="chip">Ten Commandments</a>
+        <a href="/verses?passage=Joshua+1:9" class="chip">Joshua 1:9</a>
+        <a href="/verses?passage=Isaiah+53:5" class="chip">Isaiah 53:5</a>
+        <a href="/verses?passage=Micah+6:8" class="chip">Micah 6:8</a>
+        <a href="/verses?passage=Proverbs+31" class="chip">Proverbs 31</a>
+        <a href="/verses?passage=Ecclesiastes+3:1-8" class="chip">Ecclesiastes 3:1-8</a>
+        <a href="/verses?passage=Matthew+22:37-40" class="chip">Greatest Commandment</a>
+        <a href="/verses?passage=John+15:13" class="chip">John 15:13</a>
+        <a href="/verses?passage=1+John+4:7-8" class="chip">1 John 4:7-8</a>
+        <a href="/verses?passage=Acts+1:8" class="chip">Acts 1:8</a>
+        <a href="/verses?passage=James+1:2-4" class="chip">James 1:2-4</a>
+        <a href="/verses?passage=Colossians+3:23" class="chip">Colossians 3:23</a>
+        <a href="/verses?passage=1+Peter+5:7" class="chip">1 Peter 5:7</a>
+        <a href="/verses?passage=Isaiah+40:31" class="chip">Isaiah 40:31</a>
+        <a href="/verses?passage=2+Corinthians+5:17" class="chip">2 Corinthians 5:17</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Add JavaScript to toggle the hidden section -->
+  <script>
+    // Add event listeners to emotion chips
+    document.querySelectorAll('.emotion-chip').forEach(function(chip) {
+      chip.addEventListener('click', function() {
+        const searchInput = document.getElementById('q');
+        const searchTerms = this.getAttribute('data-search');
+        
+        // Set the search terms
+        searchInput.value = searchTerms;
+        
+        // Focus the search input
+        searchInput.focus();
+        
+        // Visual feedback
+        this.classList.add('active-emotion');
+        setTimeout(() => this.classList.remove('active-emotion'), 300);
+      });
+    });
+    
+    // Toggle more emotions
+    document.getElementById('moreEmotionsButton').addEventListener('click', function() {
+      const extraEmotions = document.getElementById('extraEmotions');
+      const moreButton = this;
+      
+      if (extraEmotions.classList.contains('hidden')) {
+        // Show the hidden emotions
+        extraEmotions.classList.remove('hidden');
+        moreButton.textContent = 'Less emotions';
+        
+        // Move the "More" button to the end of extraEmotions
+        this.remove();
+        extraEmotions.appendChild(moreButton);
+      } else {
+        // Hide the extra emotions
+        extraEmotions.classList.add('hidden');
+        moreButton.textContent = 'More +';
+        
+        // Move the button back to the main emotions container
+        this.remove();
+        document.querySelector('.emotion-chips').appendChild(moreButton);
+      }
+    });
+
+    // Toggle more quick picks
+    document.getElementById('moreButton').addEventListener('click', function() {
+      const extraPicks = document.getElementById('extraPicks');
+      const moreButton = document.getElementById('moreButton');
+      
+      if (extraPicks.classList.contains('hidden')) {
+        // Show the predefined list of verses
+        extraPicks.classList.remove('hidden');
+        moreButton.textContent = 'Generate More';
+        
+        // Move the "More" button to the end of extraPicks
+        this.remove();
+        extraPicks.appendChild(moreButton);
+      } else {
+        // Generate 10 additional random verses
+        generateRandomVerseChips(10);
+      }
+    });
+    
+    // Function to generate random verse chips - only define once
+    function generateRandomVerseChips(count) {
+      const extraPicks = document.getElementById('extraPicks');
+      const moreButton = document.getElementById('moreButton');
+      
+      // Bible data: [book, chapters]
+      const bibleData = [
+        ["Genesis", 50], ["Exodus", 40], ["Leviticus", 27], ["Numbers", 36], ["Deuteronomy", 34],
+        ["Joshua", 24], ["Judges", 21], ["Ruth", 4], ["1 Samuel", 31], ["2 Samuel", 24],
+        ["1 Kings", 22], ["2 Kings", 25], ["1 Chronicles", 29], ["2 Chronicles", 36], ["Ezra", 10],
+        ["Nehemiah", 13], ["Esther", 10], ["Job", 42], ["Psalms", 150], ["Proverbs", 31],
+        ["Ecclesiastes", 12], ["Song of Solomon", 8], ["Isaiah", 66], ["Jeremiah", 52], ["Lamentations", 5],
+        ["Ezekiel", 48], ["Daniel", 12], ["Hosea", 14], ["Joel", 3], ["Amos", 9],
+        ["Obadiah", 1], ["Jonah", 4], ["Micah", 7], ["Nahum", 3], ["Habakkuk", 3],
+        ["Zephaniah", 3], ["Haggai", 2], ["Zechariah", 14], ["Malachi", 4], ["Matthew", 28],
+        ["Mark", 16], ["Luke", 24], ["John", 21], ["Acts", 28], ["Romans", 16],
+        ["1 Corinthians", 16], ["2 Corinthians", 13], ["Galatians", 6], ["Ephesians", 6], ["Philippians", 4],
+        ["Colossians", 4], ["1 Thessalonians", 5], ["2 Thessalonians", 3], ["1 Timothy", 6], ["2 Timothy", 4],
+        ["Titus", 3], ["Philemon", 1], ["Hebrews", 13], ["James", 5], ["1 Peter", 5],
+        ["2 Peter", 3], ["1 John", 5], ["2 John", 1], ["3 John", 1], ["Jude", 1],
+        ["Revelation", 22]
+      ];
+      
+      // Average verses per chapter (approximate)
+      const avgVersesPerChapter = {
+        "Genesis": 31, "Exodus": 29, "Leviticus": 25, "Numbers": 36, "Deuteronomy": 30,
+        "Joshua": 26, "Judges": 31, "Ruth": 22, "1 Samuel": 28, "2 Samuel": 23,
+        "1 Kings": 30, "2 Kings": 25, "1 Chronicles": 26, "2 Chronicles": 26, "Ezra": 24,
+        "Nehemiah": 30, "Esther": 24, "Job": 28, "Psalms": 18, "Proverbs": 27,
+        "Ecclesiastes": 22, "Song of Solomon": 13, "Isaiah": 26, "Jeremiah": 34, "Lamentations": 22,
+        "Ezekiel": 28, "Daniel": 27, "Hosea": 14, "Joel": 25, "Amos": 15,
+        "Obadiah": 21, "Jonah": 11, "Micah": 16, "Nahum": 15, "Habakkuk": 17,
+        "Zephaniah": 18, "Haggai": 19, "Zechariah": 14, "Malachi": 11, "Matthew": 35,
+        "Mark": 35, "Luke": 45, "John": 36, "Acts": 31, "Romans": 26,
+        "1 Corinthians": 31, "2 Corinthians": 20, "Galatians": 25, "Ephesians": 24, "Philippians": 19,
+        "Colossians": 24, "1 Thessalonians": 23, "2 Thessalonians": 17, "1 Timothy": 20, "2 Timothy": 18,
+        "Titus": 15, "Philemon": 25, "Hebrews": 29, "James": 20, "1 Peter": 14,
+        "2 Peter": 18, "1 John": 15, "2 John": 13, "3 John": 15, "Jude": 25,
+        "Revelation": 20
+      };
+      
+      // Generate the specified number of random verse chips
+      for (let i = 0; i < count; i++) {
+        // Select a random book
+        const randomBookIndex = Math.floor(Math.random() * bibleData.length);
+        const book = bibleData[randomBookIndex][0];
+        const chapters = bibleData[randomBookIndex][1];
+        
+        // Select a random chapter
+        const chapter = Math.floor(Math.random() * chapters) + 1;
+        
+        // Select a random verse
+        const maxVerses = getMaxVerses(book, chapter);
+        const verse = Math.floor(Math.random() * maxVerses) + 1;
+        
+        // Generate the verse reference
+        const verseReference = book + " " + chapter + ":" + verse;
+        
+        // Create chip element
+        const chip = document.createElement('a');
+        chip.href = `/verses?passage=${encodeURIComponent(verseReference)}`;
+        chip.className = 'chip';
+        chip.textContent = verseReference;
+        
+        // Add the chip before the "More" button
+        extraPicks.insertBefore(chip, moreButton);
+      }
+    }
+    
+    // Function to get max verses - only define once
+    function getMaxVerses(book, chapter) {
+      // Detailed mapping of books, chapters and their max verse counts
+      const verseMap = {
+        "Genesis": {1:31, 2:25, 3:24, 4:26, 5:32, 6:22, 7:24, 8:22, 9:29, 10:32, 11:32, 12:20, 13:18, 14:24, 15:21, 16:16, 17:27, 18:33, 19:38, 20:18, 21:34, 22:24, 23:20, 24:67, 25:34, 26:35, 27:46, 28:22, 29:35, 30:43, 31:55, 32:32, 33:20, 34:31, 35:29, 36:43, 37:36, 38:30, 39:23, 40:23, 41:57, 42:38, 43:34, 44:34, 45:28, 46:34, 47:31, 48:22, 49:33, 50:26},
+        "Exodus": {1:22, 2:25, 3:22, 4:31, 5:23, 6:30, 7:25, 8:32, 9:35, 10:29, 11:10, 12:51, 13:22, 14:31, 15:27, 16:36, 17:16, 18:27, 19:25, 20:26, 21:36, 22:31, 23:33, 24:18, 25:40, 26:37, 27:21, 28:43, 29:46, 30:38, 31:18, 32:35, 33:23, 34:35, 35:35, 36:38, 37:29, 38:31, 39:43, 40:38},
+        "Leviticus": {1:17, 2:16, 3:17, 4:35, 5:19, 6:30, 7:38, 8:36, 9:24, 10:20, 11:47, 12:8, 13:59, 14:57, 15:33, 16:34, 17:16, 18:30, 19:37, 20:27, 21:24, 22:33, 23:44, 24:23, 25:55, 26:46, 27:34},
+        "Numbers": {1:54, 2:34, 3:51, 4:49, 5:31, 6:27, 7:89, 8:26, 9:23, 10:36, 11:35, 12:16, 13:33, 14:45, 15:41, 16:50, 17:13, 18:32, 19:22, 20:29, 21:35, 22:41, 23:30, 24:25, 25:18, 26:65, 27:23, 28:31, 29:40, 30:16, 31:54, 32:42, 33:56, 34:29, 35:34, 36:13},
+        "Deuteronomy": {1:46, 2:37, 3:29, 4:49, 5:33, 6:25, 7:26, 8:20, 9:29, 10:22, 11:32, 12:32, 13:18, 14:29, 15:23, 16:22, 17:20, 18:22, 19:21, 20:20, 21:23, 22:30, 23:25, 24:22, 25:19, 26:19, 27:26, 28:68, 29:29, 30:20, 31:30, 32:52, 33:29, 34:12},
+        "Joshua": {1:18, 2:24, 3:17, 4:24, 5:15, 6:27, 7:26, 8:35, 9:27, 10:43, 11:23, 12:24, 13:33, 14:15, 15:63, 16:10, 17:18, 18:28, 19:51, 20:9, 21:45, 22:34, 23:16, 24:33},
+        "Judges": {1:36, 2:23, 3:31, 4:24, 5:31, 6:40, 7:25, 8:35, 9:57, 10:18, 11:40, 12:15, 13:25, 14:20, 15:20, 16:31, 17:13, 18:31, 19:30, 20:48, 21:25},
+        "Ruth": {1:22, 2:23, 3:18, 4:22},
+        "1 Samuel": {1:28, 2:36, 3:21, 4:22, 5:12, 6:21, 7:17, 8:22, 9:27, 10:27, 11:15, 12:25, 13:23, 14:52, 15:35, 16:23, 17:58, 18:30, 19:24, 20:42, 21:15, 22:23, 23:29, 24:22, 25:44, 26:25, 27:12, 28:25, 29:11, 30:31, 31:13},
+        "2 Samuel": {1:27, 2:32, 3:39, 4:12, 5:25, 6:23, 7:29, 8:18, 9:13, 10:19, 11:27, 12:31, 13:39, 14:33, 15:37, 16:23, 17:29, 18:33, 19:43, 20:26, 21:22, 22:51, 23:39, 24:25},
+        "1 Kings": {1:53, 2:46, 3:28, 4:34, 5:18, 6:38, 7:51, 8:66, 9:28, 10:29, 11:43, 12:33, 13:34, 14:31, 15:34, 16:34, 17:24, 18:46, 19:21, 20:43, 21:29, 22:53},
+        "2 Kings": {1:18, 2:25, 3:27, 4:44, 5:27, 6:33, 7:20, 8:29, 9:37, 10:36, 11:21, 12:21, 13:25, 14:29, 15:38, 16:20, 17:41, 18:37, 19:37, 20:21, 21:26, 22:20, 23:37, 24:20, 25:30},
+        "1 Chronicles": {1:54, 2:55, 3:24, 4:43, 5:26, 6:81, 7:40, 8:40, 9:44, 10:14, 11:47, 12:40, 13:14, 14:17, 15:29, 16:43, 17:27, 18:17, 19:19, 20:8, 21:30, 22:19, 23:32, 24:31, 25:31, 26:32, 27:34, 28:21, 29:30},
+        "2 Chronicles": {1:17, 2:18, 3:17, 4:22, 5:14, 6:42, 7:22, 8:18, 9:31, 10:19, 11:23, 12:16, 13:22, 14:15, 15:19, 16:14, 17:19, 18:34, 19:11, 20:37, 21:20, 22:12, 23:21, 24:27, 25:28, 26:23, 27:9, 28:27, 29:36, 30:27, 31:21, 32:33, 33:25, 34:33, 35:27, 36:23},
+        "Ezra": {1:11, 2:70, 3:13, 4:24, 5:17, 6:22, 7:28, 8:36, 9:15, 10:44},
+        "Nehemiah": {1:11, 2:20, 3:32, 4:23, 5:19, 6:19, 7:73, 8:18, 9:38, 10:39, 11:36, 12:47, 13:31},
+        "Esther": {1:22, 2:23, 3:15, 4:17, 5:14, 6:14, 7:10, 8:17, 9:32, 10:3},
+        "Job": {1:22, 2:13, 3:26, 4:21, 5:27, 6:30, 7:21, 8:22, 9:35, 10:22, 11:20, 12:25, 13:28, 14:22, 15:35, 16:22, 17:16, 18:21, 19:29, 20:29, 21:34, 22:30, 23:17, 24:25, 25:6, 26:14, 27:23, 28:28, 29:25, 30:31, 31:40, 32:22, 33:33, 34:37, 35:16, 36:33, 37:24, 38:41, 39:30, 40:24, 41:34, 42:17},
+        "Psalms": {1:6, 2:12, 3:8, 4:8, 5:12, 6:10, 7:17, 8:9, 9:20, 10:18, 11:7, 12:8, 13:6, 14:7, 15:5, 16:11, 17:15, 18:50, 19:14, 20:9, 21:13, 22:31, 23:6, 24:10, 25:22, 26:12, 27:14, 28:9, 29:11, 30:12, 31:24, 32:11, 33:22, 34:22, 35:28, 36:12, 37:40, 38:22, 39:13, 40:17, 41:13, 42:11, 43:5, 44:26, 45:17, 46:11, 47:9, 48:14, 49:20, 50:23, 51:9, 52:9, 53:6, 54:7, 55:23, 56:13, 57:11, 58:11, 59:17, 60:12, 61:8, 62:12, 63:11, 64:10, 65:13, 66:20, 67:7, 68:35, 69:36, 70:5, 71:24, 72:20, 73:28, 74:23, 75:10, 76:12, 77:20, 78:72, 79:13, 80:19, 81:16, 82:8, 83:18, 84:12, 85:13, 86:17, 87:7, 88:18, 89:52, 90:17, 91:16, 92:15, 93:5, 94:23, 95:11, 96:13, 97:12, 98:9, 99:9, 100:5, 101:8, 102:28, 103:22, 104:35, 105:45, 106:48, 107:43, 108:13, 109:31, 110:7, 111:10, 112:10, 113:9, 114:8, 115:18, 116:19, 117:2, 118:29, 119:176, 120:7, 121:8, 122:9, 123:4, 124:8, 125:5, 126:6, 127:5, 128:6, 129:8, 130:8, 131:3, 132:18, 133:3, 134:3, 135:21, 136:26, 137:9, 138:8, 139:24, 140:13, 141:10, 142:7, 143:12, 144:15, 145:21, 146:10, 147:20, 148:14, 149:9, 150:6},
+        "Proverbs": {1:33, 2:22, 3:35, 4:27, 5:23, 6:35, 7:27, 8:36, 9:18, 10:32, 11:31, 12:28, 13:25, 14:35, 15:33, 16:33, 17:28, 18:24, 19:29, 20:30, 21:31, 22:29, 23:35, 24:34, 25:28, 26:28, 27:27, 28:28, 29:27, 30:33, 31:31},
+        "Ecclesiastes": {1:18, 2:26, 3:22, 4:16, 5:20, 6:12, 7:29, 8:17, 9:18, 10:20, 11:10, 12:14},
+        "Song of Solomon": {1:17, 2:17, 3:11, 4:16, 5:16, 6:13, 7:13, 8:14},
+        "Isaiah": {1:31, 2:22, 3:26, 4:6, 5:30, 6:13, 7:25, 8:22, 9:21, 10:34, 11:16, 12:6, 13:22, 14:32, 15:9, 16:14, 17:14, 18:7, 19:25, 20:6, 21:17, 22:25, 23:18, 24:23, 25:12, 26:21, 27:13, 28:29, 29:24, 30:33, 31:9, 32:20, 33:24, 34:17, 35:10, 36:22, 37:38, 38:22, 39:8, 40:31, 41:29, 42:25, 43:28, 44:28, 45:25, 46:13, 47:15, 48:22, 49:26, 50:11, 51:23, 52:15, 53:12, 54:17, 55:13, 56:12, 57:21, 58:14, 59:21, 60:22, 61:11, 62:12, 63:19, 64:12, 65:25, 66:24},
+        "Jeremiah": {1:19, 2:37, 3:25, 4:31, 5:31, 6:30, 7:34, 8:22, 9:26, 10:25, 11:23, 12:17, 13:27, 14:22, 15:21, 16:21, 17:27, 18:23, 19:15, 20:18, 21:14, 22:30, 23:40, 24:10, 25:38, 26:24, 27:22, 28:17, 29:32, 30:24, 31:40, 32:44, 33:26, 34:22, 35:19, 36:32, 37:21, 38:28, 39:18, 40:16, 41:18, 42:22, 43:13, 44:30, 45:5, 46:28, 47:7, 48:47, 49:39, 50:46, 51:64, 52:34},
+        "Lamentations": {1:22, 2:22, 3:66, 4:22, 5:22},
+        "Ezekiel": {1:28, 2:10, 3:27, 4:17, 5:17, 6:14, 7:27, 8:18, 9:11, 10:22, 11:25, 12:28, 13:23, 14:23, 15:8, 16:63, 17:24, 18:32, 19:14, 20:49, 21:32, 22:31, 23:49, 24:27, 25:17, 26:21, 27:36, 28:26, 29:21, 30:26, 31:18, 32:32, 33:33, 34:31, 35:15, 36:38, 37:28, 38:23, 39:29, 40:49, 41:26, 42:20, 43:27, 44:31, 45:25, 46:24, 47:23, 48:35},
+        "Daniel": {1:21, 2:49, 3:30, 4:37, 5:31, 6:28, 7:28, 8:27, 9:27, 10:21, 11:45, 12:13},
+        "Hosea": {1:11, 2:23, 3:5, 4:19, 5:15, 6:11, 7:16, 8:14, 9:17, 10:15, 11:12, 12:14, 13:16, 14:9},
+        "Joel": {1:20, 2:32, 3:21},
+        "Amos": {1:15, 2:16, 3:15, 4:13, 5:27, 6:14, 7:17, 8:14, 9:15},
+        "Obadiah": {1:21},
+        "Jonah": {1:17, 2:10, 3:10, 4:11},
+        "Micah": {1:16, 2:13, 3:12, 4:13, 5:15, 6:16, 7:20},
+        "Nahum": {1:15, 2:13, 3:19},
+        "Habakkuk": {1:17, 2:20, 3:19},
+        "Zephaniah": {1:18, 2:15, 3:20},
+        "Haggai": {1:15, 2:23},
+        "Zechariah": {1:21, 2:13, 3:10, 4:14, 5:11, 6:15, 7:14, 8:23, 9:17, 10:12, 11:17, 12:14, 13:9, 14:21},
+        "Malachi": {1:14, 2:17, 3:18, 4:6},
+        "Matthew": {1:25, 2:23, 3:17, 4:25, 5:48, 6:34, 7:29, 8:34, 9:38, 10:42, 11:30, 12:50, 13:58, 14:36, 15:39, 16:28, 17:27, 18:35, 19:30, 20:34, 21:46, 22:46, 23:39, 24:51, 25:46, 26:75, 27:66, 28:20},
+        "Mark": {1:45, 2:28, 3:35, 4:41, 5:43, 6:56, 7:37, 8:38, 9:50, 10:52, 11:33, 12:44, 13:37, 14:72, 15:47, 16:20},
+        "Luke": {1:80, 2:52, 3:38, 4:44, 5:39, 6:49, 7:50, 8:56, 9:62, 10:42, 11:54, 12:59, 13:35, 14:35, 15:32, 16:31, 17:37, 18:43, 19:48, 20:47, 21:38, 22:71, 23:56, 24:53},
+        "John": {1:51, 2:25, 3:36, 4:54, 5:47, 6:71, 7:53, 8:59, 9:41, 10:42, 11:57, 12:50, 13:38, 14:31, 15:27, 16:33, 17:26, 18:40, 19:42, 20:31, 21:25},
+        "Acts": {1:26, 2:47, 3:26, 4:37, 5:42, 6:15, 7:60, 8:40, 9:43, 10:48, 11:30, 12:25, 13:52, 14:28, 15:41, 16:40, 17:34, 18:28, 19:41, 20:38, 21:40, 22:30, 23:35, 24:27, 25:27, 26:32, 27:44, 28:31},
+        "Romans": {1:32, 2:29, 3:31, 4:25, 5:21, 6:23, 7:25, 8:39, 9:33, 10:21, 11:36, 12:21, 13:14, 14:23, 15:33, 16:27},
+        "1 Corinthians": {1:31, 2:16, 3:23, 4:21, 5:13, 6:20, 7:40, 8:13, 9:27, 10:33, 11:34, 12:31, 13:13, 14:40, 15:58, 16:24},
+        "2 Corinthians": {1:24, 2:17, 3:18, 4:18, 5:21, 6:18, 7:16, 8:24, 9:15, 10:18, 11:33, 12:21, 13:14},
+        "Galatians": {1:24, 2:21, 3:29, 4:31, 5:26, 6:18},
+        "Ephesians": {1:23, 2:22, 3:21, 4:32, 5:33, 6:24},
+        "Philippians": {1:30, 2:30, 3:21, 4:23},
+        "Colossians": {1:29, 2:23, 3:25, 4:18},
+        "1 Thessalonians": {1:10, 2:20, 3:13, 4:18, 5:28},
+        "2 Thessalonians": {1:12, 2:17, 3:18},
+        "1 Timothy": {1:20, 2:15, 3:16, 4:16, 5:25, 6:21},
+        "2 Timothy": {1:18, 2:26, 3:17, 4:22},
+        "Titus": {1:16, 2:15, 3:15},
+        "Philemon": {1:25},
+        "Hebrews": {1:14, 2:18, 3:19, 4:16, 5:14, 6:20, 7:28, 8:13, 9:28, 10:39, 11:40, 12:29, 13:25},
+        "James": {1:27, 2:26, 3:18, 4:17, 5:20},
+        "1 Peter": {1:25, 2:25, 3:22, 4:19, 5:14},
+        "2 Peter": {1:21, 2:22, 3:18},
+        "1 John": {1:10, 2:29, 3:24, 4:21, 5:21},
+        "2 John": {1:13},
+        "3 John": {1:14},
+        "Jude": {1:25},
+        "Revelation": {1:20, 2:29, 3:22, 4:11, 5:14, 6:17, 7:17, 8:13, 9:21, 10:11, 11:19, 12:17, 13:18, 14:20, 15:8, 16:21, 17:18, 18:24, 19:21, 20:15, 21:27, 22:21}
+      };
+
+      // If we have detailed data for this book and chapter
+      if (verseMap[book] && verseMap[book][chapter]) {
+        return verseMap[book][chapter];
+      }
+
+      return avgVersesPerChapter[book] || 20;      
+      // Fallback to the average verse count            }        return verseMap[book][chapter];    
+    </script>
+  </body>
+</html>

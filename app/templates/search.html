@@ -1,9 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Results for {{ query }}</title>
+{% extends "base.html" %}
+{% block title %}Results for {{ query }}{% endblock %}
+{% block head %}
+  {{ super() }}  
   <style>
     :root {
       --bg: #f8fafc;
@@ -486,8 +484,8 @@
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
-</head>
-<body>
+{% endblock %}
+{% block body %}
   <div class="container">
     <a href="/" class="back-link">← Back</a>
     
@@ -926,3 +924,4 @@
   </script>
 </body>
 </html>
+{% endblock %}

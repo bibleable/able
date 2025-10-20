@@ -1,0 +1,247 @@
+{% extends "base.html" %}
+{% block title %}ABLE Bible – Simple. Accessible. For Everyone.{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #fff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --primary: #7c3aed;
+      --border: #e2e8f0;
+      --highlight: #e0e7ff;
+      --arrow: #7c3aed;
+      --pastel1: #ffccf9;
+      --pastel2: #d8f3ff;
+      --pastel3: #e5ffe5;
+      --pastel4: #ffe9c9;
+      --pastel5: #ede6ff;
+    }
+    body {
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+      position: relative;
+    }
+    .background-animation {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      overflow: hidden;
+      pointer-events: none;
+      transform: translateZ(0);
+      will-change: transform, opacity;
+    }
+    .color-splash {
+      position: absolute;
+      opacity: 0.45;
+      filter: blur(18px);
+      animation: splash 20s infinite ease-in-out;
+      border-radius: 50% / 50%;
+      transform-origin: center;
+      transform: translate3d(0,0,0);
+      will-change: transform, opacity;
+    }
+    @keyframes splash {
+      0%, 100% { opacity: 0.45; transform: scale(1) translateY(0); }
+      50% { opacity: 0.6; transform: scale(1.08) translateY(-20px); }
+    }
+    .container {
+      max-width: 900px;
+      margin: 7vh auto 0 auto;
+      padding: 3.5rem 2.5rem 3.5rem 2.5rem;
+      background: rgba(255,255,255,0.92);
+      border-radius: 28px;
+      box-shadow: 0 4px 32px 0 rgba(124,62,237,0.07);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    .logo {
+      font-size: 2.6rem;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: 0.03em;
+      margin-bottom: 0.7rem;
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    }
+    .tagline {
+      font-size: 1.35rem;
+      color: var(--text);
+      font-weight: 500;
+      margin-bottom: 2.2rem;
+      line-height: 1.4;
+    }
+    .step-section {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: center;
+      gap: 0;
+      margin-bottom: 2.5rem;
+      flex-wrap: nowrap;
+    }
+    .step-box {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem 1.5rem;
+      min-width: 220px;
+      max-width: 320px;
+      font-size: 1.08rem;
+      color: var(--text);
+      box-shadow: 0 2px 12px 0 rgba(0,0,0,0.03);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0;
+      position: relative;
+      flex: 1 1 0;
+    }
+    .step-title {
+      font-size: 1.22rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.6rem;
+      letter-spacing: 0.01em;
+    }
+    .step-desc {
+      color: var(--muted);
+      font-size: 1.07rem;
+      margin-bottom: 0.2rem;
+      line-height: 1.5;
+    }
+    .arrow {
+      width: 40px;
+      height: 40px;
+      margin: auto 0;
+      display: block;
+      align-self: center;
+    }
+    .step-links {
+      margin-top: 0.7rem;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .step-links a {
+      color: var(--primary);
+      text-decoration: underline;
+      font-size: 0.98rem;
+      font-weight: 500;
+    }
+    .help-section {
+      margin: 2.5rem 0 1.5rem 0;
+      background: var(--highlight);
+      border-radius: 12px;
+      padding: 1.2rem;
+      color: var(--primary);
+      font-weight: 500;
+      font-size: 1.08rem;
+      box-shadow: 0 2px 8px 0 rgba(124,62,237,0.07);
+    }
+    .start-reading-btn {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 2.5rem auto 0 auto;
+      padding: 1rem 0;
+      background: var(--primary);
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px 0 rgba(124,62,237,0.09);
+      cursor: pointer;
+      transition: background 0.2s;
+      text-decoration: none;
+      letter-spacing: 0.01em;
+    }
+    .start-reading-btn:hover {
+      background: #5b23b4;
+    }
+    @media (max-width: 900px) {
+      .container {
+        max-width: 98vw;
+        padding: 24px 8px 80px 8px;
+      }
+      .step-section {
+        flex-direction: column;
+        gap: 0;
+      }
+      .arrow {
+        width: 28px;
+        height: 28px;
+        margin: 0.5rem auto;
+      }
+      .step-box {
+        min-width: 0;
+        max-width: 100%;
+        margin-bottom: 0;
+      }
+    }
+  </style>
+{% endblock %}
+{% block body %}
+  <!-- Modern pastel animated background -->
+  <div class="background-animation">
+    <div class="color-splash" style="background-color: var(--pastel1); width: 400px; height: 400px; left: 10%; top: 15%; animation-duration: 23s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel2); width: 350px; height: 350px; right: 15%; top: 10%; animation-duration: 27s; animation-delay: 1s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel3); width: 300px; height: 300px; left: 20%; bottom: 20%; animation-duration: 25s; animation-delay: 2s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel4); width: 450px; height: 450px; right: 15%; bottom: 10%; animation-duration: 30s; animation-delay: 3s;"></div>
+    <div class="color-splash" style="background-color: var(--pastel5); width: 380px; height: 380px; left: 40%; top: 40%; animation-duration: 28s; animation-delay: 4s;"></div>
+  </div>
+  <div class="container">
+    <div class="logo">ABLE Bible <span style="font-size:2.1rem;">🌏📖</span></div>
+    <div class="tagline">
+      <strong>Simple. Accessible. For Everyone.</strong> <span style="font-size:1.3rem;">✨</span><br>
+      Discover the Bible in clear, everyday language.
+    </div>
+    <div class="step-section">
+      <!-- Step 1 -->
+      <div class="step-box">
+        <div class="step-title">ABLE for Everyone, Everywhere <span style="font-size:1.3rem;">🌍</span></div>
+        <div class="step-desc">
+          No matter your background, age, or reading level—ABLE is designed for you.<br>
+          Experience the Bible in words you can understand and share. <span style="font-size:1.2rem;">🤝</span>
+        </div>
+      </div>
+      <svg class="arrow" viewBox="0 0 32 32" fill="none"><path d="M8 16h16M16 8l8 8-8 8" stroke="var(--arrow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <!-- Step 2 -->
+      <div class="step-box">
+        <div class="step-title">A Living Paraphrase <span style="font-size:1.3rem;">🔄</span></div>
+        <div class="step-desc">
+          ABLE is always growing and improving.<br>
+          Your feedback, ideas, and contributions help us make the Bible even more accessible. <span style="font-size:1.2rem;">💡</span>
+        </div>
+      </div>
+      <svg class="arrow" viewBox="0 0 32 32" fill="none"><path d="M8 16h16M16 8l8 8-8 8" stroke="var(--arrow)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <!-- Step 3 -->
+      <div class="step-box">
+        <div class="step-title">Want the Full Text &amp; Translations? <span style="font-size:1.3rem;">🔎</span></div>
+        <div class="step-desc">
+          Explore the original Bible and many translations online.<br>
+          Dive deeper, compare, and study with trusted resources. <span style="font-size:1.2rem;">📚</span>
+        </div>
+        <div class="step-links">
+          <a href="https://biblehub.com/" target="_blank">BibleHub</a>
+          <a href="https://www.biblegateway.com/" target="_blank">BibleGateway</a>
+        </div>
+      </div>
+    </div>
+    <div class="help-section">
+      <strong>We need your help! <span style="font-size:1.2rem;">🙏</span></strong> <br>
+      Join our mission to make the Bible accessible for all. <br>
+      Volunteer, edit, or share your feedback. <span style="font-size:1.2rem;">💬</span><br>
+      <a href="mailto:bibleable@gmail.com" style="color:var(--primary);text-decoration:underline;">Email us</a> or <a href="https://github.com/bibleable/able" target="_blank" style="color:var(--primary);text-decoration:underline;">visit our GitHub</a>.
+    </div>
+    <a href="/home" class="start-reading-btn">Start Reading 🚀</a>
+  </div>
+</body>
+</html>
+{% endblock %}

@@ -8,6 +8,7 @@ from pathlib import Path
 import secrets
 from typing import Optional
 import bcrypt
+from datetime import datetime
 
 app = FastAPI()
 
@@ -735,3 +736,45 @@ async def search_json(q: str = ""):
     except Exception as e:
         import traceback
         return {"success": False, "error": str(e), "traceback": traceback.format_exc()}
+
+@app.get("/tools", response_class=HTMLResponse)
+async def tools(request: Request):
+    user = get_current_user(request)
+    return templates.TemplateResponse("tools.html", {"request": request, "user": user})
+
+@app.get("/tools/verse_of_the_day", response_class=HTMLResponse)
+async def verse_of_the_day(request: Request):
+    user = get_current_user(request)
+    # Simple logic: pick a verse based on the day of year
+    conn = get_db_connection("able")
+    cursor = conn.cursor()
+    today = datetime.now()
+    day_of_year = today.timetuple().tm_yday
+
+    # Get total verse count
+    cursor.execute("SELECT COUNT(*) as count FROM verses")
+    total = cursor.fetchone()["count"]
+
+    # Pick a verse by offset
+    verse_offset = (day_of_year % total)
+    cursor.execute("""
+        SELECT book, chapter, verse, text 
+        FROM verses
+        LIMIT 1 OFFSET ?
+    """, (verse_offset,))
+    verse = cursor.fetchone()
+    conn.close()
+
+    return templates.TemplateResponse(
+        "verse_of_the_day.html",
+        {"request": request, "verse": verse, "user": user}
+    )
+
+@app.get("/{page_name}", response_class=HTMLResponse)
+async def render_page(request: Request, page_name: str):
+    user = get_current_user(request)
+    template_file = f"{page_name}.html"
+    template_path = os.path.join(templates_dir, template_file)
+    if os.path.exists(template_path):
+        return templates.TemplateResponse(template_file, {"request": request, "user": user})
+    return Response("Page not found", status_code=404)

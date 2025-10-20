@@ -1,9 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ABLE - Bible Paraphrases for Special Needs</title>
+{% extends "base.html" %}
+{% block title %}ABLE - Bible Paraphrases for Special Needs{% endblock %}
+{% block head %}
+  {{ super() }}
   <style>
     /* Background: promote to its own composited layer and keep animations cheap */
     .background-animation {
@@ -382,19 +380,27 @@
       --pastel4: #ffe9c9;
       --pastel5: #ede6ff;
     }
+
+    .section-header {
+      font-size: 1.3rem;
+      color: var(--primary);
+      margin-bottom: 1.2rem;
+      text-align: left; /* or center, as needed */
+      font-weight: 600;
+    }
   </style>
-</head>
-<body>
-  <!-- Add splash background elements before the container -->
-  <div class="background-animation">
-    <div class="color-splash" style="background-color: var(--pastel1); width: 400px; height: 400px; left: 10%; top: 15%; animation-duration: 23s;"></div>
-    <div class="color-splash" style="background-color: var(--pastel2); width: 350px; height: 350px; right: 15%; top: 10%; animation-duration: 27s; animation-delay: 1s;"></div>
-    <div class="color-splash" style="background-color: var(--pastel3); width: 300px; height: 300px; left: 20%; bottom: 20%; animation-duration: 25s; animation-delay: 2s;"></div>
-    <div class="color-splash" style="background-color: var(--pastel4); width: 450px; height: 450px; right: 15%; bottom: 10%; animation-duration: 30s; animation-delay: 3s;"></div>
-    <div class="color-splash" style="background-color: var(--pastel5); width: 380px; height: 380px; left: 40%; top: 40%; animation-duration: 28s; animation-delay: 4s;"></div>
-  </div>
-  
+{% endblock %}
+{% block body %}
   <div class="container">
+    <!-- Add splash background elements before the container -->
+    <div class="background-animation">
+      <div class="color-splash" style="background-color: var(--pastel1); width: 400px; height: 400px; left: 10%; top: 15%; animation-duration: 23s;"></div>
+      <div class="color-splash" style="background-color: var(--pastel2); width: 350px; height: 350px; right: 15%; top: 10%; animation-duration: 27s; animation-delay: 1s;"></div>
+      <div class="color-splash" style="background-color: var(--pastel3); width: 300px; height: 300px; left: 20%; bottom: 20%; animation-duration: 25s; animation-delay: 2s;"></div>
+      <div class="color-splash" style="background-color: var(--pastel4); width: 450px; height: 450px; right: 15%; bottom: 10%; animation-duration: 30s; animation-delay: 3s;"></div>
+      <div class="color-splash" style="background-color: var(--pastel5); width: 380px; height: 380px; left: 40%; top: 40%; animation-duration: 28s; animation-delay: 4s;"></div>
+    </div>
+    
     <header class="header">
       <div>
         <div class="title">ABLE 👦🏼🧒🏻</div>
@@ -436,6 +442,56 @@
         <button class="search-button" type="submit">Search</button>
       </div>
     </form>
+
+    <!-- <div class="browse-tools" style="margin: 2.5rem 0 2rem 0;">
+      <h2>Browse by Tools:</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 18px; justify-content: center;">
+        <a href="/tools" class="chip" style="font-size:1.05rem; font-weight:500; background:var(--highlight); color:var(--primary); border:1.5px solid var(--primary);">
+          😊 How are you feeling?
+        </a>
+        <a href="/tools/verse_of_the_day" class="chip" style="font-size:1.05rem; font-weight:500; background:var(--highlight); color:var(--primary); border:1.5px solid var(--primary);">
+          📖 Verse of the Day
+        </a>
+        <a href="/browse/theme" class="chip" style="font-size:1.05rem; font-weight:500; background:var(--highlight); color:var(--primary); border:1.5px solid var(--primary);">
+          🧩 Themes
+        </a>
+        <a href="/browse/characters" class="chip" style="font-size:1.05rem; font-weight:500; background:var(--highlight); color:var(--primary); border:1.5px solid var(--primary);">
+          👤 Bible Characters
+        </a>
+      </div>
+    </div> -->
+
+    <!-- <div class="emotions-section" style="margin-bottom:2.5rem;">
+      <h2 style="font-size:1.15rem; color:var(--primary); margin-bottom:0.5rem;">How are you feeling today?</h2>
+      <div class="emotion-description" style="color:var(--muted); margin-bottom:0.7rem;">Click an emotion to find relevant verses</div>
+      <div class="emotion-chips" style="display:flex; flex-wrap:wrap; gap:12px;">
+        <a href="/browse/emotion?e=anxious" class="chip anxious" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">😟</span> <span>Anxious</span>
+        </a>
+        <a href="/browse/emotion?e=sad" class="chip sad" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">😢</span> <span>Sad</span>
+        </a>
+        <a href="/browse/emotion?e=happy" class="chip happy" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">😊</span> <span>Happy</span>
+        </a>
+        <a href="/browse/emotion?e=afraid" class="chip afraid" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">😨</span> <span>Afraid</span>
+        </a>
+        <a href="/browse/emotion?e=thankful" class="chip thankful" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">🙏</span> <span>Thankful</span>
+        </a>
+        <a href="/browse/emotion?e=doubtful" class="chip doubtful" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">🤔</span> <span>Doubtful</span>
+        </a>
+        <a href="/browse/emotion?e=grieving" class="chip grieving" style="display:flex;align-items:center;gap:7px;">
+          <span style="font-size:1.3rem;">💔</span> <span>Grieving</span>
+        </a>
+        <button id="moreEmotionsButton" class="chip more-button" style="font-size:1rem;">More +</button>
+      </div>
+
+      <div id="extraEmotions" class="chips hidden">
+      </div>
+    </div> -->
 
     <!-- Add Bible category selector -->
     <div class="bible-category-selector">
@@ -628,6 +684,8 @@
         <a href="/verses?passage=2+Corinthians+5:17" class="chip">2 Corinthians 5:17</a>
       </div>
     </div>
+
+
   </div>
 
   <!-- Add JavaScript to toggle the hidden section -->
@@ -807,5 +865,4 @@
       return avgVersesPerChapter[book] || 20;
     }
   </script>
-</body>
-</html>
+{% endblock %}
