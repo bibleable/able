@@ -40,7 +40,6 @@
       position: relative; /* For absolute positioning of the side button */
     }
 
-    /* For larger screens, allow even more width */
     @media (min-width: 1200px) {
       .container {
         max-width: 1000px;
@@ -57,7 +56,7 @@
       flex-direction: column;
       gap: 10px;
       z-index: 100;
-      transition: opacity 1s, visibility 1s; /* Change from 2s to 1s for a 1-second fade */
+      transition: opacity 1s, visibility 1s; /* 1-second fade */
       opacity: 1;
       visibility: visible;
     }
@@ -95,7 +94,6 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
     
-    /* Rest of your existing styles */
     .back-link {
       display: inline-block;
       margin-bottom: 16px;
@@ -111,6 +109,12 @@
       align-items: center;
       margin-bottom: 16px;
       flex-wrap: wrap;
+      transition: opacity 1s, visibility 1s; /* auto-hide fade */
+    }
+    .top-actions.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
     }
 
     .search-view-btn {
@@ -153,7 +157,6 @@
       border-radius: 4px;
     }
 
-    /* new subtitle / muted styles */
     .muted {
       color: var(--muted);
       font-size: 0.95rem;
@@ -168,7 +171,6 @@
       margin-bottom: 12px;
     }
     
-    /* Chapter navigation styles */
     .chapter-navigation {
       display: flex;
       justify-content: space-between;
@@ -214,16 +216,15 @@
       cursor: pointer;
       margin-bottom: 40px; /* Even larger margin between verses */
       border-radius: 8px;
-      position: relative; /* For positioning */
-      transition: all 0.2s ease-in-out; /* Add transition for smooth hover effects */
+      position: relative;
+      transition: all 0.2s ease-in-out;
     }
     
     .verse:last-child {
       border-bottom: none;
-      margin-bottom: 0; /* No margin for last item */
+      margin-bottom: 0;
     }
     
-    /* Add visual separator between verses */
     .verse::after {
       content: "";
       height: 10px;
@@ -236,14 +237,14 @@
     }
     
     .verse:last-child::after {
-      display: none; /* Hide for last verse */
+      display: none;
     }
     
     .verse:hover {
-      background-color: rgba(124, 58, 237, 0.08); /* Lighter purple background with transparency */
+      background-color: rgba(124, 58, 237, 0.08);
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      border-left: 4px solid var(--primary); /* Left accent border */
-      padding-left: 16px; /* Add padding to accommodate the left border */
+      border-left: 4px solid var(--primary);
+      padding-left: 16px;
     }
     
     .verse:hover .verse-number {
@@ -251,23 +252,23 @@
     }
     
     .verse:hover .verse-text {
-      color: var(--text); /* Ensure text remains the default color for better visibility */
-      font-weight: 500; /* Slightly bolder on hover */
+      color: var(--text);
+      font-weight: 500;
     }
     
     .verse-number {
       font-weight: bold;
-      margin-right: 12px; /* Increased spacing */
+      margin-right: 12px;
       color: var(--primary);
-      font-size: 1.6rem; /* Increased from 1.3rem to match text size */
+      font-size: 1.6rem;
       display: inline-block;
       min-width: 28px;
     }
     
     .verse-text {
-      line-height: 2.2; /* Even more increased line height */
-      font-size: 1.6rem; /* Larger text size */
-      letter-spacing: 0.01em; /* Slightly increased letter spacing for readability */
+      line-height: 2.2;
+      font-size: 1.6rem;
+      letter-spacing: 0.01em;
     }
     
     a {
@@ -275,13 +276,11 @@
       text-decoration: none;
     }
     
-    /* Jesus text highlighting */
     jesus {
       color: red;
       font-weight: 500;
     }
     
-    /* Hide scroll to top button by default */
     #scrollTop {
       opacity: 0;
       visibility: hidden;
@@ -293,7 +292,6 @@
       visibility: visible;
     }
     
-    /* Font size button states */
     #toggleTextSize {
       position: relative;
     }
@@ -329,7 +327,6 @@
       height: 20px;
     }
     
-    /* QR Code Modal styles */
     .modal-overlay {
       position: fixed;
       top: 0;
@@ -397,7 +394,6 @@
       margin-bottom: 15px;
     }
     
-    /* QR code button indicator */
     #showQRCode {
       position: relative;
     }
@@ -420,7 +416,6 @@
       line-height: 1;
     }
     
-    /* QR code tabs */
     .qr-tabs {
       display: flex;
       gap: 5px;
@@ -454,13 +449,6 @@
     
     .qrcode.active {
       display: block;
-    }
-    
-    /* Side button hide/show animation - updated for 1-second fade */
-    .side-button {
-      transition: opacity 1s, visibility 1s; /* Change from 2s to 1s for a 1-second fade */
-      opacity: 1;
-      visibility: visible;
     }
     
     .side-button.hidden {
@@ -588,7 +576,6 @@
     <div class="top-actions">
       <a href="/search?q={{ passage }}" class="search-view-btn">Compare All Verses</a>
       
-      <!-- View Entire Chapter button - only shown when not already viewing a full chapter -->
       {% if not is_full_chapter %}
       <a href="/verses?passage={{ passage.split(':')[0] }}" class="search-view-btn">
         View Entire Chapter
@@ -599,7 +586,6 @@
       </a>
       {% endif %}
       
-      <!-- BibleGateway Button with icon -->
       <a href="https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com" 
          class="search-view-btn"
          target="_blank" 
@@ -611,7 +597,6 @@
         </svg>
       </a>
       
-      <!-- BibleHub Button with icon - fixed for verse-specific links -->
       <a href="{% if ':' in passage %}https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}-{{ passage.split(':')[1] }}.htm{% else %}https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1] }}.htm{% endif %}?ref=bibleable.com" 
          class="search-view-btn"
          target="_blank" 
@@ -622,8 +607,7 @@
           <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
         </svg>
       </a>
-    </div>
-    
+
     <!-- Passage selector -->
     <button id="togglePassageSelector" style="margin-bottom: 1rem; background: var(--primary); color: white; border: none; border-radius: 6px; padding: 8px 16px; font-weight: 500; cursor: pointer;">
       Show Passage Selector
@@ -641,16 +625,12 @@
           
           <div class="selector-field">
             <label>Book Category</label>
-            <select id="category-select" class="selector-dropdown">
-              <!-- Dynamic options based on testament -->
-            </select>
+            <select id="category-select" class="selector-dropdown"></select>
           </div>
           
           <div class="selector-field">
             <label>Book</label>
-            <select id="book-select" class="selector-dropdown">
-              <!-- Dynamic options based on category -->
-            </select>
+            <select id="book-select" class="selector-dropdown"></select>
           </div>
         </div>
         
@@ -681,6 +661,9 @@
         </div>
       </div>
     </div>
+
+    </div>
+    
     
     <!-- Floating side buttons -->
     <div class="side-button">
@@ -729,14 +712,12 @@
     </div>
     
     <div class="verses-container">
-      <!-- Visible title showing context of the passage -->
       <h2>
         {{ passage }}
         <span class="translation-label">ABLE Bible</span>
       </h2>
       <p class="subtitle">Showing {{ verses|length }} verse{{ 's' if verses|length != 1 else '' }} for "{{ passage }}"</p>
       
-      <!-- Chapter navigation - only shown if displaying a full chapter -->
       {% if is_full_chapter %}
       <div class="chapter-navigation">
         {% if prev_chapter %}
@@ -772,7 +753,6 @@
       <p class="error muted">{{ error }}</p>
       {% endif %}      
       
-      <!-- Repeat chapter navigation at bottom for convenience -->
       {% if is_full_chapter %}
       <div class="chapter-navigation">
         {% if prev_chapter %}
@@ -797,7 +777,7 @@
     </div>
   </div>
 
-  <!-- Modify the QR modal to support multiple QR codes -->
+  <!-- QR Modal -->
   <div id="qrCodeModal" class="modal-overlay">
     <div class="modal-content">
       <button class="modal-close" id="closeQRModal">
@@ -808,7 +788,6 @@
       </button>
       <h3 class="modal-title">Scan QR Code</h3>
       
-      <!-- QR Code tabs -->
       <div class="qr-tabs">
         <button class="qr-tab active" data-target="bibleable">Bibleable</button>
         <button class="qr-tab" data-target="biblegateway">BibleGateway</button>
@@ -828,7 +807,7 @@
   </div>
 
   <script>
-  // Process Jesus tags in text
+  // Process Jesus tags
   function processJesusTags() {
     document.querySelectorAll('.verse-text').forEach(element => {
       const html = element.innerHTML;
@@ -839,10 +818,9 @@
     });
   }
 
-  // Show scroll button only when scrolled down
+  // Scroll-top visibility
   window.addEventListener('scroll', function() {
     const scrollTopBtn = document.getElementById('scrollTop');
-    // Show button when scrolled down at least 300px
     if (window.scrollY > 300) {
       scrollTopBtn.classList.add('visible');
     } else {
@@ -850,23 +828,21 @@
     }
   });
 
-  // Side button functionality
+  // Side button actions
   document.getElementById('scrollTop').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
-  let textSizeState = 0; // 0 = normal, 1 = larger, 2 = largest
+  let textSizeState = 0; // 0 = normal, 1 = large, 2 = largest
   const toggleTextSizeBtn = document.getElementById('toggleTextSize');
 
   toggleTextSizeBtn.addEventListener('click', function() {
     const verses = document.querySelectorAll('.verse-text');
     const verseNumbers = document.querySelectorAll('.verse-number');
-    textSizeState = (textSizeState + 1) % 3;
+    textSizeState = (textSizeState + 1) % 5; // Now cycles through 5 sizes
     
-    // Remove all size classes first
-    toggleTextSizeBtn.classList.remove('size-large', 'size-largest');
+    toggleTextSizeBtn.classList.remove('size-large', 'size-largest', 'size-extraxl', 'size-super');
     
-    // Show a brief notification
     const notification = document.createElement('div');
     notification.style.position = 'fixed';
     notification.style.bottom = '20px';
@@ -882,26 +858,33 @@
     notification.style.transition = 'opacity 0.3s';
     
     if (textSizeState === 0) {
-      verses.forEach(verse => verse.style.fontSize = '1.6rem'); // Normal
+      verses.forEach(verse => verse.style.fontSize = '1.6rem');
       verseNumbers.forEach(num => num.style.fontSize = '1.6rem');
       notification.textContent = 'Font Size: Normal';
     } else if (textSizeState === 1) {
-      verses.forEach(verse => verse.style.fontSize = '2.0rem'); // More obviously larger
+      verses.forEach(verse => verse.style.fontSize = '2.0rem');
       verseNumbers.forEach(num => num.style.fontSize = '2.0rem');
       toggleTextSizeBtn.classList.add('size-large');
       notification.textContent = 'Font Size: Large';
-    } else {
-      verses.forEach(verse => verse.style.fontSize = '2.4rem'); // Even larger
+    } else if (textSizeState === 2) {
+      verses.forEach(verse => verse.style.fontSize = '2.4rem');
       verseNumbers.forEach(num => num.style.fontSize = '2.4rem');
       toggleTextSizeBtn.classList.add('size-largest');
       notification.textContent = 'Font Size: Extra Large';
+    } else if (textSizeState === 3) {
+      verses.forEach(verse => verse.style.fontSize = '3.0rem');
+      verseNumbers.forEach(num => num.style.fontSize = '3.0rem');
+      toggleTextSizeBtn.classList.add('size-extraxl');
+      notification.textContent = 'Font Size: Extra Extra Large';
+    } else {
+      verses.forEach(verse => verse.style.fontSize = '3.8rem');
+      verseNumbers.forEach(num => num.style.fontSize = '3.8rem');
+      toggleTextSizeBtn.classList.add('size-super');
+      notification.textContent = 'Font Size: SUPER Large';
     }
     
-    // Show the notification
     document.body.appendChild(notification);
     setTimeout(() => notification.style.opacity = '1', 10);
-    
-    // Remove notification after 1.5 seconds
     setTimeout(() => {
       notification.style.opacity = '0';
       setTimeout(() => notification.remove(), 300);
@@ -917,135 +900,126 @@
     });
   });
 
-  // QR Code modal functionality - updated for multiple QR codes
+  // QR Code modal
   document.getElementById('showQRCode').addEventListener('click', function() {
-    const qrCodeModal = document.getElementById('qrCodeModal');
     showQRModal();
   });
   
-  // Handle QR code tab switching
   document.querySelectorAll('.qr-tab').forEach(tab => {
     tab.addEventListener('click', function() {
-      // Update active tab
       document.querySelectorAll('.qr-tab').forEach(t => t.classList.remove('active'));
       this.classList.add('active');
       
-      // Show corresponding QR code
       const target = this.getAttribute('data-target');
       document.querySelectorAll('.qrcode').forEach(qr => qr.classList.remove('active'));
       document.getElementById('qrcode-' + target).classList.add('active');
       
-      // Update description
       const qrDesc = document.getElementById('qr-description');
-      if (target === 'bibleable') {
-        qrDesc.textContent = 'Scan with your device to open this page';
-      } else if (target === 'biblegateway') {
-        qrDesc.textContent = 'Scan to open this passage in BibleGateway';
-      } else if (target === 'biblehub') {
-        qrDesc.textContent = 'Scan to open this passage in BibleHub';
-      }
+      if (target === 'bibleable') qrDesc.textContent = 'Scan with your device to open this page';
+      else if (target === 'biblegateway') qrDesc.textContent = 'Scan to open this passage in BibleGateway';
+      else if (target === 'biblehub') qrDesc.textContent = 'Scan to open this passage in BibleHub';
     });
   });
   
   function showQRModal() {
     const qrCodeModal = document.getElementById('qrCodeModal');
-    
-    // Generate BibleAble QR code (current page)
     generateQR('qrcode-bibleable', window.location.href);
-    
-    // Generate BibleGateway QR code
     const bibleGatewayUrl = 'https://www.biblegateway.com/passage/?search={{ passage|urlencode }}&version=NIV&ref=bibleable.com';
     generateQR('qrcode-biblegateway', bibleGatewayUrl);
-    
-    // Generate BibleHub QR code - fixed for verse-specific URLs
     {% if ':' in passage %}
     const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1].split(':')[0] }}-{{ passage.split(':')[1] }}.htm?ref=bibleable.com';
     {% else %}
     const bibleHubUrl = 'https://biblehub.com/{{ passage.split()[0].lower() }}/{{ passage.split()[1] }}.htm?ref=bibleable.com';
     {% endif %}
     generateQR('qrcode-biblehub', bibleHubUrl);
-    
-    // Show modal
     qrCodeModal.classList.add('visible');
   }
   
   function generateQR(elementId, url) {
     const container = document.getElementById(elementId);
-    
-    // Clear previous QR code if any
     container.innerHTML = '';
-    
-    // Generate QR code
     const qr = qrcode(0, 'L');
     qr.addData(url);
     qr.make();
-    
-    // Render QR code to DOM
     container.innerHTML = qr.createImgTag(5);
   }
   
-  // Close modal when clicking close button
   document.getElementById('closeQRModal').addEventListener('click', function() {
     document.getElementById('qrCodeModal').classList.remove('visible');
   });
-  
-  // Close modal when clicking outside content
   document.getElementById('qrCodeModal').addEventListener('click', function(e) {
-    if (e.target === this) {
-      this.classList.remove('visible');
-    }
+    if (e.target === this) this.classList.remove('visible');
   });
   
-  // Side button auto-hide functionality
+  // Side button auto-hide
   const sideButtonContainer = document.querySelector('.side-button');
   let hideTimeout;
-  
-  // Function to show the buttons
   function showSideButtons() {
     sideButtonContainer.classList.remove('hidden');
-    
-    // Clear any existing timeout
     clearTimeout(hideTimeout);
-    
-    // Set a new timeout to hide buttons after 2 seconds
-    // (Fade will start at 2 seconds and complete by 4 seconds due to the 2s CSS transition)
     hideTimeout = setTimeout(() => {
       sideButtonContainer.classList.add('hidden');
-    }, 500); // Changed from 2000 to 1000ms
+    }, 500); // 1000 -> 500ms per your latest tweak
   }
-  
-  // Initially show the buttons and start the timer
   showSideButtons();
-  
-  // Add event listeners for mouse/touch movement and scrolling
   ['mousemove', 'touchstart', 'touchmove', 'scroll'].forEach(eventType => {
     document.addEventListener(eventType, showSideButtons);
   });
-  
-  // Reset timeout on button interaction
   document.querySelectorAll('.side-action').forEach(button => {
     button.addEventListener('click', e => {
-      // Don't hide if actively interacting with buttons
       clearTimeout(hideTimeout);
-      // Set hide timeout after interaction (also changed to 2 seconds)
       hideTimeout = setTimeout(() => {
         sideButtonContainer.classList.add('hidden');
-      }, 1000); // Changed from 2000 to 1000ms
+      }, 1000);
     });
   });
+
+  // --- Top actions auto-hide (1s fade, 1s inactivity) ---
+  const topActions = document.querySelector('.top-actions');
+  let topActionsHideTimeout;
+  function showTopActions() {
+    if (!topActions) return;
+    topActions.classList.remove('hidden');
+    clearTimeout(topActionsHideTimeout);
+    topActionsHideTimeout = setTimeout(() => {
+      if (!topActions.matches(':hover') && !topActions.contains(document.activeElement)) {
+        topActions.classList.add('hidden');
+      }
+    }, 1000);
+  }
+  if (topActions) {
+    showTopActions();
+    ['mousemove', 'touchstart', 'touchmove', 'scroll', 'keydown'].forEach(evt =>
+      document.addEventListener(evt, showTopActions, { passive: true })
+    );
+    topActions.addEventListener('mouseenter', () => {
+      clearTimeout(topActionsHideTimeout);
+      topActions.classList.remove('hidden');
+    });
+    topActions.addEventListener('mouseleave', () => {
+      showTopActions();
+    });
+    topActions.addEventListener('focusin', () => {
+      clearTimeout(topActionsHideTimeout);
+      topActions.classList.remove('hidden');
+    });
+    topActions.addEventListener('focusout', () => {
+      setTimeout(() => {
+        if (!topActions.contains(document.activeElement)) showTopActions();
+      }, 0);
+    });
+  }
   
   // Run on page load
   document.addEventListener('DOMContentLoaded', function() {
     processJesusTags();
-    // Initially check scroll position
     if (window.scrollY > 300) {
       document.getElementById('scrollTop').classList.add('visible');
     }
   });
   
-  // Bible Passage Selector
+  // Passage Selector
   document.addEventListener('DOMContentLoaded', function() {
-    // References to DOM elements
     const testamentSelect = document.getElementById('testament-select');
     const categorySelect = document.getElementById('category-select');
     const bookSelect = document.getElementById('book-select');
@@ -1054,7 +1028,6 @@
     const verseEnd = document.getElementById('verse-end');
     const goButton = document.getElementById('go-to-passage');
     
-    // Bible data structure
     const bibleData = {
       old: {
         "Law (Pentateuch)": {
@@ -1101,20 +1074,14 @@
       }
     };
     
-    // Verse count data for each chapter in each book
     const verseCountData = {
-      // Genesis verse counts by chapter
       "Genesis": [31, 25, 24, 26, 32, 22, 24, 22, 29, 32, 32, 20, 18, 24, 21, 16, 27, 33, 38, 18, 34, 24, 20, 67, 34, 35, 46, 22, 35, 43, 55, 32, 20, 31, 29, 43, 36, 30, 23, 23, 57, 38, 34, 34, 28, 34, 31, 22, 33, 26],
-      // Add verse counts for other books as needed
-      "Psalms": [6, 12, 8, 8, 12, 10, 17, 9, 20, 18, 7, 8, 6, 7, 5, 11, 15, 50, 14, 9, 13, 31, 6, 10, 22, 12, 14, 9, 11, 12, 24, 11, 22, 22, 28, 12, 40, 22, 13, 17, 13, 11, 5, 26, 17, 11, 9, 14, 20, 23, 19, 9, 6, 7, 23, 13, 11, 11, 17, 12, 8, 12, 11, 10, 13, 20, 7, 35, 36, 5, 24, 20, 28, 23, 10, 12, 20, 72, 13, 19, 16, 8, 18, 12, 13, 17, 7, 18, 52, 17, 16, 15, 5, 23, 11, 13, 12, 9, 9, 5, 8, 28, 22, 35, 45, 48, 43, 13, 31, 7, 10, 10, 9, 8, 18, 19, 2, 29, 176, 7, 8, 9, 4, 8, 5, 6, 5, 6, 8, 8, 3, 18, 3, 3, 21, 26, 9, 8, 24, 13, 10, 7, 12, 15, 21, 10, 20, 14, 9, 6],
-      // You should include data for books your users frequently access
+      "Psalms": [6,12,8,8,12,10,17,9,20,18,7,8,6,7,5,11,15,50,14,9,13,31,6,10,22,12,14,9,11,12,24,11,22,22,28,12,40,22,13,17,13,11,5,26,17,11,9,14,20,23,19,9,6,7,23,13,11,11,17,12,8,12,11,10,13,20,7,35,36,5,24,20,28,23,10,12,20,72,13,19,16,8,18,12,13,17,7,18,52,17,16,15,5,23,11,13,12,9,9,5,8,28,22,35,45,48,43,13,31,7,10,10,9,8,18,19,2,29,176,7,8,9,4,8,5,6,5,6,8,8,3,18,3,3,21,26,9,8,24,13,10,7,12,15,21,10,20,14,9,6],
     };
     
-    // Initialize category selector based on testament
     function populateCategories() {
       const testament = testamentSelect.value;
       const categories = Object.keys(bibleData[testament]);
-      
       categorySelect.innerHTML = '';
       categories.forEach(category => {
         const option = document.createElement('option');
@@ -1122,189 +1089,124 @@
         option.textContent = category;
         categorySelect.appendChild(option);
       });
-      
-      // Trigger book population
       populateBooks();
     }
     
-    // Populate books based on selected category
     function populateBooks() {
       const testament = testamentSelect.value;
       const category = categorySelect.value;
-      
       if (!category) return;
-      
       const books = Object.keys(bibleData[testament][category]);
-      
       bookSelect.innerHTML = '';
       bookSelect.disabled = false;
-      
-      // Add a default prompt
       const defaultOption = document.createElement('option');
       defaultOption.value = "";
       defaultOption.textContent = "Select a book";
       defaultOption.selected = true;
       defaultOption.disabled = true;
       bookSelect.appendChild(defaultOption);
-      
       books.forEach(book => {
         const option = document.createElement('option');
         option.value = book;
         option.textContent = book;
         bookSelect.appendChild(option);
       });
-      
-      // Reset chapter and verse selectors
       chapterSelect.innerHTML = '<option value="" disabled selected>Select book first</option>';
       chapterSelect.disabled = true;
       verseStart.innerHTML = '<option value="" disabled selected>From</option>';
       verseStart.disabled = true;
       verseEnd.innerHTML = '<option value="" disabled selected>End</option>';
       verseEnd.disabled = true;
-      
-      // Disable the go button
       goButton.disabled = true;
     }
     
-    // Populate chapters based on selected book
     function populateChapters() {
       const testament = testamentSelect.value;
       const category = categorySelect.value;
       const book = bookSelect.value;
-      
       if (!book) return;
-      
       const chapterCount = bibleData[testament][category][book];
-      
       chapterSelect.innerHTML = '';
       chapterSelect.disabled = false;
-      
-      // Add a default prompt
       const defaultOption = document.createElement('option');
       defaultOption.value = "";
       defaultOption.textContent = "Select chapter";
       defaultOption.selected = true;
       defaultOption.disabled = true;
       chapterSelect.appendChild(defaultOption);
-      
       for (let i = 1; i <= chapterCount; i++) {
         const option = document.createElement('option');
         option.value = i;
         option.textContent = i;
         chapterSelect.appendChild(option);
       }
-      
-      // Reset verse selectors
       verseStart.innerHTML = '<option value="" disabled selected>From</option>';
       verseStart.disabled = true;
       verseEnd.innerHTML = '<option value="" disabled selected>End</option>';
       verseEnd.disabled = true;
-      
-      // Disable the go button
       goButton.disabled = true;
     }
     
-    // Populate verse selectors based on chapter
     function populateVerses() {
-      const testament = testamentSelect.value;
-      const category = categorySelect.value;
       const book = bookSelect.value;
       const chapter = chapterSelect.value;
-      
       if (!chapter) return;
-      
-      let verseCount = 30; // Default verse count if specific data not available
-      
-      // Try to get specific verse count for this chapter if available
+      let verseCount = 30;
       if (verseCountData[book] && verseCountData[book][chapter-1]) {
         verseCount = verseCountData[book][chapter-1];
       }
-      
       verseStart.innerHTML = '';
       verseEnd.innerHTML = '';
       verseStart.disabled = false;
       verseEnd.disabled = false;
-      
-      // Add "All verses" option
       const allOption = document.createElement('option');
       allOption.value = "all";
       allOption.textContent = "All";
       allOption.selected = true;
       verseStart.appendChild(allOption);
-      
-      // Add individual verses
       for (let i = 1; i <= verseCount; i++) {
-        // For start verse
         const startOption = document.createElement('option');
         startOption.value = i;
         startOption.textContent = i;
         verseStart.appendChild(startOption);
-        
-        // For end verse
         const endOption = document.createElement('option');
         endOption.value = i;
         endOption.textContent = i;
         verseEnd.appendChild(endOption);
       }
-      
-      // Enable the go button
       goButton.disabled = false;
     }
     
-    // Update end verse options based on start verse
     function updateEndVerses() {
       const startVerse = parseInt(verseStart.value);
       const currentEndValue = verseEnd.value;
-      
-      // If "all" is selected, disable end selector
       if (verseStart.value === "all") {
         verseEnd.disabled = true;
         verseEnd.innerHTML = '<option value="all" selected>All</option>';
         return;
       }
-      
-      // Get the max verse number from the existing options
       const options = Array.from(verseStart.options);
       const maxVerse = options[options.length - 1].value;
-      
-      // Re-enable end selector
       verseEnd.disabled = false;
-      
-      // Clear and repopulate end verses starting from the selected start verse
       const currentOptions = Array.from(verseEnd.options);
       const existingValues = currentOptions.map(opt => opt.value);
-      
-      // If we need to repopulate
       if (!existingValues.includes(String(startVerse))) {
         verseEnd.innerHTML = '';
-        
         for (let i = startVerse; i <= maxVerse; i++) {
           const option = document.createElement('option');
           option.value = i;
           option.textContent = i;
-          
-          // Try to maintain the current selection if possible
-          if (i == currentEndValue) {
-            option.selected = true;
-          }
-          
+          if (i == currentEndValue) option.selected = true;
           verseEnd.appendChild(option);
         }
-        
-        // If we couldn't maintain selection, select the start verse
-        if (!verseEnd.value) {
-          verseEnd.value = startVerse;
-        }
+        if (!verseEnd.value) verseEnd.value = startVerse;
       }
     }
     
-    // Navigate to the selected passage
     function navigateToPassage() {
       const book = bookSelect.value;
       const chapter = chapterSelect.value;
       let passage = `${book} ${chapter}`;
-      
-      // If specific verses are selected
       if (verseStart.value !== "all") {
         if (verseStart.value === verseEnd.value) {
           passage += `:${verseStart.value}`;
@@ -1312,12 +1214,9 @@
           passage += `:${verseStart.value}-${verseEnd.value}`;
         }
       }
-      
-      // Navigate to the passage
       window.location.href = `/verses?passage=${encodeURIComponent(passage)}`;
     }
     
-    // Event listeners
     testamentSelect.addEventListener('change', populateCategories);
     categorySelect.addEventListener('change', populateBooks);
     bookSelect.addEventListener('change', populateChapters);
@@ -1325,10 +1224,8 @@
     verseStart.addEventListener('change', updateEndVerses);
     goButton.addEventListener('click', navigateToPassage);
     
-    // Initialize the selectors
     populateCategories();
     
-    // If there's a current passage, try to set the selectors to match it
     const currentPassage = "{{ passage }}";
     if (currentPassage) {
       const parts = currentPassage.split(' ');
@@ -1337,36 +1234,25 @@
         let chapter, verseRange;
         
         if (parts.length > 2) {
-          // Handle multi-word book names like "1 Samuel"
           if (parts.length === 3) {
             const bookName = parts[0] + ' ' + parts[1];
             const chapterPart = parts[2];
-            
-            // Find if this book exists in our data
             let bookFound = false;
             for (const testament in bibleData) {
               for (const category in bibleData[testament]) {
                 if (bookName in bibleData[testament][category]) {
-                  // We found the book
                   bookFound = true;
-                  
-                  // Set the testament and category
                   testamentSelect.value = testament;
                   populateCategories();
                   categorySelect.value = category;
                   populateBooks();
-                  
-                  // Set the book
                   bookSelect.value = bookName;
                   populateChapters();
-                  
-                  // Parse chapter and verses
                   if (chapterPart.includes(':')) {
                     [chapter, verseRange] = chapterPart.split(':');
                   } else {
                     chapter = chapterPart;
                   }
-                  
                   break;
                 }
               }
@@ -1374,31 +1260,21 @@
             }
           }
         } else {
-          // Simple "Book Chapter" format
           const chapterPart = parts[1];
-          
-          // Parse chapter and verses
           if (chapterPart.includes(':')) {
             [chapter, verseRange] = chapterPart.split(':');
           } else {
             chapter = chapterPart;
           }
-          
-          // Find the book in our data
           let bookFound = false;
           for (const testament in bibleData) {
             for (const category in bibleData[testament]) {
               if (book in bibleData[testament][category]) {
-                // We found the book
                 bookFound = true;
-                
-                // Set the testament and category
                 testamentSelect.value = testament;
                 populateCategories();
                 categorySelect.value = category;
                 populateBooks();
-                
-                // Set the book
                 bookSelect.value = book;
                 populateChapters();
                 break;
@@ -1407,22 +1283,16 @@
             if (bookFound) break;
           }
         }
-        
-        // Set the chapter if we found it
         if (chapter) {
           chapterSelect.value = chapter;
           populateVerses();
-          
-          // Set verse range if present
           if (verseRange) {
             if (verseRange.includes('-')) {
-              // Handle verse range like 1-5
               const [start, end] = verseRange.split('-');
               verseStart.value = start;
               updateEndVerses();
               verseEnd.value = end;
             } else {
-              // Handle single verse
               verseStart.value = verseRange;
               updateEndVerses();
               verseEnd.value = verseRange;
@@ -1434,7 +1304,6 @@
   });
   
   document.addEventListener('DOMContentLoaded', function() {
-    // Passage selector collapse/expand
     const toggleBtn = document.getElementById('togglePassageSelector');
     const selectorWrapper = document.getElementById('passageSelectorWrapper');
     let collapsed = true;
