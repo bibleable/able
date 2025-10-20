@@ -786,6 +786,7 @@
       </button>
       <h3 class="modal-title">Scan QR Code</h3>
       
+      <!-- QR Code tabs -->
       <div class="qr-tabs">
         <button class="qr-tab active" data-target="bibleable">Bibleable</button>
         <button class="qr-tab" data-target="biblegateway">BibleGateway</button>
@@ -797,6 +798,10 @@
         <div id="qrcode-biblegateway" class="qrcode"></div>
         <div id="qrcode-biblehub" class="qrcode"></div>
       </div>
+      
+      <button id="saveQRBtn" style="margin-bottom: 10px; background: var(--primary); color: white; border: none; border-radius: 6px; padding: 8px 16px; font-weight: 500; cursor: pointer;">
+        Save QR Code
+      </button>
       
       <p style="color: var(--muted); font-size: 0.9rem;" id="qr-description">
         Scan with your device to open this page
@@ -970,6 +975,21 @@
     if (e.target === this) this.classList.remove('visible');
   });
   
+  // Save QR Code button functionality
+  document.getElementById('saveQRBtn').addEventListener('click', function() {
+    // Find the active QR code
+    const activeQR = document.querySelector('.qrcode.active img');
+    if (!activeQR) return;
+
+    // Create a link and trigger download
+    const link = document.createElement('a');
+    link.href = activeQR.src;
+    link.download = 'qr-code.png';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+
   // Side button auto-hide
   const sideButtonContainer = document.querySelector('.side-button');
   let hideTimeout;
