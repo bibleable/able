@@ -2,7 +2,7 @@
 
 `ABLE` is a bible paraphrase for special needs (and intellectually challenged and young learners). ABLE stands for `Accessible Bible for Learners with Extra needs`. We believe that God's word is for every mind and heart!
 
-See [paraphrases](/paraphrases/) and [stories](/stories/)
+See [paraphrases](/paraphrases/0.3.3/) and [stories](/stories/)
 
 ## Features
 - Curate simple words to narrate the bible story
@@ -17,7 +17,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 
 # Getting Started 
 
-let's start with book of mark, go to [Mark 1](https://github.com/bibleable/able/blob/main/paraphrases/mark/mark1_1757488307.md) here. And start reading! Let's go. Then, go to [Mark 2](https://github.com/bibleable/able/blob/main/paraphrases/mark/mark2_1757488422.md)
+let's start with book of mark, go to [Mark 1](https://github.com/bibleable/able/blob/main/paraphrases/0.3.3/mark/mark1_1757488307.md) here. And start reading! Let's go. Then, go to [Mark 2](https://github.com/bibleable/able/blob/main/paraphrases/0.3.3/mark/mark2_1757488422.md)
 
 
 # How is the file named? 
