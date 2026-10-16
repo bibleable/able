@@ -79,6 +79,11 @@ def inspect(books):
                 file_errors.append(f"semicolon in verse block {number}")
             if re.search(r"\b(?:\w+n[’']t|I[’']m|\w+[’'](?:re|ve|ll|d)|it[’']s)\b", block, re.I):
                 file_errors.append(f"contraction in verse block {number}")
+            source_verses = list(books[book][chapter].values())
+            if number <= len(source_verses):
+                for direction in ("Selah", "Higgaion"):
+                    if re.search(rf"\b{direction}\b", source_verses[number - 1]) and direction not in block:
+                        file_errors.append(f"missing song direction {direction} in verse block {number}")
             for paragraph in re.split(r"\n\s*\n", block.strip()):
                 sentences = [s for s in re.split(r"[.!?]+", paragraph) if re.search(r"[A-Za-z]", s)]
                 if len(sentences) > 6:
@@ -122,6 +127,8 @@ def write_progress(books, written, verses, longest):
         "Source: `comparison/bsb.txt` (Berean Standard Bible).", "",
         "Finish all Psalms first. Then finish each remaining book in ascending chapter count. "
         "For equal chapter counts, use canonical Bible order. Within each book, use chapter order.", "",
+        "After completing and checking each book, make one commit in GitHub Desktop. "
+        "Do not reverse or rewrite earlier commits. If committing is unavailable, leave the files uncommitted.", "",
         "Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. "
         "Keep verse addresses and emojis. Write directly from BSB, preserving meaning, speakers, "
         "names, numbers, conditions, prayers, and judgments. Use short sentences, active verbs, "

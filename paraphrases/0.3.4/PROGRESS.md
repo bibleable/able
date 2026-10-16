@@ -4,13 +4,15 @@ Source: `comparison/bsb.txt` (Berean Standard Bible).
 
 Finish all Psalms first. Then finish each remaining book in ascending chapter count. For equal chapter counts, use canonical Bible order. Within each book, use chapter order.
 
+After completing and checking each book, make one commit in GitHub Desktop. Do not reverse or rewrite earlier commits. If committing is unavailable, leave the files uncommitted.
+
 Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. Keep verse addresses and emojis. Write directly from BSB, preserving meaning, speakers, names, numbers, conditions, prayers, and judgments. Use short sentences, active verbs, clear subjects, consistent terms, and no contractions. Explain difficult images briefly without turning them into new factual claims. Retain song headings and label musical directions separately. Keep terms with uncertain meanings rather than inventing definitions.
 
 Apply [ASD-STE100 principles](https://www.asd-ste100.org/STE_faq.html) to Bible language. Full controlled-dictionary compliance has not been verified. Structural checks do not establish meaning fidelity or dictionary compliance; compare each rewrite with BSB during authoring.
 
-Written and structurally checked: **84/1189 chapters; 1337/31102 source verse addresses**. Longest current sentence: 19 words.
+Written and structurally checked: **150/1189 chapters; 2461/31102 source verse addresses**. Longest current sentence: 20 words.
 
-Next: **Psalm 81**.
+Next: **Obadiah 1**.
 
 Inventory differences to resolve for full coverage:
 
@@ -23,7 +25,7 @@ Refresh and check with `python3 scripts/check_034.py --write-progress`.
 
 | Order | Book | Source chapters | Written chapters | Chapter numbers |
 | --- | --- | ---: | ---: | --- |
-| 1 | Psalm | 150 | 84 | 1–80, 94, 113, 133, 139 |
+| 1 | Psalm | 150 | 150 | 1–150 |
 | 2 | Obadiah | 1 | 0 | — |
 | 3 | Philemon | 1 | 0 | — |
 | 4 | 2 John | 1 | 0 | — |
