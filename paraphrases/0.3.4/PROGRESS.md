@@ -10,9 +10,9 @@ Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. Kee
 
 Apply [ASD-STE100 principles](https://www.asd-ste100.org/STE_faq.html) to Bible language. Full controlled-dictionary compliance has not been verified. Structural checks do not establish meaning fidelity or dictionary compliance; compare each rewrite with BSB during authoring.
 
-Written and structurally checked: **150/1189 chapters; 2461/31102 source verse addresses**. Longest current sentence: 20 words.
+Written and structurally checked: **151/1189 chapters; 2482/31102 source verse addresses**. Longest current sentence: 20 words.
 
-Next: **Obadiah 1**.
+Next: **Philemon 1**.
 
 Inventory differences to resolve for full coverage:
 
@@ -26,7 +26,7 @@ Refresh and check with `python3 scripts/check_034.py --write-progress`.
 | Order | Book | Source chapters | Written chapters | Chapter numbers |
 | --- | --- | ---: | ---: | --- |
 | 1 | Psalm | 150 | 150 | 1–150 |
-| 2 | Obadiah | 1 | 0 | — |
+| 2 | Obadiah | 1 | 1 | 1 |
 | 3 | Philemon | 1 | 0 | — |
 | 4 | 2 John | 1 | 0 | — |
 | 5 | 3 John | 1 | 0 | — |
