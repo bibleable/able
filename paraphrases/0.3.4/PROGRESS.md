@@ -10,9 +10,9 @@ Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. Kee
 
 Apply [ASD-STE100 principles](https://www.asd-ste100.org/STE_faq.html) to Bible language. Full controlled-dictionary compliance has not been verified. Structural checks do not establish meaning fidelity or dictionary compliance; compare each rewrite with BSB during authoring.
 
-Written and structurally checked: **157/1189 chapters; 2597/31102 source verse addresses**. Longest current sentence: 20 words.
+Written and structurally checked: **160/1189 chapters; 2670/31102 source verse addresses**. Longest current sentence: 20 words.
 
-Next: **Joel 1**.
+Next: **Nahum 1**.
 
 Inventory differences to resolve for full coverage:
 
@@ -32,7 +32,7 @@ Refresh and check with `python3 scripts/check_034.py --write-progress`.
 | 5 | 3 John | 1 | 1 | 1 |
 | 6 | Jude | 1 | 1 | 1 |
 | 7 | Haggai | 2 | 2 | 1–2 |
-| 8 | Joel | 3 | 0 | — |
+| 8 | Joel | 3 | 3 | 1–3 |
 | 9 | Nahum | 3 | 0 | — |
 | 10 | Habakkuk | 3 | 0 | — |
 | 11 | Zephaniah | 3 | 0 | — |
