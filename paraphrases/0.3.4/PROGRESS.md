@@ -10,14 +10,14 @@ Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. Kee
 
 Apply [ASD-STE100 principles](https://www.asd-ste100.org/STE_faq.html) to Bible language. Full controlled-dictionary compliance has not been verified. Structural checks do not establish meaning fidelity or dictionary compliance; compare each rewrite with BSB during authoring.
 
-Written and structurally checked: **169/1189 chapters; 2826/31102 source verse addresses**. Longest current sentence: 20 words.
+Written and structurally checked: **723/1189 chapters; 18563/31102 source verse addresses**. Longest current sentence: 25 words.
 
-Next: **2 Thessalonians 1**.
+Next: **1 Samuel 1**.
 
-Inventory differences to resolve for full coverage:
+Inventory differences and output choices:
 
-- `0.3.3` has no 2 Samuel 21–24. Write these from BSB using the same filename pattern.
-- `0.3.3/ruth` has two Ruth 1 files. Compare them when reaching Ruth and record the output choice.
+- `0.3.3` has no 2 Samuel 21–24. Added these chapters from BSB under `0.3.4` using the same filename pattern.
+- Compared both Ruth 1 files. Use `ruth1_1757372779.md`, the newer filename from the same batch as Ruth 2–4. Rewrote its content directly from BSB. Both original files remain in `0.3.3`.
 
 The local BSB has 16 reserved verse addresses with no text. Keep those verse headings and add a clearly labeled BSB source note when reaching them. Do not invent Scripture text.
 
@@ -36,50 +36,50 @@ Refresh and check with `python3 scripts/check_034.py --write-progress`.
 | 9 | Nahum | 3 | 3 | 1–3 |
 | 10 | Habakkuk | 3 | 3 | 1–3 |
 | 11 | Zephaniah | 3 | 3 | 1–3 |
-| 12 | 2 Thessalonians | 3 | 0 | — |
-| 13 | Titus | 3 | 0 | — |
-| 14 | 2 Peter | 3 | 0 | — |
-| 15 | Ruth | 4 | 0 | — |
-| 16 | Jonah | 4 | 0 | — |
-| 17 | Malachi | 4 | 0 | — |
-| 18 | Philippians | 4 | 0 | — |
-| 19 | Colossians | 4 | 0 | — |
-| 20 | 2 Timothy | 4 | 0 | — |
-| 21 | Lamentations | 5 | 0 | — |
-| 22 | 1 Thessalonians | 5 | 0 | — |
-| 23 | James | 5 | 0 | — |
-| 24 | 1 Peter | 5 | 0 | — |
-| 25 | 1 John | 5 | 0 | — |
-| 26 | Galatians | 6 | 0 | — |
-| 27 | Ephesians | 6 | 0 | — |
-| 28 | 1 Timothy | 6 | 0 | — |
-| 29 | Micah | 7 | 0 | — |
-| 30 | Song of Solomon | 8 | 0 | — |
-| 31 | Amos | 9 | 0 | — |
-| 32 | Ezra | 10 | 0 | — |
-| 33 | Esther | 10 | 0 | — |
-| 34 | Ecclesiastes | 12 | 0 | — |
-| 35 | Daniel | 12 | 0 | — |
-| 36 | Nehemiah | 13 | 0 | — |
-| 37 | 2 Corinthians | 13 | 0 | — |
-| 38 | Hebrews | 13 | 0 | — |
-| 39 | Hosea | 14 | 0 | — |
-| 40 | Zechariah | 14 | 0 | — |
-| 41 | Mark | 16 | 0 | — |
-| 42 | Romans | 16 | 0 | — |
-| 43 | 1 Corinthians | 16 | 0 | — |
-| 44 | Judges | 21 | 0 | — |
-| 45 | John | 21 | 0 | — |
-| 46 | 1 Kings | 22 | 0 | — |
-| 47 | Revelation | 22 | 0 | — |
-| 48 | Joshua | 24 | 0 | — |
-| 49 | 2 Samuel | 24 | 0 | — |
-| 50 | Luke | 24 | 0 | — |
-| 51 | 2 Kings | 25 | 0 | — |
-| 52 | Leviticus | 27 | 0 | — |
-| 53 | Matthew | 28 | 0 | — |
-| 54 | Acts | 28 | 0 | — |
-| 55 | 1 Chronicles | 29 | 0 | — |
+| 12 | 2 Thessalonians | 3 | 3 | 1–3 |
+| 13 | Titus | 3 | 3 | 1–3 |
+| 14 | 2 Peter | 3 | 3 | 1–3 |
+| 15 | Ruth | 4 | 4 | 1–4 |
+| 16 | Jonah | 4 | 4 | 1–4 |
+| 17 | Malachi | 4 | 4 | 1–4 |
+| 18 | Philippians | 4 | 4 | 1–4 |
+| 19 | Colossians | 4 | 4 | 1–4 |
+| 20 | 2 Timothy | 4 | 4 | 1–4 |
+| 21 | Lamentations | 5 | 5 | 1–5 |
+| 22 | 1 Thessalonians | 5 | 5 | 1–5 |
+| 23 | James | 5 | 5 | 1–5 |
+| 24 | 1 Peter | 5 | 5 | 1–5 |
+| 25 | 1 John | 5 | 5 | 1–5 |
+| 26 | Galatians | 6 | 6 | 1–6 |
+| 27 | Ephesians | 6 | 6 | 1–6 |
+| 28 | 1 Timothy | 6 | 6 | 1–6 |
+| 29 | Micah | 7 | 7 | 1–7 |
+| 30 | Song of Solomon | 8 | 8 | 1–8 |
+| 31 | Amos | 9 | 9 | 1–9 |
+| 32 | Ezra | 10 | 10 | 1–10 |
+| 33 | Esther | 10 | 10 | 1–10 |
+| 34 | Ecclesiastes | 12 | 12 | 1–12 |
+| 35 | Daniel | 12 | 12 | 1–12 |
+| 36 | Nehemiah | 13 | 13 | 1–13 |
+| 37 | 2 Corinthians | 13 | 13 | 1–13 |
+| 38 | Hebrews | 13 | 13 | 1–13 |
+| 39 | Hosea | 14 | 14 | 1–14 |
+| 40 | Zechariah | 14 | 14 | 1–14 |
+| 41 | Mark | 16 | 16 | 1–16 |
+| 42 | Romans | 16 | 16 | 1–16 |
+| 43 | 1 Corinthians | 16 | 16 | 1–16 |
+| 44 | Judges | 21 | 21 | 1–21 |
+| 45 | John | 21 | 21 | 1–21 |
+| 46 | 1 Kings | 22 | 22 | 1–22 |
+| 47 | Revelation | 22 | 22 | 1–22 |
+| 48 | Joshua | 24 | 24 | 1–24 |
+| 49 | 2 Samuel | 24 | 24 | 1–24 |
+| 50 | Luke | 24 | 24 | 1–24 |
+| 51 | 2 Kings | 25 | 25 | 1–25 |
+| 52 | Leviticus | 27 | 27 | 1–27 |
+| 53 | Matthew | 28 | 28 | 1–28 |
+| 54 | Acts | 28 | 28 | 1–28 |
+| 55 | 1 Chronicles | 29 | 29 | 1–29 |
 | 56 | 1 Samuel | 31 | 0 | — |
 | 57 | Proverbs | 31 | 0 | — |
 | 58 | Deuteronomy | 34 | 0 | — |

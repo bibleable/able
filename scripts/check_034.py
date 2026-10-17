@@ -141,9 +141,14 @@ def write_progress(books, written, verses, longest):
         f"Written and structurally checked: **{chapter_count}/{total_chapters} chapters; "
         f"{verses}/{total_verses} source verse addresses**. Longest current sentence: {longest} words.", "",
         f"Next: **{next_book} {next_chapter}**." if next_book else "All source chapters have output files.", "",
-        "Inventory differences to resolve for full coverage:", "",
-        "- `0.3.3` has no 2 Samuel 21–24. Write these from BSB using the same filename pattern.",
-        "- `0.3.3/ruth` has two Ruth 1 files. Compare them when reaching Ruth and record the output choice.", "",
+        "Inventory differences and output choices:", "",
+        ("- `0.3.3` has no 2 Samuel 21–24. Added these chapters from BSB under `0.3.4` using the same filename pattern."
+         if {21, 22, 23, 24}.issubset(written["2 Samuel"]) else
+         "- `0.3.3` has no 2 Samuel 21–24. Write these from BSB using the same filename pattern."),
+        ("- Compared both Ruth 1 files. Use `ruth1_1757372779.md`, the newer filename from the same batch as Ruth 2–4. "
+         "Rewrote its content directly from BSB. Both original files remain in `0.3.3`."
+         if 1 in written["Ruth"] else
+         "- `0.3.3/ruth` has two Ruth 1 files. Compare them when reaching Ruth and record the output choice."), "",
         "The local BSB has 16 reserved verse addresses with no text. Keep those verse headings "
         "and add a clearly labeled BSB source note when reaching them. Do not invent Scripture text.", "",
         "Refresh and check with `python3 scripts/check_034.py --write-progress`.", "",
