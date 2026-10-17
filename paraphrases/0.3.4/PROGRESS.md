@@ -10,9 +10,9 @@ Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. Kee
 
 Apply [ASD-STE100 principles](https://www.asd-ste100.org/STE_faq.html) to Bible language. Full controlled-dictionary compliance has not been verified. Structural checks do not establish meaning fidelity or dictionary compliance; compare each rewrite with BSB during authoring.
 
-Written and structurally checked: **723/1189 chapters; 18563/31102 source verse addresses**. Longest current sentence: 25 words.
+Written and structurally checked: **754/1189 chapters; 19373/31102 source verse addresses**. Longest current sentence: 25 words.
 
-Next: **1 Samuel 1**.
+Next: **Proverbs 1**.
 
 Inventory differences and output choices:
 
@@ -80,7 +80,7 @@ Refresh and check with `python3 scripts/check_034.py --write-progress`.
 | 53 | Matthew | 28 | 28 | 1–28 |
 | 54 | Acts | 28 | 28 | 1–28 |
 | 55 | 1 Chronicles | 29 | 29 | 1–29 |
-| 56 | 1 Samuel | 31 | 0 | — |
+| 56 | 1 Samuel | 31 | 31 | 1–31 |
 | 57 | Proverbs | 31 | 0 | — |
 | 58 | Deuteronomy | 34 | 0 | — |
 | 59 | Numbers | 36 | 0 | — |
