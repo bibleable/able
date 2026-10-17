@@ -10,9 +10,9 @@ Keep the `0.3.3/<book>/<book><chapter>_<timestamp>.md` layout under `0.3.4`. Kee
 
 Apply [ASD-STE100 principles](https://www.asd-ste100.org/STE_faq.html) to Bible language. Full controlled-dictionary compliance has not been verified. Structural checks do not establish meaning fidelity or dictionary compliance; compare each rewrite with BSB during authoring.
 
-Written and structurally checked: **785/1189 chapters; 20288/31102 source verse addresses**. Longest current sentence: 25 words.
+Written and structurally checked: **1189/1189 chapters; 31102/31102 source verse addresses**. Longest current sentence: 25 words.
 
-Next: **Deuteronomy 1**.
+All source chapters have output files.
 
 Inventory differences and output choices:
 
@@ -82,12 +82,12 @@ Refresh and check with `python3 scripts/check_034.py --write-progress`.
 | 55 | 1 Chronicles | 29 | 29 | 1–29 |
 | 56 | 1 Samuel | 31 | 31 | 1–31 |
 | 57 | Proverbs | 31 | 31 | 1–31 |
-| 58 | Deuteronomy | 34 | 0 | — |
-| 59 | Numbers | 36 | 0 | — |
-| 60 | 2 Chronicles | 36 | 0 | — |
-| 61 | Exodus | 40 | 0 | — |
-| 62 | Job | 42 | 0 | — |
-| 63 | Ezekiel | 48 | 0 | — |
-| 64 | Genesis | 50 | 0 | — |
-| 65 | Jeremiah | 52 | 0 | — |
-| 66 | Isaiah | 66 | 0 | — |
+| 58 | Deuteronomy | 34 | 34 | 1–34 |
+| 59 | Numbers | 36 | 36 | 1–36 |
+| 60 | 2 Chronicles | 36 | 36 | 1–36 |
+| 61 | Exodus | 40 | 40 | 1–40 |
+| 62 | Job | 42 | 42 | 1–42 |
+| 63 | Ezekiel | 48 | 48 | 1–48 |
+| 64 | Genesis | 50 | 50 | 1–50 |
+| 65 | Jeremiah | 52 | 52 | 1–52 |
+| 66 | Isaiah | 66 | 66 | 1–66 |
