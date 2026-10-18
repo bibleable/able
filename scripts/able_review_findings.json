@@ -1,0 +1,355 @@
+{
+  "description": "Provisional editorial concerns from the Mark 1 desk review; not validated reader tests or automatic semantic rules.",
+  "verses": {
+    "Mark 1:1": {
+      "text_sha256": "6b3ca4c4ad6ee8fd0cc901ae6a91238ba72b380e5299bb0532285295d0d9e22c",
+      "source_sha256": "6489c319344f375b685118254070466b5414d9139d5ac791132368ac729b5cc7",
+      "findings": [
+        {
+          "tests": [
+            "T1"
+          ],
+          "message": "Christ is omitted. Review retaining the title with an explanation."
+        }
+      ]
+    },
+    "Mark 1:2": {
+      "text_sha256": "b29f7d7f800905c3fe330b1459770cbf16658ab10e7a3e5274d9385d0b9705fd",
+      "source_sha256": "4872327f9dc23aa6a7d177fea9dfb4f0026d801fb0a6745c0661ad231277197a",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Helper weakens the messenger role. Make the road ready may suggest road construction."
+        }
+      ]
+    },
+    "Mark 1:3": {
+      "text_sha256": "472084fcf741a1836f8d9a96ec4fc84a934775017b003c2b0bb01400bdf2cae2",
+      "source_sha256": "852c18765db659f7ed24460e4553988eddd1dace285a5e451b1b2ff80352403f",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T2",
+            "T3",
+            "T5"
+          ],
+          "message": "The wilderness setting is omitted, the road metaphor needs checking, and People should get ready is an unlabeled explanation."
+        }
+      ]
+    },
+    "Mark 1:4": {
+      "text_sha256": "5f7a1d96f739f37b95cefb98625b051ddd998bb2b682a47145cd31eae19d3470",
+      "source_sha256": "c37779cce11a6e6fb1b5e363a383d1138825a8396ee0e2ad32f1f587b9cbc6c4",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Wash people and the shower emoji can suggest ordinary washing. Say sorry does not fully convey repentance; forgiveness is omitted."
+        }
+      ]
+    },
+    "Mark 1:5": {
+      "text_sha256": "91d74d205f2f293f02c73dc3453b75b17fba334bddc2485f2a32435b187cda0d",
+      "source_sha256": "f799fb319f15031ccf8c9012f86c9e2025fdf0ff50b640c3366d3eaaae27f39a",
+      "findings": [
+        {
+          "tests": [
+            "T2",
+            "T3"
+          ],
+          "message": "Told God specifies an audience not explicit in this verse. Put them in the river leaves baptism unexplained."
+        }
+      ]
+    },
+    "Mark 1:7": {
+      "text_sha256": "5308294cfc9aedc4bdd7ffd9c64d719eba3dd93216212003d53983706ac02971",
+      "source_sha256": "3a7924f4c2a78d422612cb2800236b6e100803adc5dc092a46ff80c80cc46f6f",
+      "findings": [
+        {
+          "tests": [
+            "T1"
+          ],
+          "message": "Tie His shoes reverses the source action: untie His sandals."
+        }
+      ]
+    },
+    "Mark 1:8": {
+      "text_sha256": "3cd285384e42906866f559936fd457cb099ee07e1b494b84f6ea84584adeb7f0",
+      "source_sha256": "453b5e23eab139e9c086f71e3a4fa15930b25e4f4e2585827bb4cbc0c84982aa",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Wash you with the Holy Spirit may suggest physical washing and leaves baptism unexplained."
+        }
+      ]
+    },
+    "Mark 1:9": {
+      "text_sha256": "50d62cdb1d8ce7fe1100c9767c7419c6154aed9e22021413471acea5575f15a5",
+      "source_sha256": "f3b3872bad009fb5a229b8ef1217a65cb04b1c15c4f5ab23d8c3a3c231a4188a",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Put Him in the river describes movement into water but loses the meaning of baptism."
+        }
+      ]
+    },
+    "Mark 1:11": {
+      "text_sha256": "f00d20b2f5d0548985f4507d45eaa91bf23600473995b9f3000cefa504c8d6cd",
+      "source_sha256": "b96fb8d444e8d9fe214f6e2b71a0b62f2488b609006fae234ebc841395b41fc2",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T5"
+          ],
+          "message": "Beloved is omitted. Check whether learners can identify the speaker of the voice."
+        }
+      ]
+    },
+    "Mark 1:12": {
+      "text_sha256": "a16988f67ec428d1b19298ab8ecfb96972d396153914003f86d599dd37aa7a93",
+      "source_sha256": "46d3257b102fc8c1b442f4d090dddc2ed842d6def2f5fde2b9640bd6bd1dd171",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Led softens drove, at once is omitted, and wild place may need explanation."
+        }
+      ]
+    },
+    "Mark 1:15": {
+      "text_sha256": "c254074828298e6ba1cbb622e7bad4797981a1cfffcdf5ca4b0f17c644d6b9a9",
+      "source_sha256": "d196925af5fba01ae35e4e1f70627b90f8445d2d7826d11dc36622d2ac8eee51",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T2",
+            "T3"
+          ],
+          "message": "God’s good way substitutes a different concept for kingdom of God. Check whether Turn to God conveys repentance."
+        }
+      ]
+    },
+    "Mark 1:16": {
+      "text_sha256": "b00a787f304ed976fb80216002fa4ede44e2169f97034a769cdc9fa62a3de667",
+      "source_sha256": "765f357dd14eb859d0a1ea51d1384cf02ade05fdc874773179f9d6063eea5d23",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Fish men may suggest imaginary creatures. Andrew’s relationship to Simon is omitted."
+        }
+      ]
+    },
+    "Mark 1:17": {
+      "text_sha256": "6cdc96cbc4736c28568c95567d761ab542b9e3d8490240c230c80fbfe935582c",
+      "source_sha256": "0983d4231491cf99ce0a424a373112f901655dde0324e905d503365768218e44",
+      "findings": [
+        {
+          "tests": [
+            "T2",
+            "T3"
+          ],
+          "message": "Catch people may suggest trapping people. For God supplies an interpretation inside Jesus’ quotation."
+        }
+      ]
+    },
+    "Mark 1:19": {
+      "text_sha256": "3b60409733fe363371c0f03ff6c06b79bdb6bc713fcdb74a277ad0144ea91ed3",
+      "source_sha256": "f86bc090b5f0a149e0ecb714ff790cce5f39bcee6ee7b60bd1b3531b85197f0d",
+      "findings": [
+        {
+          "tests": [
+            "T1"
+          ],
+          "message": "James and John are not identified as brothers."
+        }
+      ]
+    },
+    "Mark 1:21": {
+      "text_sha256": "3363554144b479cb85c2109abf9955b23077ca0988fd8d936d1905ad9515de2b",
+      "source_sha256": "15c2ece43a4e68fc6b8f2412519a887256f8c8bc383e40ac04fab157a1e11bb2",
+      "findings": [
+        {
+          "tests": [
+            "T3",
+            "T5"
+          ],
+          "message": "Rest day and meeting house need explanations preserving the Sabbath, synagogue, and Jewish setting."
+        }
+      ]
+    },
+    "Mark 1:22": {
+      "text_sha256": "c93d63c8a0e7b18d376479953324d294fabbff5e21c301ced82c91fc1d1d4759",
+      "source_sha256": "a8384427539681955a84b7bf851e46e6df0ed460a2f349f069e2c2e5615ad394",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3",
+            "T4"
+          ],
+          "message": "Power may suggest physical strength rather than authority. Law men obscures scribes and may suggest police."
+        }
+      ]
+    },
+    "Mark 1:23": {
+      "text_sha256": "5e997bd3fcd994c7ebb46d2a1ca19119255867fcc14821e9a9f5af7ddb664270",
+      "source_sha256": "a1a0f5cb4e2363a57f79f3c40cbf1d047ff7c24f50a440c0113cb044f80c1e56",
+      "findings": [
+        {
+          "tests": [
+            "T3",
+            "T4"
+          ],
+          "message": "Explain bad spirit without implying the man is morally bad; check the cartoon-ghost emoji interpretation."
+        }
+      ]
+    },
+    "Mark 1:24": {
+      "text_sha256": "351b16e4c14ba4dfc1ee3f2a55ea38317b4a3f80143567ee7736aac299c1da39",
+      "source_sha256": "87b28878f41c7b910e5898026751f1fa36685fdeed7194ddc15c7068842875b5",
+      "findings": [
+        {
+          "tests": [
+            "T1"
+          ],
+          "message": "Stop us weakens destroy us. God’s special One loses the specific idea of holiness."
+        }
+      ]
+    },
+    "Mark 1:27": {
+      "text_sha256": "459b884311eaaf8ca9b12d35dc487d860cf57480036a62a16f9137b080acc969",
+      "source_sha256": "052ba39fe26195db706774d3a702db914c476f224e9fe2ccbc1bd7469bfaf5d6",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "This is new does not identify the new teaching with authority central to the reaction."
+        }
+      ]
+    },
+    "Mark 1:30": {
+      "text_sha256": "3ae936b6be800a0932aa86a190583349c2ab1e689fd5db8bcdc43994b1308a0c",
+      "source_sha256": "1f32e31c61e9d5c6e0b7c348c39bffcb156a2821400e0852d9e6589cba91ee86",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Hot head can mean anger or headache instead of fever. Sick in bed is omitted."
+        }
+      ]
+    },
+    "Mark 1:31": {
+      "text_sha256": "b6686712828d97602042f4f08d6b39d5cb15fa5f09d5f3a784e150deae82887e",
+      "source_sha256": "ebae53df520140b6b8aa69d5effa2207618a9997bdd6c34238ecc4644cc345ad",
+      "findings": [
+        {
+          "tests": [
+            "T3"
+          ],
+          "message": "The hot left is unclear. Served them may need a simple explanation."
+        }
+      ]
+    },
+    "Mark 1:32": {
+      "text_sha256": "ddb5765afb7869b5b18347b4d2a69c2c02b89bca4e8b6b6b26c8282945ed6a95",
+      "source_sha256": "81872bbfff92a8e6857804fabe6cdb80db009d6b499e978b0c9707ba4008f338",
+      "findings": [
+        {
+          "tests": [
+            "T1"
+          ],
+          "message": "Came to Jesus replaces people bringing the sick and demon-possessed, removing their helpers."
+        }
+      ]
+    },
+    "Mark 1:40": {
+      "text_sha256": "39d356ef6dc1d891e70ef7c27eaa3c902d6ebaa5a2370b4da1ce9a2309bc86f8",
+      "source_sha256": "3be440c29562c0cb4f979dbb9e5bcc2e3fac492ae28e35c5a21034e0fdd0abf4",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3",
+            "T4"
+          ],
+          "message": "Bad skin is vague and potentially stigmatizing. Explain clean without suggesting dirtiness or moral badness."
+        }
+      ]
+    },
+    "Mark 1:42": {
+      "text_sha256": "db3721c39d9e29c20550e0deb1b58ffcbbf5393bd19c2493244ffe7fe0c0d749",
+      "source_sha256": "86c94cfd0d47064d7181c3c384aaac908347a1321397b2e418f34dc540fd4764",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3",
+            "T4"
+          ],
+          "message": "Bad skin and clean need explanation distinguishing healing from dirtiness or moral worth."
+        }
+      ]
+    },
+    "Mark 1:43": {
+      "text_sha256": "f796f16192a542c111ff03a170b7853422ed38584674fac02751e1547590342e",
+      "source_sha256": "94ae10d7e2f5e696f7b3763568793bb61ba3683c1aeac85a04aa3d83931caca7",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Spoke strong is unnatural and does not clearly express a stern warning."
+        }
+      ]
+    },
+    "Mark 1:44": {
+      "text_sha256": "dbf52597a9ebfcb85542bbe619729e00da046b5c467a3ae8b923593cb7496804",
+      "source_sha256": "54d49539ebc26204b2f1e5f7ac0ec3b6b3ff5f40385bc06215674c83e4274d37",
+      "findings": [
+        {
+          "tests": [
+            "T1",
+            "T3"
+          ],
+          "message": "Show yourself is omitted. Explain the prescribed offering and the testimony’s audience."
+        }
+      ]
+    },
+    "Mark 1:45": {
+      "text_sha256": "6fa544066719b9b9e5d341acb6e1cf384a62b2641d3ffdc75f8e41786fd973fc",
+      "source_sha256": "4dbdb82803cf1d144b17e750577d3fe64e419396b6cdc2224a9aabbcf0b977cd",
+      "findings": [
+        {
+          "tests": [
+            "T1"
+          ],
+          "message": "Could not go in towns easy loses the qualification openly/in plain view."
+        }
+      ]
+    }
+  }
+}

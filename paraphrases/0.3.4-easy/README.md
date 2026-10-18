@@ -4,13 +4,17 @@ Easy Read Bible paraphrase drafts written directly from the Berean Standard Bibl
 
 The existing ABLE book folders and chapter basenames supply the file structure. Their paraphrase wording is not the source for these drafts.
 
-## Completed chapters
+## Full-Bible scope and current progress
 
-The latest request is complete: **49 new full chapters**, containing **1,514 verses**. Together with the existing Psalm 139, the requested set covers **50 chapters across 31 books**, with all **1,538 BSB verse addresses** retained.
+The active request is **all 66 books and all 1,189 chapters**. The edition is still in progress.
 
-See the [chapter index and coverage table](PROGRESS.md) for links to all 50 requested chapters. Judges 17 and Colossians 4 are included in full, as requested.
+See [full-Bible progress](FULL_BIBLE_PROGRESS.md) for current counts, all drafted chapter links, missing chapters by book, and original filename gaps. Regenerate it with `python3 scripts/easy_coverage.py --write`. Use `--require-complete` to make the inventory command fail while any chapter remains absent or structurally incomplete.
 
-The earlier drafts of [Psalm 133](psalms/psalms133_1757450169.md), [Psalm 113](psalms/psalms113_1757448583.md), [Psalm 94](psalms/psalms94_1757446736.md), and [Psalm 139](psalms/psalms139_1757450646.md) are retained. This edition now contains **53 chapter files and 1,573 verse addresses** in total.
+The [earlier 50-chapter batch index](PROGRESS.md) records a completed historical request. That batch and three other existing Psalms supplied the initial **53 chapter files and 1,573 verse addresses**. Existing drafts are retained for review as the full edition is written.
+
+Folder names and existing chapter filenames come from the original ABLE edition. BSB's `Psalm` maps to `psalms`, and `Song of Solomon` maps to `songofsongs`. The original structure has no chapter filenames for 2 Samuel 21–24; their planned paths follow the same naming convention and are listed in the full-Bible inventory. Ruth 1 has two historical filenames; the inventory records both and selects an existing Easy Read filename if present, otherwise the latest original timestamp.
+
+The BSB source contains **31,102 numbered addresses**, including **16 entries without verse text**. Those entries retain their headings with clearly labeled editorial notes. No scripture is invented to fill them.
 
 ## Reading format
 
@@ -25,3 +29,5 @@ Writing and layout draw on [Inclusion Europe's Easy-to-read checklist](https://w
 These are text drafts for review with intended readers. Emoji cues do not replace purpose-made, tested Easy Read illustrations. Font, text size, and page layout need checking in the final reading or print format. No Easy Read certification or logo is claimed.
 
 Checks compare chapter filenames, verse counts, verse order, and sentence layout. The new chapters use sentences of no more than 20 words. Structural checks do not establish comprehension or replace reader review.
+
+The [authoring and review requirements](AUTHORING.md) describe the consistent writing process and the remaining review work.

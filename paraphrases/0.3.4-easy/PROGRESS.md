@@ -1,4 +1,6 @@
-# Requested Easy Read chapters
+# Earlier 50-chapter Easy Read batch
+
+This is the historical index for an earlier request. The current request covers all 66 books; see [full-Bible progress](FULL_BIBLE_PROGRESS.md).
 
 Source: `../../comparison/bsb.txt` (BSB), read directly during authoring.
 
