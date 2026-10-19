@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "incomplete full-Bible edition; structural text-draft checkpoint only",
+  "status": "all full-Bible text drafts present; retained-draft author comparisons still in progress",
   "source": {
     "path": "comparison/bsb.txt",
     "sha256": "2e402b2aae15626408244a8e2f5a617b5b381e41f9c5ea36874bd95f4bbae9bd",
@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 1169,
-    "complete_book_structures": 65,
-    "draft_addresses": 30497,
-    "missing_chapters": 20,
+    "draft_chapters": 1189,
+    "complete_book_structures": 66,
+    "draft_addresses": 31102,
+    "missing_chapters": 0,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 1158
+    "current_provisional_author_comparisons": 1179
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -40,7 +40,7 @@
     "possible_sentence_paragraph_joins": 0,
     "stale_author_comparisons": 0,
     "unexpected_files": [],
-    "require_complete_exit_code": 1,
+    "require_complete_exit_code": 0,
     "checker_regression_tests": {
       "command": "python3 -m unittest discover -s scripts -p 'test_*.py'",
       "tests": 28,
@@ -48,7 +48,6 @@
     }
   },
   "pending_author_comparisons": [
-    "Judges 17",
     "Mark 1",
     "Mark 2",
     "Mark 3",
@@ -795,7 +794,27 @@
     "joshua/joshua22_1757353037.md": "35f193f51f02e5e44acac81aed0721ad5ce43a49c7a4425eed7c55970762357a",
     "joshua/joshua23_1757353122.md": "67617210ee95f4579d68c74dce9869d76fc4cf1a55f5b34c757c76c410928537",
     "joshua/joshua24_1757353233.md": "9861ed8653a442c169b543e42cc1ab472b914c1c240dc15277787a5e49aa86b0",
-    "judges/judges17_1757355071.md": "2258c1fef63072050defe8d6a11410497ed8924d1b28090017ad27c260215d55",
+    "judges/judges1_1757353415.md": "f8d8c4b47801f1009349cc5aee28756a6851de42980ac405004ef675b66b0295",
+    "judges/judges2_1757353533.md": "d8a64cd629ba0059de6def80f6804c28c31d640c303258f2b46996fb60e6e699",
+    "judges/judges3_1757353600.md": "6ee8fa625491f2c60ff3b2652ec85b4f6f27f0fa5ef135a7bd7e02853049981b",
+    "judges/judges4_1757353681.md": "ded8722ba1a5e078a6564cd9d5d817956c2ce194c788918d06fd03262fffd0b2",
+    "judges/judges5_1757353762.md": "d6ffaaf3474f3c0517077fab767f9c47b0b52f3c2f2dfccda9a411978cf9d663",
+    "judges/judges6_1757353879.md": "e91463651a7d586604c80b36b44709022440fcc30a93ab0063966b5bb310b41e",
+    "judges/judges7_1757353992.md": "9f3498164c14d015b22ac06f24552b792c9da88e9a8ee8879076940385906dbe",
+    "judges/judges8_1757354119.md": "eca5671be4358a145f52929d544c7b94e248eb765f2e7d6f28512f99aefa5a11",
+    "judges/judges9_1757354223.md": "5c5ac5fb47137f19e779beb129b34123ade89b9c493ab29e097b5a517a18a9bb",
+    "judges/judges10_1757354327.md": "7e57462ffd362f703d3b6f44bfabd1124917c699d223dfd9b9ae2c163d124b0b",
+    "judges/judges11_1757354390.md": "fe53fa0789e63dfa499881c99eeb060154ebc1b4a2db83f0d76dc6e49fdbafe9",
+    "judges/judges12_1757354459.md": "11c85b21cff15958526689104579299ff3bf4056c29972011e67c1ec63510bd9",
+    "judges/judges13_1757354560.md": "30702d16f80ae310371ad4796420e7ae29c88dde1a206e2cf368141dc5f297ce",
+    "judges/judges14_1757354656.md": "ea28308b8906351eeef49166bef4217227b41a6c3d12e24e9b39a438c075463d",
+    "judges/judges15_1757354798.md": "4c0071d838d4fcc124d1f5726568573c484e79f38149f7062edf77cd21d30301",
+    "judges/judges16_1757354913.md": "fb7fbecae8e032960a885ca340f39b90a2e2d6694f8302d184cb0a316cbc6531",
+    "judges/judges17_1757355071.md": "d154742231814cd95024b16a4b3360e036739cfd9a83931a9d87f53559498f19",
+    "judges/judges18_1757355222.md": "aeebcd5c8a31121f676a5e8c8a13d8482d2ab12229a0420fca51db819c0ce987",
+    "judges/judges19_1757355308.md": "ac0024720431af9d39a09b572e75043de87258dfcb9115268489c0cab7860dd6",
+    "judges/judges20_1757355424.md": "6c9343fad6b84286b80f3b84631a95161fe4cac013d3c5a0d704ed6377b7e7fd",
+    "judges/judges21_1757355592.md": "bca598a859a08606e97aa19ddf8e5ddadc547689047e6906288deaccb2846507",
     "ruth/ruth1_1757372779.md": "8a4ca3660a6ff7f843463779f66e53abf71dcb5812767999c7ae38c8250f01be",
     "ruth/ruth2_1757372852.md": "ff05543c511e14a95002e78001653c6ce27f67744b7053a2d67ebd7efb928592",
     "ruth/ruth3_1757372911.md": "e28776b26c71961837b2558bb6b8f8e23dca64a068d8fbb903875fc21aa3fedc",
