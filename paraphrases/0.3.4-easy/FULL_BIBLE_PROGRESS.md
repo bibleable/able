@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 199/1189 chapters.**
-**Books with every chapter drafted: 23/66.**
+**Structurally complete text drafts: 221/1189 chapters.**
+**Books with every chapter drafted: 24/66.**
 
-These drafts contain 5,149 of 31,102 source verse addresses.
+These drafts contain 5,963 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -60,7 +60,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Mark | 16 | 16 | — |
 | Luke | 1 | 24 | 1, 3–24 |
 | John | 5 | 21 | 2, 4–10, 12–13, 16–21 |
-| Acts | 6 | 28 | 7–28 |
+| Acts | 28 | 28 | — |
 | Romans | 16 | 16 | — |
 | 1 Corinthians | 16 | 16 | — |
 | 2 Corinthians | 13 | 13 | — |
@@ -104,7 +104,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Mark: [1](mark/mark1_1757488307.md), [2](mark/mark2_1757488422.md), [3](mark/mark3_1757488519.md), [4](mark/mark4_1757488688.md), [5](mark/mark5_1757488886.md), [6](mark/mark6_1757489209.md), [7](mark/mark7_1757489381.md), [8](mark/mark8_1757489607.md), [9](mark/mark9_1757489818.md), [10](mark/mark10_1757490019.md), [11](mark/mark11_1757490250.md), [12](mark/mark12_1757490501.md), [13](mark/mark13_1757490633.md), [14](mark/mark14_1757490812.md), [15](mark/mark15_1757490989.md), [16](mark/mark16_1757491130.md)
 - Luke: [2](luke/luke2_1757491540.md)
 - John: [1](john/john1_1757496006.md), [3](john/john3_1757496403.md), [11](john/john11_1757498047.md), [14](john/john14_1757498540.md), [15](john/john15_1757498634.md)
-- Acts: [1](acts/acts1_1757499505.md), [2](acts/acts2_1757499654.md), [3](acts/acts3_1757499802.md), [4](acts/acts4_1757499912.md), [5](acts/acts5_1757500091.md), [6](acts/acts6_1757500210.md)
+- Acts: [1](acts/acts1_1757499505.md), [2](acts/acts2_1757499654.md), [3](acts/acts3_1757499802.md), [4](acts/acts4_1757499912.md), [5](acts/acts5_1757500091.md), [6](acts/acts6_1757500210.md), [7](acts/acts7_1757500431.md), [8](acts/acts8_1757500616.md), [9](acts/acts9_1757500810.md), [10](acts/acts10_1757501017.md), [11](acts/acts11_1757501195.md), [12](acts/acts12_1757501353.md), [13](acts/acts13_1757501613.md), [14](acts/acts14_1757501756.md), [15](acts/acts15_1757501936.md), [16](acts/acts16_1757502030.md), [17](acts/acts17_1757502090.md), [18](acts/acts18_1757502211.md), [19](acts/acts19_1757502364.md), [20](acts/acts20_1757502499.md), [21](acts/acts21_1757502683.md), [22](acts/acts22_1757502899.md), [23](acts/acts23_1757503075.md), [24](acts/acts24_1757503165.md), [25](acts/acts25_1757503270.md), [26](acts/acts26_1757503400.md), [27](acts/acts27_1757503507.md), [28](acts/acts28_1757503655.md)
 - Romans: [1](romans/romans1_1757503761.md), [2](romans/romans2_1757503905.md), [3](romans/romans3_1757504011.md), [4](romans/romans4_1757504145.md), [5](romans/romans5_1757504223.md), [6](romans/romans6_1757504398.md), [7](romans/romans7_1757504461.md), [8](romans/romans8_1757504576.md), [9](romans/romans9_1757504764.md), [10](romans/romans10_1757504856.md), [11](romans/romans11_1757504962.md), [12](romans/romans12_1757505046.md), [13](romans/romans13_1757505126.md), [14](romans/romans14_1757505264.md), [15](romans/romans15_1757505356.md), [16](romans/romans16_1757505480.md)
 - 1 Corinthians: [1](1corinthians/1corinthians1_1757505564.md), [2](1corinthians/1corinthians2_1757505705.md), [3](1corinthians/1corinthians3_1757505866.md), [4](1corinthians/1corinthians4_1757505952.md), [5](1corinthians/1corinthians5_1757506040.md), [6](1corinthians/1corinthians6_1757506167.md), [7](1corinthians/1corinthians7_1757506373.md), [8](1corinthians/1corinthians8_1757506481.md), [9](1corinthians/1corinthians9_1757506588.md), [10](1corinthians/1corinthians10_1757506729.md), [11](1corinthians/1corinthians11_1757506854.md), [12](1corinthians/1corinthians12_1757506952.md), [13](1corinthians/1corinthians13_1757507030.md), [14](1corinthians/1corinthians14_1757507145.md), [15](1corinthians/1corinthians15_1757507292.md), [16](1corinthians/1corinthians16_1757507404.md)
 - 2 Corinthians: [1](2corinthians/2corinthians1_1757507531.md), [2](2corinthians/2corinthians2_1757507639.md), [3](2corinthians/2corinthians3_1757507755.md), [4](2corinthians/2corinthians4_1757507872.md), [5](2corinthians/2corinthians5_1757507968.md), [6](2corinthians/2corinthians6_1757508131.md), [7](2corinthians/2corinthians7_1757508214.md), [8](2corinthians/2corinthians8_1757508369.md), [9](2corinthians/2corinthians9_1757508467.md), [10](2corinthians/2corinthians10_1757508574.md), [11](2corinthians/2corinthians11_1757508711.md), [12](2corinthians/2corinthians12_1757508838.md), [13](2corinthians/2corinthians13_1757508911.md)
