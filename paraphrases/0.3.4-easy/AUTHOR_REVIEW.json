@@ -3661,6 +3661,248 @@
       "comparison_notes": "Compared all 13 addresses. Retained Philistine pursuit, Gilboa, all three named sons, critical arrow wounds, complete armour-bearer request and fear/refusal, Saul’s suicide and the bearer’s subsequent death, same-day collective deaths, valley and beyond-Jordan inhabitants abandoning cities and Philistine occupation, next-day stripping and recognition, head removal and all idol-temple announcements, Ashtoreths’ temple and Beth-shan wall, Jabesh-gilead’s all-night brave men recovering bodies, burning at Jabesh, tamarisk burial and seven-day fast. Suicide and post-mortem violence are not silently omitted or harmonized with the later Amalekite’s report.",
       "independent_editorial_review": "pending",
       "intended_reader_review": "pending"
+    },
+    "1 Kings 1": {
+      "path": "1kings/1kings1_1757412198.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "022c8236eff3be18e569bcb31085cede6399bfd8d0fac14f9e4093f03865f705",
+      "draft_sha256": "65961605598288effb66fad39bf6f7db2d581e6653ab7893ab5eafce2ec73bb5",
+      "source_addresses": 53,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 53 BSB addresses: David’s age and lack of warmth, Abishag’s identity and care without sexual relations, Adonijah’s parentage and succession claim, chariots and fifty runners, paternal failure to challenge him, supporters and excluded guests, sacrificial site and invitation lists, Nathan’s warning and advice to Bathsheba, repeated oath and succession reports, David’s decision, named officials and royal mule, Gihon anointing with oil and trumpet, Benaiah’s prayer and David comparison, rejoicing heard at the feast, Jonathan’s full report including David’s worship, guests scattering, altar horns and Solomon’s conditional protection. Restored Benaiah’s parentage in the procession. Quotes crossing verse boundaries remain character speech; explanations are labeled.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 2": {
+      "path": "1kings/1kings2_1757412336.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "fe54e21bead8f874e12115deec0144d2e94d799714ccaf4b60cee1c34ae3b75b",
+      "draft_sha256": "2859117b369c4ffcfb1bbd0f1b8b27c196db5d20816e9b96e75659da7223d07f",
+      "source_addresses": 46,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 46 BSB addresses: David’s approaching death, command to Solomon and conditional dynastic promise, Joab’s killings and peacetime blood, Barzillai’s sons and hospitality, Shimei’s curse and David’s oath, David’s burial and forty-year reign split, Adonijah’s request through Bathsheba and its succession implications, Solomon’s oath and execution order, Abiathar’s removal with past service and Eli fulfilment, Joab’s altar refuge and Benaiah’s reports, Abner and Amasa’s innocent blood and family consequences, replacements, Shimei’s Jerusalem restriction and death condition, escaped servants and Achish, three-year interval, summons and execution. Restored Abishag the Shunammite and Abiathar’s priestly title in Solomon’s answer. Difficult orders remain attributed speech, not directions to readers.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 3": {
+      "path": "1kings/1kings3_1757412506.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "5efe939ffbc41cf6abcac2ad97e260c0625c5fe46bb1b4fe2dfb761180a56698",
+      "draft_sha256": "03407f670d070b76192484df4ae2d190cabd696c46064525d640d616599fadf8",
+      "source_addresses": 28,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 28 BSB addresses: Pharaoh alliance and daughter, unfinished palace and temple and wall, high-place sacrifices and Solomon’s love, Gibeon’s thousand offerings and dream, Solomon’s prayer about David and his own inexperience, numerous chosen people and request for discernment, God’s response contrasting other requests, wisdom and wealth and conditional long life, waking and Jerusalem offerings and feast, both women’s testimony including three-day births and death allegation, disputed child, sword command, different reactions, final judgment and public awe. Kept each side’s accusations distinct from narrator statements and retained the distressing proposed division of the child.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 4": {
+      "path": "1kings/1kings4_1757412692.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "d047828ef9d3ae0c66900ed236796d74a3c9cf5ca49fe95edbe649cf99938973",
+      "draft_sha256": "656b9a7bf3fabb4389984a0d761b8c7efe4f0ccdf71f2c2a499ee14f8e6a3a06",
+      "source_addresses": 34,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Retained and compared the existing 34-address draft with BSB: Solomon’s rule, every named official and father and role, twelve district governors and all district lists and marriages, sixty walled cities with bronze bars, Sihon and Og, numerous people and prosperity, extent of rule and tribute, daily thirty and sixty cor flour plus ten and twenty oxen and hundred sheep, game and poultry, safety from Dan to Beersheba, four thousand stalls and twelve thousand horses, monthly provisioning and barley/straw, wisdom comparisons with all five named sages and Mahol, three thousand proverbs and 1,005 songs, botanical and animal categories, international visitors. Restored poultry, chariot horses versus other horses, composition rather than an added claim about writing, and all kings of the earth. Counts follow this BSB file.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 5": {
+      "path": "1kings/1kings5_1757412841.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "98b9f43f39e2578d48985c51deb2b7fe0be359741ef1be23fe87f3df0248a666",
+      "draft_sha256": "546b6b514c1052e4a1071398164d0b3f270a36eb9e29b5c26e3dd6cdada4fa91",
+      "source_addresses": 18,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 18 BSB addresses: Hiram’s prior friendship and message, David’s warfare preventing building, rest on all sides and divine promise through Solomon, request for Lebanon cedars and Sidonian skill and payment, Hiram’s praise and timber/food agreement and sea transport, annual twenty thousand cors wheat and twenty thousand baths oil as supplied in BSB, wisdom and peace treaty, thirty thousand forced workers and monthly ten-thousand rotation, Adoniram, seventy thousand carriers and eighty thousand stonecutters, 3,300 supervisors, costly quarried foundation stones and builders of Solomon, Hiram and Gebal. Units are preserved with editorial help; no numbers substituted from another edition.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 6": {
+      "path": "1kings/1kings6_1757412943.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "bf32314f36be78011b7aad5356184eac91af15fb988a152ec44ebe10940f36c6",
+      "draft_sha256": "749380d5bd70a6c0666910ea3ce21688d02266f87a8089f0023e6ce8f4e574fa",
+      "source_addresses": 38,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 38 BSB addresses: 480th year after exodus, Solomon’s fourth year and second month Ziv, every temple dimension, porch and windows and side-room widths, offsets and prefinished stones without tools heard, door and winding stairs, cedar rooms, the LORD’s explicit obedience condition and promise through David, interior cedar and cypress, sanctuary dimensions and gold and altar and chains, paired cherubim dimensions and wing positions, carved figures and flowers, gold floors, olivewood doors and five-sided opening, four-sided entrance and folding cypress doors, inner courtyard courses, foundation and completion months and eleven-year/ seven-year timing. Reworded the conditional promise for clarity while keeping the fulfilment conditional. Architecture and units need independent specialist review.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 7": {
+      "path": "1kings/1kings7_1757413139.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "ccd08cd705bf3462e70404266f40b34fabe25f5dfc0ec36f669ede65751eea93",
+      "draft_sha256": "e2ae06aa95864e60af725c23e71a3fb82b4c58b03cb2ed74c723b2bb5cac53c3",
+      "source_addresses": 51,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 51 BSB addresses: thirteen years on Solomon’s palace, House of the Forest of Lebanon and all dimensions and column and beam and window arrangements, pillared hall and judgment hall and residences, Pharaoh’s daughter, costly dressed stones and foundation dimensions, Huram’s parentage and bronze skill, two pillars and capitals and networks and pomegranates and lily form and names, bronze Sea diameter, height, circumference, gourds and twelve oxen’s directions, rim and two-thousand-bath capacity, ten stands and all panels and wheels and supports and dimensions, ten basins and their forty-bath capacity and placement, pots and shovels and bowls, summary inventory with counts, Jordan casting sites and unweighed bronze, every gold furnishing and utensils, completed work and David’s dedicated treasures. Preserved numerical descriptions as BSB gives them and restored the explicit completion and treasury sequence.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 8": {
+      "path": "1kings/1kings8_1757413308.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "d7dfaa514624711e0e33165a03d2243672758847aacb4478d1b7f39494480f4a",
+      "draft_sha256": "0e43d0a345c9d25abef793495f64498717870da45d8defd9bca0d4563b8270c5",
+      "source_addresses": 66,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 66 BSB addresses: leaders and Ethanim feast, ark and Tent and furnishings, innumerable sacrifices, sanctuary placement beneath cherubim and pole visibility and tablets alone, cloud/glory, Solomon’s blessing and David/son promise, whole dedicatory prayer including God’s incomparable covenant love, conditional dynastic promise, heaven unable to contain God, watching and hearing and forgiveness, oath litigation and differentiated judgments, defeat/drought/famine/plague/siege conditions, individual hearts and fear, foreigner and name, war and captivity/repentance and return prayer, compassion of captors, Egypt iron-furnace image, Moses and inheritance, kneeling posture, blessing and exhortation, offerings of 22,000 oxen and 120,000 sheep, courtyard expansion, Hamath to Brook of Egypt and fourteen-day feast, fifteenth-day dismissal. Restored the Name in the son’s building promise and war-prayer direction; clarified conditional clauses without converting prayer into guaranteed outcomes.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 9": {
+      "path": "1kings/1kings9_1757413473.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "e7475853cef666aaac86845d9565e1a785c3da9be4645a91adc94afd2e842281",
+      "draft_sha256": "443e2a7f7f666d259b4c50cc5246c4bc94d07fe8e52ddf4741d9013d9fa90e16",
+      "source_addresses": 28,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 28 BSB addresses: second appearance like Gibeon, accepted prayer and consecrated house and Name, conditional obedience/dynasty and apostasy/cutting off and temple rejection, shocked passers-by and reason for disaster, twenty-year building period, Hiram’s timber/gold and twenty Galilee towns, dissatisfaction and Cabul and 120 talents, forced labour projects and named sites, Gezer’s capture and burning and Canaanites killed by Pharaoh and wedding gift, storage and chariot cities, surviving peoples forced into labour versus Israelite service, 550 supervisors, Pharaoh’s daughter’s move and supporting terraces, three annual offerings and incense, Ezion-geber near Eloth and Red Sea fleet, Hiram’s sailors and Ophir’s 420 talents. Labels explain destruction and forced labour without erasing either.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 10": {
+      "path": "1kings/1kings10_1757413642.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "1054af4781e781d12c39d20062a094e0983e334b67eacd08604ef9d99dd52e13",
+      "draft_sha256": "00fcf4c61a7423f298b8ede972c49006f16d72541e5e0be8a59daa626b5665e6",
+      "source_addresses": 29,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 29 BSB addresses: Sheba’s queen and LORD-related fame and hard questions, extensive gifts and full discussion, all wisdom and palace and table and officials and clothing and cupbearers and offerings, reported prosperity versus experience and praise of God’s eternal love and justice, 120 talents and unprecedented spices, Ophir gold and almug wood and musical instruments, all requested and royal gifts and return, 666 annual talents plus other revenue sources, two hundred large shields at six hundred shekels and three hundred small at three minas, ivory throne with six steps and rounded top and armrests and lions, gold drinking vessels and negligible silver, Tarshish/Hiram fleet every three years with full cargo, worldwide wisdom audiences and annual gifts, 1,400 chariots and 12,000 horses and locations, silver/cedar abundance, Egypt and Kue trade and 600/150 prices and export buyers. Restored the rounded top rather than a generally rounded back.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 11": {
+      "path": "1kings/1kings11_1757413746.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "704331239668669de73c324ef9ca9dd41a308059cfed0edc1ef4765e73cf5117",
+      "draft_sha256": "eb95c76e5dc29645a5544d7c1c8aeb811f3d1db3f9832ae6cb4795054c5f474f",
+      "source_addresses": 43,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 43 BSB addresses: all nations of Solomon’s wives and prohibition rationale, seven hundred wives and three hundred concubines, old-age diversion and David comparison, all named gods with source judgments, eastern hill shrines and sacrifices, two divine appearances and broken command, announced tearing away and David/Jerusalem limits, Hadad’s royal lineage and Joab’s six-month slaughter, flight and Pharaoh’s welcome and Tahpenes and Genubath, news of deaths and return request, Rezon’s origin and Damascus rule and continuing opposition, Jeroboam’s lineage and widow mother and rebellion and labour role, Ahijah’s new cloak and twelve pieces, ten tribes and retained one, detailed reasons and David comparison, conditional Jeroboam dynasty and temporary humiliation of David’s descendants, Egypt flight, Acts of Solomon record and forty years and succession. Restored explicit worship roles of named gods, judgment language and Hadad’s location and Joab’s role.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 12": {
+      "path": "1kings/1kings12_1757413864.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "16890a814097b5904435ae368d60ec6942f5845b143e295ab6a46cf3c3a85c3a",
+      "draft_sha256": "73a9e49909e27bba3d7310e44cf0182785fdbeb8169a15e510611339d9506dd0",
+      "source_addresses": 33,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 33 BSB addresses: Shechem assembly, Jeroboam’s Egypt return, repeated request to lighten the yoke, three-day delay, elders’ servant-leadership advice and rejection, peers’ advice with finger/waist and whips/scorpions images, repeated threat and divinely caused turn fulfilling Ahijah’s word, Israel’s David/Jesse protest and home departure, Rehoboam’s Judah remnant and Adoram’s stoning and chariot escape, continuing rebellion and Jeroboam’s installation, 180,000 Judah/Benjamin warriors and Shemaiah son of Delaiah and divine ban on civil war, Shechem and Penuel building, Jeroboam’s fears and two gold calves and Exodus claim, Bethel/Dan placement and non-Levite priests and invented eighth-month feast. Restored the fuller questions and three-day return and Rehoboam’s parentage; coercive imagery remains with labeled help.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 13": {
+      "path": "1kings/1kings13_1757414016.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "797be61395be44f0c2b8891218387f1cce8da0126c61ea701a896b351d38b924",
+      "draft_sha256": "3d3c5072b67f7fd392ba8c050582ae12cf53e87772b25215301819f829ac2672",
+      "source_addresses": 34,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 34 BSB addresses: man of God from Judah versus Jeroboam at Bethel, named future Josiah and priests’ bones prophecy, altar sign and withered hand and prayer/restoration, royal invitation and refusal with explicit travel/eating prohibition, old prophet’s sons’ report and donkey journey, oak-tree meeting and repeated prohibition, old prophet’s lying claim of an angelic command, return and meal, actual LORD message of disobedience and burial judgment, lion killing without eating and donkey remaining, passers-by report and old prophet’s identification, retrieval and lament and shared tomb request, prediction covering Samaria’s shrines, Jeroboam’s continuing appointment of priests and household destruction. Kept the lie clearly distinguished from the subsequent LORD message. Restored the sons’ full account and Bethel setting.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 14": {
+      "path": "1kings/1kings14_1757414167.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "d88c62d80e0bf1a539bfb2b9bb7d8837112f098a7f21d4238c4dd94a32fa1077",
+      "draft_sha256": "d1e912ef98c2541484ecffaa1879f101616d380763fd8d1d09c2c4bc66d1c357",
+      "source_addresses": 31,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 31 BSB addresses: Abijah’s illness, Jeroboam’s disguised wife and Shiloh/Ahijah instructions and gifts, blindness due to age and advance LORD disclosure, recognition and rebuke with David comparison and other gods, sweeping household judgment with dogs/birds, child’s death on entering city and burial exception for good found in him, future king cutting off dynasty, uprooting beyond Euphrates for Asherah poles and Jeroboam’s sins, Tirzah return and fulfilment and chronicles, twenty-two years and Nadab, Rehoboam’s forty-one-year accession and seventeen-year reign and Naamah the Ammonite, Judah’s sins and high places and male shrine prostitutes, Shishak in fifth year taking treasures/gold shields, bronze replacements and guards, chronicles and continuing conflict and burial and Abijam. Checked pronouns in the advance disclosure to identify the sick son correctly.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 15": {
+      "path": "1kings/1kings15_1757414268.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "f09b26099a4711164f0f5553cb9eeb49158b1bce155387a70c32c7f201230276",
+      "draft_sha256": "ccc0c153f6afc3d6d9c28dc19f0417599c388cbf691854c49cbbce87922efb31",
+      "source_addresses": 34,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 34 BSB addresses: Abijam’s accession synchronism and three-year reign and mother Maacah daughter of Abishalom, sins versus David and lamp granted for David/Jerusalem, Uriah exception, continuing wars and chronicles and burial, Asa’s accession synchronism and forty-one years and named grandmother, removal of shrine prostitutes and ancestral idols and queen mother over Asherah image burned by Kidron, remaining high places and devoted heart and dedicated treasures, Baasha war and Ramah blockade, full gift/treaty proposal to Ben-hadad son of Tabrimmon son of Hezion, attacks on all named places, withdrawal and stone/timber reuse with all Judah at Geba/Mizpah, foot illness and chronicles and succession, Nadab’s synchronism and two years and sins, Baasha’s lineage and Gibbethon conspiracy and accession, complete household killing fulfilling Ahijah, sins and wars and Baasha’s twenty-four-year reign. No softened version of dynastic violence substituted.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 16": {
+      "path": "1kings/1kings16_1757414453.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "8cfafa0a8d71c21a2aff9f382c5b6978542c8f0d11d8500f33bdd574fc792292",
+      "draft_sha256": "431e4a2cb188c0e5e1261fced28eb1deaafe8a1c2730f3854da1eef4e6088b61",
+      "source_addresses": 34,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 34 BSB addresses: Jehu son of Hanani’s word and dust-to-ruler image, Baasha’s sins and announced family destruction and dogs/birds, chronicles and death and Elah, repeated reason including Baasha’s killing Jeroboam’s family, Elah’s synchronism/two years and Zimri’s role and Arza’s house and drunkenness, twenty-seventh-year assassination, killing every male and relatives/friends and fulfilment, both kings’ sins and records, seven-day reign and Gibbethon siege and army’s Omri choice, Tirzah palace burning and sins and record, split supporters of Tibni son of Ginath and Omri, six years at Tirzah and twelve total and accession date, Shemer’s two talents and Samaria naming, escalating evil and Jeroboam’s ways, records and Ahab succession, Ahab’s date and twenty-two years and Jezebel/Ethbaal/Baal/Asherah, Hiel’s Jericho rebuilding with Abiram and Segub under Joshua son of Nun’s word. Restored Zimri’s explicit destruction and Tibni’s parentage and Baasha’s family limit on the dogs/birds judgment.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 17": {
+      "path": "1kings/1kings17_1757414548.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "89b7bad065d00d021264ade5ef4182530266d7220b0e0af31233a3e72a4bea63",
+      "draft_sha256": "4eaa7d6b141834c022aacb75d24929e7162f8051e9070727e671e9af64edbb0a",
+      "source_addresses": 24,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 24 BSB addresses: Elijah the Tishbite of Gilead and oath and dew/rain condition, Cherith east of Jordan and ravens and morning/evening bread/meat and brook water and drying, Zarephath in Sidon and widow, water/bread request and her oath and handful flour/little oil and last meal expectation, do-not-fear instruction and first cake then family and rain-limited supply promise, daily household provision and fulfilment, owner’s son’s worsening illness/death and guilt question, Elijah’s request and carrying upstairs and own bed, complaint prayer and three stretches and life-restoration prayer, LORD hearing and revived boy and return and confession. Restored Elijah’s direct request for the son and Zarephath arrival. Death and prayer are preserved without diagnoses or extra explanations in scripture.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 18": {
+      "path": "1kings/1kings18_1757414706.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "b954769385395de7f32d2f25b2dad0f45b92f2585fe038f1251215eb6030a70e",
+      "draft_sha256": "4d068d029edf10808476d79422ad01ad5198cb9e96b14eaf72b1e9adc80981d0",
+      "source_addresses": 46,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 46 BSB addresses: third-year word and famine, Obadiah’s role and hundred hidden prophets/fifty per cave, Ahab/Obadiah division to seek grass and save animals, encounter and repeated warning concerning Elijah’s disappearance and execution risk, sworn search and lifelong devotion, Elijah’s oath and meeting, troubler accusation and command to assemble Carmel and 450 Baal/400 Asherah prophets fed by Jezebel, wavering question and silence, two bulls/fire test and assent, Baal ritual all morning/noon including cutting and blood and no answer, Elijah’s mockery, repaired altar with twelve named-Israel stones and trench capacity and wood/bull/four waterpots three times and filled trench, sacrifice-time prayer and fire consuming full inventory and confession, Kishon seizure/killing, rain warning and bowed prayer and seven looks and small cloud, warning Ahab and rain and Spirit-strengthened run to Jezreel. Restored the repeated water instructions and hiding testimony to avoid suggesting the hidden prophets were killed.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 19": {
+      "path": "1kings/1kings19_1757414815.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "64c208c4f0789fe99298113751e13d397c814cb88ce650bd4bbf2fca5996bd50",
+      "draft_sha256": "9fc45def5e5efa8b8254e22b1b7f116252f2ac9424f7c6cd7a6c5c391cac7285",
+      "source_addresses": 21,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 21 BSB addresses: Ahab’s report and Jezebel’s next-day threat/oath, fear and flight to Beersheba and left servant, one-day wilderness journey/broom tree and full death request, angel’s two feedings and food/water and warning, forty days/nights to Horeb, cave and repeated question, twice-repeated zeal/covenant/altars/prophets/alone/threat answer, mighty wind/earthquake/fire and repeated absence of LORD then still small voice, covered face and cave entrance, return via wilderness to Damascus and Hazael/Jehu son of Nimshi/Elisha son of Shaphat of Abel-meholah commissions, successive swords and seven thousand not bowed/kissed Baal, twelve yokes and Elisha at twelfth, cloak and parental farewell request, slaughtered oxen and burned equipment and public meal and service. Preserved distress and violent prophecy as source speech with no clinical conclusions.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 20": {
+      "path": "1kings/1kings20_1757415026.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "f5e44a54f69adfa5bb7d00de0643bff39d42119efd7ad0911f44837429cb9929",
+      "draft_sha256": "d1f80d127e9de2b4cc74408959c6e892292f8f01807410e132c1cbc79a6b867e",
+      "source_addresses": 43,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 43 BSB addresses: Ben-hadad’s thirty-two kings and siege and escalating demands, Ahab’s initial submission and elders’ refusal, messengers and dust oath and armour proverb, drunken feast and attack, LORD’s prediction and district officers and who starts, 232 and seven thousand, noon scouts and live-capture order and rout and escape and follow-up spring warning, Aramean hill-gods explanation and king/officer substitution and equivalent army, Aphek contrast and divine reply, seven days and 100,000 killed in one day and wall on 27,000, inner refuge and sackcloth/ropes plea and Ahab’s brother response, cities/market treaty and release, prophetic companion’s refusal to strike and lion death, second strike and disguised bandage, captive-guard account with life-or-talent condition and self-pronounced judgment, recognition and divine destruction judgment and sullen return. Expanded abbreviated dialogue and restored the lion’s actual killing, surrender clothing, single-day count, and divine causal reply.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 21": {
+      "path": "1kings/1kings21_1757415158.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "f08f56fb6a81e5fb1316ab269c5b3a4c23022d9159ed5f60dc68243f0d508e14",
+      "draft_sha256": "2cfe33cac93558d2a0f9fc26403bba106e3cbc2e3ff291421cc34ebe8a815e11",
+      "source_addresses": 29,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 29 BSB addresses: Naboth the Jezreelite’s vineyard beside Ahab’s Samaria palace, vegetable garden proposal and alternatives, ancestral inheritance refusal, sullen bed/turned face/no food, Jezebel’s inquiry and Ahab’s repeated account, royal challenge and promised vineyard, sealed letters and city elders/nobles and fast and seating and two false witnesses with God/king charge, compliance and stoning outside city and report, Jezebel’s order and Ahab’s possession, Elijah’s commission and murder/land rebuke and blood/dogs prophecy, enemy accusation and sold-to-evil cause, removal of all male descendants and parallel dynasties with cause, Jezebel wall judgment and city/field scavengers, exceptional evil with Jezebel’s urging and Amorite comparison, torn clothes/sackcloth/fasting/humility and delayed family disaster to son’s days. Replaced a summary of Ahab’s account with the repeated offer and refusal; retained false accusation as accusation and restored causal wording.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "1 Kings 22": {
+      "path": "1kings/1kings22_1757415295.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "d8e7d63c023e2416199ef40540df98e8bfa7b694bd919a9dc2980ea944bdc738",
+      "draft_sha256": "6969137a6d0e5c89b22b095f12592934a7d5acbdd956c943d8d359064cfc3368",
+      "source_addresses": 53,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Retained and compared the existing 53-address draft: three-year peace and third-year visit, Ramoth-gilead claim and alliance, about four hundred prophets versus requested LORD prophet, Micaiah son of Imlah and hatred, threshing-floor thrones and robes, Zedekiah son of Chenaanah’s iron horns and destruction prediction, messenger pressure and Micaiah oath and initial answer/truth challenge, all Israel shepherdless vision, heavenly throne and army and enticement dialogue with lying spirit and divine commission, slap and hiding prediction, Amon and Joash imprisonment orders and food/water and return challenge, disguise and robes, thirty-two commanders and mistaken pursuit of Jehoshaphat, random arrow and wounded king’s turn-around request and blood and death and dispersal, Samaria burial/pool/prostitutes/dogs fulfilment, chronicles and Ahaziah, Jehoshaphat’s synchronism/age/reign/mother/conduct/high places/peace/chronicles/prostitutes/Edom deputy/shipwreck/refused alliance/burial/succession, Ahaziah’s synchronism/two-year reign/parental sins/Baal. Restored explicit lying-spirit language and all prophets, full chronicle titles, named parentage, rounded details of battle and burial. Heavenly causation and disturbing material remain for independent assessment.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
     }
   }
 }
