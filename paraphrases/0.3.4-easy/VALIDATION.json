@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 907,
-    "complete_book_structures": 54,
-    "draft_addresses": 23075,
-    "missing_chapters": 282,
+    "draft_chapters": 919,
+    "complete_book_structures": 55,
+    "draft_addresses": 23432,
+    "missing_chapters": 270,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 891
+    "current_provisional_author_comparisons": 903
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -1211,6 +1211,18 @@
     "ezekiel/ezekiel46_1757475785.md": "d96aac9f1536c75d4517911c8af0dcd880e5d6e5bfb331cda9aedc9567cf59d4",
     "ezekiel/ezekiel47_1757475865.md": "78a5120beeb1c3e53d61f08c9f3076075ea307c226c5a1e73edf6c8b167a825a",
     "ezekiel/ezekiel48_1757475934.md": "4018bbaabbcf09344ad83c749247025fbc9085fcbf1eef59c2b78c573c495961",
+    "daniel/daniel1_1757475997.md": "219e650cf24cda69e29529f16deaf8da9c30945479f67f82865a978239040b37",
+    "daniel/daniel2_1757476118.md": "e556c7f00bb929ee4c0e60aaba9c34ad7cd6d6213d2437d3c6eaf2cc020ffdce",
+    "daniel/daniel3_1757476198.md": "686f008f69ac13487d95c837b9f50f686fc3a354f765a543caaf687c429debd7",
+    "daniel/daniel4_1757476279.md": "0c9e50884e26da643e479cd903a3d16c7266d70d29e4b690cc19234df7d921b2",
+    "daniel/daniel5_1757476440.md": "d4a54fbaeae7848ea6fffa91a7852bc3f283ba8e1c33656f12e9416d81df3246",
+    "daniel/daniel6_1757476600.md": "08095872194dad3954573da44d66923e026c6e5514f159b17ed333eec219f462",
+    "daniel/daniel7_1757476728.md": "429cf157f46bc7e0a141ef4aa36fe62f1de77f5d10899d268c03128962c8d5e0",
+    "daniel/daniel8_1757476829.md": "f50a2d33b885c09fd9e25eed16fbef566071af0c908e496133ad80e9a11d8f58",
+    "daniel/daniel9_1757477020.md": "de736730c95a722d4b73df696a4855e17f4bf9a579a80bcb60585a6ccc4ee2a9",
+    "daniel/daniel10_1757477146.md": "16ebe66f4baf01e13d2a78dfce04e6657ac776f9fa24d5fbf0716841e1ff0bd6",
+    "daniel/daniel11_1757477272.md": "5777612f9b44ee7248fd2eab3bcb48ee8189ae27d03cb05c91ed8803f01fbec4",
+    "daniel/daniel12_1757477396.md": "7f05aa99f667f4633549f34bedc914f3f6e8933fa23a8f45a50f33f38d80e35c",
     "joel/joel1_1757478775.md": "8fa918617b875d8367edd8729ca09ddc7afa12e81f16a2ec988f4a94eb3686da",
     "joel/joel2_1757478899.md": "c9f916dd6ecdd0b1505d89b139eb91b226e104072b80d6bbb6f64e609737ebc8",
     "joel/joel3_1757479073.md": "92ec9f382f15f06118733841467919820c9dd3a8fcf03837da01ee41df8420ec",

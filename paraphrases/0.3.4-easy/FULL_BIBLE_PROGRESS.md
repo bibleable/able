@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 907/1189 chapters.**
-**Books with every chapter drafted: 54/66.**
+**Structurally complete text drafts: 919/1189 chapters.**
+**Books with every chapter drafted: 55/66.**
 
-These drafts contain 23,075 of 31,102 source verse addresses.
+These drafts contain 23,432 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -43,7 +43,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Jeremiah | 52 | 52 | — |
 | Lamentations | 5 | 5 | — |
 | Ezekiel | 48 | 48 | — |
-| Daniel | 0 | 12 | 1–12 |
+| Daniel | 12 | 12 | — |
 | Hosea | 0 | 14 | 1–14 |
 | Joel | 3 | 3 | — |
 | Amos | 1 | 9 | 1–3, 5–9 |
@@ -109,6 +109,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Jeremiah: [1](jeremiah/jeremiah1_1757464330.md), [2](jeremiah/jeremiah2_1757464531.md), [3](jeremiah/jeremiah3_1757464618.md), [4](jeremiah/jeremiah4_1757464740.md), [5](jeremiah/jeremiah5_1757464810.md), [6](jeremiah/jeremiah6_1757464909.md), [7](jeremiah/jeremiah7_1757465035.md), [8](jeremiah/jeremiah8_1757465135.md), [9](jeremiah/jeremiah9_1757465245.md), [10](jeremiah/jeremiah10_1757465331.md), [11](jeremiah/jeremiah11_1757465446.md), [12](jeremiah/jeremiah12_1757465548.md), [13](jeremiah/jeremiah13_1757465620.md), [14](jeremiah/jeremiah14_1757465739.md), [15](jeremiah/jeremiah15_1757465803.md), [16](jeremiah/jeremiah16_1757465993.md), [17](jeremiah/jeremiah17_1757466121.md), [18](jeremiah/jeremiah18_1757466235.md), [19](jeremiah/jeremiah19_1757466334.md), [20](jeremiah/jeremiah20_1757466446.md), [21](jeremiah/jeremiah21_1757466519.md), [22](jeremiah/jeremiah22_1757466603.md), [23](jeremiah/jeremiah23_1757466694.md), [24](jeremiah/jeremiah24_1757466758.md), [25](jeremiah/jeremiah25_1757466962.md), [26](jeremiah/jeremiah26_1757467066.md), [27](jeremiah/jeremiah27_1757467199.md), [28](jeremiah/jeremiah28_1757467299.md), [29](jeremiah/jeremiah29_1757467446.md), [30](jeremiah/jeremiah30_1757467602.md), [31](jeremiah/jeremiah31_1757467741.md), [32](jeremiah/jeremiah32_1757467935.md), [33](jeremiah/jeremiah33_1757468030.md), [34](jeremiah/jeremiah34_1757468143.md), [35](jeremiah/jeremiah35_1757468263.md), [36](jeremiah/jeremiah36_1757468421.md), [37](jeremiah/jeremiah37_1757468531.md), [38](jeremiah/jeremiah38_1757468676.md), [39](jeremiah/jeremiah39_1757468799.md), [40](jeremiah/jeremiah40_1757468911.md), [41](jeremiah/jeremiah41_1757469006.md), [42](jeremiah/jeremiah42_1757469121.md), [43](jeremiah/jeremiah43_1757469167.md), [44](jeremiah/jeremiah44_1757469287.md), [45](jeremiah/jeremiah45_1757469357.md), [46](jeremiah/jeremiah46_1757469444.md), [47](jeremiah/jeremiah47_1757469513.md), [48](jeremiah/jeremiah48_1757469683.md), [49](jeremiah/jeremiah49_1757469777.md), [50](jeremiah/jeremiah50_1757469970.md), [51](jeremiah/jeremiah51_1757470078.md), [52](jeremiah/jeremiah52_1757470169.md)
 - Lamentations: [1](lamentations/lamentations1_1757470260.md), [2](lamentations/lamentations2_1757470384.md), [3](lamentations/lamentations3_1757470483.md), [4](lamentations/lamentations4_1757470581.md), [5](lamentations/lamentations5_1757470654.md)
 - Ezekiel: [1](ezekiel/ezekiel1_1757470778.md), [2](ezekiel/ezekiel2_1757470907.md), [3](ezekiel/ezekiel3_1757470976.md), [4](ezekiel/ezekiel4_1757471096.md), [5](ezekiel/ezekiel5_1757471203.md), [6](ezekiel/ezekiel6_1757471304.md), [7](ezekiel/ezekiel7_1757471452.md), [8](ezekiel/ezekiel8_1757471522.md), [9](ezekiel/ezekiel9_1757471630.md), [10](ezekiel/ezekiel10_1757471728.md), [11](ezekiel/ezekiel11_1757471870.md), [12](ezekiel/ezekiel12_1757471956.md), [13](ezekiel/ezekiel13_1757472049.md), [14](ezekiel/ezekiel14_1757472131.md), [15](ezekiel/ezekiel15_1757472180.md), [16](ezekiel/ezekiel16_1757472356.md), [17](ezekiel/ezekiel17_1757472498.md), [18](ezekiel/ezekiel18_1757472639.md), [19](ezekiel/ezekiel19_1757472717.md), [20](ezekiel/ezekiel20_1757472820.md), [21](ezekiel/ezekiel21_1757472911.md), [22](ezekiel/ezekiel22_1757473064.md), [23](ezekiel/ezekiel23_1757473179.md), [24](ezekiel/ezekiel24_1757473283.md), [25](ezekiel/ezekiel25_1757473373.md), [26](ezekiel/ezekiel26_1757473467.md), [27](ezekiel/ezekiel27_1757473591.md), [28](ezekiel/ezekiel28_1757473778.md), [29](ezekiel/ezekiel29_1757473939.md), [30](ezekiel/ezekiel30_1757474065.md), [31](ezekiel/ezekiel31_1757474156.md), [32](ezekiel/ezekiel32_1757474321.md), [33](ezekiel/ezekiel33_1757474520.md), [34](ezekiel/ezekiel34_1757474660.md), [35](ezekiel/ezekiel35_1757474705.md), [36](ezekiel/ezekiel36_1757474799.md), [37](ezekiel/ezekiel37_1757474922.md), [38](ezekiel/ezekiel38_1757474984.md), [39](ezekiel/ezekiel39_1757475099.md), [40](ezekiel/ezekiel40_1757475202.md), [41](ezekiel/ezekiel41_1757475268.md), [42](ezekiel/ezekiel42_1757475338.md), [43](ezekiel/ezekiel43_1757475480.md), [44](ezekiel/ezekiel44_1757475573.md), [45](ezekiel/ezekiel45_1757475683.md), [46](ezekiel/ezekiel46_1757475785.md), [47](ezekiel/ezekiel47_1757475865.md), [48](ezekiel/ezekiel48_1757475934.md)
+- Daniel: [1](daniel/daniel1_1757475997.md), [2](daniel/daniel2_1757476118.md), [3](daniel/daniel3_1757476198.md), [4](daniel/daniel4_1757476279.md), [5](daniel/daniel5_1757476440.md), [6](daniel/daniel6_1757476600.md), [7](daniel/daniel7_1757476728.md), [8](daniel/daniel8_1757476829.md), [9](daniel/daniel9_1757477020.md), [10](daniel/daniel10_1757477146.md), [11](daniel/daniel11_1757477272.md), [12](daniel/daniel12_1757477396.md)
 - Joel: [1](joel/joel1_1757478775.md), [2](joel/joel2_1757478899.md), [3](joel/joel3_1757479073.md)
 - Amos: [4](amos/amos4_1757479373.md)
 - Obadiah: [1](obadiah/obadiah1_1757479908.md)
@@ -159,7 +160,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 891/907 structurally complete drafts.
+- Current provisional AI author comparisons: 903/919 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
