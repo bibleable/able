@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 475/1189 chapters.**
-**Books with every chapter drafted: 42/66.**
+**Structurally complete text drafts: 485/1189 chapters.**
+**Books with every chapter drafted: 43/66.**
 
-These drafts contain 13,828 of 31,102 source verse addresses.
+These drafts contain 14,108 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -31,7 +31,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | 2 Kings | 25 | 25 | — |
 | 1 Chronicles | 29 | 29 | — |
 | 2 Chronicles | 36 | 36 | — |
-| Ezra | 0 | 10 | 1–10 |
+| Ezra | 10 | 10 | — |
 | Nehemiah | 0 | 13 | 1–13 |
 | Esther | 1 | 10 | 2–10 |
 | Job | 0 | 42 | 1–42 |
@@ -97,6 +97,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - 2 Kings: [1](2kings/2kings1_1757415460.md), [2](2kings/2kings2_1757415573.md), [3](2kings/2kings3_1757415710.md), [4](2kings/2kings4_1757415801.md), [5](2kings/2kings5_1757415891.md), [6](2kings/2kings6_1757416026.md), [7](2kings/2kings7_1757416131.md), [8](2kings/2kings8_1757416332.md), [9](2kings/2kings9_1757416476.md), [10](2kings/2kings10_1757416657.md), [11](2kings/2kings11_1757416834.md), [12](2kings/2kings12_1757416982.md), [13](2kings/2kings13_1757417060.md), [14](2kings/2kings14_1757417154.md), [15](2kings/2kings15_1757417283.md), [16](2kings/2kings16_1757417383.md), [17](2kings/2kings17_1757417528.md), [18](2kings/2kings18_1757417668.md), [19](2kings/2kings19_1757417831.md), [20](2kings/2kings20_1757418034.md), [21](2kings/2kings21_1757418124.md), [22](2kings/2kings22_1757418263.md), [23](2kings/2kings23_1757418366.md), [24](2kings/2kings24_1757418465.md), [25](2kings/2kings25_1757418583.md)
 - 1 Chronicles: [1](1chronicles/1chronicles1_1757418729.md), [2](1chronicles/1chronicles2_1757418948.md), [3](1chronicles/1chronicles3_1757419075.md), [4](1chronicles/1chronicles4_1757419179.md), [5](1chronicles/1chronicles5_1757419340.md), [6](1chronicles/1chronicles6_1757419464.md), [7](1chronicles/1chronicles7_1757419686.md), [8](1chronicles/1chronicles8_1757419897.md), [9](1chronicles/1chronicles9_1757420132.md), [10](1chronicles/1chronicles10_1757420237.md), [11](1chronicles/1chronicles11_1757420493.md), [12](1chronicles/1chronicles12_1757420601.md), [13](1chronicles/1chronicles13_1757420707.md), [14](1chronicles/1chronicles14_1757420880.md), [15](1chronicles/1chronicles15_1757421078.md), [16](1chronicles/1chronicles16_1757421205.md), [17](1chronicles/1chronicles17_1757421367.md), [18](1chronicles/1chronicles18_1757421545.md), [19](1chronicles/1chronicles19_1757421642.md), [20](1chronicles/1chronicles20_1757421732.md), [21](1chronicles/1chronicles21_1757421821.md), [22](1chronicles/1chronicles22_1757421934.md), [23](1chronicles/1chronicles23_1757422073.md), [24](1chronicles/1chronicles24_1757422155.md), [25](1chronicles/1chronicles25_1757422265.md), [26](1chronicles/1chronicles26_1757422375.md), [27](1chronicles/1chronicles27_1757422588.md), [28](1chronicles/1chronicles28_1757422686.md), [29](1chronicles/1chronicles29_1757422832.md)
 - 2 Chronicles: [1](2chronicles/2chronicles1_1757422946.md), [2](2chronicles/2chronicles2_1757423051.md), [3](2chronicles/2chronicles3_1757423180.md), [4](2chronicles/2chronicles4_1757423358.md), [5](2chronicles/2chronicles5_1757423422.md), [6](2chronicles/2chronicles6_1757423570.md), [7](2chronicles/2chronicles7_1757423665.md), [8](2chronicles/2chronicles8_1757423767.md), [9](2chronicles/2chronicles9_1757423944.md), [10](2chronicles/2chronicles10_1757424060.md), [11](2chronicles/2chronicles11_1757424140.md), [12](2chronicles/2chronicles12_1757424238.md), [13](2chronicles/2chronicles13_1757424350.md), [14](2chronicles/2chronicles14_1757424418.md), [15](2chronicles/2chronicles15_1757424535.md), [16](2chronicles/2chronicles16_1757424639.md), [17](2chronicles/2chronicles17_1757424777.md), [18](2chronicles/2chronicles18_1757424922.md), [19](2chronicles/2chronicles19_1757425010.md), [20](2chronicles/2chronicles20_1757425164.md), [21](2chronicles/2chronicles21_1757425280.md), [22](2chronicles/2chronicles22_1757425400.md), [23](2chronicles/2chronicles23_1757425575.md), [24](2chronicles/2chronicles24_1757425724.md), [25](2chronicles/2chronicles25_1757427649.md), [26](2chronicles/2chronicles26_1757427776.md), [27](2chronicles/2chronicles27_1757427856.md), [28](2chronicles/2chronicles28_1757428126.md), [29](2chronicles/2chronicles29_1757428208.md), [30](2chronicles/2chronicles30_1757428368.md), [31](2chronicles/2chronicles31_1757428596.md), [32](2chronicles/2chronicles32_1757428728.md), [33](2chronicles/2chronicles33_1757428881.md), [34](2chronicles/2chronicles34_1757429045.md), [35](2chronicles/2chronicles35_1757429221.md), [36](2chronicles/2chronicles36_1757429366.md)
+- Ezra: [1](ezra/ezra1_1757429479.md), [2](ezra/ezra2_1757429663.md), [3](ezra/ezra3_1757429749.md), [4](ezra/ezra4_1757429839.md), [5](ezra/ezra5_1757429932.md), [6](ezra/ezra6_1757430019.md), [7](ezra/ezra7_1757430148.md), [8](ezra/ezra8_1757430325.md), [9](ezra/ezra9_1757430426.md), [10](ezra/ezra10_1757430661.md)
 - Esther: [1](esther/esther1_1757433035.md)
 - Psalms: [23](psalms/psalms23_1757440380.md), [51](psalms/psalms51_1757442774.md), [94](psalms/psalms94_1757446736.md), [113](psalms/psalms113_1757448583.md), [119](psalms/psalms119_1757449220.md), [133](psalms/psalms133_1757450169.md), [139](psalms/psalms139_1757450646.md)
 - Proverbs: [3](proverbs/proverbs3_1757451882.md), [31](proverbs/proverbs31_1757455576.md)
@@ -153,7 +154,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 444/475 structurally complete drafts.
+- Current provisional AI author comparisons: 454/485 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.

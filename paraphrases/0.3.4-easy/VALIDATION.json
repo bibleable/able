@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 475,
-    "complete_book_structures": 42,
-    "draft_addresses": 13828,
-    "missing_chapters": 714,
+    "draft_chapters": 485,
+    "complete_book_structures": 43,
+    "draft_addresses": 14108,
+    "missing_chapters": 704,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 444
+    "current_provisional_author_comparisons": 454
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -779,6 +779,16 @@
     "2chronicles/2chronicles34_1757429045.md": "268260f9709345a0d05f19b69769de086e2932d8249a527192e44a207dc2956f",
     "2chronicles/2chronicles35_1757429221.md": "a8cd83369ccc034156bf07dee2531142e0ffe0f7ed9c4c201962209b77aafaaf",
     "2chronicles/2chronicles36_1757429366.md": "4787d2f3b30ffe7f8c7dfba3e1dfa0e6ae05b616b83391a32a6d5f80e7d0420e",
+    "ezra/ezra1_1757429479.md": "ee6f5be57be63f4f48dceb58e49fb585e6fb7b7317427acaddb6c0e1bd3ef228",
+    "ezra/ezra2_1757429663.md": "8c0e3ba581d21bb2efeee6c8bf4204aa64a4046d82e102201bfabdcc90583e96",
+    "ezra/ezra3_1757429749.md": "a63855627fb6618e17c4aec1c7f7ffbb0239526ac06cdeae8c5c9cc8be8ff1b8",
+    "ezra/ezra4_1757429839.md": "c51895d57aab002b9357f4b61580da8e49ee73110e6310e9ba8408057936508a",
+    "ezra/ezra5_1757429932.md": "035cc3840f7923190096a67ed99e089597100c325db1b3ed4dfbaa78fdbd0a61",
+    "ezra/ezra6_1757430019.md": "073728945ef721fe1b7309c7eddadf2be091c2a7d4ca8c94b491b856d55a80e2",
+    "ezra/ezra7_1757430148.md": "cf804054eb3c35c91d3a3aa0c64180124f84523f102fe07cb247643c41cd6716",
+    "ezra/ezra8_1757430325.md": "ffc9fed8cfb25d7690a42bb574a0e447babb1667fe6df22c91a0feeaee8ca11d",
+    "ezra/ezra9_1757430426.md": "41359ea1d71ef19ca9ec2d26635f32e7a5c0961d9748d15cca132f1ede7760b9",
+    "ezra/ezra10_1757430661.md": "d945c0c1d1ab530777e7f6231de6dfdb0e6c0366853ae8eb5e7426458ed34905",
     "esther/esther1_1757433035.md": "6c15c45389db587dab19f8246c69c0b7a987b960087abcf572e44d58f35d356a",
     "psalms/psalms23_1757440380.md": "3fccfd4a9c237b425704442d408f632c56bee4703d3891f00fb4c40ee64d1d9e",
     "psalms/psalms51_1757442774.md": "927e6d2007eec5077b2955e592acb03797750cf348943d2f804913a34c028eac",
