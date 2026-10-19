@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 947/1189 chapters.**
-**Books with every chapter drafted: 58/66.**
+**Structurally complete text drafts: 961/1189 chapters.**
+**Books with every chapter drafted: 59/66.**
 
-These drafts contain 23,851 of 31,102 source verse addresses.
+These drafts contain 24,062 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -54,7 +54,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Habakkuk | 3 | 3 | — |
 | Zephaniah | 3 | 3 | — |
 | Haggai | 2 | 2 | — |
-| Zechariah | 0 | 14 | 1–14 |
+| Zechariah | 14 | 14 | — |
 | Malachi | 4 | 4 | — |
 | Matthew | 28 | 28 | — |
 | Mark | 16 | 16 | — |
@@ -120,6 +120,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Habakkuk: [1](habakkuk/habakkuk1_1757481281.md), [2](habakkuk/habakkuk2_1757481446.md), [3](habakkuk/habakkuk3_1757481518.md)
 - Zephaniah: [1](zephaniah/zephaniah1_1757481593.md), [2](zephaniah/zephaniah2_1757481696.md), [3](zephaniah/zephaniah3_1757481836.md)
 - Haggai: [1](haggai/haggai1_1757481941.md), [2](haggai/haggai2_1757482052.md)
+- Zechariah: [1](zechariah/zechariah1_1757482196.md), [2](zechariah/zechariah2_1757482270.md), [3](zechariah/zechariah3_1757482368.md), [4](zechariah/zechariah4_1757482434.md), [5](zechariah/zechariah5_1757482505.md), [6](zechariah/zechariah6_1757482603.md), [7](zechariah/zechariah7_1757482673.md), [8](zechariah/zechariah8_1757482833.md), [9](zechariah/zechariah9_1757482973.md), [10](zechariah/zechariah10_1757483042.md), [11](zechariah/zechariah11_1757483191.md), [12](zechariah/zechariah12_1757483388.md), [13](zechariah/zechariah13_1757483562.md), [14](zechariah/zechariah14_1757483688.md)
 - Malachi: [1](malachi/malachi1_1757483789.md), [2](malachi/malachi2_1757483925.md), [3](malachi/malachi3_1757484032.md), [4](malachi/malachi4_1757484093.md)
 - Matthew: [1](matthew/matthew1_1757484254.md), [2](matthew/matthew2_1757484357.md), [3](matthew/matthew3_1757484463.md), [4](matthew/matthew4_1757484636.md), [5](matthew/matthew5_1757484759.md), [6](matthew/matthew6_1757484833.md), [7](matthew/matthew7_1757484975.md), [8](matthew/matthew8_1757485157.md), [9](matthew/matthew9_1757485360.md), [10](matthew/matthew10_1757485485.md), [11](matthew/matthew11_1757485635.md), [12](matthew/matthew12_1757485761.md), [13](matthew/matthew13_1757485964.md), [14](matthew/matthew14_1757486171.md), [15](matthew/matthew15_1757486258.md), [16](matthew/matthew16_1757486350.md), [17](matthew/matthew17_1757486528.md), [18](matthew/matthew18_1757486689.md), [19](matthew/matthew19_1757486789.md), [20](matthew/matthew20_1757486914.md), [21](matthew/matthew21_1757487063.md), [22](matthew/matthew22_1757487287.md), [23](matthew/matthew23_1757487435.md), [24](matthew/matthew24_1757487602.md), [25](matthew/matthew25_1757487759.md), [26](matthew/matthew26_1757487897.md), [27](matthew/matthew27_1757488053.md), [28](matthew/matthew28_1757488142.md)
 - Mark: [1](mark/mark1_1757488307.md), [2](mark/mark2_1757488422.md), [3](mark/mark3_1757488519.md), [4](mark/mark4_1757488688.md), [5](mark/mark5_1757488886.md), [6](mark/mark6_1757489209.md), [7](mark/mark7_1757489381.md), [8](mark/mark8_1757489607.md), [9](mark/mark9_1757489818.md), [10](mark/mark10_1757490019.md), [11](mark/mark11_1757490250.md), [12](mark/mark12_1757490501.md), [13](mark/mark13_1757490633.md), [14](mark/mark14_1757490812.md), [15](mark/mark15_1757490989.md), [16](mark/mark16_1757491130.md)
@@ -161,7 +162,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 933/947 structurally complete drafts.
+- Current provisional AI author comparisons: 947/961 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.

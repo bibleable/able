@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 947,
-    "complete_book_structures": 58,
-    "draft_addresses": 23851,
-    "missing_chapters": 242,
+    "draft_chapters": 961,
+    "complete_book_structures": 59,
+    "draft_addresses": 24062,
+    "missing_chapters": 228,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 933
+    "current_provisional_author_comparisons": 947
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -1270,6 +1270,20 @@
     "zephaniah/zephaniah3_1757481836.md": "431812d85d751a8be439c626f47baaf361b841e08a7d5b2e10a79ef77d9ced77",
     "haggai/haggai1_1757481941.md": "26121b652b2999d9e7a3ce0036abe2fe2c2dc926f933bd18cbbaf0d2e1084335",
     "haggai/haggai2_1757482052.md": "d5fd3366625c51dd7eb7257eaa9ccacc8ea40fec99eeddc08dce619bf0061f0b",
+    "zechariah/zechariah1_1757482196.md": "f2c47c0b72f1c30c68ddbd42f62db7a2b851ebc8f48b4c13778c4b527d006731",
+    "zechariah/zechariah2_1757482270.md": "756b81c3fc8d9b80c652e17ab8597a31fd0356258d423c3a3bdddf1ff32e3cf1",
+    "zechariah/zechariah3_1757482368.md": "455bb2204ff60cb91faa3e5aebe90cf1e6df8bdd7086debdf45c87cc0a95ef3c",
+    "zechariah/zechariah4_1757482434.md": "a30c284be6a4ddfe7547d4a2df9d380188c59739e66f42ce1d10c5ca5f5ea9a4",
+    "zechariah/zechariah5_1757482505.md": "6320d4aebb63284f17a2c113894c186adfe0d1d970696c0ef8651b6bad6af9ca",
+    "zechariah/zechariah6_1757482603.md": "d4eae0872c7180318de5d31d84cbae2f3a0c2b27d071d34c7ad7e71c2f205435",
+    "zechariah/zechariah7_1757482673.md": "877cd1e4b58d0b46d1a127aefc4965cfb2dd0523551406cb167a940a8e9a0c8e",
+    "zechariah/zechariah8_1757482833.md": "dc207e091b0fec7b8f40620478c0b6966ca54d2cca446bbe8f08f7176aa10ce5",
+    "zechariah/zechariah9_1757482973.md": "89ed5ec5df96c8ddd3b4c3059fd09070fd77c1a8fb723aa6bd6b9772fb0c259c",
+    "zechariah/zechariah10_1757483042.md": "b6d981e694f0678b4d0ac7459a7db8ca700a22b0290ccede9a7a8ea4d202d951",
+    "zechariah/zechariah11_1757483191.md": "6a7a2143ddb31d2eb1258f0cff9f8813f94e1aef9892640bba2fe1fb8d4bbe2b",
+    "zechariah/zechariah12_1757483388.md": "b873f5c18e5504daa1b6d67fba554c115d3ae4c4290dfa3652f16e5febcfaabf",
+    "zechariah/zechariah13_1757483562.md": "b7ae5843059ba1f15b3f296c303d967770e94fa49d6a40fa3c1047518a1496dc",
+    "zechariah/zechariah14_1757483688.md": "300cf4af33d97bc7f2a711cfe89ccf5ade6a7b3fd10d8cc07a247a792915255e",
     "malachi/malachi1_1757483789.md": "2c31da44c11d3814dfc6f0539ffcda2fdf68598954c4f498039535b5b37b9344",
     "malachi/malachi2_1757483925.md": "a26cece5bdcc920b5974e6c471b14d0a49f3080608bc2afd57ebcc3d6b9eac76",
     "malachi/malachi3_1757484032.md": "8bbc69e14b7f65b2d033581d8ed7d84d33d29ee17ded75337a2bf0d320337f61",
