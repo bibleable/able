@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 854,
-    "complete_book_structures": 52,
-    "draft_addresses": 21648,
-    "missing_chapters": 335,
+    "draft_chapters": 859,
+    "complete_book_structures": 53,
+    "draft_addresses": 21802,
+    "missing_chapters": 330,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 838
+    "current_provisional_author_comparisons": 843
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -1158,6 +1158,11 @@
     "jeremiah/jeremiah50_1757469970.md": "606dd5335f5163ebc626c72ddaae6920e75d6182e63ac98661283904abed6864",
     "jeremiah/jeremiah51_1757470078.md": "c4698b9258e44689b13b23a2d07be352bec16cefcb050c8d95db60051de5cc86",
     "jeremiah/jeremiah52_1757470169.md": "7fd8cb134e480284dd05438ebba5964eaaadb2e2e035608db68f46b061ac72cf",
+    "lamentations/lamentations1_1757470260.md": "969ed523ec3e0ac9e60caf891f7bb7f9c80035925297eaf0bc4aa88e9aa9d1ba",
+    "lamentations/lamentations2_1757470384.md": "bcb04a095e54ce3982dd18a17dd16ba90feb11f8d3539433a124dbd8e227abda",
+    "lamentations/lamentations3_1757470483.md": "975d95b5f53b820bdae5ac92f73a26000ef9af2b6c7aff2ea495da90b83f641e",
+    "lamentations/lamentations4_1757470581.md": "120113928ea40f955441fe11c36e92b5c9727a8952e68f4dd763a24ea6a84b39",
+    "lamentations/lamentations5_1757470654.md": "c503b1fcda6c0dc2f2770d8fd0c6498a35ebe915c7dbef7dd8e616e9873fb214",
     "joel/joel1_1757478775.md": "8fa918617b875d8367edd8729ca09ddc7afa12e81f16a2ec988f4a94eb3686da",
     "joel/joel2_1757478899.md": "c9f916dd6ecdd0b1505d89b139eb91b226e104072b80d6bbb6f64e609737ebc8",
     "joel/joel3_1757479073.md": "92ec9f382f15f06118733841467919820c9dd3a8fcf03837da01ee41df8420ec",
