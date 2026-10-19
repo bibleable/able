@@ -6,13 +6,15 @@ The existing ABLE book folders and chapter basenames supply the file structure. 
 
 ## Full-Bible scope and current progress
 
-All **66 books and 1,189 chapters** now have text drafts, covering all **31,102 BSB addresses** in order. Retained-draft author comparisons are still in progress; independent editorial review, reader testing, illustrations, and final presentation remain pending.
+All **66 books and 1,189 chapters** now have text drafts, covering all **31,102 BSB addresses** in order. All chapters, including retained drafts, have current provisional AI author comparisons. Independent editorial review, reader testing, illustrations, and final presentation remain pending.
 
 See [full-Bible progress](FULL_BIBLE_PROGRESS.md) for current counts, all drafted chapter links, missing chapters by book, and original filename gaps. Regenerate it with `python3 scripts/easy_coverage.py --write`. Use `--require-complete` to make the inventory command fail while any chapter remains absent or structurally incomplete.
 
 The inventory also distinguishes current provisional author comparisons from missing or stale comparison records. It checks source and draft hashes, and flags likely sentences sharing a paragraph in both scripture and editorial explanations. These checks do not establish fidelity or reader comprehension. The JSON inventory exposes each chapter’s separate review and presentation stages.
 
 [The saved validation checkpoint](VALIDATION.json) records source and chapter hashes, coverage counts, checker results, outstanding author comparisons, and review flags. It distinguishes complete text-draft coverage from outstanding review stages. It is a snapshot; regenerate checks after changing any draft or the source.
+
+Run `python3 scripts/easy_validate.py --write` from the repository root to reproduce the full text audit, run the checker regression tests, and refresh validation and progress. The command checks all chapter author hashes, verse coverage and order, sentence layout, and the consistent 📖 cue. It also verifies the source and draft hashes of the [provisional review follow-ups](REVIEW_FOLLOWUP.json). See the [text-draft audit](TEXT_DRAFT_AUDIT.md) for the outcome and its limits.
 
 The [earlier 50-chapter batch index](PROGRESS.md) records a completed historical request. That batch and three other existing Psalms supplied the initial **53 chapter files and 1,573 verse addresses**. Existing drafts are retained for review as the full edition is written.
 

@@ -48,11 +48,14 @@ python3 scripts/easy_coverage.py --write
 python3 scripts/easy_coverage.py --require-complete
 python3 scripts/check_able.py paraphrases/0.3.4-easy --format json --output /tmp/able-easy-checks.json
 python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/easy_validate.py --write
 ```
 
 The full-Bible inventory checks that every intended chapter exists, that each filename contains its intended chapter, and that every source address is present exactly once in order. The verse checker also checks text, sentence length, and known wording risks. Neither tool proves theological accuracy, vocabulary suitability, or learner comprehension. A zero-error result is not a meaning or accessibility certification.
 
 Independent editorial assessment, review with intended readers, tested illustrations, and final font, spacing, and presentation checks remain pending. Emoji are supplementary cues and do not replace tested Easy Read illustrations.
+
+The full text audit also verifies the edition's consistent 📖 cue and current hash-bound follow-ups in `REVIEW_FOLLOWUP.json`. Historical Mark 1 findings remain in their original file. Their checker snapshot warnings are not erased: the follow-up records document the fresh provisional comparison separately. A retained wording-risk phrase may remain when it preserves a source metaphor and has a labeled explanation; its context review must be recorded without claiming reader validation.
 
 ## Book commits
 

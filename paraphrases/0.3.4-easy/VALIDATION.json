@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "all full-Bible text drafts present; retained-draft author comparisons still in progress",
+  "status": "all full-Bible text drafts and provisional author comparisons complete; external review stages pending",
   "source": {
     "path": "comparison/bsb.txt",
     "sha256": "2e402b2aae15626408244a8e2f5a617b5b381e41f9c5ea36874bd95f4bbae9bd",
@@ -32,7 +32,7 @@
     "draft_addresses": 31102,
     "missing_chapters": 0,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 1179
+    "current_provisional_author_comparisons": 1189
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -40,6 +40,10 @@
     "possible_sentence_paragraph_joins": 0,
     "stale_author_comparisons": 0,
     "unexpected_files": [],
+    "cue_count_issues": [],
+    "inconsistent_cues": [],
+    "stale_review_followups": [],
+    "unaccounted_review_flags": [],
     "require_complete_exit_code": 0,
     "checker_regression_tests": {
       "command": "python3 -m unittest discover -s scripts -p 'test_*.py'",
@@ -47,21 +51,10 @@
       "result": "passed"
     }
   },
-  "pending_author_comparisons": [
-    "Mark 1",
-    "Mark 2",
-    "Mark 3",
-    "Mark 4",
-    "Mark 5",
-    "Mark 6",
-    "Mark 7",
-    "Mark 8",
-    "Mark 9",
-    "Mark 10"
-  ],
+  "pending_author_comparisons": [],
   "review_flags": [
     {
-      "address": "Acts 15:34",
+      "address": "Matthew 17:21",
       "code": "empty_reference",
       "severity": "review",
       "message": "Reference has an address but no verse text; review the edition/numbering difference.",
@@ -70,7 +63,7 @@
       ]
     },
     {
-      "address": "Acts 24:7",
+      "address": "Matthew 18:11",
       "code": "empty_reference",
       "severity": "review",
       "message": "Reference has an address but no verse text; review the edition/numbering difference.",
@@ -79,71 +72,7 @@
       ]
     },
     {
-      "address": "Acts 28:29",
-      "code": "empty_reference",
-      "severity": "review",
-      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
-      "tests": [
-        "T1"
-      ]
-    },
-    {
-      "address": "Acts 8:37",
-      "code": "empty_reference",
-      "severity": "review",
-      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
-      "tests": [
-        "T1"
-      ]
-    },
-    {
-      "address": "John 5:4",
-      "code": "empty_reference",
-      "severity": "review",
-      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
-      "tests": [
-        "T1"
-      ]
-    },
-    {
-      "address": "Luke 17:36",
-      "code": "empty_reference",
-      "severity": "review",
-      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
-      "tests": [
-        "T1"
-      ]
-    },
-    {
-      "address": "Luke 23:17",
-      "code": "empty_reference",
-      "severity": "review",
-      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
-      "tests": [
-        "T1"
-      ]
-    },
-    {
-      "address": "Luke 5:10",
-      "code": "wording_risk",
-      "severity": "review",
-      "message": "Explain the metaphor; check for an inference of trapping people.",
-      "tests": [
-        "T3"
-      ],
-      "evidence": "catch people"
-    },
-    {
-      "address": "Mark 11:26",
-      "code": "empty_reference",
-      "severity": "review",
-      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
-      "tests": [
-        "T1"
-      ]
-    },
-    {
-      "address": "Mark 15:28",
+      "address": "Matthew 23:14",
       "code": "empty_reference",
       "severity": "review",
       "message": "Reference has an address but no verse text; review the edition/numbering difference.",
@@ -530,7 +459,7 @@
       ]
     },
     {
-      "address": "Matthew 17:21",
+      "address": "Mark 11:26",
       "code": "empty_reference",
       "severity": "review",
       "message": "Reference has an address but no verse text; review the edition/numbering difference.",
@@ -539,7 +468,7 @@
       ]
     },
     {
-      "address": "Matthew 18:11",
+      "address": "Mark 15:28",
       "code": "empty_reference",
       "severity": "review",
       "message": "Reference has an address but no verse text; review the edition/numbering difference.",
@@ -548,7 +477,71 @@
       ]
     },
     {
-      "address": "Matthew 23:14",
+      "address": "Luke 5:10",
+      "code": "wording_risk",
+      "severity": "review",
+      "message": "Explain the metaphor; check for an inference of trapping people.",
+      "tests": [
+        "T3"
+      ],
+      "evidence": "catch people"
+    },
+    {
+      "address": "Luke 17:36",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Luke 23:17",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "John 5:4",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 8:37",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 15:34",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 24:7",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 28:29",
       "code": "empty_reference",
       "severity": "review",
       "message": "Reference has an address but no verse text; review the edition/numbering difference.",
@@ -566,6 +559,11 @@
       ]
     }
   ],
+  "review_followup": {
+    "path": "REVIEW_FOLLOWUP.json",
+    "sha256": "43511539acd759d94c5b094879c8086e118b10e5d2b6783b6674e2fa824dde05",
+    "current_provisional_followups": 28
+  },
   "stages": {
     "independent_editorial_review": "pending",
     "intended_reader_testing": "pending; no successful tests evidenced",
@@ -575,11 +573,11 @@
   },
   "limitations": [
     "Verse structure checks cannot establish meaning or source fidelity.",
-    "Author comparisons are provisional AI self-reviews, not independent editorial approval.",
+    "Author comparisons and review follow-ups are provisional AI self-reviews, not independent editorial approval.",
     "Sentence-length checks exclude labeled editorial explanations.",
-    "Paragraph checks inspect source text, not rendered font, line length or page layout.",
-    "The 27 stale_review flags refer to earlier Mark 1 desk findings, a separate review mechanism from chapter author comparisons.",
-    "One wording-risk flag is a prompt for context review, not an automatic finding of error.",
+    "Paragraph and cue checks inspect text, not rendered typography or reader comprehension.",
+    "The 27 stale_review flags concern original Mark 1 desk snapshots. REVIEW_FOLLOWUP.json documents a current provisional comparison of each concern without changing that historical evidence.",
+    "The Luke 5:10 wording prompt remains visible; its labeled metaphor explanation has a current provisional follow-up.",
     "All sixteen blank BSB addresses retain editorial notes without invented scripture."
   ],
   "chapter_sha256": {
@@ -1083,7 +1081,7 @@
     "psalms/psalms20_1757440124.md": "56f40406f3f5c165de00efcf1288be385419bd71ab42a14dd9933bd1281a2ccc",
     "psalms/psalms21_1757440206.md": "0b92028eb9983d2b86e14a4757408977ffb43090467138dd501d37df26e709e4",
     "psalms/psalms22_1757440315.md": "de4543dacdcdcdcf8eb0478389492f82fa3f0b56be9be312465f74d6690df949",
-    "psalms/psalms23_1757440380.md": "bc833a1fe926dd7acd4e5b722b0a4acf151a930be415aecb89e8cbea2cb87103",
+    "psalms/psalms23_1757440380.md": "52a0301f8e19dc0686ff1ce9cf111e55359edb46b835b5164384bfbcb6b43210",
     "psalms/psalms24_1757440456.md": "ad484465884565d359cf5e0a99c862cfafed3175973c35e10461dcb2cfda5f49",
     "psalms/psalms25_1757440536.md": "85f56d96304bd54e8b54d76a52faab7695bec049b9d125447224c2671cad43a8",
     "psalms/psalms26_1757440628.md": "85617d8482db5b07163a78a35fe6b32dd858e2d0fbd0fbb29f8787a1156f7b36",
@@ -1540,16 +1538,16 @@
     "matthew/matthew26_1757487897.md": "d8063be4e5ff5dd5f279bd254cd3162ed618375a564b57402d27c58750f79ece",
     "matthew/matthew27_1757488053.md": "2cc26388fd69aaf1a0a8cbe61273e824ce9770e0226dc763242003555e954a4a",
     "matthew/matthew28_1757488142.md": "ce8ac978d6e3ba8813a564c104413e001e23f8959975ecf087da5ac793adf02f",
-    "mark/mark1_1757488307.md": "188b1cccf5eeddb2f206db0b1f840cb7719a97dc75b12879b00a33a4413f5c79",
-    "mark/mark2_1757488422.md": "09b48c7030b99bad04e71364c18b0ad691aa599ec0e90c6a975c09b96b420f07",
-    "mark/mark3_1757488519.md": "55d8c7688c84968e87edcceac438caab0d83784333dc58560fc1488e605dfd1e",
-    "mark/mark4_1757488688.md": "ffd168ca27795a6439c8ce049c9076ea7f2f510cb054cfdc02d7e68718aeb5af",
-    "mark/mark5_1757488886.md": "a671c034c922347e4ec2168ef86939feb3b5a4b7cc485743c2febce7efe47c1c",
-    "mark/mark6_1757489209.md": "d0ce7a3158bca85a15a5fee2dba94fb131e6a478376525fa0c4c13c3d52f0466",
-    "mark/mark7_1757489381.md": "623536c4ba92b72c35efadc0beb644aed6bc447b02bef8b201a38b25d27a74b9",
-    "mark/mark8_1757489607.md": "16b918cec310caca57a5f590eb10153a2e47039e32834fea3374b362b183ae0c",
-    "mark/mark9_1757489818.md": "cd4f3f78652066c021915aa31a8a693a43379de42b42acb3cc9f30fdc35615c7",
-    "mark/mark10_1757490019.md": "558b62711672d69fbc849f60a5de707a7e9abfe6e48b53485a6f8d17550c20bc",
+    "mark/mark1_1757488307.md": "d83918aceb2bacc15b8075246e5d114a685769a8bd464d0413145081761f7542",
+    "mark/mark2_1757488422.md": "a83e0655570b791c2a4ce56642435fcd7d16b672dd5cc4be0678ff32929d4cb8",
+    "mark/mark3_1757488519.md": "5e0c6d202826239289e27bbda2d36c11d044cde5cdc3cedc6fa2626538c92404",
+    "mark/mark4_1757488688.md": "1c2011c17710448c6ec7093a7535e9957944e0b760f0520b2ffed398e56a2c50",
+    "mark/mark5_1757488886.md": "88ba12f02b63e8f3ae2b38b9b30a0a66e4cdb1f9bd879a7cb850bd0652c88a01",
+    "mark/mark6_1757489209.md": "7f9e9c371032bc2ec39ff97cabf2d88d284b1555fb3b8aa0c769cdb1b1862e9e",
+    "mark/mark7_1757489381.md": "dcf480cc939f02b88e7775d93d17f18f3954746f10e34192ae4d25c9ebcfe652",
+    "mark/mark8_1757489607.md": "938001fadaf56299855f9d767813e71518b7cb1ee37400cdef590516530b907b",
+    "mark/mark9_1757489818.md": "65dbd5e8296698fc05c7ecc81bf8c95e2624f7f111e34901d80da5a69d7a96d1",
+    "mark/mark10_1757490019.md": "b4649f58498e9d159e383a3dfc8382296f9cb08f606228e3e1955ae80f6b2c43",
     "mark/mark11_1757490250.md": "cc1ecb5f10af9432bbae225d4a4ba2011f2c09a5c30c15a0c9ae8a3c65eaaee2",
     "mark/mark12_1757490501.md": "2e03d0efae28b968eee245a71114b50ecb0bc9f93157fc80e01613f0c067ab7a",
     "mark/mark13_1757490633.md": "a757feacfa71dc2e69e4688591be41da4c4ec7723f6c9e9fca85494419a7ee57",
@@ -1657,7 +1655,7 @@
     "1corinthians/1corinthians10_1757506729.md": "1acd0d3a5c3756c99157ccc3201cc4bd8d7d914fedc7ac7a477fad6caa6d89a9",
     "1corinthians/1corinthians11_1757506854.md": "faf0aea3c91ecc62519a4ab845da518832cd02f501db76a4ce60f0916299244d",
     "1corinthians/1corinthians12_1757506952.md": "d0bcb9726bf742f1af544d86d2269d4c756c67b8bdef671dcf0b26c2518b2e4f",
-    "1corinthians/1corinthians13_1757507030.md": "2a836364999a55770acb1eb53ffb143c1bb4126201b97cd00ff4eab0ecaab026",
+    "1corinthians/1corinthians13_1757507030.md": "68130def0550e6cc7fcc428a9e055df7b4a918b1c1d04adade051f6c8efc6e8a",
     "1corinthians/1corinthians14_1757507145.md": "1b14dae923fbcebf250b8306cb1919dbf7ca1e2a1c8b3fcdb5568dda0e7591b3",
     "1corinthians/1corinthians15_1757507292.md": "492191c2e3559c5e51c5750f7581c3ea0a0adae77669c4e451256b773f7bc03b",
     "1corinthians/1corinthians16_1757507404.md": "e900f078cd5597b35e746e97bc413ff4c62750ea5d54427e2660d58def1ac634",
@@ -1774,9 +1772,7 @@
     "revelation/revelation22_1757522053.md": "8f02cc986b887ef829609fe6c3e4716bcc0f0c2b90547de236cca6d4f4e58743"
   },
   "reproduce": [
-    "python3 scripts/easy_coverage.py --write",
-    "python3 scripts/easy_coverage.py --require-complete",
-    "python3 scripts/check_able.py paraphrases/0.3.4-easy --format json --output /tmp/able-checks-current.json",
-    "python3 -m unittest discover -s scripts -p 'test_*.py'"
+    "python3 scripts/easy_validate.py --write",
+    "python3 scripts/easy_coverage.py --require-complete"
   ]
 }
