@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 1076/1189 chapters.**
-**Books with every chapter drafted: 62/66.**
+**Structurally complete text drafts: 1112/1189 chapters.**
+**Books with every chapter drafted: 63/66.**
 
-These drafts contain 27,610 of 31,102 source verse addresses.
+These drafts contain 28,898 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -20,7 +20,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Genesis | 50 | 50 | — |
 | Exodus | 40 | 40 | — |
 | Leviticus | 27 | 27 | — |
-| Numbers | 0 | 36 | 1–36 |
+| Numbers | 36 | 36 | — |
 | Deuteronomy | 0 | 34 | 1–34 |
 | Joshua | 1 | 24 | 2–24 |
 | Judges | 1 | 21 | 1–16, 18–21 |
@@ -89,6 +89,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Genesis: [1](genesis/genesis1_1757327525.md), [2](genesis/genesis2_1757327639.md), [3](genesis/genesis3_1757327745.md), [4](genesis/genesis4_1757327887.md), [5](genesis/genesis5_1757327991.md), [6](genesis/genesis6_1757328086.md), [7](genesis/genesis7_1757328177.md), [8](genesis/genesis8_1757328259.md), [9](genesis/genesis9_1757328392.md), [10](genesis/genesis10_1757328581.md), [11](genesis/genesis11_1757328685.md), [12](genesis/genesis12_1757328821.md), [13](genesis/genesis13_1757328914.md), [14](genesis/genesis14_1757329005.md), [15](genesis/genesis15_1757329122.md), [16](genesis/genesis16_1757329190.md), [17](genesis/genesis17_1757329277.md), [18](genesis/genesis18_1757329412.md), [19](genesis/genesis19_1757329634.md), [20](genesis/genesis20_1757329734.md), [21](genesis/genesis21_1757329822.md), [22](genesis/genesis22_1757329887.md), [23](genesis/genesis23_1757330009.md), [24](genesis/genesis24_1757330148.md), [25](genesis/genesis25_1757330285.md), [26](genesis/genesis26_1757330400.md), [27](genesis/genesis27_1757330618.md), [28](genesis/genesis28_1757330693.md), [29](genesis/genesis29_1757330783.md), [30](genesis/genesis30_1757330897.md), [31](genesis/genesis31_1757330985.md), [32](genesis/genesis32_1757331111.md), [33](genesis/genesis33_1757331192.md), [34](genesis/genesis34_1757331308.md), [35](genesis/genesis35_1757331463.md), [36](genesis/genesis36_1757331581.md), [37](genesis/genesis37_1757331701.md), [38](genesis/genesis38_1757331811.md), [39](genesis/genesis39_1757331905.md), [40](genesis/genesis40_1757331980.md), [41](genesis/genesis41_1757332113.md), [42](genesis/genesis42_1757332217.md), [43](genesis/genesis43_1757332342.md), [44](genesis/genesis44_1757332443.md), [45](genesis/genesis45_1757332582.md), [46](genesis/genesis46_1757332745.md), [47](genesis/genesis47_1757332894.md), [48](genesis/genesis48_1757332988.md), [49](genesis/genesis49_1757333080.md), [50](genesis/genesis50_1757333283.md)
 - Exodus: [1](exodus/exodus1_1757333431.md), [2](exodus/exodus2_1757333530.md), [3](exodus/exodus3_1757333660.md), [4](exodus/exodus4_1757333763.md), [5](exodus/exodus5_1757333872.md), [6](exodus/exodus6_1757333953.md), [7](exodus/exodus7_1757334060.md), [8](exodus/exodus8_1757334166.md), [9](exodus/exodus9_1757334274.md), [10](exodus/exodus10_1757334359.md), [11](exodus/exodus11_1757334455.md), [12](exodus/exodus12_1757334603.md), [13](exodus/exodus13_1757334677.md), [14](exodus/exodus14_1757334810.md), [15](exodus/exodus15_1757334970.md), [16](exodus/exodus16_1757335114.md), [17](exodus/exodus17_1757335205.md), [18](exodus/exodus18_1757335406.md), [19](exodus/exodus19_1757335476.md), [20](exodus/exodus20_1757335668.md), [21](exodus/exodus21_1757335857.md), [22](exodus/exodus22_1757335959.md), [23](exodus/exodus23_1757336087.md), [24](exodus/exodus24_1757336261.md), [25](exodus/exodus25_1757336371.md), [26](exodus/exodus26_1757336485.md), [27](exodus/exodus27_1757336605.md), [28](exodus/exodus28_1757336766.md), [29](exodus/exodus29_1757336879.md), [30](exodus/exodus30_1757336975.md), [31](exodus/exodus31_1757337060.md), [32](exodus/exodus32_1757337194.md), [33](exodus/exodus33_1757337291.md), [34](exodus/exodus34_1757337446.md), [35](exodus/exodus35_1757337627.md), [36](exodus/exodus36_1757337783.md), [37](exodus/exodus37_1757337865.md), [38](exodus/exodus38_1757338016.md), [39](exodus/exodus39_1757338210.md), [40](exodus/exodus40_1757338339.md)
 - Leviticus: [1](leviticus/leviticus1_1757338437.md), [2](leviticus/leviticus2_1757338569.md), [3](leviticus/leviticus3_1757338668.md), [4](leviticus/leviticus4_1757338807.md), [5](leviticus/leviticus5_1757338946.md), [6](leviticus/leviticus6_1757339048.md), [7](leviticus/leviticus7_1757339169.md), [8](leviticus/leviticus8_1757339270.md), [9](leviticus/leviticus9_1757339387.md), [10](leviticus/leviticus10_1757339503.md), [11](leviticus/leviticus11_1757339643.md), [12](leviticus/leviticus12_1757339718.md), [13](leviticus/leviticus13_1757339856.md), [14](leviticus/leviticus14_1757340061.md), [15](leviticus/leviticus15_1757340160.md), [16](leviticus/leviticus16_1757340258.md), [17](leviticus/leviticus17_1757340366.md), [18](leviticus/leviticus18_1757340461.md), [19](leviticus/leviticus19_1757340584.md), [20](leviticus/leviticus20_1757340744.md), [21](leviticus/leviticus21_1757340857.md), [22](leviticus/leviticus22_1757341031.md), [23](leviticus/leviticus23_1757341116.md), [24](leviticus/leviticus24_1757341248.md), [25](leviticus/leviticus25_1757341390.md), [26](leviticus/leviticus26_1757341500.md), [27](leviticus/leviticus27_1757341605.md)
+- Numbers: [1](numbers/numbers1_1757341775.md), [2](numbers/numbers2_1757341918.md), [3](numbers/numbers3_1757342106.md), [4](numbers/numbers4_1757342276.md), [5](numbers/numbers5_1757342386.md), [6](numbers/numbers6_1757342524.md), [7](numbers/numbers7_1757342614.md), [8](numbers/numbers8_1757342796.md), [9](numbers/numbers9_1757342882.md), [10](numbers/numbers10_1757342999.md), [11](numbers/numbers11_1757343124.md), [12](numbers/numbers12_1757343218.md), [13](numbers/numbers13_1757343341.md), [14](numbers/numbers14_1757343470.md), [15](numbers/numbers15_1757343749.md), [16](numbers/numbers16_1757343851.md), [17](numbers/numbers17_1757343928.md), [18](numbers/numbers18_1757344126.md), [19](numbers/numbers19_1757344272.md), [20](numbers/numbers20_1757344384.md), [21](numbers/numbers21_1757344566.md), [22](numbers/numbers22_1757344729.md), [23](numbers/numbers23_1757344828.md), [24](numbers/numbers24_1757344974.md), [25](numbers/numbers25_1757345097.md), [26](numbers/numbers26_1757345182.md), [27](numbers/numbers27_1757345379.md), [28](numbers/numbers28_1757345486.md), [29](numbers/numbers29_1757345603.md), [30](numbers/numbers30_1757345673.md), [31](numbers/numbers31_1757345810.md), [32](numbers/numbers32_1757345937.md), [33](numbers/numbers33_1757346023.md), [34](numbers/numbers34_1757346102.md), [35](numbers/numbers35_1757346225.md), [36](numbers/numbers36_1757346329.md)
 - Joshua: [1](joshua/joshua1_1757350469.md)
 - Judges: [17](judges/judges17_1757355071.md)
 - Ruth: [1](ruth/ruth1_1757372779.md), [2](ruth/ruth2_1757372852.md), [3](ruth/ruth3_1757372911.md), [4](ruth/ruth4_1757372977.md)
@@ -163,7 +164,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 1064/1076 structurally complete drafts.
+- Current provisional AI author comparisons: 1100/1112 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
