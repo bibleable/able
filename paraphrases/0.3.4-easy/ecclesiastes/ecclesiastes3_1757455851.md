@@ -32,7 +32,7 @@ There is a time to grieve and a time to dance.
 
 There is a time to throw stones away and a time to gather them. 📖
 
-There is a time to embrace and a time to hold back.
+There is a time to embrace and a time not to embrace.
 
 ## Ecclesiastes 3:6
 
@@ -88,6 +88,8 @@ Nothing can be added or taken away.
 
 God acts so people will fear him.
 
+**Help with fear him:** Respect God and take His authority seriously.
+
 ## Ecclesiastes 3:15
 
 What exists now has existed before. 📖
@@ -98,19 +100,25 @@ God calls the past to account.
 
 ## Ecclesiastes 3:16
 
-I saw evil where justice should be. 📖
+I saw wickedness under the sun in the place of judgment. 📖
 
-I saw wrongdoing where right judgment should be.
+I saw wickedness in the place of righteousness.
+
+**Help with righteousness:** What is right and just.
 
 ## Ecclesiastes 3:17
 
-I told myself God will judge both good and evil people. 📖
+I told myself, “God will judge righteous and wicked people. 📖
 
-There is a time for every action and deed.
+There is a time for every activity and deed.”
 
 ## Ecclesiastes 3:18
 
-I thought God tests people to show them they are like animals. 📖
+I told myself, “God tests human beings so they may see for themselves that they are only beasts.” 📖
+
+**About this statement:** This is the Teacher’s comparison.
+
+The next verses speak about people and animals dying and returning to dust.
 
 ## Ecclesiastes 3:19
 
@@ -118,11 +126,11 @@ People and animals meet the same end. 📖
 
 Both die and share the same breath.
 
-People have no advantage over animals in this.
+People have no advantage over animals.
 
 Everything is futile.
 
-**Help with a word:** Futile means unable to achieve a lasting result.
+**Help with futile:** Unable to achieve a lasting result.
 
 ## Ecclesiastes 3:20
 
@@ -141,4 +149,3 @@ I saw that a person can do nothing better than enjoy their work. 📖
 That is their share.
 
 Who can show them what will happen after they are gone?
-
