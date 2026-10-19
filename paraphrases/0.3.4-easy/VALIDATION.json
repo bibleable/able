@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 498,
-    "complete_book_structures": 44,
-    "draft_addresses": 14514,
-    "missing_chapters": 691,
+    "draft_chapters": 507,
+    "complete_book_structures": 45,
+    "draft_addresses": 14659,
+    "missing_chapters": 682,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 467
+    "current_provisional_author_comparisons": 477
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -52,7 +52,6 @@
     "Exodus 20",
     "Joshua 1",
     "Judges 17",
-    "Esther 1",
     "Psalms 23",
     "Psalms 51",
     "Psalms 94",
@@ -802,7 +801,16 @@
     "nehemiah/nehemiah11_1757432524.md": "0ecd6f974037258525496e0cab83d73fc35d6a7619040e55fe76e6e8a4a07eff",
     "nehemiah/nehemiah12_1757432700.md": "e7db6d582642cd019562388bf5c8c74e11fee17df0a6b60266abb9866a2d42cb",
     "nehemiah/nehemiah13_1757432833.md": "ca6f0f0761cd8b6ba59b71d27dc893774b09c863adc02d53c9238d142dfd6a1a",
-    "esther/esther1_1757433035.md": "6c15c45389db587dab19f8246c69c0b7a987b960087abcf572e44d58f35d356a",
+    "esther/esther1_1757433035.md": "589b40b07b461f9d21e5180107dfe2e13dfef2a97286a7938fb7e9ce8bdc551f",
+    "esther/esther2_1757433181.md": "f9c650e3bf83fae58429088afb3c989a32bb4564c2f550fe56c5a485f9d30c06",
+    "esther/esther3_1757433266.md": "bfc4f5e6d7d73fc68ffadbb220a7ccf1e54db5633dfca6930cd9339429397f26",
+    "esther/esther4_1757433349.md": "ef07412c5f86a9a3a103357d17d5b0f357c1a51b560763e32d21329db8073306",
+    "esther/esther5_1757433422.md": "f275847a53245a4958e16acc6d49393267616185275104607793560c12def51e",
+    "esther/esther6_1757433493.md": "670ce14d411d1d4e320d78a94111a0ac8c3bce71e9270d9a42343357fc3247c3",
+    "esther/esther7_1757433587.md": "ed242e7836bafc42954dad3b21ee42b3cd2c09a78d3fc7b2de1b9fbcf1783735",
+    "esther/esther8_1757433723.md": "72bb017227e5dde1e4daad6713fcb814501058f80c712cf33fc3eab67e555a5b",
+    "esther/esther9_1757433853.md": "5ef4abfc6258e73a505d71f35bc703bfd7c8c93fba06e4d55e397bc265ec8249",
+    "esther/esther10_1757433888.md": "2ba7ec4565674023736fe65981965b906b0c78ed2e493bb1bfe1e6fc132ea310",
     "psalms/psalms23_1757440380.md": "3fccfd4a9c237b425704442d408f632c56bee4703d3891f00fb4c40ee64d1d9e",
     "psalms/psalms51_1757442774.md": "927e6d2007eec5077b2955e592acb03797750cf348943d2f804913a34c028eac",
     "psalms/psalms94_1757446736.md": "6d168cc005f577f292f0f3b0b397bfa69104d7038a7581950ba3a4e67ab3974f",

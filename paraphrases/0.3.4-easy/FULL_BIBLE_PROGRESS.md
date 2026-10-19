@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 498/1189 chapters.**
-**Books with every chapter drafted: 44/66.**
+**Structurally complete text drafts: 507/1189 chapters.**
+**Books with every chapter drafted: 45/66.**
 
-These drafts contain 14,514 of 31,102 source verse addresses.
+These drafts contain 14,659 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -33,7 +33,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | 2 Chronicles | 36 | 36 | — |
 | Ezra | 10 | 10 | — |
 | Nehemiah | 13 | 13 | — |
-| Esther | 1 | 10 | 2–10 |
+| Esther | 10 | 10 | — |
 | Job | 0 | 42 | 1–42 |
 | Psalms | 7 | 150 | 1–22, 24–50, 52–93, 95–112, 114–118, 120–132, 134–138, 140–150 |
 | Proverbs | 2 | 31 | 1–2, 4–30 |
@@ -99,7 +99,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - 2 Chronicles: [1](2chronicles/2chronicles1_1757422946.md), [2](2chronicles/2chronicles2_1757423051.md), [3](2chronicles/2chronicles3_1757423180.md), [4](2chronicles/2chronicles4_1757423358.md), [5](2chronicles/2chronicles5_1757423422.md), [6](2chronicles/2chronicles6_1757423570.md), [7](2chronicles/2chronicles7_1757423665.md), [8](2chronicles/2chronicles8_1757423767.md), [9](2chronicles/2chronicles9_1757423944.md), [10](2chronicles/2chronicles10_1757424060.md), [11](2chronicles/2chronicles11_1757424140.md), [12](2chronicles/2chronicles12_1757424238.md), [13](2chronicles/2chronicles13_1757424350.md), [14](2chronicles/2chronicles14_1757424418.md), [15](2chronicles/2chronicles15_1757424535.md), [16](2chronicles/2chronicles16_1757424639.md), [17](2chronicles/2chronicles17_1757424777.md), [18](2chronicles/2chronicles18_1757424922.md), [19](2chronicles/2chronicles19_1757425010.md), [20](2chronicles/2chronicles20_1757425164.md), [21](2chronicles/2chronicles21_1757425280.md), [22](2chronicles/2chronicles22_1757425400.md), [23](2chronicles/2chronicles23_1757425575.md), [24](2chronicles/2chronicles24_1757425724.md), [25](2chronicles/2chronicles25_1757427649.md), [26](2chronicles/2chronicles26_1757427776.md), [27](2chronicles/2chronicles27_1757427856.md), [28](2chronicles/2chronicles28_1757428126.md), [29](2chronicles/2chronicles29_1757428208.md), [30](2chronicles/2chronicles30_1757428368.md), [31](2chronicles/2chronicles31_1757428596.md), [32](2chronicles/2chronicles32_1757428728.md), [33](2chronicles/2chronicles33_1757428881.md), [34](2chronicles/2chronicles34_1757429045.md), [35](2chronicles/2chronicles35_1757429221.md), [36](2chronicles/2chronicles36_1757429366.md)
 - Ezra: [1](ezra/ezra1_1757429479.md), [2](ezra/ezra2_1757429663.md), [3](ezra/ezra3_1757429749.md), [4](ezra/ezra4_1757429839.md), [5](ezra/ezra5_1757429932.md), [6](ezra/ezra6_1757430019.md), [7](ezra/ezra7_1757430148.md), [8](ezra/ezra8_1757430325.md), [9](ezra/ezra9_1757430426.md), [10](ezra/ezra10_1757430661.md)
 - Nehemiah: [1](nehemiah/nehemiah1_1757430803.md), [2](nehemiah/nehemiah2_1757430934.md), [3](nehemiah/nehemiah3_1757431157.md), [4](nehemiah/nehemiah4_1757431266.md), [5](nehemiah/nehemiah5_1757431348.md), [6](nehemiah/nehemiah6_1757431457.md), [7](nehemiah/nehemiah7_1757431600.md), [8](nehemiah/nehemiah8_1757431758.md), [9](nehemiah/nehemiah9_1757431967.md), [10](nehemiah/nehemiah10_1757432177.md), [11](nehemiah/nehemiah11_1757432524.md), [12](nehemiah/nehemiah12_1757432700.md), [13](nehemiah/nehemiah13_1757432833.md)
-- Esther: [1](esther/esther1_1757433035.md)
+- Esther: [1](esther/esther1_1757433035.md), [2](esther/esther2_1757433181.md), [3](esther/esther3_1757433266.md), [4](esther/esther4_1757433349.md), [5](esther/esther5_1757433422.md), [6](esther/esther6_1757433493.md), [7](esther/esther7_1757433587.md), [8](esther/esther8_1757433723.md), [9](esther/esther9_1757433853.md), [10](esther/esther10_1757433888.md)
 - Psalms: [23](psalms/psalms23_1757440380.md), [51](psalms/psalms51_1757442774.md), [94](psalms/psalms94_1757446736.md), [113](psalms/psalms113_1757448583.md), [119](psalms/psalms119_1757449220.md), [133](psalms/psalms133_1757450169.md), [139](psalms/psalms139_1757450646.md)
 - Proverbs: [3](proverbs/proverbs3_1757451882.md), [31](proverbs/proverbs31_1757455576.md)
 - Ecclesiastes: [3](ecclesiastes/ecclesiastes3_1757455851.md)
@@ -155,7 +155,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 467/498 structurally complete drafts.
+- Current provisional AI author comparisons: 477/507 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
