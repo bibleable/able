@@ -57,3 +57,5 @@ Independent editorial assessment, review with intended readers, tested illustrat
 ## Book commits
 
 The user requested a commit after every book. Commit each newly finished book after all its chapter drafts, provisional source comparisons, coverage checks, and layout checks are complete. Include relevant tracking updates and keep unrelated user changes out of the commit. A book commit records completed text drafts, not independent editorial approval or reader testing. Do not commit a partial book merely because a goal turn ends.
+
+The user has authorized continuing the full-Bible work and book commits without conversational confirmation questions. Continue within that scope. Required host permission prompts for Git metadata remain separate from task authorization.
