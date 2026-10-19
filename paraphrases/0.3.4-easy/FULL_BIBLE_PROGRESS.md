@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 740/1189 chapters.**
-**Books with every chapter drafted: 50/66.**
+**Structurally complete text drafts: 803/1189 chapters.**
+**Books with every chapter drafted: 51/66.**
 
-These drafts contain 19,096 of 31,102 source verse addresses.
+These drafts contain 20,316 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -39,7 +39,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Proverbs | 31 | 31 | — |
 | Ecclesiastes | 12 | 12 | — |
 | Song of Solomon | 8 | 8 | — |
-| Isaiah | 3 | 66 | 1–39, 42–52, 54–66 |
+| Isaiah | 66 | 66 | — |
 | Jeremiah | 1 | 52 | 1–28, 30–52 |
 | Lamentations | 0 | 5 | 1–5 |
 | Ezekiel | 0 | 48 | 1–48 |
@@ -105,7 +105,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Proverbs: [1](proverbs/proverbs1_1757451698.md), [2](proverbs/proverbs2_1757451765.md), [3](proverbs/proverbs3_1757451882.md), [4](proverbs/proverbs4_1757452016.md), [5](proverbs/proverbs5_1757452131.md), [6](proverbs/proverbs6_1757452209.md), [7](proverbs/proverbs7_1757452340.md), [8](proverbs/proverbs8_1757452479.md), [9](proverbs/proverbs9_1757452618.md), [10](proverbs/proverbs10_1757452734.md), [11](proverbs/proverbs11_1757452860.md), [12](proverbs/proverbs12_1757452955.md), [13](proverbs/proverbs13_1757453085.md), [14](proverbs/proverbs14_1757453189.md), [15](proverbs/proverbs15_1757453299.md), [16](proverbs/proverbs16_1757453380.md), [17](proverbs/proverbs17_1757453481.md), [18](proverbs/proverbs18_1757453635.md), [19](proverbs/proverbs19_1757453772.md), [20](proverbs/proverbs20_1757453896.md), [21](proverbs/proverbs21_1757454069.md), [22](proverbs/proverbs22_1757454161.md), [23](proverbs/proverbs23_1757454283.md), [24](proverbs/proverbs24_1757454425.md), [25](proverbs/proverbs25_1757454556.md), [26](proverbs/proverbs26_1757454756.md), [27](proverbs/proverbs27_1757454900.md), [28](proverbs/proverbs28_1757455173.md), [29](proverbs/proverbs29_1757455375.md), [30](proverbs/proverbs30_1757455498.md), [31](proverbs/proverbs31_1757455576.md)
 - Ecclesiastes: [1](ecclesiastes/ecclesiastes1_1757455662.md), [2](ecclesiastes/ecclesiastes2_1757455732.md), [3](ecclesiastes/ecclesiastes3_1757455851.md), [4](ecclesiastes/ecclesiastes4_1757455925.md), [5](ecclesiastes/ecclesiastes5_1757455999.md), [6](ecclesiastes/ecclesiastes6_1757456079.md), [7](ecclesiastes/ecclesiastes7_1757456176.md), [8](ecclesiastes/ecclesiastes8_1757456274.md), [9](ecclesiastes/ecclesiastes9_1757456355.md), [10](ecclesiastes/ecclesiastes10_1757456431.md), [11](ecclesiastes/ecclesiastes11_1757456514.md), [12](ecclesiastes/ecclesiastes12_1757456592.md)
 - Song of Solomon: [1](songofsongs/songofsongs1_1757456695.md), [2](songofsongs/songofsongs2_1757456812.md), [3](songofsongs/songofsongs3_1757456874.md), [4](songofsongs/songofsongs4_1757456982.md), [5](songofsongs/songofsongs5_1757457103.md), [6](songofsongs/songofsongs6_1757457254.md), [7](songofsongs/songofsongs7_1757457332.md), [8](songofsongs/songofsongs8_1757457402.md)
-- Isaiah: [40](isaiah/isaiah40_1757461591.md), [41](isaiah/isaiah41_1757461717.md), [53](isaiah/isaiah53_1757463011.md)
+- Isaiah: [1](isaiah/isaiah1_1757457491.md), [2](isaiah/isaiah2_1757457597.md), [3](isaiah/isaiah3_1757457746.md), [4](isaiah/isaiah4_1757457847.md), [5](isaiah/isaiah5_1757458001.md), [6](isaiah/isaiah6_1757458091.md), [7](isaiah/isaiah7_1757458238.md), [8](isaiah/isaiah8_1757458358.md), [9](isaiah/isaiah9_1757458447.md), [10](isaiah/isaiah10_1757458599.md), [11](isaiah/isaiah11_1757458772.md), [12](isaiah/isaiah12_1757458864.md), [13](isaiah/isaiah13_1757458937.md), [14](isaiah/isaiah14_1757459034.md), [15](isaiah/isaiah15_1757459134.md), [16](isaiah/isaiah16_1757459210.md), [17](isaiah/isaiah17_1757459295.md), [18](isaiah/isaiah18_1757459390.md), [19](isaiah/isaiah19_1757459517.md), [20](isaiah/isaiah20_1757459585.md), [21](isaiah/isaiah21_1757459683.md), [22](isaiah/isaiah22_1757459799.md), [23](isaiah/isaiah23_1757459869.md), [24](isaiah/isaiah24_1757459962.md), [25](isaiah/isaiah25_1757460056.md), [26](isaiah/isaiah26_1757460163.md), [27](isaiah/isaiah27_1757460262.md), [28](isaiah/isaiah28_1757460358.md), [29](isaiah/isaiah29_1757460440.md), [30](isaiah/isaiah30_1757460570.md), [31](isaiah/isaiah31_1757460635.md), [32](isaiah/isaiah32_1757460715.md), [33](isaiah/isaiah33_1757460837.md), [34](isaiah/isaiah34_1757460955.md), [35](isaiah/isaiah35_1757461037.md), [36](isaiah/isaiah36_1757461135.md), [37](isaiah/isaiah37_1757461243.md), [38](isaiah/isaiah38_1757461387.md), [39](isaiah/isaiah39_1757461457.md), [40](isaiah/isaiah40_1757461591.md), [41](isaiah/isaiah41_1757461717.md), [42](isaiah/isaiah42_1757461820.md), [43](isaiah/isaiah43_1757461911.md), [44](isaiah/isaiah44_1757462020.md), [45](isaiah/isaiah45_1757462103.md), [46](isaiah/isaiah46_1757462166.md), [47](isaiah/isaiah47_1757462270.md), [48](isaiah/isaiah48_1757462350.md), [49](isaiah/isaiah49_1757462505.md), [50](isaiah/isaiah50_1757462629.md), [51](isaiah/isaiah51_1757462712.md), [52](isaiah/isaiah52_1757462788.md), [53](isaiah/isaiah53_1757463011.md), [54](isaiah/isaiah54_1757463093.md), [55](isaiah/isaiah55_1757463167.md), [56](isaiah/isaiah56_1757463239.md), [57](isaiah/isaiah57_1757463329.md), [58](isaiah/isaiah58_1757463449.md), [59](isaiah/isaiah59_1757463570.md), [60](isaiah/isaiah60_1757463671.md), [61](isaiah/isaiah61_1757463757.md), [62](isaiah/isaiah62_1757463867.md), [63](isaiah/isaiah63_1757463952.md), [64](isaiah/isaiah64_1757464016.md), [65](isaiah/isaiah65_1757464126.md), [66](isaiah/isaiah66_1757464218.md)
 - Jeremiah: [29](jeremiah/jeremiah29_1757467446.md)
 - Joel: [1](joel/joel1_1757478775.md), [2](joel/joel2_1757478899.md), [3](joel/joel3_1757479073.md)
 - Amos: [4](amos/amos4_1757479373.md)
@@ -157,7 +157,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 720/740 structurally complete drafts.
+- Current provisional AI author comparisons: 786/803 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
