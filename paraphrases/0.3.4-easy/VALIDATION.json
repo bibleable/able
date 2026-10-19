@@ -1,0 +1,932 @@
+{
+  "schema_version": 1,
+  "status": "incomplete full-Bible edition; structural text-draft checkpoint only",
+  "source": {
+    "path": "comparison/bsb.txt",
+    "sha256": "2e402b2aae15626408244a8e2f5a617b5b381e41f9c5ea36874bd95f4bbae9bd",
+    "books": 66,
+    "chapters": 1189,
+    "addresses": 31102,
+    "blank_addresses": [
+      "Matthew 17:21",
+      "Matthew 18:11",
+      "Matthew 23:14",
+      "Mark 7:16",
+      "Mark 9:44",
+      "Mark 9:46",
+      "Mark 11:26",
+      "Mark 15:28",
+      "Luke 17:36",
+      "Luke 23:17",
+      "John 5:4",
+      "Acts 8:37",
+      "Acts 15:34",
+      "Acts 24:7",
+      "Acts 28:29",
+      "Romans 16:24"
+    ]
+  },
+  "counts": {
+    "draft_chapters": 315,
+    "complete_book_structures": 36,
+    "draft_addresses": 9275,
+    "missing_chapters": 874,
+    "chapters_needing_structural_repair": 0,
+    "current_provisional_author_comparisons": 281
+  },
+  "checks": {
+    "verse_structure_errors": 0,
+    "scripture_sentences_over_20_words": 0,
+    "possible_sentence_paragraph_joins": 0,
+    "stale_author_comparisons": 0,
+    "unexpected_files": [],
+    "require_complete_exit_code": 1,
+    "checker_regression_tests": {
+      "command": "python3 -m unittest discover -s scripts -p 'test_*.py'",
+      "tests": 28,
+      "result": "passed"
+    }
+  },
+  "pending_author_comparisons": [
+    "Genesis 1",
+    "Exodus 20",
+    "Joshua 1",
+    "Judges 17",
+    "1 Kings 4",
+    "1 Kings 22",
+    "1 Chronicles 17",
+    "Esther 1",
+    "Psalms 23",
+    "Psalms 51",
+    "Psalms 94",
+    "Psalms 113",
+    "Psalms 119",
+    "Psalms 133",
+    "Psalms 139",
+    "Proverbs 3",
+    "Proverbs 31",
+    "Ecclesiastes 3",
+    "Isaiah 40",
+    "Isaiah 41",
+    "Isaiah 53",
+    "Jeremiah 29",
+    "Amos 4",
+    "Micah 6",
+    "Mark 1",
+    "Mark 2",
+    "Mark 3",
+    "Mark 4",
+    "Mark 5",
+    "Mark 6",
+    "Mark 7",
+    "Mark 8",
+    "Mark 9",
+    "Mark 10"
+  ],
+  "review_flags": [
+    {
+      "address": "Acts 15:34",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 24:7",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 28:29",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Acts 8:37",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "John 5:4",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Luke 17:36",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Luke 23:17",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Luke 5:10",
+      "code": "wording_risk",
+      "severity": "review",
+      "message": "Explain the metaphor; check for an inference of trapping people.",
+      "tests": [
+        "T3"
+      ],
+      "evidence": "catch people"
+    },
+    {
+      "address": "Mark 11:26",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Mark 15:28",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Mark 1:1",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:2",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:3",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:4",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:5",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:7",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:8",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:9",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:11",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:12",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:15",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:16",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:17",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:19",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:21",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:22",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:23",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:24",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:27",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:30",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:31",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:32",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:40",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:42",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:43",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:44",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 1:45",
+      "code": "stale_review",
+      "severity": "review",
+      "message": "ABLE wording or reference changed. Earlier findings need fresh editorial review.",
+      "tests": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "address": "Mark 7:16",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Mark 9:44",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Mark 9:46",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Matthew 17:21",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Matthew 18:11",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Matthew 23:14",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    },
+    {
+      "address": "Romans 16:24",
+      "code": "empty_reference",
+      "severity": "review",
+      "message": "Reference has an address but no verse text; review the edition/numbering difference.",
+      "tests": [
+        "T1"
+      ]
+    }
+  ],
+  "stages": {
+    "independent_editorial_review": "pending",
+    "intended_reader_testing": "pending; no successful tests evidenced",
+    "tested_illustrations": "pending",
+    "final_presentation_validation": "pending",
+    "accessibility_certification": "not claimed"
+  },
+  "limitations": [
+    "Verse structure checks cannot establish meaning or source fidelity.",
+    "Author comparisons are provisional AI self-reviews, not independent editorial approval.",
+    "Sentence-length checks exclude labeled editorial explanations.",
+    "Paragraph checks inspect source text, not rendered font, line length or page layout.",
+    "The 27 stale_review flags refer to earlier Mark 1 desk findings, a separate review mechanism from chapter author comparisons.",
+    "One wording-risk flag is a prompt for context review, not an automatic finding of error.",
+    "All sixteen blank BSB addresses retain editorial notes without invented scripture."
+  ],
+  "chapter_sha256": {
+    "genesis/genesis1_1757327525.md": "954088cae466e495b628e47b7cb709e3e756e9c01dc86edbec18a50132a5861a",
+    "exodus/exodus20_1757335668.md": "a7e250f481530ec27aece03e3dbb0c2533c972407e9bb4171983dbf54c7570a6",
+    "joshua/joshua1_1757350469.md": "cb03467340090b78ea1e0f768753398c1250616dc172c1c357c1853de7b994ce",
+    "judges/judges17_1757355071.md": "2258c1fef63072050defe8d6a11410497ed8924d1b28090017ad27c260215d55",
+    "ruth/ruth1_1757372779.md": "8a4ca3660a6ff7f843463779f66e53abf71dcb5812767999c7ae38c8250f01be",
+    "ruth/ruth2_1757372852.md": "ff05543c511e14a95002e78001653c6ce27f67744b7053a2d67ebd7efb928592",
+    "ruth/ruth3_1757372911.md": "e28776b26c71961837b2558bb6b8f8e23dca64a068d8fbb903875fc21aa3fedc",
+    "ruth/ruth4_1757372977.md": "368adad28bbdadc53ab82d4ed9ffd84205c1745734aaa1e476e3b5f88dc43fe4",
+    "2samuel/2samuel21_1792322671.md": "304e08a5481314c46a58646633a3a531a47c3950e2ec910898b1e3262082fbd9",
+    "2samuel/2samuel22_1792322671.md": "0faccfcbb6e43419175509546994581085f4749e9ffe1a422ae51cb43a5af078",
+    "2samuel/2samuel23_1792322671.md": "c9d622b3d16f665824dab46f6c439b9507f10e45cf3f8223126b362d4359430d",
+    "2samuel/2samuel24_1792322671.md": "246c28964e93f2c05c4a39dde8e404535a2a402f86d6c162428dba72fa39a7f9",
+    "1kings/1kings4_1757412692.md": "0c0ff95ac65a1e5898354c46c3e362cf00caa13cd02edbcbde12e426df48c35a",
+    "1kings/1kings22_1757415295.md": "e59cbb8f4bdd103ac1f21542a4333ff88301f7a53681b6be4908081753c1ba45",
+    "1chronicles/1chronicles17_1757421367.md": "3a5a5fc3c7e1aadcab6126c73ae2e6e86104209d0f1af188b7e297b7e5cc52d5",
+    "esther/esther1_1757433035.md": "6c15c45389db587dab19f8246c69c0b7a987b960087abcf572e44d58f35d356a",
+    "psalms/psalms23_1757440380.md": "3fccfd4a9c237b425704442d408f632c56bee4703d3891f00fb4c40ee64d1d9e",
+    "psalms/psalms51_1757442774.md": "927e6d2007eec5077b2955e592acb03797750cf348943d2f804913a34c028eac",
+    "psalms/psalms94_1757446736.md": "6d168cc005f577f292f0f3b0b397bfa69104d7038a7581950ba3a4e67ab3974f",
+    "psalms/psalms113_1757448583.md": "cf3efd94e268810a9f9a1ebc8ace3ebb68483783656d286fb5d6d57e7b86dd99",
+    "psalms/psalms119_1757449220.md": "b2cc5eb2f5e9a2a2ba88d62b9703315c7cc2c0b241f1f7b817e348a7d1e51032",
+    "psalms/psalms133_1757450169.md": "cbb33b8e8b4e77185f9c60534034ad5ce12f968b5b8c6380069767a416b70c65",
+    "psalms/psalms139_1757450646.md": "a47a139f36c01361eba7bf772d3dc26696587c20072d34963a633f8c817095fb",
+    "proverbs/proverbs3_1757451882.md": "45522946f005beeeb56d817b4064be061f85b0333eb22cd0a91197614d0a6d51",
+    "proverbs/proverbs31_1757455576.md": "6502ce4428035dda9fba1fb7d89bee71ef7ccbb495f9b3b3e1128f38f4c97ab9",
+    "ecclesiastes/ecclesiastes3_1757455851.md": "ee739953045544ca00103bd0b582254fafb96dd2c7699d9df4ecbad33cf1020b",
+    "isaiah/isaiah40_1757461591.md": "cfe80d5f0e915bdf3036e965273f09472b662f034d4c30b33e88dbdf59e7e39a",
+    "isaiah/isaiah41_1757461717.md": "c8b22e5a3152f26ba5e8c3d20ecc206e0af1fefa591449956937a440c2d9bbc3",
+    "isaiah/isaiah53_1757463011.md": "f555fa3eb6b2e502e056845d97c5656c52e195adf33877587cd530c02cfef068",
+    "jeremiah/jeremiah29_1757467446.md": "2c64925265847ac20efd961103927e7a6e3c1b1d9b03ae0670a93822127b9572",
+    "joel/joel1_1757478775.md": "8fa918617b875d8367edd8729ca09ddc7afa12e81f16a2ec988f4a94eb3686da",
+    "joel/joel2_1757478899.md": "c9f916dd6ecdd0b1505d89b139eb91b226e104072b80d6bbb6f64e609737ebc8",
+    "joel/joel3_1757479073.md": "92ec9f382f15f06118733841467919820c9dd3a8fcf03837da01ee41df8420ec",
+    "amos/amos4_1757479373.md": "37bdf30d538382ad6ebbf055d46507cd39ee0508ed3f2d4028f37ee43c4cc2fd",
+    "obadiah/obadiah1_1757479908.md": "59ab981523b16243b0a8c5673a25467b30a5bb4fe362f8a9cec620f02aeef08f",
+    "jonah/jonah1_1757479993.md": "c752cc526a0b7691647f87f861cf324e923985c042bd96d74b5f68b9b6444fb1",
+    "jonah/jonah2_1757480092.md": "9c833fa968de0d32de4c09a89e864721b59fddba2877724e0075834f24339e34",
+    "jonah/jonah3_1757480197.md": "097387dd630bd01a6b6d41b87ae6ac422fcef1c6adad9ce1693ec0a5c5c8fcbf",
+    "jonah/jonah4_1757480257.md": "2874f476282de9f596f38e3e9b700a78e59beb90f392ab90104903d9a9150294",
+    "micah/micah6_1757480850.md": "244701a214691d1f5971b696e4b57f53f1c7c5fb11349446290cff8439755cb3",
+    "nahum/nahum1_1757481056.md": "bcc40146d2c5c278f56eb470b0dff1239881e0bbdbcb2d338f7114a55be4f9b3",
+    "nahum/nahum2_1757481115.md": "c786673205f8fda7bd90fa498544aa4e1f3e941809a0685043bc3d5f3305eaf5",
+    "nahum/nahum3_1757481180.md": "ae41db947a9bc93f2c9f1978f1de41f43afb1f30f19783d1b60be4ea58f1b259",
+    "habakkuk/habakkuk1_1757481281.md": "2e023c08aeab3efe7dbf1d3754c571fcdcba553c03669915e46ab5d1487e5113",
+    "habakkuk/habakkuk2_1757481446.md": "98e74e79ff3f778daa5933b87e0a54069160ea59f32fb00657d56a22e4d0cee4",
+    "habakkuk/habakkuk3_1757481518.md": "c343dacb72a78387f453a70a0171347e934a26305002865a1f94844eae80528d",
+    "zephaniah/zephaniah1_1757481593.md": "fd5c189047792bf54c5a4cd0723247eb1c10b55ddf6d6de0a711a83c3bea4e80",
+    "zephaniah/zephaniah2_1757481696.md": "dfaad6c6bd3d193848d8b373249f384f2c28331905cc40519240962a4d31b872",
+    "zephaniah/zephaniah3_1757481836.md": "431812d85d751a8be439c626f47baaf361b841e08a7d5b2e10a79ef77d9ced77",
+    "haggai/haggai1_1757481941.md": "26121b652b2999d9e7a3ce0036abe2fe2c2dc926f933bd18cbbaf0d2e1084335",
+    "haggai/haggai2_1757482052.md": "d5fd3366625c51dd7eb7257eaa9ccacc8ea40fec99eeddc08dce619bf0061f0b",
+    "malachi/malachi1_1757483789.md": "2c31da44c11d3814dfc6f0539ffcda2fdf68598954c4f498039535b5b37b9344",
+    "malachi/malachi2_1757483925.md": "a26cece5bdcc920b5974e6c471b14d0a49f3080608bc2afd57ebcc3d6b9eac76",
+    "malachi/malachi3_1757484032.md": "8bbc69e14b7f65b2d033581d8ed7d84d33d29ee17ded75337a2bf0d320337f61",
+    "malachi/malachi4_1757484093.md": "f69f7cc2bea6dc8a58ada8699cfb6d72b5b6618ea572f2c39c819173abd9edcf",
+    "matthew/matthew1_1757484254.md": "e328c7e98a346c0051389dbf5e84ea41cff83ff953f6169d2bc2e2be2aaea966",
+    "matthew/matthew2_1757484357.md": "20960163df49439281d3a9e42ca333d19e6ee6cbc1b7691050edd659bb58f1f7",
+    "matthew/matthew3_1757484463.md": "15d640687a3773b89fc399623b3951adcdc2e8e3892528be0ecb8a1eab2e9fcb",
+    "matthew/matthew4_1757484636.md": "221d50af5b4e8af79698a74e405a77d72be9074aabbee5a7dcecc3e96647e0c3",
+    "matthew/matthew5_1757484759.md": "559bc6cfcd0f2f7a47e5465825f03cc92cd2da1f87c68314ced1cc51f0067c04",
+    "matthew/matthew6_1757484833.md": "4234a39911df6ba0101d8b4bd54af984d93092636702b1bcf65dc74108e65c49",
+    "matthew/matthew7_1757484975.md": "25b542ce4e704d4d068435512e8d67e0600b438270e3c9abfc072241d6f46083",
+    "matthew/matthew8_1757485157.md": "7f5d4d556e87b103c7a8b46828b7d7b1e4d3cfe61a31a4dd967503287d9720c3",
+    "matthew/matthew9_1757485360.md": "53ec613635b64f11e71f34092cf9fcbe2a6a5a2964fd4b96ff6774989e3183d2",
+    "matthew/matthew10_1757485485.md": "c82313d41302bed95bc1997b4a01ef3615f2c479fecd74c0e2cc8c2113d1f387",
+    "matthew/matthew11_1757485635.md": "c895e64cdad2bd59affcf75e580b84a7d063f40690ba4473a59c392142081206",
+    "matthew/matthew12_1757485761.md": "bb4d7786e0f2c384d1052c40e73d27ccb8bf04ab20ee04dd662d9ddeb3e65a02",
+    "matthew/matthew13_1757485964.md": "4e0fd78e7341ccab8445d6069a85c58ab69d1ceabcc884f05be6c9e0d2066fb3",
+    "matthew/matthew14_1757486171.md": "bdf59adbf85eedeebe201ad0a325813c5baccb26aa2b62f3d684dc09ece6334d",
+    "matthew/matthew15_1757486258.md": "aca604f91cb00b31aab4b01ec04ea746e482d7fda41074bb58544ae5fb3677a8",
+    "matthew/matthew16_1757486350.md": "34fbf89a921a9baa9b19c2fdd86b82e11dff54738d3eef84207084e55ff56d50",
+    "matthew/matthew17_1757486528.md": "4102c96e04eb9be8877bfe0807c3b239cc84e498458acc151dec7b80c25f4c01",
+    "matthew/matthew18_1757486689.md": "e0d597b63cf047080938ce23e5dcb83f6bcc7492d89f3760afe09508a2662e91",
+    "matthew/matthew19_1757486789.md": "ac6e5e0ef936a360a3c67ae5bbb5dd8fd58688ec29797d52c495e1909e1e5843",
+    "matthew/matthew20_1757486914.md": "d3909bd6618cd2b5f8a517b349bec5d6c95cf4c2de8487bd7b43dc7ec2024846",
+    "matthew/matthew21_1757487063.md": "d1a44d093f38c7abbd7b0ddf80240d15d88022bcf08a22ce41c6724c606e2e6f",
+    "matthew/matthew22_1757487287.md": "92a435f8b6b040feaddf9d51137c85c8db12ba18bf2fa93e4ba5e9c127c01738",
+    "matthew/matthew23_1757487435.md": "609fe26bbcbbb8914dcdde350831399fa4b3e37f6f5821177bcb030b31caf2e6",
+    "matthew/matthew24_1757487602.md": "2ccdf0e19da29d97cf5df3acede68ee082b7fa4b298d991f9d99b2b53606bdd2",
+    "matthew/matthew25_1757487759.md": "6ba57a21a9ed6cf9c79a2a6e2477be627f0f7d81a8c0bbc9e515304e434bd8fd",
+    "matthew/matthew26_1757487897.md": "d8063be4e5ff5dd5f279bd254cd3162ed618375a564b57402d27c58750f79ece",
+    "matthew/matthew27_1757488053.md": "2cc26388fd69aaf1a0a8cbe61273e824ce9770e0226dc763242003555e954a4a",
+    "matthew/matthew28_1757488142.md": "ce8ac978d6e3ba8813a564c104413e001e23f8959975ecf087da5ac793adf02f",
+    "mark/mark1_1757488307.md": "188b1cccf5eeddb2f206db0b1f840cb7719a97dc75b12879b00a33a4413f5c79",
+    "mark/mark2_1757488422.md": "09b48c7030b99bad04e71364c18b0ad691aa599ec0e90c6a975c09b96b420f07",
+    "mark/mark3_1757488519.md": "55d8c7688c84968e87edcceac438caab0d83784333dc58560fc1488e605dfd1e",
+    "mark/mark4_1757488688.md": "ffd168ca27795a6439c8ce049c9076ea7f2f510cb054cfdc02d7e68718aeb5af",
+    "mark/mark5_1757488886.md": "a671c034c922347e4ec2168ef86939feb3b5a4b7cc485743c2febce7efe47c1c",
+    "mark/mark6_1757489209.md": "d0ce7a3158bca85a15a5fee2dba94fb131e6a478376525fa0c4c13c3d52f0466",
+    "mark/mark7_1757489381.md": "623536c4ba92b72c35efadc0beb644aed6bc447b02bef8b201a38b25d27a74b9",
+    "mark/mark8_1757489607.md": "16b918cec310caca57a5f590eb10153a2e47039e32834fea3374b362b183ae0c",
+    "mark/mark9_1757489818.md": "cd4f3f78652066c021915aa31a8a693a43379de42b42acb3cc9f30fdc35615c7",
+    "mark/mark10_1757490019.md": "558b62711672d69fbc849f60a5de707a7e9abfe6e48b53485a6f8d17550c20bc",
+    "mark/mark11_1757490250.md": "cc1ecb5f10af9432bbae225d4a4ba2011f2c09a5c30c15a0c9ae8a3c65eaaee2",
+    "mark/mark12_1757490501.md": "2e03d0efae28b968eee245a71114b50ecb0bc9f93157fc80e01613f0c067ab7a",
+    "mark/mark13_1757490633.md": "a757feacfa71dc2e69e4688591be41da4c4ec7723f6c9e9fca85494419a7ee57",
+    "mark/mark14_1757490812.md": "f998497421d7cf67998487a6798463d739885a8334a15d7fc53ba30ea45ea54f",
+    "mark/mark15_1757490989.md": "0689f2bafcc3143ef5e9af7435b619a95cb4db693abd9e2b1c07593f2f29ce51",
+    "mark/mark16_1757491130.md": "47cf5c3c712c110688f6230aa21005bcd2e31396b20c1d98354d32d0ccf0001d",
+    "luke/luke1_1757491327.md": "f378f8a0fae4299d05873e971d028fe8478b24a8ddab85352ddef7cea1e163a4",
+    "luke/luke2_1757491540.md": "a5fe94029236aea778268b4d148399982452c208ba09ad5c017a7bdb4ee8e242",
+    "luke/luke3_1757491779.md": "b534d24d373dcc7e1a44e7ffd4cd381d4a493bb2a58a5d5cdc448089fe70141b",
+    "luke/luke4_1757492003.md": "978a797923c22cf0307e75d2381fc77c5f3ac2af7c46a0907ee50f12f37974c8",
+    "luke/luke5_1757492179.md": "ce8cc349fe9816886ce0a79528324bb479208ec2ff2de6f2faf0d4752d3028d4",
+    "luke/luke6_1757492357.md": "3273d923988f62782368c1c9173f934ac2a2e0cefc90744e8a1cade7e284d4ee",
+    "luke/luke7_1757492495.md": "7e76f9dc72bd744cedf5b2b0917208f26a0820fc4bb77e5cc473a2e9d2a18bbd",
+    "luke/luke8_1757492644.md": "91f3791a5ac89aed19d322cbcc5d9e830acf454c21baf8a5119e475afcebf475",
+    "luke/luke9_1757492817.md": "ba64951011c5045fe3f6556ba695c59a93d355916674c0784bd0001ab9081af7",
+    "luke/luke10_1757492970.md": "763fa936ac883b7034933ba48929aa9a02bc5fcf5daa1ff32047714a6b5d2671",
+    "luke/luke11_1757493202.md": "e8771132f84e50c703419bd4ca92ddd75fc9cdf6fee62f79036eeaec5fbeae3c",
+    "luke/luke12_1757493349.md": "fdd7c6dbe09b99507ca05350e5a04d1d4dadb8fe474e105b68ea2b0ef9ee15ce",
+    "luke/luke13_1757493489.md": "68a795938dc2fa2c4b874722f31bc95995bb17c94fd4edbd854be3a4c1dab18c",
+    "luke/luke14_1757493701.md": "57570d0125e6436c7ea5bb2e5ba06cb50137608cc6b1fdd718296cd1b642ffbe",
+    "luke/luke15_1757493836.md": "1ba291d4c936d31bf55e6e449b101b48e47b82d16ec4acbec036c8a3e35403f5",
+    "luke/luke16_1757493998.md": "acc0f8824917f7b41458ebf9e7eca898051e3e71b7df4096e0a28d2f7dec3722",
+    "luke/luke17_1757494217.md": "4da970e87367e641cbad136db95213dba6109b38bce6d2c7fae743b778cc5f3a",
+    "luke/luke18_1757494409.md": "19ab18bfee52e42fe8f73c8b0156402b3d78264751e9b99b60915eddf7897088",
+    "luke/luke19_1757494666.md": "1642eedf85ac907910ea0df42d30493aa12dd9bd83bf0dbbe900df42f3ac6274",
+    "luke/luke20_1757494880.md": "018fba1d01eead5a4265c75c1b183a1f53603f684f35d99ed5ef4e1216e42d79",
+    "luke/luke21_1757495103.md": "b6ffcf3976bd25846a00ab3b7ea01bd394394bc9c33cca4285d89409ca45a7f0",
+    "luke/luke22_1757495482.md": "ea1b9e377c38fa9dd6597c45f7421af826bd8406034989248add53e127149d37",
+    "luke/luke23_1757495638.md": "694f19978ebeeb6961a938d472645a09e6d434a44a2b3f130255ec3fed39ebd6",
+    "luke/luke24_1757495796.md": "65c932a0712f043fba2dc391f0a309b029f42a7157a0487aff46789066d5e9e7",
+    "john/john1_1757496006.md": "79b3f776ba3606479cbf6097f0bec7891bcd955c00e200d5dc945482c2c24ba7",
+    "john/john2_1757496134.md": "cb0b7fbf0644d83dd960c2b7b2ca141b7c5f6f2e4088c6eef50d20ebd9725bcd",
+    "john/john3_1757496403.md": "2aade04d2ceb35eac2b51f4dad88f725ff1e574650362da82e4b2bbf92afe656",
+    "john/john4_1757496703.md": "144221a39016ca4cedf0713f3eb8df93b4dbedf7b829e124f8861920e8944dab",
+    "john/john5_1757496871.md": "b2f4ce53893c205762fd011d99efccf89da84838106062f5e2079cef546185c2",
+    "john/john6_1757497072.md": "0c271d364e0a4f539eb0d2b01d0335829aa7a66d9a738c6bacaaa83aa44d7abe",
+    "john/john7_1757497293.md": "2f7f32f072dd43e5a063f681c5cb685109fa17d8422b1f820abc1d180e0dd444",
+    "john/john8_1757497492.md": "40ba7a382e2e2b8cb7b4984dd0cd1f4777ae84ec51617d83668517d2c6328a19",
+    "john/john9_1757497682.md": "54b9054d5da75b4e01fbd91d0d3963a60e6272313aafb52fd5c80a4df53a7ab1",
+    "john/john10_1757497846.md": "9dfb6449478522c8247b4c3d0669753e81e45f3e5eb0f0ec49eb3256d24d4a43",
+    "john/john11_1757498047.md": "63f87eb067797b51dbdb653dacdee13414b007d3cd408f29c4be0285b2e3cb4d",
+    "john/john12_1757498221.md": "794696f20772e28d385367e2b3c92da1185411712117d405c8c47daa9678b524",
+    "john/john13_1757498392.md": "f4e899bad0a6dae46d4e38466f2d7879124c44b7c6bbd3a1b2fc70bca2d4d6b9",
+    "john/john14_1757498540.md": "d4270be73f65ded544c1c0e83ca29a738ee984d8ed3695521939d75bcec4c50f",
+    "john/john15_1757498634.md": "f1750c6189b2112f26353a838cc8cc820c17214a430b28aafca05330acad7142",
+    "john/john16_1757498786.md": "3206e1d10b2f05065a72742b39dd3cee50997a5b88dc310112af51d0338a0c71",
+    "john/john17_1757498885.md": "4ff995d39a66a74bdf86d04acecf571a4f28ed862720507e5f26610aaec48849",
+    "john/john18_1757498983.md": "27808e04059e0da7ffb54fcacae71346bbc0364a766ea9c8f7ca906cda4364cd",
+    "john/john19_1757499179.md": "0319b81ca01628e7a6313e57974dfc4b0ed1162f3a0c664e89b871c2d4527df4",
+    "john/john20_1757499280.md": "63327deb9b2b16e586a61bd5e1222fe3509652fa956b4e1cb0a043643273ea78",
+    "john/john21_1757499379.md": "113f1ebb3e7e357902b800a4d14e5fc00de6e81e52f5a5a7caa0222a0aab6053",
+    "acts/acts1_1757499505.md": "348fe11a939a3604c132f01fef1d50f04ea9f8bd467bb1fd30c5d2fac843eb1f",
+    "acts/acts2_1757499654.md": "14c562d316d99ed4685dc24470ebe6533af960bfb2c737bbb44f747ac04acb67",
+    "acts/acts3_1757499802.md": "17c5a61f99820e9716f6427672a35047979f7141da00ab82e9deb90af98e5f70",
+    "acts/acts4_1757499912.md": "0f497eae601cf258c7c03eada1b3a35101f6f73f5ecba63d3a4a18ce9a607838",
+    "acts/acts5_1757500091.md": "c3a31c571f6828f6abf787bc4a4e4000db7108f0fe82deeb3521bb30b9f03aca",
+    "acts/acts6_1757500210.md": "22e4b257fedba3bb4a57bf417a80dd46f8195786c1c65caf99daa8d957754fd6",
+    "acts/acts7_1757500431.md": "2b1922ec8ff2a1ba701b36492ec81856fb5788617863e16704b2b8491755004b",
+    "acts/acts8_1757500616.md": "24fe6888424958e32804184f865b29a28aedc363b7c3e795740a466ac54ca6ea",
+    "acts/acts9_1757500810.md": "1d8c2f4a1900b7f5c4da66b0d5274638aea8c80712e77cbd2a43c498564f778c",
+    "acts/acts10_1757501017.md": "e2891882988827dd0136455eb0c4d7961369d362253b0df06d06c0facbd4d22c",
+    "acts/acts11_1757501195.md": "d0f6fa4a234008f3ed59c033d315a203b415c25c90561dc8219c1cdebc10baf5",
+    "acts/acts12_1757501353.md": "f39192a93e004fb7f44e1e136202e4019ef249c6233efd035966280c5825f733",
+    "acts/acts13_1757501613.md": "c23e3de14666be97ef2e7f00f82ec7c1c9db55c7bbc1066d80f2b6495488cd97",
+    "acts/acts14_1757501756.md": "6db4c9b51ff5052c71e8e119e5bd1e33f9bb0c0500f62fb46aee3453f1c49c0e",
+    "acts/acts15_1757501936.md": "a43364bf7d301db39a2b6b6c98cb0a79a0c638c5594cb2d5bf59ee57ac5dd995",
+    "acts/acts16_1757502030.md": "98c548c720d02a5f282ceed91c147faf921cecee462e07f0589a62474b95d092",
+    "acts/acts17_1757502090.md": "13bf133f33c89599d34ed263e7cdedcab4db740c0130e5124f2ced111fe2b0af",
+    "acts/acts18_1757502211.md": "864c38253bf0720fc9ad3f3a4c95d31b92b46f7056391833ad8d2d77f4d342c4",
+    "acts/acts19_1757502364.md": "d75d42d46ca706c054b8b6ca33c98871310441e0348b22fd90861bc14ebd3329",
+    "acts/acts20_1757502499.md": "d539ca1ccfec3c9e641d1ea0deafbdce14e9b68d39529abbbe46f76039c72417",
+    "acts/acts21_1757502683.md": "fa10e6b589aaa38bf01587f21bb507875de316d6f3c50d141a0e9617fd535661",
+    "acts/acts22_1757502899.md": "cc970176f437140712a34032b40b28db764f1a2368d8412a785fe6a1bc069cc5",
+    "acts/acts23_1757503075.md": "c8b867644681fe9d5888bf35883d6a1f23816db96745d6f87f4089a47b85e658",
+    "acts/acts24_1757503165.md": "11ffc27c22807f69dbacbc10140bb9a8b62cf5a92adaf124a7d85ad2b72eeaa6",
+    "acts/acts25_1757503270.md": "492aebba2b15089e093772459ac4ce94d76845e4323e5705dbad470f917c83a4",
+    "acts/acts26_1757503400.md": "5293426b04c3ae59b3ce52bd23303301a8793f5525f57480f47b7dda635f4e08",
+    "acts/acts27_1757503507.md": "d06c6de5c7813a85e060319175b4391560510cce56bae86ef3fd2251d49784c4",
+    "acts/acts28_1757503655.md": "c5d2345cc41fbb440bd92931c2c85323ea65e6281999735ee28b5fc5ee0c5706",
+    "romans/romans1_1757503761.md": "42bec1fdb001a0222acc3e24d1e42db3c1d0e8c43dd2286786c6bee4a9a10873",
+    "romans/romans2_1757503905.md": "600999f945cad8ebeeb4b2acd8a45b11420253e79f4a76600726b7011dc9232d",
+    "romans/romans3_1757504011.md": "7b4b6e2de47d34a4d5e8bc9aedf534ff0b40fe0aa9bfd49b691f33f7e0d5aac8",
+    "romans/romans4_1757504145.md": "ccac34106f4108fdd4989174bae2ccc1f036cbae52794743b5a9c94682c39366",
+    "romans/romans5_1757504223.md": "78bba8a46d9c6005f661dd535dc2dec578ff64019ad16a2f4fd4d8b7ed2f8cd4",
+    "romans/romans6_1757504398.md": "e036e94e27fb80f0a4fbeb3462baf46db286c57c52008addd1ecc1e76ea39d86",
+    "romans/romans7_1757504461.md": "5901127b63d023337d978d9faab341306602065ae146df8437b3c0737985882f",
+    "romans/romans8_1757504576.md": "84217c8584128226a30a27d164ca0f08f901b503dba107a945f71a7777d4a798",
+    "romans/romans9_1757504764.md": "375ff07e0ddf13741268dbd7f58223852eccab3a27bceb7ea3809e6e2172a2ca",
+    "romans/romans10_1757504856.md": "06aef5666847ec246b157b8f3c0cd5a73adfae3161726a899e51a1d35e19c6dd",
+    "romans/romans11_1757504962.md": "9e7a5d72748882c6829ae8200ba3c508d218768f87e47565c5060936061fbf83",
+    "romans/romans12_1757505046.md": "391d32f420ba8d1e1dcbf384275abb4fae92b4478a28c6cda77c89e10fa6c080",
+    "romans/romans13_1757505126.md": "db64b1dfad10e8e67ddcf27e48ddb25fa0536e4244f485f9de2fe76f9dc14e78",
+    "romans/romans14_1757505264.md": "9907dd951cdb56eae591e9580ed4eeca9b5e65fe57f99ea272077dab1d70d9a1",
+    "romans/romans15_1757505356.md": "8036bffac19b0ca98fc24387b762b8669b3f2c60a072ebc9aa611ea15505ec50",
+    "romans/romans16_1757505480.md": "d15020a538c602329967e625ab3213273df1052e507737e81904b68a4472e7ab",
+    "1corinthians/1corinthians1_1757505564.md": "10937b362d54d57f561f1b6870a9ce8536a540f5540b86f2623449e5da3f02c5",
+    "1corinthians/1corinthians2_1757505705.md": "866e964646f4fff7fcb9263839b779ece3a45e52c667bd930d7709605d743fc0",
+    "1corinthians/1corinthians3_1757505866.md": "cd98456878a79158da2d81eaf377fe28e0cc4574cb3ac56fbd531de6d9c17fb9",
+    "1corinthians/1corinthians4_1757505952.md": "06daf562cb11cc2c8fe8a79d186253341e0457bdcd252dc7fbc79ef0f1afcec1",
+    "1corinthians/1corinthians5_1757506040.md": "5b827487d29574518a43c8ee5c29160375536e63d5f6e04cdc97be88125087f2",
+    "1corinthians/1corinthians6_1757506167.md": "a9142a3262ace43e1f761fd10e37faa8d602f1cd17ea6dd5f5e5a6e7de02dc0a",
+    "1corinthians/1corinthians7_1757506373.md": "e82ab84e7d15cc36813f377114518849841631eeffb037a1fc45710db211d3a9",
+    "1corinthians/1corinthians8_1757506481.md": "1a345916abc43a3490ca8b919eadf5e7f2f00cbb54d16645c05e821e24dae08f",
+    "1corinthians/1corinthians9_1757506588.md": "a205b0b959ff9cfc57d7bdd31805c947e1a6ae5c114352a5e03df89fe7590fb5",
+    "1corinthians/1corinthians10_1757506729.md": "1acd0d3a5c3756c99157ccc3201cc4bd8d7d914fedc7ac7a477fad6caa6d89a9",
+    "1corinthians/1corinthians11_1757506854.md": "faf0aea3c91ecc62519a4ab845da518832cd02f501db76a4ce60f0916299244d",
+    "1corinthians/1corinthians12_1757506952.md": "d0bcb9726bf742f1af544d86d2269d4c756c67b8bdef671dcf0b26c2518b2e4f",
+    "1corinthians/1corinthians13_1757507030.md": "2a836364999a55770acb1eb53ffb143c1bb4126201b97cd00ff4eab0ecaab026",
+    "1corinthians/1corinthians14_1757507145.md": "1b14dae923fbcebf250b8306cb1919dbf7ca1e2a1c8b3fcdb5568dda0e7591b3",
+    "1corinthians/1corinthians15_1757507292.md": "492191c2e3559c5e51c5750f7581c3ea0a0adae77669c4e451256b773f7bc03b",
+    "1corinthians/1corinthians16_1757507404.md": "e900f078cd5597b35e746e97bc413ff4c62750ea5d54427e2660d58def1ac634",
+    "2corinthians/2corinthians1_1757507531.md": "49c090dd786308361a4a5f5adc5521e1f3083b9ef688164dde0c14b9b2881f38",
+    "2corinthians/2corinthians2_1757507639.md": "f23db6a2e2d4eba080ddac3d1ea6712a4ebddd9f9d3a1947086786da1e3d7aa1",
+    "2corinthians/2corinthians3_1757507755.md": "45e9699daea0490d8bcef1d0d77687c1a21e97835c38bab4ec21b2796e46df3f",
+    "2corinthians/2corinthians4_1757507872.md": "1ffbc6c973285858355cc4863efb3d66e52d8f803f2e7a31430b9f0e251a9560",
+    "2corinthians/2corinthians5_1757507968.md": "d27723bd0c4bea34e1fc3e6f1a28b4b0dd21693f863f991a8d9d1c7048212140",
+    "2corinthians/2corinthians6_1757508131.md": "3adfced87d43b8375350125e6f11b640e400c73c51716c3b384f0621133a4c91",
+    "2corinthians/2corinthians7_1757508214.md": "017509958a0bc14c23c7851fc1a9a99d568278e2ec797ae4674f1af71b099067",
+    "2corinthians/2corinthians8_1757508369.md": "5afad90773a196d71ad5958aaff6fe7c80cf2e43c182d9cde970671df6756a06",
+    "2corinthians/2corinthians9_1757508467.md": "1624d1da220de1c2225a380f5dba8f4ac778701556da393740b836e63a3b0283",
+    "2corinthians/2corinthians10_1757508574.md": "f9362362209d30deaf8abaff6b5ffbe87bd8f3ca3854eb6863074ed43237f490",
+    "2corinthians/2corinthians11_1757508711.md": "6ab22dfa30e9647535907165b30a6521aa96541d7aee0944f480caeffd895cf2",
+    "2corinthians/2corinthians12_1757508838.md": "4295ce35dec5bc24f3bf5726c7c03462c76d0dd768e940b2f4781e5c05d41589",
+    "2corinthians/2corinthians13_1757508911.md": "eac8e56316669cad6a5a2fc717b92d5d8ebc2fec4a184c64ae9de3238ec65b42",
+    "galatians/galatians1_1757508984.md": "5370291258954ca56f5e595b607085af2dc4fdc4f6be93f5d66f5e781d1adb42",
+    "galatians/galatians2_1757509082.md": "fa97401a599a9b344c3b7526a8129718aa3dbbf381db3e79ded961112b8cc44a",
+    "galatians/galatians3_1757509184.md": "8a7dff219d9ac3e85afead65c652ca1f9a78de35e805094c43c49874e9e04158",
+    "galatians/galatians4_1757509290.md": "5f2a2047f1b7edb7d21d648734d0cfef3119d77c1a352da97953cc632e81ce39",
+    "galatians/galatians5_1757509362.md": "1a1bed68f41fa5619072a48ffe78ef968c1ca4ba7cda54f892b8c389421261c7",
+    "galatians/galatians6_1757509453.md": "b9cf33e6a7ab9699b9d6406f856521671e404d465e753660f29e80d7e69d79de",
+    "ephesians/ephesians1_1757509564.md": "37d616c900b1178a254e4a8548deb7b970e36f25cce657b6dca19946c1adb702",
+    "ephesians/ephesians2_1757509714.md": "6a02b758edf6b3ce8b493a1379ce9f7e51a5f454114b0e041a9bce636c819241",
+    "ephesians/ephesians3_1757509859.md": "f0027664505cac056ece82b9797a8b9aa58926ccc3207bcb3ff83eb88541d845",
+    "ephesians/ephesians4_1757510020.md": "4b076f5cc41aafa7addadfe260da0b4245bb1c6de1d7479386c1cc2e48475cc5",
+    "ephesians/ephesians5_1757510185.md": "aa64f684c00a744d8b98c330a07d97d722a611be2dc4a8058196bc42c9b0bb6e",
+    "ephesians/ephesians6_1757510351.md": "2b96c5227f49895a0e3e40b2533d3d72ba65d13cf9f6cbe52fbb902a6f5c2a08",
+    "philippians/philippians1_1757510470.md": "f2e64e395917040bc19f3436645392d5f8f23485c28e1c47491e92c2314193f8",
+    "philippians/philippians2_1757510643.md": "fc5d2a2f8662fe6c348e365a7448c304ce4f30ef03296f780e91ad811e07a841",
+    "philippians/philippians3_1757510739.md": "be3546fcf904f87af5fc72a290b0a83a1225fc1a3dc68a39c9f0f3e6ece2a1f3",
+    "philippians/philippians4_1757510884.md": "6c7e3265b4b7f1e1a1b8862f50ede2ba7074ab714e757fff07537f67c831e8ea",
+    "colossians/colossians1_1757511026.md": "cc24ea2cef4a9e9771b17aa5f90dab3dbf825c8d0bbf742c83d9b8341a14d223",
+    "colossians/colossians2_1757511132.md": "cf7602914b9d3d84138d73de730aa59915c789381087ae6140f52649e09ad887",
+    "colossians/colossians3_1757511231.md": "beb6151ed9c0c4cc4dea07ae54c2e8d61400875f41eafa32a405a3b2b0599f23",
+    "colossians/colossians4_1757511368.md": "e85414dc68617882748a21bd5dffbce3f64f98f98a4d5ee6776539531c619a79",
+    "1thessalonians/1thessalonians1_1757511464.md": "51bb686991a817d76fbfe6ca730be7a8a12378fc93200b9a9fcb2a8ee173ac4c",
+    "1thessalonians/1thessalonians2_1757511545.md": "a39f38f365f36f2397386d63f3422b9d2cb444e40fb1dae9f93457d49fcfe32a",
+    "1thessalonians/1thessalonians3_1757511653.md": "67e4da8972f80632c4b207fe881ad274e87e414819516ae24e2d6405bd6e3060",
+    "1thessalonians/1thessalonians4_1757511795.md": "f96c43b41d517ff34e3e3f9a415274c0e8803b3275cb90a1d5d46749bb21eb16",
+    "1thessalonians/1thessalonians5_1757511917.md": "6c4641e830f8e5280117cb714f1c6da26ac00b6c65c8b6135fd18da4d5e7eb3c",
+    "2thessalonians/2thessalonians1_1757511997.md": "4953d08b40090f6ce36ddcddffb9899c9e460a0ba7ae3015f6b062bfbad4608b",
+    "2thessalonians/2thessalonians2_1757512119.md": "491660a7e38f813110bdcde333f0f6b8b09840efac1b6d5ced457adb429919b4",
+    "2thessalonians/2thessalonians3_1757512261.md": "e80688b3d58182d6c8696b46a2eb9435bb7e7bf69bb39586688f69a1f66bc5df",
+    "1timothy/1timothy1_1757512373.md": "0aa8b4f825a916211231e60b18b7a6d47ab17435c76185efc1b39de5fe044684",
+    "1timothy/1timothy2_1757512548.md": "628c158d6190cedf483f7e9015cbebe4b5daf387bee6e8b237bf67cb3421bce9",
+    "1timothy/1timothy3_1757512666.md": "27141513d715d4c4c482e9161d677927be3fbe4bd2b32bbf71ff0d53a39fea70",
+    "1timothy/1timothy4_1757512784.md": "49a4544a5783cf7fdbf5289e042e225e4b648438b4c978c97adce433cd9aa02a",
+    "1timothy/1timothy5_1757512884.md": "2e8b7c2329292fe4d0d7c19d51726bae0a95c51b0b41f568f7e084b3c7096b6a",
+    "1timothy/1timothy6_1757512986.md": "a4bae1a81a61f2e14d58c218065fc104f89b9e0b9059df9c763b0e415460572e",
+    "2timothy/2timothy1_1757513138.md": "0fddcb38601da014c83c7177e24fd58834b9f9004f2958629a0969c0dff803ba",
+    "2timothy/2timothy2_1757513247.md": "80329071a347a717bef1c00242ebd6085454fc4a00368cb6838f6c4afcd9e9e5",
+    "2timothy/2timothy3_1757513387.md": "04500f8f07814bbf77fe15eaf9853ea68ec9185bcbcf8a7bce8cf26334ccf7b5",
+    "2timothy/2timothy4_1757513547.md": "975f6111b99eff03258195d63c52cec84cd82e5c1960094b2f90f7ee416438f7",
+    "titus/titus1_1757513838.md": "274cdb87aa913b4bbf8f2797c2c8e7237f8e62057bca4ca86a4c889488a2b38d",
+    "titus/titus2_1757513963.md": "f1a7e38526abc6a4600283575fc3034adaa1e48150176937db4c60264ef34259",
+    "titus/titus3_1757514125.md": "ee5728639aa5a2a000dcbd23861e0d68fe16c507d1119521674f087e4ce815a8",
+    "philemon/philemon1_1757514279.md": "5e06bcab862996830b98d72a96276d381cbf6083f9fabbcffdff226cc4803cc6",
+    "hebrews/hebrews1_1757514368.md": "85d09325db3690bb003ebe3f78e122b1c9f35ecbaaef89d372568adfb3aed458",
+    "hebrews/hebrews2_1757514552.md": "5c0b67ab24458b6729a157f4b46cf0a54c5b804f43e016c821a797f023dbcdc7",
+    "hebrews/hebrews3_1757514717.md": "9f27d355c85d1a6bd5eb14bf132cadcf9f43ecc031fd5639e72adddd06c67586",
+    "hebrews/hebrews4_1757514848.md": "95edad933d64778f9c389272d5e28f111824f393e7127beb371228eeab002946",
+    "hebrews/hebrews5_1757514955.md": "03416308b39bc98e77a2adee96c28f0867178cd1456a133a4f494e8f3547e9b2",
+    "hebrews/hebrews6_1757515100.md": "790f219a1990b778c5d5eb9da8b3ca1da35065cb985f88f138f61752e9e93094",
+    "hebrews/hebrews7_1757515240.md": "1ba63822aae19fad766a65bf9cd4ec86209264bf9e935cafa1bb5ace6933c5cb",
+    "hebrews/hebrews8_1757515368.md": "6df5f36869aba5a9317e0721b3b3a4e794c17546dcf2883509573c54fa0b950c",
+    "hebrews/hebrews9_1757515500.md": "edb34490ad93f211f2019c8d957eb187502119a004e0f430db99e3d3a1c5f761",
+    "hebrews/hebrews10_1757515615.md": "ac38d9d0097b314fd2fa00419d178456ef1f76e051ee7a0bf829e10c04c76376",
+    "hebrews/hebrews11_1757515777.md": "80c3daf32754f349acb90620bfe673ae929a672fa40b2b73a5741ab89061c05e",
+    "hebrews/hebrews12_1757515987.md": "cf4e66f6d88e83648540c6bfc93a2cc56386866e5c0690f661d41e91a0158531",
+    "hebrews/hebrews13_1757516115.md": "dfcfa8b316dc1f49c10997841424a438582c5aa9d05a9f346473e9a995468cbb",
+    "james/james1_1757516244.md": "513c2375b63046285c941ba25ee225496f6d4a42cfb59dd9f22011e65cd149ca",
+    "james/james2_1757516397.md": "0f6d8edc7cc63e8ab97159e9e7ab13480e329ad2d8b882990b09e08cd4e4a198",
+    "james/james3_1757516514.md": "b712e0202141ec1bb07c9fcba0cb3cd7520f07374fa7e8f69ae9375d8ae352b0",
+    "james/james4_1757516628.md": "b870670ff6c32db50d86c377c87894c2501a387a6af60c209fa7e4bb2f2daf1e",
+    "james/james5_1757516782.md": "63afab775119a4db446cdb152527a5d80d7aafa13441378c3e4668529b7d71b5",
+    "1peter/1peter1_1757516866.md": "48ea17b61ee5395227c366ecd644cd8ab5d65e620a972df94184e54af631b905",
+    "1peter/1peter2_1757516979.md": "b8ea6acf09ea224c1219e3cb024a2ae3753934b4b96bf19b512ac041ded21030",
+    "1peter/1peter3_1757517108.md": "14cd2331315fd1f60b26426e92e986dc1da88a19d7628d8490e874a90936e332",
+    "1peter/1peter4_1757517253.md": "f98e7ebdface846624ac5d2646812c2d039f3311c37f0697f5af44e18d85bbde",
+    "1peter/1peter5_1757517335.md": "7f660f81845676e25e26bdd65bd956af4fe3fba2c690d7c712f04ca3b9c45f77",
+    "2peter/2peter1_1757517425.md": "49752cd9acef175f9079c475d97979647f6980ebbc9c6ffa382c292ceee7e5f6",
+    "2peter/2peter2_1757517521.md": "0dd9530620f6c4c3e6a0ea6d14044690b94544e3795950326069c714c25bd3c0",
+    "2peter/2peter3_1757517612.md": "202741d69dd564aae4b40e15547b69df5d5fc2ff5af6ac4299511ac9cb0d1727",
+    "1john/1john1_1757517678.md": "05de4809d14e9b510fd1a43fc2f732da8a2fef0b1d3f1d745ae0f38d55d04f84",
+    "1john/1john2_1757517811.md": "8b56574d0f1ff7f49a888cf7bf4830b123a5823d9214df4982a88bf9ef99acfc",
+    "1john/1john3_1757517944.md": "df22617eebc48c5dc24935d5cd7c083432e2d8c17f34086612cbea9e060da8bc",
+    "1john/1john4_1757518123.md": "4a2c00c48a89820efbc5982ee77d5935a6a006b0919d4a9984925498598d3248",
+    "1john/1john5_1757518256.md": "dc55df669e3afcc2e8ea90cb836184e7fc3d7d81c4e508c31a95687659108dd7",
+    "2john/2john1_1757518352.md": "265929d1c60b691e42b353fec7d73577f5660bdfdf1544304318ec1fd71c6819",
+    "3john/3john1_1757518466.md": "498467555356ee00ddea3eb33950e5f14d7bdec8129762b6de011973afd342a5",
+    "jude/jude1_1757518633.md": "575f0f4aa913f882ee10cc387c66903505795ffb17660ea7da1c46dbc6b2a949",
+    "revelation/revelation1_1757518825.md": "406ea1b5ddd3ba56c0cd9ebf74bd29e70bd9a4314fabdfa0139baa80c224d1f3",
+    "revelation/revelation2_1757518975.md": "3bf40e37e3311419bcc2322e15e97b009f708316d3ff1b63ca9dc45197d34aa0",
+    "revelation/revelation3_1757519163.md": "26c9d337b27fbf2dce05b94ed2353738bbc35149b15e6701f0c0c73195ba02d1",
+    "revelation/revelation4_1757519313.md": "4cbd5055709f2bcd303c96bea31d7273fbf8321dd555c160e24360de13b1c7f0",
+    "revelation/revelation5_1757519512.md": "e96ea8ebd95e41a37181c81b75d4387ff17a488cbd47a66aa2cf8ae8d18dd064",
+    "revelation/revelation6_1757519656.md": "5b9aae15a211f6be00037b8cb29eb8010001964ed13169367a327b58492510bb",
+    "revelation/revelation7_1757519776.md": "f5a452dae4313d41a3cb3862c1f959922c1bde52d60f5a657a8c1ea27a1fa8e0",
+    "revelation/revelation8_1757520015.md": "0bb1e35ca59a6dcdd821cf036b9af36b33359d1f027ade819f71190b8e2c3475",
+    "revelation/revelation9_1757520145.md": "38c30b2c5c8794a78ded5c8a8f429e2d4e59e049f478b46d1e6e3b1074eefce0",
+    "revelation/revelation10_1757520257.md": "a13616611f4de04f22b3be341f1b2dc7fbfdf2908188ee45837ca4da928bb9e2",
+    "revelation/revelation11_1757520432.md": "57bfe0c2d0fe6b11bfb89ac114a1793088ec57664a0da44118579c99828119bf",
+    "revelation/revelation12_1757520617.md": "8e4a64af1b86de0d02e85473c38d05eac38d0bea19e8e678f35073407559c584",
+    "revelation/revelation13_1757520783.md": "511d28871f9fd44dfa3da2a0a5165ad75a4e3f1c17dfdb99b864db4c9a854a20",
+    "revelation/revelation14_1757520940.md": "9ddf10a5ad2fb0a7ef9361a822333d265d46076a02f58cdcbf52e1376a677af7",
+    "revelation/revelation15_1757521046.md": "5b451d8a2c123bf00629cdc01b1ae3a62415d1bbb57050148287bc8040458226",
+    "revelation/revelation16_1757521201.md": "d10ea28764e63890bf388bf7cbd88b20ca08929f0cb13d365873c760153aa02e",
+    "revelation/revelation17_1757521291.md": "cc171edbc9322ee70b04558b366c1683dc7d6f34a34df280fe25efa32118f9aa",
+    "revelation/revelation18_1757521356.md": "9e058653901bafade64e0f9d9c1e2034f9fd3fa20ed4061cf120534182f739dc",
+    "revelation/revelation19_1757521562.md": "e130988ffb8b3a76d0eb79049b5bf8503ed006ff14d4b33d8ed9ff19afb74121",
+    "revelation/revelation20_1757521653.md": "605c42bb86dc92039f6f744be4699262454f2cd1bc2791e2b9ae287dd603e79a",
+    "revelation/revelation21_1757521841.md": "2e4697d998051b845b9a43bb601d2123e7d0976d63c5e1c5c2a8348b3ff978f4",
+    "revelation/revelation22_1757522053.md": "8f02cc986b887ef829609fe6c3e4716bcc0f0c2b90547de236cca6d4f4e58743"
+  },
+  "reproduce": [
+    "python3 scripts/easy_coverage.py --write",
+    "python3 scripts/easy_coverage.py --require-complete",
+    "python3 scripts/check_able.py paraphrases/0.3.4-easy --format json --output /tmp/able-checks-current.json",
+    "python3 -m unittest discover -s scripts -p 'test_*.py'"
+  ]
+}

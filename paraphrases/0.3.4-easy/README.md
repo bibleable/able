@@ -12,6 +12,8 @@ See [full-Bible progress](FULL_BIBLE_PROGRESS.md) for current counts, all drafte
 
 The inventory also distinguishes current provisional author comparisons from missing or stale comparison records. It checks source and draft hashes, and flags likely sentences sharing a paragraph in both scripture and editorial explanations. These checks do not establish fidelity or reader comprehension. The JSON inventory exposes each chapter’s separate review and presentation stages.
 
+[The saved validation checkpoint](VALIDATION.json) records source and chapter hashes, coverage counts, checker results, outstanding author comparisons, and review flags. It describes an incomplete edition and is a snapshot; regenerate checks after changing any draft or the source.
+
 The [earlier 50-chapter batch index](PROGRESS.md) records a completed historical request. That batch and three other existing Psalms supplied the initial **53 chapter files and 1,573 verse addresses**. Existing drafts are retained for review as the full edition is written.
 
 Folder names and existing chapter filenames come from the original ABLE edition. BSB's `Psalm` maps to `psalms`, and `Song of Solomon` maps to `songofsongs`. The original structure has no chapter filenames for 2 Samuel 21–24; their planned paths follow the same naming convention and are listed in the full-Bible inventory. Ruth 1 has two historical filenames; the inventory records both and selects an existing Easy Read filename if present, otherwise the latest original timestamp.
