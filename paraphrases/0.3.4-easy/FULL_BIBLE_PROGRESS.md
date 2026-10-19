@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 941/1189 chapters.**
-**Books with every chapter drafted: 57/66.**
+**Structurally complete text drafts: 947/1189 chapters.**
+**Books with every chapter drafted: 58/66.**
 
-These drafts contain 23,762 of 31,102 source verse addresses.
+These drafts contain 23,851 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -49,7 +49,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Amos | 9 | 9 | — |
 | Obadiah | 1 | 1 | — |
 | Jonah | 4 | 4 | — |
-| Micah | 1 | 7 | 1–5, 7 |
+| Micah | 7 | 7 | — |
 | Nahum | 3 | 3 | — |
 | Habakkuk | 3 | 3 | — |
 | Zephaniah | 3 | 3 | — |
@@ -115,7 +115,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Amos: [1](amos/amos1_1757479140.md), [2](amos/amos2_1757479235.md), [3](amos/amos3_1757479322.md), [4](amos/amos4_1757479373.md), [5](amos/amos5_1757479492.md), [6](amos/amos6_1757479562.md), [7](amos/amos7_1757479647.md), [8](amos/amos8_1757479750.md), [9](amos/amos9_1757479830.md)
 - Obadiah: [1](obadiah/obadiah1_1757479908.md)
 - Jonah: [1](jonah/jonah1_1757479993.md), [2](jonah/jonah2_1757480092.md), [3](jonah/jonah3_1757480197.md), [4](jonah/jonah4_1757480257.md)
-- Micah: [6](micah/micah6_1757480850.md)
+- Micah: [1](micah/micah1_1757480387.md), [2](micah/micah2_1757480456.md), [3](micah/micah3_1757480526.md), [4](micah/micah4_1757480676.md), [5](micah/micah5_1757480776.md), [6](micah/micah6_1757480850.md), [7](micah/micah7_1757480959.md)
 - Nahum: [1](nahum/nahum1_1757481056.md), [2](nahum/nahum2_1757481115.md), [3](nahum/nahum3_1757481180.md)
 - Habakkuk: [1](habakkuk/habakkuk1_1757481281.md), [2](habakkuk/habakkuk2_1757481446.md), [3](habakkuk/habakkuk3_1757481518.md)
 - Zephaniah: [1](zephaniah/zephaniah1_1757481593.md), [2](zephaniah/zephaniah2_1757481696.md), [3](zephaniah/zephaniah3_1757481836.md)
@@ -161,7 +161,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 926/941 structurally complete drafts.
+- Current provisional AI author comparisons: 933/947 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.

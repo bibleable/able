@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 941,
-    "complete_book_structures": 57,
-    "draft_addresses": 23762,
-    "missing_chapters": 248,
+    "draft_chapters": 947,
+    "complete_book_structures": 58,
+    "draft_addresses": 23851,
+    "missing_chapters": 242,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 926
+    "current_provisional_author_comparisons": 933
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -52,7 +52,6 @@
     "Exodus 20",
     "Joshua 1",
     "Judges 17",
-    "Micah 6",
     "Mark 1",
     "Mark 2",
     "Mark 3",
@@ -1253,7 +1252,13 @@
     "jonah/jonah2_1757480092.md": "9c833fa968de0d32de4c09a89e864721b59fddba2877724e0075834f24339e34",
     "jonah/jonah3_1757480197.md": "097387dd630bd01a6b6d41b87ae6ac422fcef1c6adad9ce1693ec0a5c5c8fcbf",
     "jonah/jonah4_1757480257.md": "2874f476282de9f596f38e3e9b700a78e59beb90f392ab90104903d9a9150294",
-    "micah/micah6_1757480850.md": "244701a214691d1f5971b696e4b57f53f1c7c5fb11349446290cff8439755cb3",
+    "micah/micah1_1757480387.md": "2641024e3d4b4ff74f0f509d5eb36ecc5b47d41ed2af5ec6223d441306c8ac89",
+    "micah/micah2_1757480456.md": "2d3d6ec2391bea3d4d5b1082b12f369905ab9280e4f559a847e5015d2475b1db",
+    "micah/micah3_1757480526.md": "7c87274ad85e55224c5bbab6333c8596eec0b4f6dfaa8c366f65b5b5a153b323",
+    "micah/micah4_1757480676.md": "6e8383a2d8ed5a1c6e545e8299a0fb7645f1b58b769b02017e99e8fb84284416",
+    "micah/micah5_1757480776.md": "30762cad3c89ae359a107d606ab49a6b0ff2cb26c1ab43c01a02bb3c0aa2fd4f",
+    "micah/micah6_1757480850.md": "0b85dfc6657bbd691779c4385da0fa02b8bd22e3456ef6e5cb09e33d079bf651",
+    "micah/micah7_1757480959.md": "334c34b19fb9212191a9e3401e3a4b7ced65e35eed630b6704bac99df4167a91",
     "nahum/nahum1_1757481056.md": "bcc40146d2c5c278f56eb470b0dff1239881e0bbdbcb2d338f7114a55be4f9b3",
     "nahum/nahum2_1757481115.md": "c786673205f8fda7bd90fa498544aa4e1f3e941809a0685043bc3d5f3305eaf5",
     "nahum/nahum3_1757481180.md": "ae41db947a9bc93f2c9f1978f1de41f43afb1f30f19783d1b60be4ea58f1b259",
