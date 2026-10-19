@@ -7,6 +7,7 @@ It never creates chapter drafts or treats a placeholder as a completed draft.
 
 import argparse
 from collections import Counter
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -17,6 +18,42 @@ ROOT = Path(__file__).resolve().parents[1]
 EDITION = ROOT / "paraphrases/0.3.4-easy"
 # Fixed suffix for chapters that have no original filename. Do not regenerate it.
 NEW_FILENAME_SUFFIX = "1792322671"
+
+
+def sentence_layout_findings(content):
+    """Flag likely sentence joins for manual review, including editorial notes.
+
+    Quoted questions followed by a lowercase speech tag remain one sentence.
+    This is a conservative text check, not a rendered-layout assessment.
+    """
+    findings = []
+    offset = 0
+    for paragraph in re.split(r"\n\s*\n", content):
+        start = content.index(paragraph, offset)
+        offset = start + len(paragraph)
+        if paragraph.lstrip().startswith("#"):
+            continue
+        if re.search(r'''[.!?][”’"']*\s+(?:📖\s*)?[“‘"']*[A-Z0-9]''', paragraph):
+            line = content.count("\n", 0, start) + 1
+            findings.append({"line": line, "message": "Possible sentences sharing a paragraph"})
+    return findings
+
+
+def author_comparison_state(record, chapter, verses, path, relative):
+    if not record:
+        return "not_recorded"
+    if not path.exists():
+        return "stale"
+    source_text = "".join(f"{ref}\t{text}\n" for ref, text in verses.items())
+    current = (
+        record.get("path") == relative
+        and record.get("source") == "comparison/bsb.txt"
+        and record.get("source_addresses") == len(verses)
+        and record.get("author_comparison") == "performed; provisional"
+        and record.get("source_sha256") == hashlib.sha256(source_text.encode("utf-8")).hexdigest()
+        and record.get("draft_sha256") == hashlib.sha256(path.read_bytes()).hexdigest()
+    )
+    return "current_provisional" if current else "stale"
 
 
 def folder_for(book):
@@ -31,6 +68,8 @@ def chapter_inventory(root=ROOT):
         chapter = ref.rsplit(":", 1)[0]
         expected.setdefault(chapter, {})[ref] = text
     edition = root / "paraphrases/0.3.4-easy"
+    review_path = edition / "AUTHOR_REVIEW.json"
+    reviews = json.loads(review_path.read_text(encoding="utf-8")).get("chapters", {}) if review_path.exists() else {}
     records = []
     planned_paths = set()
     for chapter, verses in expected.items():
@@ -52,8 +91,10 @@ def chapter_inventory(root=ROOT):
         path = edition / relative
         issues = []
         found = []
+        layout_findings = []
         if path.exists():
             content = path.read_text(encoding="utf-8")
+            layout_findings = sentence_layout_findings(content)
             parsed = parse_verses(content)
             found = [v["address"] for v in parsed]
             counts = Counter(found)
@@ -81,6 +122,13 @@ def chapter_inventory(root=ROOT):
             "source_text_verses": sum(bool(v) for v in verses.values()),
             "blank_source_addresses": [ref for ref, text in verses.items() if not text],
             "present_addresses": len(found), "issues": issues,
+            "author_comparison": author_comparison_state(reviews.get(chapter), chapter, verses, path, relative),
+            "sentence_layout": "not_written" if not path.exists() else "needs_review" if layout_findings else "no_joins_flagged",
+            "layout_findings": layout_findings,
+            "independent_editorial_review": "pending",
+            "intended_reader_testing": "pending",
+            "tested_illustrations": "pending",
+            "final_presentation_validation": "pending",
         })
     unexpected = sorted(str(p.relative_to(edition)) for p in edition.glob("*/*.md")
                         if str(p.relative_to(edition)) not in planned_paths)
@@ -129,14 +177,34 @@ def render(records, unexpected):
             lines.append(f"- {book}: {links}")
     lines += ["", "## Original structure gaps", "",
               "The following chapters have no matching original filename. Planned filenames follow "
-              "the original naming convention, using a fixed suffix. No empty chapter files are created.", ""]
+              "the original naming convention, using a fixed suffix. Each entry shows its current status. "
+              "No empty chapter files are created.", ""]
     for r in records:
         if not r["original_filename_exists"]:
-            lines.append(f"- {r['chapter']}: `{r['path']}`")
+            lines.append(f"- {r['chapter']}: `{r['path']}` — {r['status']}")
         if len(r["original_filenames"]) > 1:
             lines.append(f"- {r['chapter']} has historical filename variants: "
                          + ", ".join(f"`{name}`" for name in r["original_filenames"])
                          + f". Selected path: `{r['path']}`.")
+    current = [r for r in drafts if r["author_comparison"] == "current_provisional"]
+    stale = [r for r in records if r["author_comparison"] == "stale"]
+    layout = [r for r in drafts if r["layout_findings"]]
+    lines += ["", "## Review and presentation stages", "",
+              f"- Current provisional AI author comparisons: {len(current)}/{len(drafts)} structurally complete drafts.",
+              f"- Stale author-comparison records needing fresh comparison: {len(stale)}.",
+              f"- Draft chapters with possible sentence-paragraph joins to review: {len(layout)}.",
+              "- Independent editorial review: pending; an author comparison is not independent review.",
+              "- Testing with intended readers: pending; no successful reader testing is claimed.",
+              "- Purpose-made illustrations and testing of their meaning: pending.",
+              "- Final font, text size, line length, spacing, and page or screen presentation: pending.",
+              "- Accessibility certification: not claimed.", "",
+              "Sentence-paragraph checks inspect scripture and editorial text, flagging likely joins for manual review. "
+              "No flagged joins does not establish comprehension or successful rendered presentation. "
+              "The JSON inventory includes findings and review stages for every chapter."]
+    for r in stale:
+        lines.append(f"- Stale comparison: {r['chapter']}.")
+    for r in layout:
+        lines.append(f"- Sentence-paragraph review: {r['chapter']} ({len(r['layout_findings'])} possible joins).")
     repairs = [r for r in records if r["issues"]]
     lines += ["", "## Inventory problems", ""]
     if not repairs and not unexpected:

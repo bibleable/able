@@ -74,6 +74,16 @@ requiring invented paraphrase text. Notes cannot replace a nonempty source verse
 entries, and rejects paraphrase text supplied at a blank source address. Its
 `draft` status means structural coverage only; it does not certify meaning.
 
+The full-Bible inventory also checks `AUTHOR_REVIEW.json` against the exact draft
+file hash, chapter source hash, selected path, source address count, and review
+type. It distinguishes `current_provisional`, `stale`, and `not_recorded` author
+comparisons. It reports likely sentences sharing a paragraph, including editorial
+notes, without treating that heuristic as proof of accessibility. JSON includes
+review stages and line references for every chapter; the Markdown inventory
+summarizes current comparisons and pending review work. Independent editorial
+review, intended-reader testing, tested illustrations, and final presentation
+validation remain separate pending stages. Regenerate the inventory after edits.
+
 Exit codes: **0** means no structural errors were found; **1** means structural
 errors (or review flags with `--fail-on-review`); **2** means an input/configuration
 error. Exit 0 does not certify accuracy, lack of bias, or reader comprehension.

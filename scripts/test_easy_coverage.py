@@ -1,10 +1,12 @@
 """Ensure whole-Bible inventory cannot hide missing or misidentified chapters."""
 
 from pathlib import Path
+import hashlib
+import json
 import tempfile
 import unittest
 
-from easy_coverage import chapter_inventory, folder_for, number_ranges
+from easy_coverage import chapter_inventory, folder_for, number_ranges, sentence_layout_findings
 
 
 class CoverageTests(unittest.TestCase):
@@ -76,6 +78,41 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(folder_for("Psalms"), "psalms")
         self.assertEqual(folder_for("Song of Solomon"), "songofsongs")
         self.assertEqual(number_ranges([1, 2, 3, 5, 7, 8]), "1–3, 5, 7–8")
+
+    def test_layout_detects_scripture_and_editorial_joins(self):
+        self.assertEqual(len(sentence_layout_findings(
+            '## Mark 1:1\n\nFirst. 📖 Second.\n\n**Help:** A word. Another idea.')), 2)
+        self.assertEqual(sentence_layout_findings(
+            '## Mark 1:1\n\n“Who?” he asked. 📖\n\nThey answered.\n\n**Help:** A word.'), [])
+        self.assertEqual(sentence_layout_findings('There are 1,000 people. 📖'), [])
+        repeated = sentence_layout_findings('First. Second.\n\nFirst. Second.')
+        self.assertEqual([item['line'] for item in repeated], [1, 3])
+
+    def test_review_stales_when_source_draft_or_identity_changes(self):
+        p = self.draft('## Mark 1:1\n\nFirst. 📖\n\n## Mark 1:2\n\nSecond. 📖\n')
+        review_path = self.root / 'paraphrases/0.3.4-easy/AUTHOR_REVIEW.json'
+        record = {
+            'path': 'mark/mark1_123.md', 'source': 'comparison/bsb.txt',
+            'source_addresses': 2, 'author_comparison': 'performed; provisional',
+            'source_sha256': hashlib.sha256(b'Mark 1:1\tFirst verse.\nMark 1:2\tSecond verse.\n').hexdigest(),
+            'draft_sha256': hashlib.sha256(p.read_bytes()).hexdigest(),
+        }
+        def save(value):
+            review_path.write_text(json.dumps({'chapters': {'Mark 1': value}}))
+        save(record)
+        self.assertEqual(self.inventory()[0][0]['author_comparison'], 'current_provisional')
+        for key, value in [('path', 'wrong.md'), ('source_sha256', 'changed'), ('draft_sha256', 'changed')]:
+            with self.subTest(key=key):
+                save({**record, key: value})
+                self.assertEqual(self.inventory()[0][0]['author_comparison'], 'stale')
+        save(record)
+        p.write_text(p.read_text() + '\n')
+        self.assertEqual(self.inventory()[0][0]['author_comparison'], 'stale')
+        p.write_text(p.read_text().rstrip('\n') + '\n')
+        source = self.root / 'comparison/bsb.txt'
+        source.write_text(source.read_text().replace('First verse.', 'Changed source.'))
+        self.assertEqual(self.inventory()[0][0]['author_comparison'], 'stale')
+        self.assertEqual(self.inventory()[0][1]['author_comparison'], 'not_recorded')
 
 
 if __name__ == "__main__":
