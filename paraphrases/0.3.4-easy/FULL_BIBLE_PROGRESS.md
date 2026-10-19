@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 307/1189 chapters.**
-**Books with every chapter drafted: 35/66.**
+**Structurally complete text drafts: 311/1189 chapters.**
+**Books with every chapter drafted: 36/66.**
 
-These drafts contain 9,083 of 31,102 source verse addresses.
+These drafts contain 9,138 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -55,7 +55,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Zephaniah | 3 | 3 | — |
 | Haggai | 2 | 2 | — |
 | Zechariah | 0 | 14 | 1–14 |
-| Malachi | 0 | 4 | 1–4 |
+| Malachi | 4 | 4 | — |
 | Matthew | 28 | 28 | — |
 | Mark | 16 | 16 | — |
 | Luke | 24 | 24 | — |
@@ -108,6 +108,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Habakkuk: [1](habakkuk/habakkuk1_1757481281.md), [2](habakkuk/habakkuk2_1757481446.md), [3](habakkuk/habakkuk3_1757481518.md)
 - Zephaniah: [1](zephaniah/zephaniah1_1757481593.md), [2](zephaniah/zephaniah2_1757481696.md), [3](zephaniah/zephaniah3_1757481836.md)
 - Haggai: [1](haggai/haggai1_1757481941.md), [2](haggai/haggai2_1757482052.md)
+- Malachi: [1](malachi/malachi1_1757483789.md), [2](malachi/malachi2_1757483925.md), [3](malachi/malachi3_1757484032.md), [4](malachi/malachi4_1757484093.md)
 - Matthew: [1](matthew/matthew1_1757484254.md), [2](matthew/matthew2_1757484357.md), [3](matthew/matthew3_1757484463.md), [4](matthew/matthew4_1757484636.md), [5](matthew/matthew5_1757484759.md), [6](matthew/matthew6_1757484833.md), [7](matthew/matthew7_1757484975.md), [8](matthew/matthew8_1757485157.md), [9](matthew/matthew9_1757485360.md), [10](matthew/matthew10_1757485485.md), [11](matthew/matthew11_1757485635.md), [12](matthew/matthew12_1757485761.md), [13](matthew/matthew13_1757485964.md), [14](matthew/matthew14_1757486171.md), [15](matthew/matthew15_1757486258.md), [16](matthew/matthew16_1757486350.md), [17](matthew/matthew17_1757486528.md), [18](matthew/matthew18_1757486689.md), [19](matthew/matthew19_1757486789.md), [20](matthew/matthew20_1757486914.md), [21](matthew/matthew21_1757487063.md), [22](matthew/matthew22_1757487287.md), [23](matthew/matthew23_1757487435.md), [24](matthew/matthew24_1757487602.md), [25](matthew/matthew25_1757487759.md), [26](matthew/matthew26_1757487897.md), [27](matthew/matthew27_1757488053.md), [28](matthew/matthew28_1757488142.md)
 - Mark: [1](mark/mark1_1757488307.md), [2](mark/mark2_1757488422.md), [3](mark/mark3_1757488519.md), [4](mark/mark4_1757488688.md), [5](mark/mark5_1757488886.md), [6](mark/mark6_1757489209.md), [7](mark/mark7_1757489381.md), [8](mark/mark8_1757489607.md), [9](mark/mark9_1757489818.md), [10](mark/mark10_1757490019.md), [11](mark/mark11_1757490250.md), [12](mark/mark12_1757490501.md), [13](mark/mark13_1757490633.md), [14](mark/mark14_1757490812.md), [15](mark/mark15_1757490989.md), [16](mark/mark16_1757491130.md)
 - Luke: [1](luke/luke1_1757491327.md), [2](luke/luke2_1757491540.md), [3](luke/luke3_1757491779.md), [4](luke/luke4_1757492003.md), [5](luke/luke5_1757492179.md), [6](luke/luke6_1757492357.md), [7](luke/luke7_1757492495.md), [8](luke/luke8_1757492644.md), [9](luke/luke9_1757492817.md), [10](luke/luke10_1757492970.md), [11](luke/luke11_1757493202.md), [12](luke/luke12_1757493349.md), [13](luke/luke13_1757493489.md), [14](luke/luke14_1757493701.md), [15](luke/luke15_1757493836.md), [16](luke/luke16_1757493998.md), [17](luke/luke17_1757494217.md), [18](luke/luke18_1757494409.md), [19](luke/luke19_1757494666.md), [20](luke/luke20_1757494880.md), [21](luke/luke21_1757495103.md), [22](luke/luke22_1757495482.md), [23](luke/luke23_1757495638.md), [24](luke/luke24_1757495796.md)
@@ -148,7 +149,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 273/307 structurally complete drafts.
+- Current provisional AI author comparisons: 277/311 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
