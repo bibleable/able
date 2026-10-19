@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 507/1189 chapters.**
-**Books with every chapter drafted: 45/66.**
+**Structurally complete text drafts: 549/1189 chapters.**
+**Books with every chapter drafted: 46/66.**
 
-These drafts contain 14,659 of 31,102 source verse addresses.
+These drafts contain 15,729 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -34,7 +34,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Ezra | 10 | 10 | — |
 | Nehemiah | 13 | 13 | — |
 | Esther | 10 | 10 | — |
-| Job | 0 | 42 | 1–42 |
+| Job | 42 | 42 | — |
 | Psalms | 7 | 150 | 1–22, 24–50, 52–93, 95–112, 114–118, 120–132, 134–138, 140–150 |
 | Proverbs | 2 | 31 | 1–2, 4–30 |
 | Ecclesiastes | 1 | 12 | 1–2, 4–12 |
@@ -100,6 +100,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Ezra: [1](ezra/ezra1_1757429479.md), [2](ezra/ezra2_1757429663.md), [3](ezra/ezra3_1757429749.md), [4](ezra/ezra4_1757429839.md), [5](ezra/ezra5_1757429932.md), [6](ezra/ezra6_1757430019.md), [7](ezra/ezra7_1757430148.md), [8](ezra/ezra8_1757430325.md), [9](ezra/ezra9_1757430426.md), [10](ezra/ezra10_1757430661.md)
 - Nehemiah: [1](nehemiah/nehemiah1_1757430803.md), [2](nehemiah/nehemiah2_1757430934.md), [3](nehemiah/nehemiah3_1757431157.md), [4](nehemiah/nehemiah4_1757431266.md), [5](nehemiah/nehemiah5_1757431348.md), [6](nehemiah/nehemiah6_1757431457.md), [7](nehemiah/nehemiah7_1757431600.md), [8](nehemiah/nehemiah8_1757431758.md), [9](nehemiah/nehemiah9_1757431967.md), [10](nehemiah/nehemiah10_1757432177.md), [11](nehemiah/nehemiah11_1757432524.md), [12](nehemiah/nehemiah12_1757432700.md), [13](nehemiah/nehemiah13_1757432833.md)
 - Esther: [1](esther/esther1_1757433035.md), [2](esther/esther2_1757433181.md), [3](esther/esther3_1757433266.md), [4](esther/esther4_1757433349.md), [5](esther/esther5_1757433422.md), [6](esther/esther6_1757433493.md), [7](esther/esther7_1757433587.md), [8](esther/esther8_1757433723.md), [9](esther/esther9_1757433853.md), [10](esther/esther10_1757433888.md)
+- Job: [1](job/job1_1757433985.md), [2](job/job2_1757434087.md), [3](job/job3_1757434201.md), [4](job/job4_1757434249.md), [5](job/job5_1757434339.md), [6](job/job6_1757434468.md), [7](job/job7_1757434550.md), [8](job/job8_1757434652.md), [9](job/job9_1757434777.md), [10](job/job10_1757434867.md), [11](job/job11_1757434946.md), [12](job/job12_1757435053.md), [13](job/job13_1757435171.md), [14](job/job14_1757435255.md), [15](job/job15_1757435422.md), [16](job/job16_1757435531.md), [17](job/job17_1757435585.md), [18](job/job18_1757435692.md), [19](job/job19_1757435795.md), [20](job/job20_1757435905.md), [21](job/job21_1757436007.md), [22](job/job22_1757436133.md), [23](job/job23_1757436230.md), [24](job/job24_1757436343.md), [25](job/job25_1757436406.md), [26](job/job26_1757436492.md), [27](job/job27_1757436603.md), [28](job/job28_1757436708.md), [29](job/job29_1757436822.md), [30](job/job30_1757436903.md), [31](job/job31_1757437073.md), [32](job/job32_1757437181.md), [33](job/job33_1757437304.md), [34](job/job34_1757437502.md), [35](job/job35_1757437576.md), [36](job/job36_1757437668.md), [37](job/job37_1757437753.md), [38](job/job38_1757437819.md), [39](job/job39_1757437985.md), [40](job/job40_1757438112.md), [41](job/job41_1757438226.md), [42](job/job42_1757438326.md)
 - Psalms: [23](psalms/psalms23_1757440380.md), [51](psalms/psalms51_1757442774.md), [94](psalms/psalms94_1757446736.md), [113](psalms/psalms113_1757448583.md), [119](psalms/psalms119_1757449220.md), [133](psalms/psalms133_1757450169.md), [139](psalms/psalms139_1757450646.md)
 - Proverbs: [3](proverbs/proverbs3_1757451882.md), [31](proverbs/proverbs31_1757455576.md)
 - Ecclesiastes: [3](ecclesiastes/ecclesiastes3_1757455851.md)
@@ -155,7 +156,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 477/507 structurally complete drafts.
+- Current provisional AI author comparisons: 519/549 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
