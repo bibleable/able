@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 933/1189 chapters.**
-**Books with every chapter drafted: 56/66.**
+**Structurally complete text drafts: 941/1189 chapters.**
+**Books with every chapter drafted: 57/66.**
 
-These drafts contain 23,629 of 31,102 source verse addresses.
+These drafts contain 23,762 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -46,7 +46,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Daniel | 12 | 12 | — |
 | Hosea | 14 | 14 | — |
 | Joel | 3 | 3 | — |
-| Amos | 1 | 9 | 1–3, 5–9 |
+| Amos | 9 | 9 | — |
 | Obadiah | 1 | 1 | — |
 | Jonah | 4 | 4 | — |
 | Micah | 1 | 7 | 1–5, 7 |
@@ -112,7 +112,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Daniel: [1](daniel/daniel1_1757475997.md), [2](daniel/daniel2_1757476118.md), [3](daniel/daniel3_1757476198.md), [4](daniel/daniel4_1757476279.md), [5](daniel/daniel5_1757476440.md), [6](daniel/daniel6_1757476600.md), [7](daniel/daniel7_1757476728.md), [8](daniel/daniel8_1757476829.md), [9](daniel/daniel9_1757477020.md), [10](daniel/daniel10_1757477146.md), [11](daniel/daniel11_1757477272.md), [12](daniel/daniel12_1757477396.md)
 - Hosea: [1](hosea/hosea1_1757477492.md), [2](hosea/hosea2_1757477623.md), [3](hosea/hosea3_1757477706.md), [4](hosea/hosea4_1757477876.md), [5](hosea/hosea5_1757477965.md), [6](hosea/hosea6_1757478038.md), [7](hosea/hosea7_1757478147.md), [8](hosea/hosea8_1757478251.md), [9](hosea/hosea9_1757478339.md), [10](hosea/hosea10_1757478423.md), [11](hosea/hosea11_1757478513.md), [12](hosea/hosea12_1757478577.md), [13](hosea/hosea13_1757478643.md), [14](hosea/hosea14_1757478698.md)
 - Joel: [1](joel/joel1_1757478775.md), [2](joel/joel2_1757478899.md), [3](joel/joel3_1757479073.md)
-- Amos: [4](amos/amos4_1757479373.md)
+- Amos: [1](amos/amos1_1757479140.md), [2](amos/amos2_1757479235.md), [3](amos/amos3_1757479322.md), [4](amos/amos4_1757479373.md), [5](amos/amos5_1757479492.md), [6](amos/amos6_1757479562.md), [7](amos/amos7_1757479647.md), [8](amos/amos8_1757479750.md), [9](amos/amos9_1757479830.md)
 - Obadiah: [1](obadiah/obadiah1_1757479908.md)
 - Jonah: [1](jonah/jonah1_1757479993.md), [2](jonah/jonah2_1757480092.md), [3](jonah/jonah3_1757480197.md), [4](jonah/jonah4_1757480257.md)
 - Micah: [6](micah/micah6_1757480850.md)
@@ -161,7 +161,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 917/933 structurally complete drafts.
+- Current provisional AI author comparisons: 926/941 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.

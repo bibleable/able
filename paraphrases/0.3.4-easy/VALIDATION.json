@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 933,
-    "complete_book_structures": 56,
-    "draft_addresses": 23629,
-    "missing_chapters": 256,
+    "draft_chapters": 941,
+    "complete_book_structures": 57,
+    "draft_addresses": 23762,
+    "missing_chapters": 248,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 917
+    "current_provisional_author_comparisons": 926
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -52,7 +52,6 @@
     "Exodus 20",
     "Joshua 1",
     "Judges 17",
-    "Amos 4",
     "Micah 6",
     "Mark 1",
     "Mark 2",
@@ -1240,7 +1239,15 @@
     "joel/joel1_1757478775.md": "8fa918617b875d8367edd8729ca09ddc7afa12e81f16a2ec988f4a94eb3686da",
     "joel/joel2_1757478899.md": "c9f916dd6ecdd0b1505d89b139eb91b226e104072b80d6bbb6f64e609737ebc8",
     "joel/joel3_1757479073.md": "92ec9f382f15f06118733841467919820c9dd3a8fcf03837da01ee41df8420ec",
-    "amos/amos4_1757479373.md": "37bdf30d538382ad6ebbf055d46507cd39ee0508ed3f2d4028f37ee43c4cc2fd",
+    "amos/amos1_1757479140.md": "5ef906e30b4c6169798b49342bc3966ec3a0957690e280d5962835406eb488e3",
+    "amos/amos2_1757479235.md": "9fe0d2730e4e644d1ccce80aa86534115c4a4a857bcd6e8df767238067070001",
+    "amos/amos3_1757479322.md": "54f5acb31567510942b47e7b85c68c43534f4bf0fd12a0933f87fb93ed91abfb",
+    "amos/amos4_1757479373.md": "e57053ebb97a83fcf7145d744585f4405c667f76a74844280ec6ead0f3e157af",
+    "amos/amos5_1757479492.md": "389e7758d3dedaab6f83153a597ebc1a83ea7431a0cdc0cfe9a78facef8972c9",
+    "amos/amos6_1757479562.md": "ad691334db1bd2e43ebc26c28bc4826a588d253c785231813a3a5901ee76b92c",
+    "amos/amos7_1757479647.md": "746dcdf45e5b32e3e9a3fd8093a984b292d0e8e6b1df866541d1e53fd9e70b18",
+    "amos/amos8_1757479750.md": "40a09c32d8f0a41188c3926de01ce429826ab58b228f7e21ae3613806075bfc9",
+    "amos/amos9_1757479830.md": "385cc49a6f273e152187ae59499594c516cdf892b94032ddbaeaa7cbdc2124d8",
     "obadiah/obadiah1_1757479908.md": "59ab981523b16243b0a8c5673a25467b30a5bb4fe362f8a9cec620f02aeef08f",
     "jonah/jonah1_1757479993.md": "c752cc526a0b7691647f87f861cf324e923985c042bd96d74b5f68b9b6444fb1",
     "jonah/jonah2_1757480092.md": "9c833fa968de0d32de4c09a89e864721b59fddba2877724e0075834f24339e34",
