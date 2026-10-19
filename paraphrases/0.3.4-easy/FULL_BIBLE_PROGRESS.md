@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 919/1189 chapters.**
-**Books with every chapter drafted: 55/66.**
+**Structurally complete text drafts: 933/1189 chapters.**
+**Books with every chapter drafted: 56/66.**
 
-These drafts contain 23,432 of 31,102 source verse addresses.
+These drafts contain 23,629 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -44,7 +44,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Lamentations | 5 | 5 | — |
 | Ezekiel | 48 | 48 | — |
 | Daniel | 12 | 12 | — |
-| Hosea | 0 | 14 | 1–14 |
+| Hosea | 14 | 14 | — |
 | Joel | 3 | 3 | — |
 | Amos | 1 | 9 | 1–3, 5–9 |
 | Obadiah | 1 | 1 | — |
@@ -110,6 +110,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Lamentations: [1](lamentations/lamentations1_1757470260.md), [2](lamentations/lamentations2_1757470384.md), [3](lamentations/lamentations3_1757470483.md), [4](lamentations/lamentations4_1757470581.md), [5](lamentations/lamentations5_1757470654.md)
 - Ezekiel: [1](ezekiel/ezekiel1_1757470778.md), [2](ezekiel/ezekiel2_1757470907.md), [3](ezekiel/ezekiel3_1757470976.md), [4](ezekiel/ezekiel4_1757471096.md), [5](ezekiel/ezekiel5_1757471203.md), [6](ezekiel/ezekiel6_1757471304.md), [7](ezekiel/ezekiel7_1757471452.md), [8](ezekiel/ezekiel8_1757471522.md), [9](ezekiel/ezekiel9_1757471630.md), [10](ezekiel/ezekiel10_1757471728.md), [11](ezekiel/ezekiel11_1757471870.md), [12](ezekiel/ezekiel12_1757471956.md), [13](ezekiel/ezekiel13_1757472049.md), [14](ezekiel/ezekiel14_1757472131.md), [15](ezekiel/ezekiel15_1757472180.md), [16](ezekiel/ezekiel16_1757472356.md), [17](ezekiel/ezekiel17_1757472498.md), [18](ezekiel/ezekiel18_1757472639.md), [19](ezekiel/ezekiel19_1757472717.md), [20](ezekiel/ezekiel20_1757472820.md), [21](ezekiel/ezekiel21_1757472911.md), [22](ezekiel/ezekiel22_1757473064.md), [23](ezekiel/ezekiel23_1757473179.md), [24](ezekiel/ezekiel24_1757473283.md), [25](ezekiel/ezekiel25_1757473373.md), [26](ezekiel/ezekiel26_1757473467.md), [27](ezekiel/ezekiel27_1757473591.md), [28](ezekiel/ezekiel28_1757473778.md), [29](ezekiel/ezekiel29_1757473939.md), [30](ezekiel/ezekiel30_1757474065.md), [31](ezekiel/ezekiel31_1757474156.md), [32](ezekiel/ezekiel32_1757474321.md), [33](ezekiel/ezekiel33_1757474520.md), [34](ezekiel/ezekiel34_1757474660.md), [35](ezekiel/ezekiel35_1757474705.md), [36](ezekiel/ezekiel36_1757474799.md), [37](ezekiel/ezekiel37_1757474922.md), [38](ezekiel/ezekiel38_1757474984.md), [39](ezekiel/ezekiel39_1757475099.md), [40](ezekiel/ezekiel40_1757475202.md), [41](ezekiel/ezekiel41_1757475268.md), [42](ezekiel/ezekiel42_1757475338.md), [43](ezekiel/ezekiel43_1757475480.md), [44](ezekiel/ezekiel44_1757475573.md), [45](ezekiel/ezekiel45_1757475683.md), [46](ezekiel/ezekiel46_1757475785.md), [47](ezekiel/ezekiel47_1757475865.md), [48](ezekiel/ezekiel48_1757475934.md)
 - Daniel: [1](daniel/daniel1_1757475997.md), [2](daniel/daniel2_1757476118.md), [3](daniel/daniel3_1757476198.md), [4](daniel/daniel4_1757476279.md), [5](daniel/daniel5_1757476440.md), [6](daniel/daniel6_1757476600.md), [7](daniel/daniel7_1757476728.md), [8](daniel/daniel8_1757476829.md), [9](daniel/daniel9_1757477020.md), [10](daniel/daniel10_1757477146.md), [11](daniel/daniel11_1757477272.md), [12](daniel/daniel12_1757477396.md)
+- Hosea: [1](hosea/hosea1_1757477492.md), [2](hosea/hosea2_1757477623.md), [3](hosea/hosea3_1757477706.md), [4](hosea/hosea4_1757477876.md), [5](hosea/hosea5_1757477965.md), [6](hosea/hosea6_1757478038.md), [7](hosea/hosea7_1757478147.md), [8](hosea/hosea8_1757478251.md), [9](hosea/hosea9_1757478339.md), [10](hosea/hosea10_1757478423.md), [11](hosea/hosea11_1757478513.md), [12](hosea/hosea12_1757478577.md), [13](hosea/hosea13_1757478643.md), [14](hosea/hosea14_1757478698.md)
 - Joel: [1](joel/joel1_1757478775.md), [2](joel/joel2_1757478899.md), [3](joel/joel3_1757479073.md)
 - Amos: [4](amos/amos4_1757479373.md)
 - Obadiah: [1](obadiah/obadiah1_1757479908.md)
@@ -160,7 +161,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 903/919 structurally complete drafts.
+- Current provisional AI author comparisons: 917/933 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.

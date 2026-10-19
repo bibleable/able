@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 919,
-    "complete_book_structures": 55,
-    "draft_addresses": 23432,
-    "missing_chapters": 270,
+    "draft_chapters": 933,
+    "complete_book_structures": 56,
+    "draft_addresses": 23629,
+    "missing_chapters": 256,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 903
+    "current_provisional_author_comparisons": 917
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -1223,6 +1223,20 @@
     "daniel/daniel10_1757477146.md": "16ebe66f4baf01e13d2a78dfce04e6657ac776f9fa24d5fbf0716841e1ff0bd6",
     "daniel/daniel11_1757477272.md": "5777612f9b44ee7248fd2eab3bcb48ee8189ae27d03cb05c91ed8803f01fbec4",
     "daniel/daniel12_1757477396.md": "7f05aa99f667f4633549f34bedc914f3f6e8933fa23a8f45a50f33f38d80e35c",
+    "hosea/hosea1_1757477492.md": "62e49e53240b65380a4d299cf62973e05a830e0f92c4273603a09dde063fc2a0",
+    "hosea/hosea2_1757477623.md": "85ca0dca8df6c6e65f5cfccf541dd465173ba3bf6d262295f0dca7bb93db5093",
+    "hosea/hosea3_1757477706.md": "4ca7293a6777f0baf32e6c821d72b54ed9ce81b0457ac493f2039746d80e0f14",
+    "hosea/hosea4_1757477876.md": "3574ea6928deae649b00a11e70b888a8880d6f62cfc707a00ccc61cba91afff3",
+    "hosea/hosea5_1757477965.md": "fb03e52897b250aafe0a9c844362a8f6db8f72008dcb94a25415ba19fa156f8a",
+    "hosea/hosea6_1757478038.md": "c1e5e1e59873a120746d5ad03d3d42d81df0b21975c414b01ce310e2a01ec268",
+    "hosea/hosea7_1757478147.md": "a1ae88370eb1f5edeff39eccd88e6219befdb552ff9b8d53b92f32d412b7ef74",
+    "hosea/hosea8_1757478251.md": "6e80d5be5ffb6805ddd178e49b667e431a745cb121c8be498ff0b76755e8bf7b",
+    "hosea/hosea9_1757478339.md": "0e2808280c69d06c4171c6edfb995f6834720c47dd904ffdc8485a77cbd15b5b",
+    "hosea/hosea10_1757478423.md": "5666ce3eef15a93256ab9ed8cb761e780de54b5a8f0f8e5391a80b7588b1736a",
+    "hosea/hosea11_1757478513.md": "445f09775185cab5ae8a562ed6d718baa1bae1456fc1f42cebd462bb2273bd52",
+    "hosea/hosea12_1757478577.md": "9b9d3ae7ff9d6de1d68d5b03010a2cbc18c89a7403af130577d12c8b38b10654",
+    "hosea/hosea13_1757478643.md": "d9d8530c6fe6ce6d01bb9bf7ab981605cb3b5aadae14aa1f9c3aa560b22b1767",
+    "hosea/hosea14_1757478698.md": "e675ebf0d5763b19bfdfc8f7e106bada5f605a7ee2e53b69397617d9bf92eb0c",
     "joel/joel1_1757478775.md": "8fa918617b875d8367edd8729ca09ddc7afa12e81f16a2ec988f4a94eb3686da",
     "joel/joel2_1757478899.md": "c9f916dd6ecdd0b1505d89b139eb91b226e104072b80d6bbb6f64e609737ebc8",
     "joel/joel3_1757479073.md": "92ec9f382f15f06118733841467919820c9dd3a8fcf03837da01ee41df8420ec",
