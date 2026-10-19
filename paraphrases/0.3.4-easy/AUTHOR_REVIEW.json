@@ -2771,6 +2771,50 @@
       "independent_editorial_review": "pending",
       "intended_reader_review": "pending"
     },
+    "Jonah 1": {
+      "path": "jonah/jonah1_1757479993.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "792afd8855535145e07e04b6de2aab9f5e97bd31f426cab6d136d37e87d15f92",
+      "draft_sha256": "c752cc526a0b7691647f87f861cf324e923985c042bd96d74b5f68b9b6444fb1",
+      "source_addresses": 17,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 17 BSB addresses: LORD message/Jonah son Amittai, great Nineveh wickedness warning, Tarshish/Joppa/fare/ship/running from LORD twice, LORD wind and ship danger, sailors each own god/cargo versus lowest-part deep sleep, captain possible rescue, lots responsibility/Jonah result, all work/place/country/people questions, Hebrew/heavens/sea/dry land confession, fear/what done/prior knowledge from Jonah, worsening sea and action question, Jonah guilt/throw/calm, hard rowing unable/worsening, full LORD prayer innocent blood and divine choice, thrown/calm/great fear/sacrifice/vows, appointed great fish/three days and three nights. No whale substituted and no self-endangering action framed as a reader instruction.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "Jonah 2": {
+      "path": "jonah/jonah2_1757480092.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "cab3acbddb43bd7d7b4b5cea832e1cb756bd70645239537bdc81f292133456a0",
+      "draft_sha256": "9c833fa968de0d32de4c09a89e864721b59fddba2877724e0075834f24339e34",
+      "source_addresses": 10,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 10 BSB addresses: inside fish prayer, distress answered and belly Sheol heard, divine cast/deep/heart seas/current/all waves, banished yet holy temple hope, life-threatening waters/depth/seaweed/head, mountain roots/earth barriers forever yet life raised from pit, fading life/remembrance/prayer holy temple, worthless idols/forsaking his faithful love, thankful sacrifice/vow fulfilment/salvation LORD, divine command and fish vomit onto dry land. Kept unsettling details and metaphor explanations labeled rather than silently substituting an interpretation.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "Jonah 3": {
+      "path": "jonah/jonah3_1757480197.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "e0b4899b031f8f2d9a8e0cde249a246aff751a9c3880db185cda82e290071de9",
+      "draft_sha256": "097387dd630bd01a6b6d41b87ae6ac422fcef1c6adad9ce1693ec0a5c5c8fcbf",
+      "source_addresses": 10,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 10 BSB addresses: second LORD word/get up/great Nineveh/message given, obedient journey/very great city/three-day requirement, first-day proclamation/forty more days/overturned, belief God/fast/sackcloth greatest-least, king throne/robe/sackcloth/ashes, royal and noble decree people/beasts/herds/flocks no taste/eat/drink, both people/animals covered/earnest prayer/each turn evil and violence, uncertain who-knows/may relent/fierce anger/not perish, God saw actions/turned from evil and relented from threatened disaster. Did not make the king promise unconditional rescue or reduce repentance to clothing alone.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
+    "Jonah 4": {
+      "path": "jonah/jonah4_1757480257.md",
+      "source": "comparison/bsb.txt",
+      "source_sha256": "d53ce5e77d7208cc24b4ec014da6742aba8dd77230825cb820d7962b755f2cf9",
+      "draft_sha256": "2874f476282de9f596f38e3e9b700a78e59beb90f392ab90104903d9a9150294",
+      "source_addresses": 11,
+      "author_comparison": "performed; provisional",
+      "comparison_notes": "Compared all 11 BSB addresses: Jonah displeasure/anger, full prayer home-country prior speech/quick Tarshish flight/God gracious compassionate slow anger abundant devotion/relent, death request versus life, LORD right-to-anger question, east city shelter/shade/watch, appointed vine/head/shade/discomfort/joy, next-day dawn appointed worm/withering, sunrise appointed scorching east wind/sun head/faint/death wish quote, repeated plant anger question/answer, neither tended nor grew plant/one-night growth and death, great Nineveh/more than 120000/right-left inability/many cattle. Kept ambiguity of right-left rather than identifying an age or disability group. Death wishes remain Jonah speech.",
+      "independent_editorial_review": "pending",
+      "intended_reader_review": "pending"
+    },
     "Ruth 1": {
       "path": "ruth/ruth1_1757372779.md",
       "source": "comparison/bsb.txt",
