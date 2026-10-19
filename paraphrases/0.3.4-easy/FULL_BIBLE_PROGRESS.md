@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 315/1189 chapters.**
-**Books with every chapter drafted: 36/66.**
+**Structurally complete text drafts: 335/1189 chapters.**
+**Books with every chapter drafted: 37/66.**
 
-These drafts contain 9,275 of 31,102 source verse addresses.
+These drafts contain 9,833 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -26,7 +26,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Judges | 1 | 21 | 1–16, 18–21 |
 | Ruth | 4 | 4 | — |
 | 1 Samuel | 0 | 31 | 1–31 |
-| 2 Samuel | 4 | 24 | 1–20 |
+| 2 Samuel | 24 | 24 | — |
 | 1 Kings | 2 | 22 | 1–3, 5–21 |
 | 2 Kings | 0 | 25 | 1–25 |
 | 1 Chronicles | 1 | 29 | 1–16, 18–29 |
@@ -91,7 +91,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Joshua: [1](joshua/joshua1_1757350469.md)
 - Judges: [17](judges/judges17_1757355071.md)
 - Ruth: [1](ruth/ruth1_1757372779.md), [2](ruth/ruth2_1757372852.md), [3](ruth/ruth3_1757372911.md), [4](ruth/ruth4_1757372977.md)
-- 2 Samuel: [21](2samuel/2samuel21_1792322671.md), [22](2samuel/2samuel22_1792322671.md), [23](2samuel/2samuel23_1792322671.md), [24](2samuel/2samuel24_1792322671.md)
+- 2 Samuel: [1](2samuel/2samuel1_1757376373.md), [2](2samuel/2samuel2_1757376534.md), [3](2samuel/2samuel3_1757376664.md), [4](2samuel/2samuel4_1757376845.md), [5](2samuel/2samuel5_1757376996.md), [6](2samuel/2samuel6_1757377145.md), [7](2samuel/2samuel7_1757377227.md), [8](2samuel/2samuel8_1757377322.md), [9](2samuel/2samuel9_1757377475.md), [10](2samuel/2samuel10_1757377594.md), [11](2samuel/2samuel11_1757377720.md), [12](2samuel/2samuel12_1757377817.md), [13](2samuel/2samuel13_1757377986.md), [14](2samuel/2samuel14_1757378106.md), [15](2samuel/2samuel15_1757378226.md), [16](2samuel/2samuel16_1757378339.md), [17](2samuel/2samuel17_1757378478.md), [18](2samuel/2samuel18_1757378620.md), [19](2samuel/2samuel19_1757378742.md), [20](2samuel/2samuel20_1757378872.md), [21](2samuel/2samuel21_1792322671.md), [22](2samuel/2samuel22_1792322671.md), [23](2samuel/2samuel23_1792322671.md), [24](2samuel/2samuel24_1792322671.md)
 - 1 Kings: [4](1kings/1kings4_1757412692.md), [22](1kings/1kings22_1757415295.md)
 - 1 Chronicles: [17](1chronicles/1chronicles17_1757421367.md)
 - Esther: [1](esther/esther1_1757433035.md)
@@ -150,7 +150,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 281/315 structurally complete drafts.
+- Current provisional AI author comparisons: 301/335 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
