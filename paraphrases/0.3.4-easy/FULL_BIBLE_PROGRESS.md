@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 411/1189 chapters.**
-**Books with every chapter drafted: 40/66.**
+**Structurally complete text drafts: 439/1189 chapters.**
+**Books with every chapter drafted: 41/66.**
 
-These drafts contain 12,091 of 31,102 source verse addresses.
+These drafts contain 13,006 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -29,7 +29,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | 2 Samuel | 24 | 24 | — |
 | 1 Kings | 22 | 22 | — |
 | 2 Kings | 25 | 25 | — |
-| 1 Chronicles | 1 | 29 | 1–16, 18–29 |
+| 1 Chronicles | 29 | 29 | — |
 | 2 Chronicles | 0 | 36 | 1–36 |
 | Ezra | 0 | 10 | 1–10 |
 | Nehemiah | 0 | 13 | 1–13 |
@@ -95,7 +95,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - 2 Samuel: [1](2samuel/2samuel1_1757376373.md), [2](2samuel/2samuel2_1757376534.md), [3](2samuel/2samuel3_1757376664.md), [4](2samuel/2samuel4_1757376845.md), [5](2samuel/2samuel5_1757376996.md), [6](2samuel/2samuel6_1757377145.md), [7](2samuel/2samuel7_1757377227.md), [8](2samuel/2samuel8_1757377322.md), [9](2samuel/2samuel9_1757377475.md), [10](2samuel/2samuel10_1757377594.md), [11](2samuel/2samuel11_1757377720.md), [12](2samuel/2samuel12_1757377817.md), [13](2samuel/2samuel13_1757377986.md), [14](2samuel/2samuel14_1757378106.md), [15](2samuel/2samuel15_1757378226.md), [16](2samuel/2samuel16_1757378339.md), [17](2samuel/2samuel17_1757378478.md), [18](2samuel/2samuel18_1757378620.md), [19](2samuel/2samuel19_1757378742.md), [20](2samuel/2samuel20_1757378872.md), [21](2samuel/2samuel21_1792322671.md), [22](2samuel/2samuel22_1792322671.md), [23](2samuel/2samuel23_1792322671.md), [24](2samuel/2samuel24_1792322671.md)
 - 1 Kings: [1](1kings/1kings1_1757412198.md), [2](1kings/1kings2_1757412336.md), [3](1kings/1kings3_1757412506.md), [4](1kings/1kings4_1757412692.md), [5](1kings/1kings5_1757412841.md), [6](1kings/1kings6_1757412943.md), [7](1kings/1kings7_1757413139.md), [8](1kings/1kings8_1757413308.md), [9](1kings/1kings9_1757413473.md), [10](1kings/1kings10_1757413642.md), [11](1kings/1kings11_1757413746.md), [12](1kings/1kings12_1757413864.md), [13](1kings/1kings13_1757414016.md), [14](1kings/1kings14_1757414167.md), [15](1kings/1kings15_1757414268.md), [16](1kings/1kings16_1757414453.md), [17](1kings/1kings17_1757414548.md), [18](1kings/1kings18_1757414706.md), [19](1kings/1kings19_1757414815.md), [20](1kings/1kings20_1757415026.md), [21](1kings/1kings21_1757415158.md), [22](1kings/1kings22_1757415295.md)
 - 2 Kings: [1](2kings/2kings1_1757415460.md), [2](2kings/2kings2_1757415573.md), [3](2kings/2kings3_1757415710.md), [4](2kings/2kings4_1757415801.md), [5](2kings/2kings5_1757415891.md), [6](2kings/2kings6_1757416026.md), [7](2kings/2kings7_1757416131.md), [8](2kings/2kings8_1757416332.md), [9](2kings/2kings9_1757416476.md), [10](2kings/2kings10_1757416657.md), [11](2kings/2kings11_1757416834.md), [12](2kings/2kings12_1757416982.md), [13](2kings/2kings13_1757417060.md), [14](2kings/2kings14_1757417154.md), [15](2kings/2kings15_1757417283.md), [16](2kings/2kings16_1757417383.md), [17](2kings/2kings17_1757417528.md), [18](2kings/2kings18_1757417668.md), [19](2kings/2kings19_1757417831.md), [20](2kings/2kings20_1757418034.md), [21](2kings/2kings21_1757418124.md), [22](2kings/2kings22_1757418263.md), [23](2kings/2kings23_1757418366.md), [24](2kings/2kings24_1757418465.md), [25](2kings/2kings25_1757418583.md)
-- 1 Chronicles: [17](1chronicles/1chronicles17_1757421367.md)
+- 1 Chronicles: [1](1chronicles/1chronicles1_1757418729.md), [2](1chronicles/1chronicles2_1757418948.md), [3](1chronicles/1chronicles3_1757419075.md), [4](1chronicles/1chronicles4_1757419179.md), [5](1chronicles/1chronicles5_1757419340.md), [6](1chronicles/1chronicles6_1757419464.md), [7](1chronicles/1chronicles7_1757419686.md), [8](1chronicles/1chronicles8_1757419897.md), [9](1chronicles/1chronicles9_1757420132.md), [10](1chronicles/1chronicles10_1757420237.md), [11](1chronicles/1chronicles11_1757420493.md), [12](1chronicles/1chronicles12_1757420601.md), [13](1chronicles/1chronicles13_1757420707.md), [14](1chronicles/1chronicles14_1757420880.md), [15](1chronicles/1chronicles15_1757421078.md), [16](1chronicles/1chronicles16_1757421205.md), [17](1chronicles/1chronicles17_1757421367.md), [18](1chronicles/1chronicles18_1757421545.md), [19](1chronicles/1chronicles19_1757421642.md), [20](1chronicles/1chronicles20_1757421732.md), [21](1chronicles/1chronicles21_1757421821.md), [22](1chronicles/1chronicles22_1757421934.md), [23](1chronicles/1chronicles23_1757422073.md), [24](1chronicles/1chronicles24_1757422155.md), [25](1chronicles/1chronicles25_1757422265.md), [26](1chronicles/1chronicles26_1757422375.md), [27](1chronicles/1chronicles27_1757422588.md), [28](1chronicles/1chronicles28_1757422686.md), [29](1chronicles/1chronicles29_1757422832.md)
 - Esther: [1](esther/esther1_1757433035.md)
 - Psalms: [23](psalms/psalms23_1757440380.md), [51](psalms/psalms51_1757442774.md), [94](psalms/psalms94_1757446736.md), [113](psalms/psalms113_1757448583.md), [119](psalms/psalms119_1757449220.md), [133](psalms/psalms133_1757450169.md), [139](psalms/psalms139_1757450646.md)
 - Proverbs: [3](proverbs/proverbs3_1757451882.md), [31](proverbs/proverbs31_1757455576.md)
@@ -152,7 +152,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 379/411 structurally complete drafts.
+- Current provisional AI author comparisons: 408/439 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
