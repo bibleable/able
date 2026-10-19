@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 961/1189 chapters.**
-**Books with every chapter drafted: 59/66.**
+**Structurally complete text drafts: 1010/1189 chapters.**
+**Books with every chapter drafted: 60/66.**
 
-These drafts contain 24,062 of 31,102 source verse addresses.
+These drafts contain 25,564 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -17,7 +17,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 
 | Book | Draft chapters | Total | Chapters still to draft or repair |
 | --- | ---: | ---: | --- |
-| Genesis | 1 | 50 | 2–50 |
+| Genesis | 50 | 50 | — |
 | Exodus | 1 | 40 | 1–19, 21–40 |
 | Leviticus | 0 | 27 | 1–27 |
 | Numbers | 0 | 36 | 1–36 |
@@ -86,7 +86,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 
 ## Chapter drafts
 
-- Genesis: [1](genesis/genesis1_1757327525.md)
+- Genesis: [1](genesis/genesis1_1757327525.md), [2](genesis/genesis2_1757327639.md), [3](genesis/genesis3_1757327745.md), [4](genesis/genesis4_1757327887.md), [5](genesis/genesis5_1757327991.md), [6](genesis/genesis6_1757328086.md), [7](genesis/genesis7_1757328177.md), [8](genesis/genesis8_1757328259.md), [9](genesis/genesis9_1757328392.md), [10](genesis/genesis10_1757328581.md), [11](genesis/genesis11_1757328685.md), [12](genesis/genesis12_1757328821.md), [13](genesis/genesis13_1757328914.md), [14](genesis/genesis14_1757329005.md), [15](genesis/genesis15_1757329122.md), [16](genesis/genesis16_1757329190.md), [17](genesis/genesis17_1757329277.md), [18](genesis/genesis18_1757329412.md), [19](genesis/genesis19_1757329634.md), [20](genesis/genesis20_1757329734.md), [21](genesis/genesis21_1757329822.md), [22](genesis/genesis22_1757329887.md), [23](genesis/genesis23_1757330009.md), [24](genesis/genesis24_1757330148.md), [25](genesis/genesis25_1757330285.md), [26](genesis/genesis26_1757330400.md), [27](genesis/genesis27_1757330618.md), [28](genesis/genesis28_1757330693.md), [29](genesis/genesis29_1757330783.md), [30](genesis/genesis30_1757330897.md), [31](genesis/genesis31_1757330985.md), [32](genesis/genesis32_1757331111.md), [33](genesis/genesis33_1757331192.md), [34](genesis/genesis34_1757331308.md), [35](genesis/genesis35_1757331463.md), [36](genesis/genesis36_1757331581.md), [37](genesis/genesis37_1757331701.md), [38](genesis/genesis38_1757331811.md), [39](genesis/genesis39_1757331905.md), [40](genesis/genesis40_1757331980.md), [41](genesis/genesis41_1757332113.md), [42](genesis/genesis42_1757332217.md), [43](genesis/genesis43_1757332342.md), [44](genesis/genesis44_1757332443.md), [45](genesis/genesis45_1757332582.md), [46](genesis/genesis46_1757332745.md), [47](genesis/genesis47_1757332894.md), [48](genesis/genesis48_1757332988.md), [49](genesis/genesis49_1757333080.md), [50](genesis/genesis50_1757333283.md)
 - Exodus: [20](exodus/exodus20_1757335668.md)
 - Joshua: [1](joshua/joshua1_1757350469.md)
 - Judges: [17](judges/judges17_1757355071.md)
@@ -162,7 +162,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 947/961 structurally complete drafts.
+- Current provisional AI author comparisons: 997/1010 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
