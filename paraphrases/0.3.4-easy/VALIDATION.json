@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 485,
-    "complete_book_structures": 43,
-    "draft_addresses": 14108,
-    "missing_chapters": 704,
+    "draft_chapters": 498,
+    "complete_book_structures": 44,
+    "draft_addresses": 14514,
+    "missing_chapters": 691,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 454
+    "current_provisional_author_comparisons": 467
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -789,6 +789,19 @@
     "ezra/ezra8_1757430325.md": "ffc9fed8cfb25d7690a42bb574a0e447babb1667fe6df22c91a0feeaee8ca11d",
     "ezra/ezra9_1757430426.md": "41359ea1d71ef19ca9ec2d26635f32e7a5c0961d9748d15cca132f1ede7760b9",
     "ezra/ezra10_1757430661.md": "d945c0c1d1ab530777e7f6231de6dfdb0e6c0366853ae8eb5e7426458ed34905",
+    "nehemiah/nehemiah1_1757430803.md": "ac3bc7bbe9f794f72e7414cdd84c6b1fd1fb1757f6dade2b82f8ac1df2d73668",
+    "nehemiah/nehemiah2_1757430934.md": "f3a07aa862d776287c4443ae43c9cca485a0b6e4834c2a6b6e5cb056203a65e8",
+    "nehemiah/nehemiah3_1757431157.md": "5221b9512d84d537c720ef4fce40a9d203dd22eda470f63b7763645b2714f6b0",
+    "nehemiah/nehemiah4_1757431266.md": "655f40f59670e2b51bb64abada5245cdb002e5e7079b70dbf7cc6f5938df6d4c",
+    "nehemiah/nehemiah5_1757431348.md": "8a74c79bc7fd9d28aa5642e2990b83bf6ef4b9cb34976d538277fe5f7a61b23c",
+    "nehemiah/nehemiah6_1757431457.md": "492e4236f30d41ac52f4763ad110b5f3e545cd9dca94621117b4f8ff38cc17b6",
+    "nehemiah/nehemiah7_1757431600.md": "7047e236a5d86fdc107b9a9b5276949aaf9eb4ea54c87dd86e775b0f11f2f101",
+    "nehemiah/nehemiah8_1757431758.md": "a493e2a51b72908b1ccba874d71888b2597c90fc5e0546199053c387fffe383b",
+    "nehemiah/nehemiah9_1757431967.md": "8feba5ac4462fb2848befef62f58c6fc271a8066c8e9040ec1eb84e16fc0a36a",
+    "nehemiah/nehemiah10_1757432177.md": "969aa083daa76de76f7f8dd8bd636bfde8c0632a2816cc5c94bf7ff4c8e0f028",
+    "nehemiah/nehemiah11_1757432524.md": "0ecd6f974037258525496e0cab83d73fc35d6a7619040e55fe76e6e8a4a07eff",
+    "nehemiah/nehemiah12_1757432700.md": "e7db6d582642cd019562388bf5c8c74e11fee17df0a6b60266abb9866a2d42cb",
+    "nehemiah/nehemiah13_1757432833.md": "ca6f0f0761cd8b6ba59b71d27dc893774b09c863adc02d53c9238d142dfd6a1a",
     "esther/esther1_1757433035.md": "6c15c45389db587dab19f8246c69c0b7a987b960087abcf572e44d58f35d356a",
     "psalms/psalms23_1757440380.md": "3fccfd4a9c237b425704442d408f632c56bee4703d3891f00fb4c40ee64d1d9e",
     "psalms/psalms51_1757442774.md": "927e6d2007eec5077b2955e592acb03797750cf348943d2f804913a34c028eac",
