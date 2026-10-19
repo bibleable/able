@@ -27,12 +27,12 @@
     ]
   },
   "counts": {
-    "draft_chapters": 732,
-    "complete_book_structures": 49,
-    "draft_addresses": 18979,
-    "missing_chapters": 457,
+    "draft_chapters": 740,
+    "complete_book_structures": 50,
+    "draft_addresses": 19096,
+    "missing_chapters": 449,
     "chapters_needing_structural_repair": 0,
-    "current_provisional_author_comparisons": 712
+    "current_provisional_author_comparisons": 720
   },
   "checks": {
     "verse_structure_errors": 0,
@@ -1036,6 +1036,14 @@
     "ecclesiastes/ecclesiastes10_1757456431.md": "5b84e0aedb8940b3531fa700f5ded48906a1c6aa104532fbc292f6b993c556ca",
     "ecclesiastes/ecclesiastes11_1757456514.md": "dbb4557223016027412516aa9c54df1bd3ea3a2bf684e92758c91cd3be5020e3",
     "ecclesiastes/ecclesiastes12_1757456592.md": "19742091495ce394f912c2bdacb12d0fd5709f3357aeee4c4e36a9b35a1fde4e",
+    "songofsongs/songofsongs1_1757456695.md": "5739ae5fa783e25af43a3f1c62f2ff5eb5c02c3c262353ea672ab24c58a263f6",
+    "songofsongs/songofsongs2_1757456812.md": "05df4f789360f9721b8e05065b68ee0e689a48e8d1896a1945bee6e01cfcc86e",
+    "songofsongs/songofsongs3_1757456874.md": "3a926826d033e079372f4f18bef533ebe09c6cc0fc34f486c6b06605af8c562c",
+    "songofsongs/songofsongs4_1757456982.md": "dd777058443c01d34d7ad01fbeaaf3b06f6294f21501e143e86d2e1f39a0bfe4",
+    "songofsongs/songofsongs5_1757457103.md": "b0b0060c833fed2748acd296df1fca902f30449556f02d5cc7f8964466614cac",
+    "songofsongs/songofsongs6_1757457254.md": "c72327ba39482a45f70bab90978f2ef5f2ed963c324ce497984cab4a8549cfa8",
+    "songofsongs/songofsongs7_1757457332.md": "2053974b701526d9092a4c973ec89ce6a5b6fdda8962c6032688e10d2ecea34b",
+    "songofsongs/songofsongs8_1757457402.md": "d25988db005fffaddb88e9284c912aeac719b5979fe6e13a2359710b6c326394",
     "isaiah/isaiah40_1757461591.md": "cfe80d5f0e915bdf3036e965273f09472b662f034d4c30b33e88dbdf59e7e39a",
     "isaiah/isaiah41_1757461717.md": "c8b22e5a3152f26ba5e8c3d20ecc206e0af1fefa591449956937a440c2d9bbc3",
     "isaiah/isaiah53_1757463011.md": "f555fa3eb6b2e502e056845d97c5656c52e195adf33877587cd530c02cfef068",
