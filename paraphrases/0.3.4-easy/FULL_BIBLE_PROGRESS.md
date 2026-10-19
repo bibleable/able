@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 284/1189 chapters.**
-**Books with every chapter drafted: 27/66.**
+**Structurally complete text drafts: 288/1189 chapters.**
+**Books with every chapter drafted: 28/66.**
 
-These drafts contain 8,662 of 31,102 source verse addresses.
+These drafts contain 8,747 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -24,7 +24,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Deuteronomy | 0 | 34 | 1–34 |
 | Joshua | 1 | 24 | 2–24 |
 | Judges | 1 | 21 | 1–16, 18–21 |
-| Ruth | 0 | 4 | 1–4 |
+| Ruth | 4 | 4 | — |
 | 1 Samuel | 0 | 31 | 1–31 |
 | 2 Samuel | 0 | 24 | 1–24 |
 | 1 Kings | 2 | 22 | 1–3, 5–21 |
@@ -90,6 +90,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Exodus: [20](exodus/exodus20_1757335668.md)
 - Joshua: [1](joshua/joshua1_1757350469.md)
 - Judges: [17](judges/judges17_1757355071.md)
+- Ruth: [1](ruth/ruth1_1757372779.md), [2](ruth/ruth2_1757372852.md), [3](ruth/ruth3_1757372911.md), [4](ruth/ruth4_1757372977.md)
 - 1 Kings: [4](1kings/1kings4_1757412692.md), [22](1kings/1kings22_1757415295.md)
 - 1 Chronicles: [17](1chronicles/1chronicles17_1757421367.md)
 - Esther: [1](esther/esther1_1757433035.md)
@@ -140,7 +141,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 250/284 structurally complete drafts.
+- Current provisional AI author comparisons: 254/288 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
