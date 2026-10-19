@@ -2,10 +2,10 @@
 
 Scope: all 66 books and 1,189 chapters, written directly from `comparison/bsb.txt`.
 
-**Structurally complete text drafts: 291/1189 chapters.**
-**Books with every chapter drafted: 29/66.**
+**Structurally complete text drafts: 292/1189 chapters.**
+**Books with every chapter drafted: 30/66.**
 
-These drafts contain 8,820 of 31,102 source verse addresses.
+These drafts contain 8,841 of 31,102 source verse addresses.
 
 A draft status means the intended file contains the expected BSB verse addresses in order, with text at nonempty source verses. It does not certify meaning, Easy Read comprehension, illustrations, or final presentation. Reader testing remains pending.
 
@@ -47,7 +47,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 | Hosea | 0 | 14 | 1–14 |
 | Joel | 3 | 3 | — |
 | Amos | 1 | 9 | 1–3, 5–9 |
-| Obadiah | 0 | 1 | 1 |
+| Obadiah | 1 | 1 | — |
 | Jonah | 0 | 4 | 1–4 |
 | Micah | 1 | 7 | 1–5, 7 |
 | Nahum | 0 | 3 | 1–3 |
@@ -101,6 +101,7 @@ Regenerate this inventory with `python3 scripts/easy_coverage.py --write`.
 - Jeremiah: [29](jeremiah/jeremiah29_1757467446.md)
 - Joel: [1](joel/joel1_1757478775.md), [2](joel/joel2_1757478899.md), [3](joel/joel3_1757479073.md)
 - Amos: [4](amos/amos4_1757479373.md)
+- Obadiah: [1](obadiah/obadiah1_1757479908.md)
 - Micah: [6](micah/micah6_1757480850.md)
 - Matthew: [1](matthew/matthew1_1757484254.md), [2](matthew/matthew2_1757484357.md), [3](matthew/matthew3_1757484463.md), [4](matthew/matthew4_1757484636.md), [5](matthew/matthew5_1757484759.md), [6](matthew/matthew6_1757484833.md), [7](matthew/matthew7_1757484975.md), [8](matthew/matthew8_1757485157.md), [9](matthew/matthew9_1757485360.md), [10](matthew/matthew10_1757485485.md), [11](matthew/matthew11_1757485635.md), [12](matthew/matthew12_1757485761.md), [13](matthew/matthew13_1757485964.md), [14](matthew/matthew14_1757486171.md), [15](matthew/matthew15_1757486258.md), [16](matthew/matthew16_1757486350.md), [17](matthew/matthew17_1757486528.md), [18](matthew/matthew18_1757486689.md), [19](matthew/matthew19_1757486789.md), [20](matthew/matthew20_1757486914.md), [21](matthew/matthew21_1757487063.md), [22](matthew/matthew22_1757487287.md), [23](matthew/matthew23_1757487435.md), [24](matthew/matthew24_1757487602.md), [25](matthew/matthew25_1757487759.md), [26](matthew/matthew26_1757487897.md), [27](matthew/matthew27_1757488053.md), [28](matthew/matthew28_1757488142.md)
 - Mark: [1](mark/mark1_1757488307.md), [2](mark/mark2_1757488422.md), [3](mark/mark3_1757488519.md), [4](mark/mark4_1757488688.md), [5](mark/mark5_1757488886.md), [6](mark/mark6_1757489209.md), [7](mark/mark7_1757489381.md), [8](mark/mark8_1757489607.md), [9](mark/mark9_1757489818.md), [10](mark/mark10_1757490019.md), [11](mark/mark11_1757490250.md), [12](mark/mark12_1757490501.md), [13](mark/mark13_1757490633.md), [14](mark/mark14_1757490812.md), [15](mark/mark15_1757490989.md), [16](mark/mark16_1757491130.md)
@@ -142,7 +143,7 @@ The following chapters have no matching original filename. Planned filenames fol
 
 ## Review and presentation stages
 
-- Current provisional AI author comparisons: 257/291 structurally complete drafts.
+- Current provisional AI author comparisons: 258/292 structurally complete drafts.
 - Stale author-comparison records needing fresh comparison: 0.
 - Draft chapters with possible sentence-paragraph joins to review: 0.
 - Independent editorial review: pending; an author comparison is not independent review.
