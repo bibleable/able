@@ -725,6 +725,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Ezra 2 — The families who returned home](ezra/ezra2_1757429663.md)
 3. [Ezra 3 — The people rebuild the altar and begin the temple](ezra/ezra3_1757429749.md)
 4. [Ezra 4 — Enemies oppose the rebuilding in Jerusalem](ezra/ezra4_1757429839.md)
+5. [Ezra 5 — The builders keep working while the governor writes to Darius](ezra/ezra5_1757429932.md)
 
 ## Reading with a learner
 
