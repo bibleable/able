@@ -466,6 +466,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Leviticus 21 — Rules for Aaron and the priests](leviticus/leviticus21_1757340857.md)
 22. [Leviticus 22 — Holy food and gifts for the LORD](leviticus/leviticus22_1757341031.md)
 23. [Leviticus 23 — Times to rest and gather for worship](leviticus/leviticus23_1757341116.md)
+24. [Leviticus 24 — Lamps, bread and a law for everyone](leviticus/leviticus24_1757341248.md)
 
 ## Reading with a learner
 
