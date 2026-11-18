@@ -164,6 +164,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [1 Corinthians 5 — Paul asks the church to face wrongdoing](1corinthians/1corinthians5_1757506040.md)
 6. [1 Corinthians 6 — Settle disputes fairly and honour God with your body](1corinthians/1corinthians6_1757506167.md)
 7. [1 Corinthians 7 — Paul answers questions about marriage](1corinthians/1corinthians7_1757506373.md)
+8. [1 Corinthians 8 — Love guides what we choose to eat](1corinthians/1corinthians8_1757506481.md)
 
 ## Reading with a learner
 
