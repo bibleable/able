@@ -456,6 +456,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Leviticus 11 — Clean and unclean animals](leviticus/leviticus11_1757339643.md)
 12. [Leviticus 12 — After a child is born](leviticus/leviticus12_1757339718.md)
 13. [Leviticus 13 — The priest examines skin, cloth and leather](leviticus/leviticus13_1757339856.md)
+14. [Leviticus 14 — Returning to camp and checking a house](leviticus/leviticus14_1757340061.md)
 
 ## Reading with a learner
 
