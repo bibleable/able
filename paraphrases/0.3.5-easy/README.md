@@ -215,6 +215,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Philippians 3 — Paul keeps going toward the goal](philippians/philippians3_1757510739.md)
 4. [Philippians 4 — Paul thanks the church for sharing his troubles](philippians/philippians4_1757510884.md)
 
+## Colossians
+
+1. [Colossians 1 — Christ has first place in everything](colossians/colossians1_1757511026.md)
+2. [Colossians 2 — Keep living each day with Christ](colossians/colossians2_1757511132.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
