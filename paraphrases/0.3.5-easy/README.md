@@ -666,6 +666,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 23. [2 Samuel 23 — David’s last words and the names of his warriors](2samuel/2samuel23_1792322671.md)
 24. [2 Samuel 24 — David counts the soldiers and asks for mercy](2samuel/2samuel24_1792322671.md)
 
+## 1 Kings
+
+1. [1 Kings 1 — Solomon becomes king](1kings/1kings1_1757412198.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
