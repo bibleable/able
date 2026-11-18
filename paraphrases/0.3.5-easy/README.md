@@ -196,6 +196,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Galatians 2 — Paul speaks up when Peter stops sharing meals](galatians/galatians2_1757509082.md)
 3. [Galatians 3 — God keeps his promise to Abraham](galatians/galatians3_1757509184.md)
 4. [Galatians 4 — God welcomes us as his children](galatians/galatians4_1757509290.md)
+5. [Galatians 5 — Use your freedom to serve each other](galatians/galatians5_1757509362.md)
+6. [Galatians 6 — Help each other and keep doing good](galatians/galatians6_1757509453.md)
 
 ## Reading with a learner
 
