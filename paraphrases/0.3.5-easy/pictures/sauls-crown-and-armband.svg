@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" role="img" aria-labelledby="title">
+<title id="title">Saul’s crown and armband</title>
+<rect width="480" height="180" rx="12" fill="#fff9ed"/>
+<g fill="#dfbd69" stroke="#735723" stroke-width="4">
+<path d="m54 52 33 21 23-37 25 37 34-21-10 55H64z"/>
+<ellipse cx="351" cy="78" rx="48" ry="28"/><ellipse cx="351" cy="72" rx="35" ry="15" fill="#fff9ed"/>
+</g><g fill="#263c32" text-anchor="middle" font-family="sans-serif" font-size="23"><text x="111" y="147">Crown</text><text x="351" y="147">Armband</text></g></svg>

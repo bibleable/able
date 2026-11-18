@@ -639,6 +639,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [1 Samuel 30 — David brings the families home](1samuel/1samuel30_1757376152.md)
 31. [1 Samuel 31 — The people of Jabesh bury Saul and his sons](1samuel/1samuel31_1757376254.md)
 
+## 2 Samuel
+
+1. [2 Samuel 1 — David sings for Saul and Jonathan](2samuel/2samuel1_1757376373.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
