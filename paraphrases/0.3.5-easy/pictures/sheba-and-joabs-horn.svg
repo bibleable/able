@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 160" role="img" aria-labelledby="title desc">
+  <title id="title">A ram’s horn</title>
+  <desc id="desc">A curved horn with a narrow mouthpiece and a wide opening. Blowing the horn makes a signal people can hear.</desc>
+  <rect width="360" height="160" rx="10" fill="#fff9ed"/>
+  <path d="M60 66q86 66 193-40l29 40Q170 154 57 75Z" fill="#c7955a" stroke="#513c2e" stroke-width="3"/>
+  <path d="m248 31 25 41m-41-27 21 40m-40-28 18 38m-39-26 14 35" fill="none" stroke="#8b623f" stroke-width="3"/>
+  <ellipse cx="268" cy="46" rx="9" ry="25" transform="rotate(-34 268 46)" fill="#735039" stroke="#513c2e" stroke-width="3"/>
+  <text x="180" y="142" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#302b25">A ram’s horn</text>
+</svg>
