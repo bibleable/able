@@ -143,6 +143,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Romans 3 — God makes people right with him through faith](romans/romans3_1757504011.md)
 4. [Romans 4 — Abraham trusts God to keep his promise](romans/romans4_1757504145.md)
 5. [Romans 5 — Jesus brings us peace with God](romans/romans5_1757504223.md)
+6. [Romans 6 — Living a new life with Jesus](romans/romans6_1757504398.md)
 
 ## Reading with a learner
 
