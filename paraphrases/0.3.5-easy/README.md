@@ -572,6 +572,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Joshua 21 — The Levites receive forty-eight cities](joshua/joshua21_1757352915.md)
 22. [Joshua 22 — An altar called Witness](joshua/joshua22_1757353037.md)
 23. [Joshua 23 — Joshua tells Israel to stay faithful](joshua/joshua23_1757353122.md)
+24. [Joshua 24 — Israel chooses to serve the LORD](joshua/joshua24_1757353233.md)
 
 ## Reading with a learner
 

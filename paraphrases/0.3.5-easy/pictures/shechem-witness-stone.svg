@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 175" role="img">
+  <title>A standing stone beneath the spreading branches of an oak</title>
+  <rect width="330" height="175" rx="8" fill="#fff9eb"/>
+  <path d="M38 151h255" stroke="#73684c" stroke-width="4"/>
+  <path d="M100 150l8-77-29-29 34 18 32-26-23 42 4 72Z" fill="#8f6442" stroke="#513e2b" stroke-width="3"/>
+  <path d="M54 81Q22 61 51 46Q53 19 88 25Q105 3 138 17Q170 6 187 30Q219 20 230 42Q259 47 245 69Q230 83 208 76Q184 94 160 79Q138 94 119 81Q77 99 54 81Z" fill="#759663" stroke="#3c5b3d" stroke-width="3"/>
+  <path d="M171 149l5-39 14-15 24 3 10 16 4 35Z" fill="#acaca4" stroke="#464944" stroke-width="3"/>
+</svg>
