@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">North above, south below, west on the left and east on the right</title>
+  <rect width="320" height="200" fill="#fffaf1" rx="8"/>
+  <g fill="none" stroke="#304f50" stroke-width="4" stroke-linejoin="round">
+    <path d="M160 44v112 M152 53l8-9 8 9 M152 147l8 9 8-9"/>
+    <path d="M79 100h162 M88 92l-9 8 9 8 M232 92l9 8-9 8"/>
+  </g>
+  <g fill="#203839" font-family="sans-serif" font-size="20" text-anchor="middle">
+    <text x="160" y="30">North</text><text x="160" y="185">South</text>
+    <text x="39" y="107">West</text><text x="279" y="107">East</text>
+  </g>
+</svg>

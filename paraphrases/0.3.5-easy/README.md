@@ -506,6 +506,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 31. [Numbers 31 — Israel goes to war against Midian](numbers/numbers31_1757345810.md)
 32. [Numbers 32 — A promise at the Jordan River](numbers/numbers32_1757345937.md)
 33. [Numbers 33 — The places Israel camped](numbers/numbers33_1757346023.md)
+34. [Numbers 34 — The borders of Canaan](numbers/numbers34_1757346102.md)
 
 ## Reading with a learner
 
