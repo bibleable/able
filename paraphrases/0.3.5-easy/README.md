@@ -212,6 +212,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Philippians 1 — Paul rejoices as the good news spreads](philippians/philippians1_1757510470.md)
 2. [Philippians 2 — Care for others as Christ did](philippians/philippians2_1757510643.md)
+3. [Philippians 3 — Paul keeps going toward the goal](philippians/philippians3_1757510739.md)
+4. [Philippians 4 — Paul thanks the church for sharing his troubles](philippians/philippians4_1757510884.md)
 
 ## Reading with a learner
 
