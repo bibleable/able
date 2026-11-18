@@ -499,6 +499,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Numbers 24 — Balaam sees Israel’s tents and a future king](numbers/numbers24_1757344974.md)
 25. [Numbers 25 — Israel worships Baal at Peor](numbers/numbers25_1757345097.md)
 26. [Numbers 26 — Israel counts a new generation](numbers/numbers26_1757345182.md)
+27. [Numbers 27 — Five sisters ask for land and Joshua becomes a leader](numbers/numbers27_1757345379.md)
 
 ## Reading with a learner
 
