@@ -722,6 +722,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Ezra
 
 1. [Ezra 1 — Cyrus sends the temple gifts back to Jerusalem](ezra/ezra1_1757429479.md)
+2. [Ezra 2 — The families who returned home](ezra/ezra2_1757429663.md)
 
 ## Reading with a learner
 
