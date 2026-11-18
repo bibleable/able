@@ -162,6 +162,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [1 Corinthians 3 — Paul plants, Apollos waters, and God gives growth](1corinthians/1corinthians3_1757505866.md)
 4. [1 Corinthians 4 — Paul asks the believers to follow his example](1corinthians/1corinthians4_1757505952.md)
 5. [1 Corinthians 5 — Paul asks the church to face wrongdoing](1corinthians/1corinthians5_1757506040.md)
+6. [1 Corinthians 6 — Settle disputes fairly and honour God with your body](1corinthians/1corinthians6_1757506167.md)
 
 ## Reading with a learner
 
