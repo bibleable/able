@@ -457,6 +457,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Leviticus 12 — After a child is born](leviticus/leviticus12_1757339718.md)
 13. [Leviticus 13 — The priest examines skin, cloth and leather](leviticus/leviticus13_1757339856.md)
 14. [Leviticus 14 — Returning to camp and checking a house](leviticus/leviticus14_1757340061.md)
+15. [Leviticus 15 — When fluid or blood leaves the body](leviticus/leviticus15_1757340160.md)
 
 ## Reading with a learner
 
