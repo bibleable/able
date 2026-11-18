@@ -416,6 +416,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 14. [Exodus 14 — The Israelites walk through the sea](exodus/exodus14_1757334810.md)
 15. [Exodus 15 — A song by the sea](exodus/exodus15_1757334970.md)
 16. [Exodus 16 — Bread in the desert](exodus/exodus16_1757335114.md)
+17. [Exodus 17 — Water from a rock and help on a hill](exodus/exodus17_1757335205.md)
 
 ## Reading with a learner
 
