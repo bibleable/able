@@ -583,6 +583,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Judges 5 — Deborah and Barak sing](judges/judges5_1757353762.md)
 6. [Judges 6 — The LORD calls Gideon](judges/judges6_1757353879.md)
 7. [Judges 7 — The LORD saves Israel with three hundred men](judges/judges7_1757353992.md)
+8. [Judges 8 — Gideon refuses to rule Israel](judges/judges8_1757354119.md)
 
 ## Reading with a learner
 
