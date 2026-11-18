@@ -435,6 +435,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 33. [Exodus 33 — Moses asks the LORD to go with Israel](exodus/exodus33_1757337291.md)
 34. [Exodus 34 — New stone tablets and Moses’ shining face](exodus/exodus34_1757337446.md)
 35. [Exodus 35 — The people bring gifts and share their skills](exodus/exodus35_1757337627.md)
+36. [Exodus 36 — The workers make the holy tent](exodus/exodus36_1757337783.md)
 
 ## Reading with a learner
 
