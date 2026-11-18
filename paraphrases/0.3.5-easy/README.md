@@ -412,6 +412,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [Exodus 10 — Locusts and darkness cover Egypt](exodus/exodus10_1757334359.md)
 11. [Exodus 11 — Moses warns Pharaoh about midnight](exodus/exodus11_1757334455.md)
 12. [Exodus 12 — The first Passover and the journey out of Egypt](exodus/exodus12_1757334603.md)
+13. [Exodus 13 — The LORD leads the people out of Egypt](exodus/exodus13_1757334677.md)
 
 ## Reading with a learner
 
