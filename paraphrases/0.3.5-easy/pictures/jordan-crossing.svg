@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+  <title id="title">The priests stay in the middle as the people cross the dry riverbed</title>
+  <rect width="360" height="180" rx="8" fill="#e6eddc"/>
+  <path d="M94 0h174l-8 47 5 61-3 72H97l3-70-7-67z" fill="#eddbad"/>
+  <g fill="#233b34" font-family="sans-serif" text-anchor="middle" font-size="15">
+    <text x="180" y="25">Dry riverbed</text><text x="46" y="155">Bank</text><text x="313" y="155">Bank</text>
+    <text x="180" y="83">Priests with the ark</text>
+  </g>
+  <circle cx="180" cy="56" r="8" fill="#68482a"/>
+  <path d="M35 114h286m-13-10 14 10-14 10" stroke="#344e47" stroke-width="4" stroke-linejoin="round" fill="none"/>
+  <text x="180" y="151" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#233b34">The people cross</text>
+</svg>
