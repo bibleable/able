@@ -329,6 +329,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Revelation 5 — The Lamb takes the scroll](revelation/revelation5_1757519512.md)
 6. [Revelation 6 — The Lamb opens six seals](revelation/revelation6_1757519656.md)
 7. [Revelation 7 — God shelters his people](revelation/revelation7_1757519776.md)
+8. [Revelation 8 — Silence in heaven and four trumpet calls](revelation/revelation8_1757520015.md)
+9. [Revelation 9 — John hears the fifth and sixth trumpets](revelation/revelation9_1757520145.md)
 
 ## Reading with a learner
 
