@@ -281,6 +281,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## James
 
 1. [James 1 — Listen to God and do what he says](james/james1_1757516244.md)
+2. [James 2 — Show your faith by what you do](james/james2_1757516397.md)
+3. [James 3 — Take care with your words](james/james3_1757516514.md)
 
 ## Reading with a learner
 
