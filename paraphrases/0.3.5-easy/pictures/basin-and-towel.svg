@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 140" role="img"><title>A basin filled with water beside a folded towel</title>
+<rect width="300" height="140" rx="8" fill="#fffaf1"/>
+<g stroke="#344951" stroke-width="3" stroke-linejoin="round">
+<path d="M16 53q10 58 72 58t72-58z" fill="#bc8965"/>
+<ellipse cx="88" cy="53" rx="72" ry="19" fill="#dbb79b"/>
+<ellipse cx="88" cy="55" rx="62" ry="13" fill="#8ac8db"/>
+<path d="M64 53q17-6 33-2" stroke="#ecfbff" fill="none"/>
+<path d="m174 83 28-30 78 9-24 33z" fill="#c6dcb9"/>
+<path d="m174 83 82 12 24-33v13l-24 33-82-12z" fill="#93b893"/>
+<path d="m178 90 75 11m-40-45-27 28m34-27-27 29" fill="none" stroke="#52705a"/>
+</g></svg>

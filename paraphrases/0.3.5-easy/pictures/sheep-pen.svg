@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 175" role="img"><title>A sheep pen with an open gate</title><rect width="270" height="175" rx="8" fill="#fffaf1"/>
+<path d="M30 40h200v82H30z" fill="#e2edd9"/>
+<g stroke="#57432e" stroke-width="6" stroke-linejoin="round" fill="none"><path d="M99 120H30V38h200v82h-65"/><path d="M99 132H22V28h217v104h-74"/><path d="m99 120 38 30v12l-38-30z" fill="#dfbd88"/></g>
+<g fill="#715437"><rect x="94" y="112" width="7" height="27"/><rect x="163" y="112" width="7" height="27"/></g>
+<g stroke="#364146" stroke-width="2.5" fill="#fff"><ellipse cx="84" cy="77" rx="22" ry="13"/><ellipse cx="105" cy="80" rx="8" ry="7" fill="#64645f"/><path d="M72 88v9m23-9v9"/><ellipse cx="159" cy="69" rx="22" ry="13"/><ellipse cx="180" cy="72" rx="8" ry="7" fill="#64645f"/><path d="M147 80v9m23-9v9"/></g></svg>

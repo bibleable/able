@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img">
+<title>The invitation goes from the king to the servants to people in the streets</title>
+<rect width="320" height="200" rx="8" fill="#fffaf1"/>
+<g fill="#edf5f2" stroke="#315544" stroke-width="2">
+<rect x="25" y="8" width="270" height="42" rx="8"/>
+<rect x="25" y="79" width="270" height="42" rx="8"/>
+<rect x="25" y="150" width="270" height="42" rx="8"/>
+</g>
+<path d="M160 53v20m-7-7 7 7 7-7 M160 124v20m-7-7 7 7 7-7" fill="none" stroke="#315544" stroke-width="3"/>
+<g fill="#192e26" font-family="sans-serif" font-size="20" text-anchor="middle">
+<text x="160" y="36">The king</text><text x="160" y="107">His servants</text><text x="160" y="178">People in the streets</text>
+</g></svg>

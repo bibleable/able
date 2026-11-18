@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="120" viewBox="0 0 220 120" role="img" aria-labelledby="title">
+  <title id="title">A folded length of purple cloth</title>
+  <rect width="220" height="120" rx="8" fill="#fffaf1"/>
+  <g stroke="#40274e" stroke-width="3" stroke-linejoin="round">
+    <path d="M32 68 107 29 188 49 186 65 110 102 35 83 Q29 81 32 68Z" fill="#875494"/>
+    <path d="M32 68 108 87 188 49 108 29Z" fill="#ad7fb8"/>
+    <path d="M34 76 109 95 185 58" fill="none"/>
+    <path d="M74 45 154 65" stroke="#92639f" fill="none"/>
+  </g>
+</svg>

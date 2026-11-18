@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="250" height="130" viewBox="0 0 250 130" role="img" aria-labelledby="title">
+  <title id="title">A long belt with two loose ends</title>
+  <rect width="250" height="130" rx="8" fill="#fffaf1"/>
+  <path d="M25 89 C70 84 89 21 155 25 C193 27 219 46 210 65 C203 83 166 83 127 71 L132 55 C161 64 186 68 192 58 C198 47 174 40 154 40 C102 38 83 99 29 106 Z" fill="#b37c51" stroke="#533823" stroke-width="3" stroke-linejoin="round"/>
+</svg>

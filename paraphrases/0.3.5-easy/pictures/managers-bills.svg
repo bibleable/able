@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 154" role="img">
+<title>The manager cuts the amount on each bill</title>
+<rect width="360" height="154" rx="8" fill="#fffaf1"/>
+<g font-family="sans-serif" font-size="19" fill="#243c39">
+<text x="16" y="31">Bill</text><text x="125" y="31">Before</text><text x="268" y="31">After</text>
+<text x="16" y="78">Olive oil</text><text x="133" y="78">100</text><text x="274" y="78">50</text>
+<text x="16" y="131">Wheat</text><text x="133" y="131">100</text><text x="274" y="131">80</text>
+</g>
+<path d="M196 71h45l-8-7m8 7-8 7 M196 124h45l-8-7m8 7-8 7" fill="none" stroke="#315544" stroke-width="3"/>
+</svg>

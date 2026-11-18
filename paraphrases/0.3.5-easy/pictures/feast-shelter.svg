@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img"><title>A shelter with a roof of branches</title>
+<rect width="240" height="160" rx="8" fill="#fffaf1"/>
+<path d="M49 67v74m137-77v77m20-92v71" fill="none" stroke="#6e523a" stroke-width="8"/>
+<path d="m32 69 31-32 154 4-25 30z" fill="#b8ce97" stroke="#394b35" stroke-width="3"/>
+<g stroke="#43583b" stroke-width="3" fill="none" stroke-linecap="round">
+<path d="m43 65 29-24m-16 13-5-5m13-2 10-1m4 19 27-24m-16 13-4-7m10 3 11-2m6 17 26-23m-17 15-4-7m12 1 10-2m5 17 26-23m-16 14-3-6m11 0 9-2m6 17 26-22"/>
+</g></svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-labelledby="title desc">
+  <title id="title">Two journeys between Caesarea and Joppa</title>
+  <desc id="desc">The men go from Caesarea to Joppa. Peter and the men travel back to Caesarea.</desc>
+  <rect width="420" height="150" rx="10" fill="#fffaf1"/>
+  <g fill="#283c4a" font-family="sans-serif" text-anchor="middle">
+    <text x="62" y="85" font-size="19">Caesarea</text>
+    <text x="367" y="85" font-size="19">Joppa</text>
+    <text x="210" y="32" font-size="17">Cornelius sends men</text>
+    <text x="210" y="132" font-size="17">Peter goes with them</text>
+  </g>
+  <g fill="none" stroke="#28536a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M65 59 Q65 48 80 48 H354 m-10 -7 10 7 -10 7"/>
+    <path d="M360 97 Q360 107 345 107 H65 m10 -7 -10 7 10 7"/>
+  </g>
+</svg>
