@@ -403,6 +403,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [Exodus 1 — Two midwives let the baby boys live](exodus/exodus1_1757333431.md)
 2. [Exodus 2 — A baby by the Nile](exodus/exodus2_1757333530.md)
 3. [Exodus 3 — God calls Moses from a burning bush](exodus/exodus3_1757333660.md)
+4. [Exodus 4 — Moses and Aaron bring God’s message](exodus/exodus4_1757333763.md)
 
 ## Reading with a learner
 
