@@ -496,6 +496,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Numbers 21 — The bronze snake and the journey to Bashan](numbers/numbers21_1757344566.md)
 22. [Numbers 22 — Balak sends for Balaam](numbers/numbers22_1757344729.md)
 23. [Numbers 23 — Balaam blesses Israel](numbers/numbers23_1757344828.md)
+24. [Numbers 24 — Balaam sees Israel’s tents and a future king](numbers/numbers24_1757344974.md)
 
 ## Reading with a learner
 
