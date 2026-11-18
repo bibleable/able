@@ -708,6 +708,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [2 Kings 13 — Elisha gives the king a sign](2kings/2kings13_1757417060.md)
 14. [2 Kings 14 — Amaziah ignores a warning](2kings/2kings14_1757417154.md)
 15. [2 Kings 15 — Kings change in Israel and Judah](2kings/2kings15_1757417283.md)
+16. [2 Kings 16 — Ahaz brings a new altar to Jerusalem](2kings/2kings16_1757417383.md)
 
 ## Reading with a learner
 
