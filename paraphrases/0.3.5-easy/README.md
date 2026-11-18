@@ -230,6 +230,12 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [1 Thessalonians 4 — Encourage each other with hope](1thessalonians/1thessalonians4_1757511795.md)
 5. [1 Thessalonians 5 — Stay alert and care for each other](1thessalonians/1thessalonians5_1757511917.md)
 
+## 2 Thessalonians
+
+1. [2 Thessalonians 1 — God sees you when you suffer](2thessalonians/2thessalonians1_1757511997.md)
+2. [2 Thessalonians 2 — Hold on to what you learned](2thessalonians/2thessalonians2_1757512119.md)
+3. [2 Thessalonians 3 — Keep doing good](2thessalonians/2thessalonians3_1757512261.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
