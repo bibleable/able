@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 130" role="img" aria-labelledby="title desc">
+  <title id="title">The wall repaired by Hanun and the people of Zanoah</title>
+  <desc id="desc">A line runs from the Valley Gate to the Dung Gate. This section of wall was about 450 metres long.</desc>
+  <rect width="420" height="130" rx="10" fill="#fff8eb"/>
+  <path d="M75 69H345" stroke="#576b59" stroke-width="6"/>
+  <g fill="#ae845a" stroke="#513b2b" stroke-width="2">
+    <path d="M55 83V49h40v34H83V64H67v19Z"/>
+    <path d="M325 83V49h40v34h-12V64h-16v19Z"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" fill="#293b33" font-size="19">
+    <text x="210" y="39">About 450 metres of wall</text>
+    <text x="75" y="111">Valley Gate</text><text x="345" y="111">Dung Gate</text>
+  </g>
+</svg>
