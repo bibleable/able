@@ -219,6 +219,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Colossians 1 — Christ has first place in everything](colossians/colossians1_1757511026.md)
 2. [Colossians 2 — Keep living each day with Christ](colossians/colossians2_1757511132.md)
+3. [Colossians 3 — Put on love](colossians/colossians3_1757511231.md)
+4. [Colossians 4 — Pray for us and share the news](colossians/colossians4_1757511368.md)
 
 ## Reading with a learner
 
