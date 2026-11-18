@@ -450,6 +450,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Leviticus 5 — Admitting wrong and bringing an offering](leviticus/leviticus5_1757338946.md)
 6. [Leviticus 6 — Repaying a neighbor and caring for the offerings](leviticus/leviticus6_1757339048.md)
 7. [Leviticus 7 — Sharing the offerings](leviticus/leviticus7_1757339169.md)
+8. [Leviticus 8 — Moses prepares Aaron and his sons to serve](leviticus/leviticus8_1757339270.md)
 
 ## Reading with a learner
 
