@@ -487,6 +487,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Numbers 12 — Miriam and Aaron speak against Moses](numbers/numbers12_1757343218.md)
 13. [Numbers 13 — Twelve scouts explore Canaan](numbers/numbers13_1757343341.md)
 14. [Numbers 14 — Israel turns back from the promised land](numbers/numbers14_1757343470.md)
+15. [Numbers 15 — Offerings and reminders for Israel](numbers/numbers15_1757343749.md)
 
 ## Reading with a learner
 
