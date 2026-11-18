@@ -584,6 +584,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Judges 6 — The LORD calls Gideon](judges/judges6_1757353879.md)
 7. [Judges 7 — The LORD saves Israel with three hundred men](judges/judges7_1757353992.md)
 8. [Judges 8 — Gideon refuses to rule Israel](judges/judges8_1757354119.md)
+9. [Judges 9 — Abimelech becomes king at Shechem](judges/judges9_1757354223.md)
 
 ## Reading with a learner
 
