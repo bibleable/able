@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 135" role="img" aria-labelledby="title">
+  <title id="title">An iron axe head floating on the river</title>
+  <rect width="300" height="135" rx="8" fill="#fff9ed"/>
+  <path d="M0 76 Q25 69 50 76 T100 76 T150 76 T200 76 T250 76 T300 76 V135 H0Z" fill="#b6dfeb"/>
+  <path d="M106 54 Q132 61 146 57 L184 45 Q195 62 191 83 Q161 79 147 73 L106 78Z" fill="#647780" stroke="#2d3b41" stroke-width="3"/>
+  <ellipse cx="119" cy="64" rx="7" ry="4" fill="#fff9ed" stroke="#2d3b41" stroke-width="2"/>
+  <path d="M82 81 Q95 86 111 81 M178 85 Q196 89 211 83 M44 104 Q64 110 84 104 M202 109 Q222 115 242 109" stroke="#38768b" fill="none" stroke-width="3" stroke-linecap="round"/>
+</svg>
