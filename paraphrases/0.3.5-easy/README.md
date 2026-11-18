@@ -492,6 +492,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Numbers 17 — Aaron’s staff grows almonds](numbers/numbers17_1757343928.md)
 18. [Numbers 18 — Shares for the priests and the Levites](numbers/numbers18_1757344126.md)
 19. [Numbers 19 — Water for cleansing after a death](numbers/numbers19_1757344272.md)
+20. [Numbers 20 — Water from the rock and Aaron’s death](numbers/numbers20_1757344384.md)
 
 ## Reading with a learner
 
