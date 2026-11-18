@@ -560,6 +560,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Joshua 9 — Israel makes peace with Gibeon](joshua/joshua9_1757351475.md)
 10. [Joshua 10 — The LORD fights for Israel](joshua/joshua10_1757351587.md)
 11. [Joshua 11 — The northern kings fight Israel](joshua/joshua11_1757351743.md)
+12. [Joshua 12 — Kings on both sides of the Jordan](joshua/joshua12_1757351893.md)
 
 ## Reading with a learner
 

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 160" role="img">
+  <title>Kings west and east of the Jordan River</title>
+  <rect width="450" height="160" rx="8" fill="#faf5e8"/>
+  <path d="M222 -4 Q201 33 223 69 T222 164" fill="none" stroke="#29718c" stroke-width="12"/>
+  <g fill="#243432" text-anchor="middle" font-family="sans-serif">
+    <g font-size="23" font-weight="bold"><text x="99" y="40">West</text><text x="349" y="40">East</text></g>
+    <g font-size="19"><text x="99" y="77">Joshua and Israel</text><text x="349" y="77">Moses and Israel</text>
+      <text x="99" y="108">31 kings</text><text x="349" y="108">2 kings</text></g>
+    <rect x="160" y="124" width="128" height="27" rx="4" fill="#e2f2f8"/>
+    <text x="224" y="144" font-size="17">Jordan River</text>
+  </g>
+</svg>
