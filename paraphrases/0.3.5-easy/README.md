@@ -655,6 +655,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [2 Samuel 12 — Nathan tells David a story](2samuel/2samuel12_1757377817.md)
 13. [2 Samuel 13 — Tamar, Amnon, and Absalom](2samuel/2samuel13_1757377986.md)
 14. [2 Samuel 14 — Absalom returns to Jerusalem](2samuel/2samuel14_1757378106.md)
+15. [2 Samuel 15 — Absalom seeks the throne and David leaves Jerusalem](2samuel/2samuel15_1757378226.md)
 
 ## Reading with a learner
 
