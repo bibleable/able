@@ -352,6 +352,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Genesis 3 — The man and the woman hide from God](genesis/genesis3_1757327745.md)
 4. [Genesis 4 — Cain and Abel](genesis/genesis4_1757327887.md)
 5. [Genesis 5 — Adam’s family from Seth to Noah](genesis/genesis5_1757327991.md)
+6. [Genesis 6 — God tells Noah to build an ark](genesis/genesis6_1757328086.md)
+7. [Genesis 7 — Noah and his family enter the ark](genesis/genesis7_1757328177.md)
 
 ## Reading with a learner
 
