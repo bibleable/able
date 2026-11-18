@@ -642,6 +642,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 2 Samuel
 
 1. [2 Samuel 1 — David sings for Saul and Jonathan](2samuel/2samuel1_1757376373.md)
+2. [2 Samuel 2 — Judah makes David king](2samuel/2samuel2_1757376534.md)
 
 ## Reading with a learner
 
