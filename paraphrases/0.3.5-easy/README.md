@@ -550,6 +550,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Joshua
 
 1. [Joshua 1 — Be strong and brave](joshua/joshua1_1757350469.md)
+2. [Joshua 2 — Rahab asks for a promise](joshua/joshua2_1757350565.md)
 
 ## Reading with a learner
 

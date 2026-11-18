@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" role="img" aria-labelledby="title">
+  <title id="title">A scarlet cord hanging from a window</title>
+  <rect width="240" height="180" rx="8" fill="#f0ddba"/>
+  <rect x="59" y="19" width="121" height="96" rx="3" fill="#40372e"/>
+  <rect x="52" y="112" width="136" height="12" rx="2" fill="#836b4e"/>
+  <path d="M144 105q-6-12-12-4t8 12q8 2 3 12t-3 15l-1 25" fill="none" stroke="#fff5df" stroke-width="9" stroke-linecap="round"/>
+  <path d="M144 105q-6-12-12-4t8 12q8 2 3 12t-3 15l-1 25" fill="none" stroke="#b02324" stroke-width="6" stroke-linecap="round"/>
+</svg>
