@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 165" role="img" aria-labelledby="title desc">
+  <title id="title">The two men in Nathan’s story</title>
+  <desc id="desc">Several sheep stand together on the left. One little lamb stands alone on the right.</desc>
+  <rect width="420" height="165" rx="10" fill="#fff9ed"/>
+  <defs>
+    <g id="sheep" stroke="#413b33" stroke-width="2" stroke-linejoin="round">
+      <path d="M12 23v11m18-11v11" fill="none"/>
+      <ellipse cx="21" cy="18" rx="17" ry="11" fill="#fff"/>
+      <ellipse cx="37" cy="14" rx="7" ry="8" fill="#786a56"/>
+    </g>
+  </defs>
+  <g fill="#302b25" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="bold">
+    <text x="105" y="29">The rich man</text>
+    <text x="315" y="29">The poor man</text>
+  </g>
+  <path d="M210 14v136" stroke="#786a56" stroke-width="2"/>
+  <use xlink:href="#sheep" x="40" y="43"/><use xlink:href="#sheep" x="103" y="43"/>
+  <use xlink:href="#sheep" x="23" y="85"/><use xlink:href="#sheep" x="85" y="85"/><use xlink:href="#sheep" x="147" y="85"/>
+  <use xlink:href="#sheep" transform="translate(298 87) scale(.8)"/>
+  <g fill="#302b25" text-anchor="middle" font-family="sans-serif" font-size="18"><text x="105" y="148">Many sheep</text><text x="315" y="148">One lamb</text></g>
+</svg>
