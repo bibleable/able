@@ -304,6 +304,9 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [1 John 1 — Walk in the light](1john/1john1_1757517678.md)
 2. [1 John 2 — Love each other and stay close to Christ](1john/1john2_1757517811.md)
+3. [1 John 3 — Show love by helping](1john/1john3_1757517944.md)
+4. [1 John 4 — God loved us first](1john/1john4_1757518123.md)
+5. [1 John 5 — God gives life through his Son](1john/1john5_1757518256.md)
 
 ## Reading with a learner
 
