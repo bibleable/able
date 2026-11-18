@@ -675,6 +675,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [1 Kings 5 — Solomon gets ready to build the temple](1kings/1kings5_1757412841.md)
 6. [1 Kings 6 — Solomon builds the temple](1kings/1kings6_1757412943.md)
 7. [1 Kings 7 — Solomon’s palace and the furnishings for the temple](1kings/1kings7_1757413139.md)
+8. [1 Kings 8 — Solomon prays at the temple](1kings/1kings8_1757413308.md)
 
 ## Reading with a learner
 
