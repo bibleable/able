@@ -240,6 +240,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [1 Timothy 1 — Paul asks Timothy to teach what is true](1timothy/1timothy1_1757512373.md)
 2. [1 Timothy 2 — Pray for everyone](1timothy/1timothy2_1757512548.md)
+3. [1 Timothy 3 — People who lead and serve the church](1timothy/1timothy3_1757512666.md)
+4. [1 Timothy 4 — Timothy can set an example](1timothy/1timothy4_1757512784.md)
 
 ## Reading with a learner
 
