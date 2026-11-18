@@ -386,6 +386,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 37. [Genesis 37 — Joseph dreams, and his brothers sell him](genesis/genesis37_1757331701.md)
 38. [Genesis 38 — Judah recognizes what he gave Tamar](genesis/genesis38_1757331811.md)
 39. [Genesis 39 — The LORD stays with Joseph in Egypt](genesis/genesis39_1757331905.md)
+40. [Genesis 40 — Joseph explains two dreams in prison](genesis/genesis40_1757331980.md)
 
 ## Reading with a learner
 
