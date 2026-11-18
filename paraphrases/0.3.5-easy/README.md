@@ -365,6 +365,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 16. [Genesis 16 — The LORD hears Hagar](genesis/genesis16_1757329190.md)
 17. [Genesis 17 — God gives Abram a new name](genesis/genesis17_1757329277.md)
 18. [Genesis 18 — Abraham welcomes three visitors](genesis/genesis18_1757329412.md)
+19. [Genesis 19 — Lot leaves Sodom](genesis/genesis19_1757329634.md)
 
 ## Reading with a learner
 
