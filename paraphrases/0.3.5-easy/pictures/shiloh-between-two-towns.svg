@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 240" role="img" aria-labelledby="title">
+  <title id="title">Shiloh between Lebonah and Bethel, from north to south</title>
+  <rect width="440" height="240" rx="16" fill="#fff9ed"/>
+  <g font-family="sans-serif" font-size="24" fill="#213c35">
+    <text x="24" y="54">North</text>
+    <text x="24" y="202">South</text>
+    <path d="M147 45v150" stroke="#59776b" stroke-width="4"/>
+    <circle cx="147" cy="45" r="9"/><text x="176" y="54">Lebonah</text>
+    <circle cx="147" cy="120" r="13"/><text x="176" y="129" font-weight="bold">Shiloh</text>
+    <circle cx="147" cy="195" r="9"/><text x="176" y="204">Bethel</text>
+  </g>
+</svg>
