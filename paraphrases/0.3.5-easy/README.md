@@ -144,6 +144,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Romans 4 — Abraham trusts God to keep his promise](romans/romans4_1757504145.md)
 5. [Romans 5 — Jesus brings us peace with God](romans/romans5_1757504223.md)
 6. [Romans 6 — Living a new life with Jesus](romans/romans6_1757504398.md)
+7. [Romans 7 — Paul wants to do good but struggles with sin](romans/romans7_1757504461.md)
 
 ## Reading with a learner
 
