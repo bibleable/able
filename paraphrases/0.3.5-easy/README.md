@@ -510,6 +510,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 35. [Numbers 35 — Cities where people could find safety](numbers/numbers35_1757346225.md)
 36. [Numbers 36 — The daughters of Zelophehad keep their family land](numbers/numbers36_1757346329.md)
 
+## Deuteronomy
+
+1. [Deuteronomy 1 — Moses remembers the journey](deuteronomy/deuteronomy1_1757346556.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
