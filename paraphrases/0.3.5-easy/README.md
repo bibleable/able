@@ -635,6 +635,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [1 Samuel 26 — David values Saul’s life](1samuel/1samuel26_1757375738.md)
 27. [1 Samuel 27 — David lives among the Philistines](1samuel/1samuel27_1757375841.md)
 28. [1 Samuel 28 — Saul asks Samuel what to do](1samuel/1samuel28_1757375920.md)
+29. [1 Samuel 29 — Achish sends David back](1samuel/1samuel29_1757376006.md)
 
 ## Reading with a learner
 

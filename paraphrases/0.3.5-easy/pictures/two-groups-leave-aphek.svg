@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 220" role="img" aria-labelledby="title">
+<title id="title">Two groups leave Aphek for different places</title>
+<rect width="580" height="220" rx="14" fill="#fff9ed"/>
+<g fill="none" stroke="#406858" stroke-width="4"><path d="M290 52v29H145v25m145-25h145v25"/><path d="m136 96 9 11 9-11m272 0 9 11 9-11"/></g>
+<g text-anchor="middle" font-family="sans-serif" fill="#243c33">
+<text x="290" y="39" font-size="25" font-weight="bold">Aphek</text>
+<g font-size="21"><text x="145" y="141" font-weight="bold">David and his men</text><text x="435" y="141" font-weight="bold">Philistine army</text>
+<text x="145" y="178">Back to Philistine land</text><text x="435" y="178">On to Jezreel</text></g></g>
+</svg>
