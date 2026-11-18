@@ -656,6 +656,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [2 Samuel 13 — Tamar, Amnon, and Absalom](2samuel/2samuel13_1757377986.md)
 14. [2 Samuel 14 — Absalom returns to Jerusalem](2samuel/2samuel14_1757378106.md)
 15. [2 Samuel 15 — Absalom seeks the throne and David leaves Jerusalem](2samuel/2samuel15_1757378226.md)
+16. [2 Samuel 16 — David meets Ziba and Shimei](2samuel/2samuel16_1757378339.md)
 
 ## Reading with a learner
 

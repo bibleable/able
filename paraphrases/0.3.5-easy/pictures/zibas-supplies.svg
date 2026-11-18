@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" role="img" aria-labelledby="title desc">
+  <title id="title">Supplies Ziba brought</title>
+  <desc id="desc">Four pictures show bread, raisins, fruit, and wine in a leather bag.</desc>
+  <rect width="380" height="200" rx="10" fill="#fff9ed"/>
+  <g stroke="#4b392e" stroke-width="2.5">
+    <path d="M47 52q1-27 41-32 41-4 49 24 1 14-45 17-41 2-45-9Z" fill="#dca45e"/>
+    <path d="m78 30 7 9m11-13 8 9" fill="none"/>
+    <g fill="#745371"><ellipse cx="271" cy="32" rx="10" ry="7"/><ellipse cx="291" cy="29" rx="9" ry="7"/><ellipse cx="279" cy="44" rx="9" ry="7"/><ellipse cx="299" cy="43" rx="9" ry="7"/><ellipse cx="289" cy="55" rx="9" ry="7"/></g>
+    <path d="M82 123q-1-12 10-18" fill="none"/>
+    <path d="M80 123q-23-12-25 12 0 23 25 27 23 0 24-23 1-23-24-16Z" fill="#c76847"/>
+    <path d="M273 117h17l-1 9q14 13 16 29-4 15-23 12-24-1-24-13 0-14 15-28Z" fill="#ae8259"/>
+    <path d="M270 121h23" fill="none"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" font-size="18" fill="#332d29">
+    <text x="92" y="84">Bread</text><text x="285" y="84">Raisins</text>
+    <text x="82" y="189">Summer fruit</text><text x="282" y="189">Wine in a leather bag</text>
+  </g>
+</svg>
