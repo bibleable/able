@@ -308,6 +308,14 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [1 John 4 — God loved us first](1john/1john4_1757518123.md)
 5. [1 John 5 — God gives life through his Son](1john/1john5_1757518256.md)
 
+## 2 John
+
+1. [2 John 1 — Keep loving each other](2john/2john1_1757518352.md)
+
+## 3 John
+
+1. [3 John 1 — Gaius helps traveling believers](3john/3john1_1757518466.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
