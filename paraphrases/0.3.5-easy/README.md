@@ -382,6 +382,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 33. [Genesis 33 — Esau runs to welcome Jacob](genesis/genesis33_1757331192.md)
 34. [Genesis 34 — Shechem harms Dinah, and her brothers take revenge](genesis/genesis34_1757331308.md)
 35. [Genesis 35 — Jacob returns to Bethel](genesis/genesis35_1757331463.md)
+36. [Genesis 36 — Esau’s family and the leaders of Edom](genesis/genesis36_1757331581.md)
 
 ## Reading with a learner
 
