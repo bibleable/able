@@ -532,6 +532,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Deuteronomy 18 — Food for the priests and a prophet for Israel](deuteronomy/deuteronomy18_1757348505.md)
 19. [Deuteronomy 19 — Safe cities and truthful witnesses](deuteronomy/deuteronomy19_1757348646.md)
 20. [Deuteronomy 20 — Moses speaks about Israel at war](deuteronomy/deuteronomy20_1757348729.md)
+21. [Deuteronomy 21 — An unknown killer and laws for families](deuteronomy/deuteronomy21_1757348844.md)
 
 ## Reading with a learner
 
