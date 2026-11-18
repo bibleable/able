@@ -222,6 +222,12 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Colossians 3 — Put on love](colossians/colossians3_1757511231.md)
 4. [Colossians 4 — Pray for us and share the news](colossians/colossians4_1757511368.md)
 
+## 1 Thessalonians
+
+1. [1 Thessalonians 1 — News of your faith has spread](1thessalonians/1thessalonians1_1757511464.md)
+2. [1 Thessalonians 2 — Paul remembers his visit](1thessalonians/1thessalonians2_1757511545.md)
+3. [1 Thessalonians 3 — Timothy brings good news](1thessalonians/1thessalonians3_1757511653.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
