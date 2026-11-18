@@ -415,6 +415,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Exodus 13 — The LORD leads the people out of Egypt](exodus/exodus13_1757334677.md)
 14. [Exodus 14 — The Israelites walk through the sea](exodus/exodus14_1757334810.md)
 15. [Exodus 15 — A song by the sea](exodus/exodus15_1757334970.md)
+16. [Exodus 16 — Bread in the desert](exodus/exodus16_1757335114.md)
 
 ## Reading with a learner
 
