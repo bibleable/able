@@ -141,6 +141,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [Romans 1 — Paul writes to the believers in Rome](romans/romans1_1757503761.md)
 2. [Romans 2 — God judges everyone fairly](romans/romans2_1757503905.md)
 3. [Romans 3 — God makes people right with him through faith](romans/romans3_1757504011.md)
+4. [Romans 4 — Abraham trusts God to keep his promise](romans/romans4_1757504145.md)
 
 ## Reading with a learner
 
