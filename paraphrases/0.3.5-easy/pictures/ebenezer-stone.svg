@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 210" role="img" aria-labelledby="title">
+  <title id="title">Ebenezer, the stone of help, between Mizpah and Shen</title>
+  <rect width="520" height="210" rx="12" fill="#fff9ed"/>
+  <path d="M50 136h420" stroke="#766746" stroke-width="4"/>
+  <path d="m221 135 6-56 14-29 30-5 23 24 8 66z" fill="#a3ada5" stroke="#414d47" stroke-width="4"/>
+  <g fill="#24483e"><circle cx="71" cy="136" r="8"/><circle cx="448" cy="136" r="8"/></g>
+  <g fill="#243c32" font-family="sans-serif" text-anchor="middle" font-size="24">
+    <text x="71" y="174">Mizpah</text><text x="261" y="174">Ebenezer</text><text x="448" y="174">Shen</text>
+  </g>
+</svg>
