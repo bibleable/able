@@ -478,6 +478,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Numbers 3 — The Levites care for the holy tent](numbers/numbers3_1757342106.md)
 4. [Numbers 4 — Carrying the holy tent](numbers/numbers4_1757342276.md)
 5. [Numbers 5 — The camp, repayment and a husband’s suspicion](numbers/numbers5_1757342386.md)
+6. [Numbers 6 — The Nazirite promise and a blessing for Israel](numbers/numbers6_1757342524.md)
 
 ## Reading with a learner
 
