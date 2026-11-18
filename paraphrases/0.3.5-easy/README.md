@@ -513,6 +513,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Deuteronomy
 
 1. [Deuteronomy 1 — Moses remembers the journey](deuteronomy/deuteronomy1_1757346556.md)
+2. [Deuteronomy 2 — Israel travels past its neighbors](deuteronomy/deuteronomy2_1757346647.md)
 
 ## Reading with a learner
 
