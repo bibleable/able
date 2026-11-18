@@ -378,6 +378,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 29. [Genesis 29 — Jacob meets Rachel, and Leah names her sons](genesis/genesis29_1757330783.md)
 30. [Genesis 30 — Jacob’s family and flocks grow](genesis/genesis30_1757330897.md)
 31. [Genesis 31 — Jacob leaves Laban and heads home](genesis/genesis31_1757330985.md)
+32. [Genesis 32 — Jacob prepares to meet Esau and receives a new name](genesis/genesis32_1757331111.md)
 
 ## Reading with a learner
 
