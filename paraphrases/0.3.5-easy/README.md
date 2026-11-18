@@ -465,6 +465,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Leviticus 20 — The LORD sets Israel apart](leviticus/leviticus20_1757340744.md)
 21. [Leviticus 21 — Rules for Aaron and the priests](leviticus/leviticus21_1757340857.md)
 22. [Leviticus 22 — Holy food and gifts for the LORD](leviticus/leviticus22_1757341031.md)
+23. [Leviticus 23 — Times to rest and gather for worship](leviticus/leviticus23_1757341116.md)
 
 ## Reading with a learner
 
