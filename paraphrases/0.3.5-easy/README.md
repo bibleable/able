@@ -678,6 +678,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [1 Kings 8 — Solomon prays at the temple](1kings/1kings8_1757413308.md)
 9. [1 Kings 9 — The LORD answers Solomon](1kings/1kings9_1757413473.md)
 10. [1 Kings 10 — The queen of Sheba visits Solomon](1kings/1kings10_1757413642.md)
+11. [1 Kings 11 — Solomon turns away from the LORD](1kings/1kings11_1757413746.md)
 
 ## Reading with a learner
 
