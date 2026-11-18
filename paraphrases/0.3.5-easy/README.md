@@ -274,6 +274,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Hebrews 8 — God promises a new covenant](hebrews/hebrews8_1757515368.md)
 9. [Hebrews 9 — Christ offered himself once for all](hebrews/hebrews9_1757515500.md)
 10. [Hebrews 10 — Keep trusting God](hebrews/hebrews10_1757515615.md)
+11. [Hebrews 11 — People who trusted God](hebrews/hebrews11_1757515777.md)
 
 ## Reading with a learner
 
