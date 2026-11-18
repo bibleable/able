@@ -707,6 +707,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [2 Kings 12 — Workers repair the temple](2kings/2kings12_1757416982.md)
 13. [2 Kings 13 — Elisha gives the king a sign](2kings/2kings13_1757417060.md)
 14. [2 Kings 14 — Amaziah ignores a warning](2kings/2kings14_1757417154.md)
+15. [2 Kings 15 — Kings change in Israel and Judah](2kings/2kings15_1757417283.md)
 
 ## Reading with a learner
 

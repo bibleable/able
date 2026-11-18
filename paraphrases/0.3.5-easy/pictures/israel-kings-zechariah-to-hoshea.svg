@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 350" role="img" aria-labelledby="title desc">
+  <title id="title">Kings of Israel in order</title>
+  <desc id="desc">Read down from Zechariah to Hoshea. Each arrow means the next king.</desc>
+  <rect width="260" height="350" rx="10" fill="#fff8eb"/>
+  <g text-anchor="middle" font-family="sans-serif" fill="#263c36">
+    <text x="130" y="32" font-size="22" font-weight="bold">Kings of Israel</text>
+    <text x="130" y="70" font-size="21">Zechariah</text>
+    <path d="M130 75v17m-5-5 5 5 5-5" fill="none" stroke="#406455" stroke-width="2"/>
+    <text x="130" y="122" font-size="21">Shallum</text>
+    <path d="M130 127v17m-5-5 5 5 5-5" fill="none" stroke="#406455" stroke-width="2"/>
+    <text x="130" y="174" font-size="21">Menahem</text>
+    <path d="M130 179v17m-5-5 5 5 5-5" fill="none" stroke="#406455" stroke-width="2"/>
+    <text x="130" y="226" font-size="21">Pekahiah</text>
+    <path d="M130 231v17m-5-5 5 5 5-5" fill="none" stroke="#406455" stroke-width="2"/>
+    <text x="130" y="278" font-size="21">Pekah</text>
+    <path d="M130 283v17m-5-5 5 5 5-5" fill="none" stroke="#406455" stroke-width="2"/>
+    <text x="130" y="330" font-size="21">Hoshea</text>
+  </g>
+</svg>
