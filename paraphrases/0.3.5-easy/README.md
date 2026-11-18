@@ -469,6 +469,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Leviticus 24 — Lamps, bread and a law for everyone](leviticus/leviticus24_1757341248.md)
 25. [Leviticus 25 — Rest for the land and the Year of Jubilee](leviticus/leviticus25_1757341390.md)
 26. [Leviticus 26 — The LORD remembers his covenant](leviticus/leviticus26_1757341500.md)
+27. [Leviticus 27 — Promises and gifts to the LORD](leviticus/leviticus27_1757341605.md)
 
 ## Reading with a learner
 
