@@ -650,6 +650,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [2 Samuel 7 — The LORD makes a promise to David](2samuel/2samuel7_1757377227.md)
 8. [2 Samuel 8 — David wins battles and rules Israel](2samuel/2samuel8_1757377322.md)
 9. [2 Samuel 9 — David shows kindness to Mephibosheth](2samuel/2samuel9_1757377475.md)
+10. [2 Samuel 10 — Hanun turns away David’s messengers](2samuel/2samuel10_1757377594.md)
 
 ## Reading with a learner
 

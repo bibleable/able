@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 230" role="img" aria-labelledby="title desc">
+  <title id="title">David’s message to his men</title>
+  <desc id="desc">First stay in Jericho. When your beards grow back, come home.</desc>
+  <rect width="420" height="230" rx="12" fill="#fff9ed"/>
+  <g stroke="#463c32" stroke-width="3" stroke-linejoin="round">
+    <path d="M22 73V24h12v10h10V24h12v10h10V24h12v49H58V54a8 8 0 0 0-16 0v19Z" fill="#ddbb90"/>
+    <path d="M24 185v-30l27-20 27 20v30Z" fill="#e0c79c"/>
+    <path d="m18 157 33-27 33 27" fill="none"/>
+    <path d="M46 184v-18h12v18" fill="#806447"/>
+    <path d="M51 84v31m-7-8 7 8 7-8" fill="none"/>
+  </g>
+  <g fill="#302b25" font-family="sans-serif" font-size="23">
+    <text x="100" y="54">Stay in Jericho.</text>
+    <text x="100" y="150">When your beards grow back,</text>
+    <text x="100" y="181">come home.</text>
+  </g>
+</svg>
