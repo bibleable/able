@@ -208,6 +208,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Ephesians 5 — Live in love and light](ephesians/ephesians5_1757510185.md)
 6. [Ephesians 6 — Stand firm and pray for each other](ephesians/ephesians6_1757510351.md)
 
+## Philippians
+
+1. [Philippians 1 — Paul rejoices as the good news spreads](philippians/philippians1_1757510470.md)
+2. [Philippians 2 — Care for others as Christ did](philippians/philippians2_1757510643.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
