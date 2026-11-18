@@ -194,6 +194,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Galatians 1 — Paul tells how he received the good news](galatians/galatians1_1757508984.md)
 2. [Galatians 2 — Paul speaks up when Peter stops sharing meals](galatians/galatians2_1757509082.md)
+3. [Galatians 3 — God keeps his promise to Abraham](galatians/galatians3_1757509184.md)
+4. [Galatians 4 — God welcomes us as his children](galatians/galatians4_1757509290.md)
 
 ## Reading with a learner
 
