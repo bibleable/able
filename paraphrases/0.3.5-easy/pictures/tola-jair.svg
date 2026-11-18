@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 110" role="img">
+  <title>Tola led for 23 years. Jair followed and led for 22 years.</title>
+  <rect width="360" height="110" rx="8" fill="#fffaf0"/>
+  <g fill="#e0ebdf" stroke="#395541" stroke-width="2">
+    <rect x="12" y="13" width="126" height="84" rx="6"/>
+    <rect x="222" y="13" width="126" height="84" rx="6"/>
+  </g>
+  <path d="M149 55h61m-10-8 10 8-10 8" fill="none" stroke="#395541" stroke-width="3"/>
+  <g text-anchor="middle" font-family="sans-serif" fill="#23332b">
+    <g font-size="23"><text x="75" y="48">Tola</text><text x="285" y="48">Jair</text></g>
+    <g font-size="18"><text x="75" y="76">23 years</text><text x="285" y="76">22 years</text></g>
+  </g>
+</svg>
