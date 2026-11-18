@@ -262,6 +262,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Philemon 1 — Welcome Onesimus as you would welcome me](philemon/philemon1_1757514279.md)
 
+## Hebrews
+
+1. [Hebrews 1 — God speaks through his Son](hebrews/hebrews1_1757514368.md)
+2. [Hebrews 2 — Jesus shares our human life](hebrews/hebrews2_1757514552.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
