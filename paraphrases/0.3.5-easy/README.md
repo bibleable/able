@@ -570,6 +570,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [Joshua 19 — Six tribes and Joshua receive land](joshua/joshua19_1757352738.md)
 20. [Joshua 20 — Six cities of refuge](joshua/joshua20_1757352829.md)
 21. [Joshua 21 — The Levites receive forty-eight cities](joshua/joshua21_1757352915.md)
+22. [Joshua 22 — An altar called Witness](joshua/joshua22_1757353037.md)
 
 ## Reading with a learner
 
