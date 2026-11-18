@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" role="img" aria-labelledby="title desc">
+  <title id="title">An empty bowl turned upside down</title>
+  <desc id="desc">The open side faces up on the left and down on the right.</desc>
+  <rect width="360" height="140" rx="10" fill="#fff8eb"/>
+  <g stroke="#573e2c" stroke-width="3">
+    <path d="M24 55Q31 99 77 100Q123 99 130 55Z" fill="#bd8659"/>
+    <ellipse cx="77" cy="55" rx="53" ry="9" fill="#f3d7af"/>
+    <path d="M229 98Q237 54 282 53Q328 54 335 98Q283 107 229 98Z" fill="#bd8659"/>
+    <ellipse cx="282" cy="53" rx="15" ry="3" fill="#d7a778"/>
+  </g>
+  <path d="M151 74h55m-10-9 10 9-10 9" fill="none" stroke="#32584e" stroke-width="4"/>
+</svg>

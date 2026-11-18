@@ -713,6 +713,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [2 Kings 18 — Assyria challenges Hezekiah’s trust in the LORD](2kings/2kings18_1757417668.md)
 19. [2 Kings 19 — Hezekiah spreads a letter before the LORD](2kings/2kings19_1757417831.md)
 20. [2 Kings 20 — The LORD hears Hezekiah’s prayer](2kings/2kings20_1757418034.md)
+21. [2 Kings 21 — The LORD warns Jerusalem](2kings/2kings21_1757418124.md)
 
 ## Reading with a learner
 
