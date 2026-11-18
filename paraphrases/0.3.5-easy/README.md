@@ -533,6 +533,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [Deuteronomy 19 — Safe cities and truthful witnesses](deuteronomy/deuteronomy19_1757348646.md)
 20. [Deuteronomy 20 — Moses speaks about Israel at war](deuteronomy/deuteronomy20_1757348729.md)
 21. [Deuteronomy 21 — An unknown killer and laws for families](deuteronomy/deuteronomy21_1757348844.md)
+22. [Deuteronomy 22 — Helping neighbors and hearing marriage cases](deuteronomy/deuteronomy22_1757348938.md)
 
 ## Reading with a learner
 
