@@ -441,6 +441,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 39. [Exodus 39 — The workers bring their finished work to Moses](exodus/exodus39_1757338210.md)
 40. [Exodus 40 — The cloud covers the holy tent](exodus/exodus40_1757338339.md)
 
+## Leviticus
+
+1. [Leviticus 1 — Bringing a burnt offering](leviticus/leviticus1_1757338437.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
