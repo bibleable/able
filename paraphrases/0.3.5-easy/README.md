@@ -484,6 +484,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Numbers 9 — Passover and the cloud over the tent](numbers/numbers9_1757342882.md)
 10. [Numbers 10 — The trumpets sound and Israel leaves Sinai](numbers/numbers10_1757342999.md)
 11. [Numbers 11 — Moses asks for help and the people ask for meat](numbers/numbers11_1757343124.md)
+12. [Numbers 12 — Miriam and Aaron speak against Moses](numbers/numbers12_1757343218.md)
 
 ## Reading with a learner
 
