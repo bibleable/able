@@ -626,6 +626,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [1 Samuel 17 — David faces Goliath](1samuel/1samuel17_1757374708.md)
 18. [1 Samuel 18 — Jonathan loves David, but Saul fears him](1samuel/1samuel18_1757374828.md)
 19. [1 Samuel 19 — Jonathan and Michal help David](1samuel/1samuel19_1757374900.md)
+20. [1 Samuel 20 — Jonathan keeps his promise to David](1samuel/1samuel20_1757375016.md)
 
 ## Reading with a learner
 
