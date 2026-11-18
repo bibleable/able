@@ -324,6 +324,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Revelation 1 — John hears a voice and turns](revelation/revelation1_1757518825.md)
 2. [Revelation 2 — Jesus speaks to four churches](revelation/revelation2_1757518975.md)
+3. [Revelation 3 — Listen to what Jesus says to three churches](revelation/revelation3_1757519163.md)
 
 ## Reading with a learner
 
