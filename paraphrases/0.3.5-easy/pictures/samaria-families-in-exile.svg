@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 200" role="img" aria-labelledby="title desc">
+  <title id="title">Two moves involving Samaria</title>
+  <desc id="desc">Israelites went from Samaria into exile in Assyria. Families from other lands went to Samaria.</desc>
+  <rect width="420" height="200" rx="12" fill="#fff9ed"/>
+  <g font-family="sans-serif" fill="#24382e" text-anchor="middle">
+    <text x="210" y="32" font-size="22" font-weight="bold">Israelites taken into exile</text>
+    <text x="90" y="71" font-size="22">Samaria</text><text x="326" y="71" font-size="22">Assyria</text>
+    <text x="210" y="131" font-size="22" font-weight="bold">Families brought to Samaria</text>
+    <text x="90" y="170" font-size="22">Other lands</text><text x="326" y="170" font-size="22">Samaria</text>
+  </g>
+  <path d="M166 64h84m-10-8 10 8-10 8M166 163h84m-10-8 10 8-10 8" fill="none" stroke="#3e6756" stroke-width="4"/>
+  <path d="M25 97h370" stroke="#c5bcab"/>
+</svg>
