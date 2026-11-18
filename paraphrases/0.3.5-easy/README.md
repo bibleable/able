@@ -726,6 +726,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Ezra 3 — The people rebuild the altar and begin the temple](ezra/ezra3_1757429749.md)
 4. [Ezra 4 — Enemies oppose the rebuilding in Jerusalem](ezra/ezra4_1757429839.md)
 5. [Ezra 5 — The builders keep working while the governor writes to Darius](ezra/ezra5_1757429932.md)
+6. [Ezra 6 — The people finish the temple and celebrate](ezra/ezra6_1757430019.md)
 
 ## Reading with a learner
 
