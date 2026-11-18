@@ -729,6 +729,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Ezra 6 — The people finish the temple and celebrate](ezra/ezra6_1757430019.md)
 7. [Ezra 7 — Ezra goes to Jerusalem to teach God’s law](ezra/ezra7_1757430148.md)
 8. [Ezra 8 — Ezra and the families bring the gifts to Jerusalem](ezra/ezra8_1757430325.md)
+9. [Ezra 9 — Ezra prays about his people’s guilt](ezra/ezra9_1757430426.md)
 
 ## Reading with a learner
 
