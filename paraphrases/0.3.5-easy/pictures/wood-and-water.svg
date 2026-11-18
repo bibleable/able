@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 142" role="img">
+  <title>Cut wood and a jar of water</title>
+  <rect width="340" height="142" rx="8" fill="#fffaf1"/>
+  <g stroke="#513b2b" stroke-width="3" stroke-linejoin="round">
+    <path d="M36 77L111 53Q129 50 132 68L57 94Z" fill="#94643f"/>
+    <ellipse cx="45" cy="85" rx="14" ry="17" fill="#dfb47e"/>
+    <path d="M62 85L137 61Q155 59 159 77L81 103Z" fill="#a77750"/>
+    <ellipse cx="71" cy="93" rx="14" ry="17" fill="#dfb47e"/>
+    <path d="M51 55L124 32Q142 30 146 47L71 73Z" fill="#a77750"/>
+    <ellipse cx="61" cy="64" rx="14" ry="17" fill="#dfb47e"/>
+    <path d="M241 47Q243 64 230 75Q216 92 233 108H270Q286 92 274 76Q261 63 264 47Z" fill="#d8976c"/>
+    <ellipse cx="252" cy="47" rx="14" ry="5" fill="#7ab8cf"/>
+    <path d="M269 67Q294 54 287 76Q283 86 278 87" fill="none"/>
+  </g>
+  <g font-family="sans-serif" font-size="16" text-anchor="middle" fill="#312c28">
+    <text x="92" y="132">Wood</text>
+    <text x="254" y="132">Water</text>
+  </g>
+</svg>
