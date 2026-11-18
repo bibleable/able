@@ -136,6 +136,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 27. [Acts 27 — Everyone survives the shipwreck](acts/acts27_1757503507.md)
 28. [Acts 28 — Paul reaches Rome and welcomes visitors](acts/acts28_1757503655.md)
 
+## Romans
+
+1. [Romans 1 — Paul writes to the believers in Rome](romans/romans1_1757503761.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
