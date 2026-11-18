@@ -407,6 +407,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Exodus 5 — Pharaoh makes the people gather their own straw](exodus/exodus5_1757333872.md)
 6. [Exodus 6 — God promises to free his people](exodus/exodus6_1757333953.md)
 7. [Exodus 7 — Aaron lifts his staff at the Nile](exodus/exodus7_1757334060.md)
+8. [Exodus 8 — Frogs, gnats, and flies come to Egypt](exodus/exodus8_1757334166.md)
 
 ## Reading with a learner
 
