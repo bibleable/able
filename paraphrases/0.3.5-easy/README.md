@@ -544,6 +544,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [Deuteronomy 30 — Choose life](deuteronomy/deuteronomy30_1757349804.md)
 31. [Deuteronomy 31 — Joshua will lead Israel](deuteronomy/deuteronomy31_1757349978.md)
 32. [Deuteronomy 32 — The song of Moses](deuteronomy/deuteronomy32_1757350141.md)
+33. [Deuteronomy 33 — Moses blesses the tribes of Israel](deuteronomy/deuteronomy33_1757350251.md)
 
 ## Reading with a learner
 
