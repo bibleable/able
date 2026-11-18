@@ -187,6 +187,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [2 Corinthians 9 — Give with joy](2corinthians/2corinthians9_1757508467.md)
 10. [2 Corinthians 10 — Paul explains the work the Lord gave him](2corinthians/2corinthians10_1757508574.md)
 11. [2 Corinthians 11 — Paul speaks up for the church](2corinthians/2corinthians11_1757508711.md)
+12. [2 Corinthians 12 — Christ helps Paul in his weakness](2corinthians/2corinthians12_1757508838.md)
+13. [2 Corinthians 13 — Paul prays for the church](2corinthians/2corinthians13_1757508911.md)
 
 ## Reading with a learner
 
