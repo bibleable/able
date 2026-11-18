@@ -547,6 +547,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 33. [Deuteronomy 33 — Moses blesses the tribes of Israel](deuteronomy/deuteronomy33_1757350251.md)
 34. [Deuteronomy 34 — Moses sees the land and Joshua leads Israel](deuteronomy/deuteronomy34_1757350348.md)
 
+## Joshua
+
+1. [Joshua 1 — Be strong and brave](joshua/joshua1_1757350469.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
