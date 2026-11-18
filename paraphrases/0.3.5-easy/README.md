@@ -155,6 +155,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Romans 15 — Welcome one another as Christ welcomed you](romans/romans15_1757505356.md)
 16. [Romans 16 — Paul greets his friends in Rome](romans/romans16_1757505480.md)
 
+## 1 Corinthians
+
+1. [1 Corinthians 1 — Paul asks the believers in Corinth to stay together](1corinthians/1corinthians1_1757505564.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
