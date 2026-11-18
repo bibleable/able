@@ -732,6 +732,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Ezra 9 — Ezra prays about his people’s guilt](ezra/ezra9_1757430426.md)
 10. [Ezra 10 — The people gather in Jerusalem](ezra/ezra10_1757430661.md)
 
+## Nehemiah
+
+1. [Nehemiah 1 — Nehemiah hears news of Jerusalem and prays](nehemiah/nehemiah1_1757430803.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
