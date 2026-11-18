@@ -486,6 +486,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Numbers 11 — Moses asks for help and the people ask for meat](numbers/numbers11_1757343124.md)
 12. [Numbers 12 — Miriam and Aaron speak against Moses](numbers/numbers12_1757343218.md)
 13. [Numbers 13 — Twelve scouts explore Canaan](numbers/numbers13_1757343341.md)
+14. [Numbers 14 — Israel turns back from the promised land](numbers/numbers14_1757343470.md)
 
 ## Reading with a learner
 
