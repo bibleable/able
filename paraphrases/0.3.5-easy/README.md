@@ -369,6 +369,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Genesis 20 — God tells Abimelech to return Sarah](genesis/genesis20_1757329734.md)
 21. [Genesis 21 — Sarah has a son, and God hears Ishmael](genesis/genesis21_1757329822.md)
 22. [Genesis 22 — God provides a ram for Abraham](genesis/genesis22_1757329887.md)
+23. [Genesis 23 — Abraham buys a place to bury Sarah](genesis/genesis23_1757330009.md)
 
 ## Reading with a learner
 
