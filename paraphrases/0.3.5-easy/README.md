@@ -361,6 +361,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Genesis 12 — Abram leaves Haran](genesis/genesis12_1757328821.md)
 13. [Genesis 13 — Abram lets Lot choose land](genesis/genesis13_1757328914.md)
 14. [Genesis 14 — Abram brings Lot home](genesis/genesis14_1757329005.md)
+15. [Genesis 15 — Abram looks up at the stars](genesis/genesis15_1757329122.md)
+16. [Genesis 16 — The LORD hears Hagar](genesis/genesis16_1757329190.md)
 
 ## Reading with a learner
 
