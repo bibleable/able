@@ -354,6 +354,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Genesis 5 — Adam’s family from Seth to Noah](genesis/genesis5_1757327991.md)
 6. [Genesis 6 — God tells Noah to build an ark](genesis/genesis6_1757328086.md)
 7. [Genesis 7 — Noah and his family enter the ark](genesis/genesis7_1757328177.md)
+8. [Genesis 8 — Noah waits for dry ground](genesis/genesis8_1757328259.md)
+9. [Genesis 9 — God puts a rainbow in the clouds](genesis/genesis9_1757328392.md)
 
 ## Reading with a learner
 
