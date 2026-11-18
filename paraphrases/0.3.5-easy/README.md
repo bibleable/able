@@ -333,6 +333,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Revelation 9 — John hears the fifth and sixth trumpets](revelation/revelation9_1757520145.md)
 10. [Revelation 10 — John takes the little scroll](revelation/revelation10_1757520257.md)
 11. [Revelation 11 — Two witnesses speak and the seventh trumpet sounds](revelation/revelation11_1757520432.md)
+12. [Revelation 12 — The woman, her child and the dragon](revelation/revelation12_1757520617.md)
+13. [Revelation 13 — A beast from the sea and a beast from the land](revelation/revelation13_1757520783.md)
 
 ## Reading with a learner
 
