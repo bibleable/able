@@ -514,6 +514,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Deuteronomy 1 — Moses remembers the journey](deuteronomy/deuteronomy1_1757346556.md)
 2. [Deuteronomy 2 — Israel travels past its neighbors](deuteronomy/deuteronomy2_1757346647.md)
+3. [Deuteronomy 3 — Moses prepares Joshua to lead](deuteronomy/deuteronomy3_1757346792.md)
 
 ## Reading with a learner
 
