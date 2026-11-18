@@ -467,6 +467,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 22. [Leviticus 22 — Holy food and gifts for the LORD](leviticus/leviticus22_1757341031.md)
 23. [Leviticus 23 — Times to rest and gather for worship](leviticus/leviticus23_1757341116.md)
 24. [Leviticus 24 — Lamps, bread and a law for everyone](leviticus/leviticus24_1757341248.md)
+25. [Leviticus 25 — Rest for the land and the Year of Jubilee](leviticus/leviticus25_1757341390.md)
 
 ## Reading with a learner
 
