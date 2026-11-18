@@ -582,6 +582,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Judges 4 — Deborah, Barak, and Jael](judges/judges4_1757353681.md)
 5. [Judges 5 — Deborah and Barak sing](judges/judges5_1757353762.md)
 6. [Judges 6 — The LORD calls Gideon](judges/judges6_1757353879.md)
+7. [Judges 7 — The LORD saves Israel with three hundred men](judges/judges7_1757353992.md)
 
 ## Reading with a learner
 
