@@ -366,6 +366,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Genesis 17 — God gives Abram a new name](genesis/genesis17_1757329277.md)
 18. [Genesis 18 — Abraham welcomes three visitors](genesis/genesis18_1757329412.md)
 19. [Genesis 19 — Lot leaves Sodom](genesis/genesis19_1757329634.md)
+20. [Genesis 20 — God tells Abimelech to return Sarah](genesis/genesis20_1757329734.md)
 
 ## Reading with a learner
 
