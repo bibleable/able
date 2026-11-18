@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-labelledby="title desc">
+<title id="title">The basins around the temple</title>
+<desc id="desc">Five small basins on stands are north of the temple and five are south. The large Sea is at the southeast corner. This drawing shows their positions in groups.</desc>
+<rect width="400" height="220" rx="10" fill="#fff9ed"/>
+<g fill="#ab7955" stroke="#503e32" stroke-width="2"><circle cx="45" cy="43" r="8"/><circle cx="80" cy="43" r="8"/><circle cx="115" cy="43" r="8"/><circle cx="150" cy="43" r="8"/><circle cx="185" cy="43" r="8"/><circle cx="45" cy="159" r="8"/><circle cx="80" cy="159" r="8"/><circle cx="115" cy="159" r="8"/><circle cx="150" cy="159" r="8"/><circle cx="185" cy="159" r="8"/></g>
+<rect x="25" y="65" width="198" height="70" rx="3" fill="#eedab4" stroke="#504333" stroke-width="3"/>
+<circle cx="229" cy="171" r="24" fill="#83abb5" stroke="#503e32" stroke-width="3"/>
+<g font-family="sans-serif" font-size="18" fill="#302b25"><text x="25" y="24">North</text><text x="91" y="108">Temple</text><text x="25" y="194">South</text><text x="261" y="174">The Sea</text><text x="220" y="49">Five basin stands</text></g>
+</svg>
