@@ -662,6 +662,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [2 Samuel 19 — David returns across the Jordan](2samuel/2samuel19_1757378742.md)
 20. [2 Samuel 20 — Sheba rebels and a wise woman speaks](2samuel/2samuel20_1757378872.md)
 21. [2 Samuel 21 — Rizpah keeps watch](2samuel/2samuel21_1792322671.md)
+22. [2 Samuel 22 — David sings to the LORD who rescued him](2samuel/2samuel22_1792322671.md)
 
 ## Reading with a learner
 

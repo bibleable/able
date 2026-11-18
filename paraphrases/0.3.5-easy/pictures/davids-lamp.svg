@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150" role="img" aria-labelledby="title desc">
+  <title id="title">An oil lamp in the dark</title>
+  <desc id="desc">A bright flame burns at the tip of a small clay lamp.</desc>
+  <rect width="300" height="150" rx="10" fill="#243342"/>
+  <g stroke-linejoin="round">
+    <path d="M61 90q39-24 82-10l51-12 20 5-32 18q-5 30-61 31-46 0-60-32Z" fill="#ce9069" stroke="#f2ceab" stroke-width="3"/>
+    <ellipse cx="115" cy="87" rx="31" ry="7" fill="#79543e"/>
+    <path d="m195 77 16-6" stroke="#3d322a" stroke-width="5"/>
+    <path d="M210 71q-16-12-6-27 6-8 6-18 23 29 12 42-5 6-12 3Z" fill="#ffdf83"/>
+    <path d="M212 69q-6-7 1-17 8 13 4 17Z" fill="#fff6cf"/>
+  </g>
+</svg>
