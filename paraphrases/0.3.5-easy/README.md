@@ -411,6 +411,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Exodus 9 — The LORD warns Pharaoh before the hail falls](exodus/exodus9_1757334274.md)
 10. [Exodus 10 — Locusts and darkness cover Egypt](exodus/exodus10_1757334359.md)
 11. [Exodus 11 — Moses warns Pharaoh about midnight](exodus/exodus11_1757334455.md)
+12. [Exodus 12 — The first Passover and the journey out of Egypt](exodus/exodus12_1757334603.md)
 
 ## Reading with a learner
 
