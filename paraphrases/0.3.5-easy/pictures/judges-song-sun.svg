@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 142" role="img">
+  <title>The bright sun shines over the hills</title>
+  <rect width="320" height="142" rx="8" fill="#eaf4f7"/>
+  <g stroke="#986019" stroke-width="4" stroke-linecap="round">
+    <circle cx="162" cy="55" r="24" fill="#ffd35e"/>
+    <path d="M162 14V5m0 92v9m-41-51h-12m94 0h12m-82-30-8-8m66 66 8 8m-66-8-8 8m66-66 8-8" fill="none"/>
+  </g>
+  <path d="M0 120q63-42 132-10t188-13v45H0Z" fill="#739169" stroke="#435c3c" stroke-width="2"/>
+</svg>

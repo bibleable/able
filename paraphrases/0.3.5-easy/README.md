@@ -580,6 +580,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Judges 2 — The LORD sends judges to help Israel](judges/judges2_1757353533.md)
 3. [Judges 3 — Othniel, Ehud, and Shamgar rescue Israel](judges/judges3_1757353600.md)
 4. [Judges 4 — Deborah, Barak, and Jael](judges/judges4_1757353681.md)
+5. [Judges 5 — Deborah and Barak sing](judges/judges5_1757353762.md)
 
 ## Reading with a learner
 
