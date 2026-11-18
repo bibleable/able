@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 215" role="img" aria-labelledby="title desc">
+  <title id="title">The gifts were weighed twice</title>
+  <desc id="desc">At the Ahava Canal Ezra weighed the gifts. In Jerusalem the group weighed them again and recorded the total.</desc>
+  <rect width="400" height="215" rx="10" fill="#fff8eb"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#253c35">
+    <text x="200" y="39" font-weight="bold" font-size="22">At the Ahava Canal</text>
+    <text x="200" y="70" font-size="20">Ezra weighs the gifts.</text>
+    <text x="200" y="145" font-weight="bold" font-size="22">In Jerusalem</text>
+    <text x="200" y="174" font-size="20">The group weighs the gifts again</text>
+    <text x="200" y="199" font-size="20">and records the total.</text>
+  </g>
+  <path d="M200 85v32m-8-8 8 8 8-8" fill="none" stroke="#406354" stroke-width="3"/>
+</svg>
