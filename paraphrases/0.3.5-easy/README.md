@@ -395,6 +395,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 46. [Genesis 46 — Jacob sees Joseph again in Egypt](genesis/genesis46_1757332745.md)
 47. [Genesis 47 — Joseph gives his family a home in Goshen](genesis/genesis47_1757332894.md)
 48. [Genesis 48 — Jacob blesses Ephraim and Manasseh](genesis/genesis48_1757332988.md)
+49. [Genesis 49 — Jacob speaks to his twelve sons](genesis/genesis49_1757333080.md)
 
 ## Reading with a learner
 
