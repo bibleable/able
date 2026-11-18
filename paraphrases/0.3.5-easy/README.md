@@ -422,6 +422,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Exodus 20 — God gives the Ten Commandments](exodus/exodus20_1757335668.md)
 21. [Exodus 21 — Rules about servants, injuries and animals](exodus/exodus21_1757335857.md)
 22. [Exodus 22 — Paying back losses and caring for neighbors](exodus/exodus22_1757335959.md)
+23. [Exodus 23 — Justice, rest and the journey ahead](exodus/exodus23_1757336087.md)
 
 ## Reading with a learner
 
