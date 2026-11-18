@@ -404,6 +404,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Exodus 2 — A baby by the Nile](exodus/exodus2_1757333530.md)
 3. [Exodus 3 — God calls Moses from a burning bush](exodus/exodus3_1757333660.md)
 4. [Exodus 4 — Moses and Aaron bring God’s message](exodus/exodus4_1757333763.md)
+5. [Exodus 5 — Pharaoh makes the people gather their own straw](exodus/exodus5_1757333872.md)
 
 ## Reading with a learner
 
