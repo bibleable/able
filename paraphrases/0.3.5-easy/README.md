@@ -431,6 +431,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 29. [Exodus 29 — Setting Aaron and his sons apart](exodus/exodus29_1757336879.md)
 30. [Exodus 30 — The incense altar and the washing basin](exodus/exodus30_1757336975.md)
 31. [Exodus 31 — Skilled workers and a day of rest](exodus/exodus31_1757337060.md)
+32. [Exodus 32 — The gold calf and Moses’ prayer](exodus/exodus32_1757337194.md)
 
 ## Reading with a learner
 
