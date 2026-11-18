@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 170" role="img">
+  <title>The sun above Gibeon and the moon above the Valley of Aijalon</title>
+  <rect width="420" height="170" rx="8" fill="#eef4fa"/>
+  <circle cx="100" cy="43" r="23" fill="#ffce52" stroke="#7d5922" stroke-width="3"/>
+  <path d="M316 19a25 25 0 1 0 26 33a26 26 0 0 1 -26 -33Z" fill="#fff" stroke="#435475" stroke-width="3"/>
+  <path d="M49 118V88h16v9h16v-9h16v9h16v-9h16v9h16v-9h16v30Z" fill="#c09e80" stroke="#695343" stroke-width="3"/>
+  <path d="M226 90q34 -14 68 17q23 21 44 2q38 -35 71 -21v38H226Z" fill="#a8ba91" stroke="#4f6746" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="17" fill="#202a34" text-anchor="middle">
+    <text x="104" y="153">Gibeon</text>
+    <text x="316" y="153">Valley of Aijalon</text>
+  </g>
+</svg>
