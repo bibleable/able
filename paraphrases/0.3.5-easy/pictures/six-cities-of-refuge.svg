@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200" role="img">
+  <title>West of the Jordan are Kedesh, Shechem and Hebron. East are Golan, Ramoth and Bezer.</title>
+  <rect width="400" height="200" rx="8" fill="#fffaf1"/>
+  <path d="M202 0q-12 25 0 55t0 55t0 55l-3 35" fill="none" stroke="#306e88" stroke-width="9"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#20322e">
+    <g font-size="21" font-weight="bold"><text x="98" y="31">West</text><text x="300" y="31">East</text></g>
+    <g font-size="20"><text x="98" y="68">Kedesh</text><text x="300" y="68">Golan</text>
+    <text x="98" y="103">Shechem</text><text x="300" y="103">Ramoth</text>
+    <text x="98" y="138">Hebron</text><text x="300" y="138">Bezer</text></g>
+    <rect x="135" y="160" width="130" height="32" rx="5" fill="#e0eef3"/>
+    <text x="200" y="183" font-size="18">Jordan River</text>
+  </g>
+</svg>
