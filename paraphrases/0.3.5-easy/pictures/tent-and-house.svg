@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 135" role="img">
+  <title>A tent beside a house</title>
+  <rect width="320" height="135" rx="8" fill="#fffaf1"/>
+  <g stroke="#493e37" stroke-width="3" stroke-linejoin="round">
+    <path d="M14 96 L57 27 L101 96 Z" fill="#e1a652"/>
+    <path d="M57 27 L93 21 L139 88 L101 96Z" fill="#cc8f42"/>
+    <path d="M39 96 L57 56 L77 96Z" fill="#735438"/>
+    <path d="M192 54 H286 V96 H192Z" fill="#e4c4a3"/>
+    <path d="M181 55 L239 14 L298 55Z" fill="#a8604f"/>
+    <path d="M230 96 V69 H248 V96" fill="#895f49"/>
+  </g>
+  <g font-family="sans-serif" font-size="18" text-anchor="middle" fill="#26332f">
+    <text x="74" y="122">A tent</text><text x="240" y="122">A house</text>
+  </g>
+</svg>

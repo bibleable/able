@@ -180,6 +180,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [2 Corinthians 2 — Show him again that you love him](2corinthians/2corinthians2_1757507639.md)
 3. [2 Corinthians 3 — God’s Spirit gives life](2corinthians/2corinthians3_1757507755.md)
 4. [2 Corinthians 4 — God gives us strength to keep going](2corinthians/2corinthians4_1757507872.md)
+5. [2 Corinthians 5 — God brings us back to himself](2corinthians/2corinthians5_1757507968.md)
+6. [2 Corinthians 6 — Open your hearts to us](2corinthians/2corinthians6_1757508131.md)
 
 ## Reading with a learner
 
