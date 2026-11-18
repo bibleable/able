@@ -398,6 +398,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 49. [Genesis 49 — Jacob speaks to his twelve sons](genesis/genesis49_1757333080.md)
 50. [Genesis 50 — Joseph keeps his promise and comforts his brothers](genesis/genesis50_1757333283.md)
 
+## Exodus
+
+1. [Exodus 1 — Two midwives let the baby boys live](exodus/exodus1_1757333431.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
