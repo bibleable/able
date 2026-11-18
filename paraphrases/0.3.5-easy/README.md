@@ -203,6 +203,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Ephesians 1 — God brings everything together in Christ](ephesians/ephesians1_1757509564.md)
 2. [Ephesians 2 — Christ brings us into one family](ephesians/ephesians2_1757509714.md)
+3. [Ephesians 3 — Paul prays that believers will know Christ’s love](ephesians/ephesians3_1757509859.md)
+4. [Ephesians 4 — Speak the truth with love](ephesians/ephesians4_1757510020.md)
 
 ## Reading with a learner
 
