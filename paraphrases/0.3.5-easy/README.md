@@ -644,6 +644,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [2 Samuel 1 — David sings for Saul and Jonathan](2samuel/2samuel1_1757376373.md)
 2. [2 Samuel 2 — Judah makes David king](2samuel/2samuel2_1757376534.md)
 3. [2 Samuel 3 — David mourns for Abner](2samuel/2samuel3_1757376664.md)
+4. [2 Samuel 4 — David hears of Ish-bosheth’s murder](2samuel/2samuel4_1757376845.md)
 
 ## Reading with a learner
 
