@@ -717,6 +717,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 22. [2 Kings 22 — Josiah hears the Book of the Law](2kings/2kings22_1757418263.md)
 23. [2 Kings 23 — Josiah and the people renew their promise](2kings/2kings23_1757418366.md)
 24. [2 Kings 24 — Babylon takes Jehoiachin away](2kings/2kings24_1757418465.md)
+25. [2 Kings 25 — Jerusalem falls, and its people go into exile](2kings/2kings25_1757418583.md)
 
 ## Reading with a learner
 
