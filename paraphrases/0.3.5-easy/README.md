@@ -730,6 +730,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Ezra 7 — Ezra goes to Jerusalem to teach God’s law](ezra/ezra7_1757430148.md)
 8. [Ezra 8 — Ezra and the families bring the gifts to Jerusalem](ezra/ezra8_1757430325.md)
 9. [Ezra 9 — Ezra prays about his people’s guilt](ezra/ezra9_1757430426.md)
+10. [Ezra 10 — The people gather in Jerusalem](ezra/ezra10_1757430661.md)
 
 ## Reading with a learner
 
