@@ -380,6 +380,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 31. [Genesis 31 — Jacob leaves Laban and heads home](genesis/genesis31_1757330985.md)
 32. [Genesis 32 — Jacob prepares to meet Esau and receives a new name](genesis/genesis32_1757331111.md)
 33. [Genesis 33 — Esau runs to welcome Jacob](genesis/genesis33_1757331192.md)
+34. [Genesis 34 — Shechem harms Dinah, and her brothers take revenge](genesis/genesis34_1757331308.md)
 
 ## Reading with a learner
 
