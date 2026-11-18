@@ -236,6 +236,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [2 Thessalonians 2 — Hold on to what you learned](2thessalonians/2thessalonians2_1757512119.md)
 3. [2 Thessalonians 3 — Keep doing good](2thessalonians/2thessalonians3_1757512261.md)
 
+## 1 Timothy
+
+1. [1 Timothy 1 — Paul asks Timothy to teach what is true](1timothy/1timothy1_1757512373.md)
+2. [1 Timothy 2 — Pray for everyone](1timothy/1timothy2_1757512548.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
