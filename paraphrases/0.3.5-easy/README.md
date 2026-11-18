@@ -538,6 +538,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Deuteronomy 24 — A cloak for the night and food from the harvest](deuteronomy/deuteronomy24_1757349144.md)
 25. [Deuteronomy 25 — Fair measures and a brother’s duty](deuteronomy/deuteronomy25_1757349229.md)
 26. [Deuteronomy 26 — A basket from the first harvest](deuteronomy/deuteronomy26_1757349374.md)
+27. [Deuteronomy 27 — Write the law on stones](deuteronomy/deuteronomy27_1757349486.md)
 
 ## Reading with a learner
 
