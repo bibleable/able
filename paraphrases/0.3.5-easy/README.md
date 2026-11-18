@@ -170,6 +170,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [1 Corinthians 11 — When believers meet together](1corinthians/1corinthians11_1757506854.md)
 12. [1 Corinthians 12 — One Spirit gives many gifts](1corinthians/1corinthians12_1757506952.md)
 13. [1 Corinthians 13 — Love is the greatest](1corinthians/1corinthians13_1757507030.md)
+14. [1 Corinthians 14 — Speak so others can understand](1corinthians/1corinthians14_1757507145.md)
 
 ## Reading with a learner
 
