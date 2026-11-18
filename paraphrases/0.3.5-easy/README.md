@@ -577,6 +577,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Judges
 
 1. [Judges 1 — Israel’s tribes after Joshua dies](judges/judges1_1757353415.md)
+2. [Judges 2 — The LORD sends judges to help Israel](judges/judges2_1757353533.md)
 
 ## Reading with a learner
 

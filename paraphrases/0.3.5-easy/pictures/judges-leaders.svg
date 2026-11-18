@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img">
+  <title>While a judge lived, the LORD rescued Israel. When the judge died, Israel returned to other gods.</title>
+  <rect x="2" y="2" width="396" height="76" rx="8" fill="#e4eedf" stroke="#445a46" stroke-width="2"/>
+  <rect x="2" y="100" width="396" height="78" rx="8" fill="#f6ebd6" stroke="#68543a" stroke-width="2"/>
+  <path d="M200 80v16m-5-5 5 5 5-5" stroke="#33463b" stroke-width="2.5" fill="none"/>
+  <g text-anchor="middle" font-family="sans-serif" fill="#23332b">
+    <text x="200" y="31" font-size="21" font-weight="bold">While a judge lived</text>
+    <text x="200" y="59" font-size="19">The LORD rescued Israel.</text>
+    <text x="200" y="130" font-size="21" font-weight="bold">When the judge died</text>
+    <text x="200" y="158" font-size="19">Israel returned to other gods.</text>
+  </g>
+</svg>
