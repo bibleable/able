@@ -430,6 +430,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 28. [Exodus 28 — Clothes for Aaron and his sons](exodus/exodus28_1757336766.md)
 29. [Exodus 29 — Setting Aaron and his sons apart](exodus/exodus29_1757336879.md)
 30. [Exodus 30 — The incense altar and the washing basin](exodus/exodus30_1757336975.md)
+31. [Exodus 31 — Skilled workers and a day of rest](exodus/exodus31_1757337060.md)
 
 ## Reading with a learner
 
