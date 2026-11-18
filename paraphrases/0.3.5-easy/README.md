@@ -275,6 +275,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Hebrews 9 — Christ offered himself once for all](hebrews/hebrews9_1757515500.md)
 10. [Hebrews 10 — Keep trusting God](hebrews/hebrews10_1757515615.md)
 11. [Hebrews 11 — People who trusted God](hebrews/hebrews11_1757515777.md)
+12. [Hebrews 12 — Keep your eyes on Jesus](hebrews/hebrews12_1757515987.md)
+13. [Hebrews 13 — Show love in everyday life](hebrews/hebrews13_1757516115.md)
 
 ## Reading with a learner
 
