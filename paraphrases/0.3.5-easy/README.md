@@ -522,6 +522,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Deuteronomy 8 — Remember who gave you food](deuteronomy/deuteronomy8_1757347386.md)
 9. [Deuteronomy 9 — Moses remembers praying for Israel](deuteronomy/deuteronomy9_1757347479.md)
 10. [Deuteronomy 10 — What the LORD asks of Israel](deuteronomy/deuteronomy10_1757347660.md)
+11. [Deuteronomy 11 — Rain for the land and a choice for Israel](deuteronomy/deuteronomy11_1757347777.md)
 
 ## Reading with a learner
 
