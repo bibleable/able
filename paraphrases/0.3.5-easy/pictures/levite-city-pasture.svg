@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img">
+  <title>A city surrounded by pasture for animals</title>
+  <rect x="4" y="4" width="352" height="172" rx="12" fill="#dceccc" stroke="#496940" stroke-width="3"/>
+  <rect x="114" y="65" width="132" height="67" rx="5" fill="#f6e3c4" stroke="#725438" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="22" text-anchor="middle" fill="#263528">
+    <text x="180" y="41">Pasture</text><text x="180" y="106">City</text>
+  </g>
+  <g stroke="#497443" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="m38 91 6 10 3 -14m-3 14 9 -8m241 33 6 10 3 -14m-3 14 9 -8m-228 13 6 10 3 -14m-3 14 9 -8"/>
+  </g>
+</svg>
