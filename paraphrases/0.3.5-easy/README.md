@@ -297,6 +297,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 2 Peter
 
 1. [2 Peter 1 — Remember what you have learned](2peter/2peter1_1757517425.md)
+2. [2 Peter 2 — Watch out for false teachers](2peter/2peter2_1757517521.md)
+3. [2 Peter 3 — God keeps his promise](2peter/2peter3_1757517612.md)
 
 ## Reading with a learner
 
