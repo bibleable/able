@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 210" role="img" aria-labelledby="title">
+<title id="title">Wind carries the light husks sideways. The heavier barley grains fall down.</title>
+<rect width="500" height="210" rx="12" fill="#fff9eb"/>
+<g font-family="sans-serif" font-size="22" fill="#263c31">
+<path d="M115 70q80-65 153-12m-14-16 18 18-24 2" fill="none" stroke="#41647c" stroke-width="5"/>
+ <g fill="#a36e32"><path d="M280 60q12-19 28-11-10 15-28 11m28-16q12-16 25-9-9 13-25 9"/></g>
+ <g fill="#6d471f"><ellipse cx="140" cy="96" rx="5" ry="9"/><ellipse cx="156" cy="116" rx="5" ry="9"/><ellipse cx="133" cy="135" rx="5" ry="9"/></g>
+ <path d="M98 94v55m-9-12 9 13 9-13" fill="none" stroke="#544534" stroke-width="4"/>
+ <text x="26" y="188">Grain falls down</text><text x="278" y="103">Wind carries</text><text x="278" y="132">husks away</text>
+</g>
+</svg>

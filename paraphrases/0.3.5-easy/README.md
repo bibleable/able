@@ -602,6 +602,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Ruth 1 — Ruth stays with Naomi](ruth/ruth1_1757372779.md)
 2. [Ruth 2 — Ruth gathers grain in Boaz’s field](ruth/ruth2_1757372852.md)
+3. [Ruth 3 — Ruth asks Boaz to marry her](ruth/ruth3_1757372911.md)
 
 ## Reading with a learner
 
