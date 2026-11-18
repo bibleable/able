@@ -341,6 +341,9 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Revelation 17 — The angel explains the woman and the beast](revelation/revelation17_1757521291.md)
 18. [Revelation 18 — People mourn the fall of Babylon](revelation/revelation18_1757521356.md)
 19. [Revelation 19 — Praise in heaven and the rider on the white horse](revelation/revelation19_1757521562.md)
+20. [Revelation 20 — The thousand years and the great white throne](revelation/revelation20_1757521653.md)
+21. [Revelation 21 — God makes all things new](revelation/revelation21_1757521841.md)
+22. [Revelation 22 — The river of life and the promise of Jesus](revelation/revelation22_1757522053.md)
 
 ## Reading with a learner
 
