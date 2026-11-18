@@ -612,6 +612,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [1 Samuel 3 — The LORD calls Samuel](1samuel/1samuel3_1757373270.md)
 4. [1 Samuel 4 — The Philistines take the ark of God](1samuel/1samuel4_1757373397.md)
 5. [1 Samuel 5 — The Philistines move the ark from city to city](1samuel/1samuel5_1757373473.md)
+6. [1 Samuel 6 — The ark returns to Israel](1samuel/1samuel6_1757373557.md)
 
 ## Reading with a learner
 

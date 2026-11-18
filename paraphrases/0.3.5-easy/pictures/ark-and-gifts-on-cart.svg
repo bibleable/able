@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 240" role="img" aria-labelledby="title">
+  <title id="title">The ark and the box of gold gifts ride on the same cart</title>
+  <rect width="520" height="240" rx="15" fill="#fff9ec"/>
+  <g font-family="sans-serif" font-size="23" text-anchor="middle" fill="#263c34">
+    <text x="165" y="44">The ark</text><text x="355" y="44">Box of gold gifts</text>
+  </g>
+  <g stroke="#554533" stroke-width="4">
+    <path d="M165 52v24m190-24v45" fill="none"/>
+    <rect x="90" y="80" width="150" height="72" rx="4" fill="#dcba71"/>
+    <path d="M88 89h154"/><rect x="295" y="101" width="120" height="51" rx="4" fill="#bc9475"/>
+    <path d="M294 111h122"/><rect x="63" y="154" width="377" height="16" rx="3" fill="#936f4f"/>
+    <path d="m440 162 50-15"/><circle cx="128" cy="192" r="21" fill="#eee0c9"/><circle cx="381" cy="192" r="21" fill="#eee0c9"/>
+  </g>
+</svg>
