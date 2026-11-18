@@ -719,6 +719,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [2 Kings 24 — Babylon takes Jehoiachin away](2kings/2kings24_1757418465.md)
 25. [2 Kings 25 — Jerusalem falls, and its people go into exile](2kings/2kings25_1757418583.md)
 
+## Ezra
+
+1. [Ezra 1 — Cyrus sends the temple gifts back to Jerusalem](ezra/ezra1_1757429479.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
