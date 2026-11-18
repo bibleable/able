@@ -694,6 +694,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 2 Kings
 
 1. [2 Kings 1 — Elijah brings a message to Ahaziah](2kings/2kings1_1757415460.md)
+2. [2 Kings 2 — Elisha picks up Elijah’s cloak](2kings/2kings2_1757415573.md)
 
 ## Reading with a learner
 
