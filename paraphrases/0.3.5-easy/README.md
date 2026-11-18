@@ -148,6 +148,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Romans 8 — Nothing can separate us from God’s love](romans/romans8_1757504576.md)
 9. [Romans 9 — Paul speaks about Israel and God’s mercy](romans/romans9_1757504764.md)
 10. [Romans 10 — People hear the good news about Jesus](romans/romans10_1757504856.md)
+11. [Romans 11 — God remembers his people and shows mercy](romans/romans11_1757504962.md)
 
 ## Reading with a learner
 
