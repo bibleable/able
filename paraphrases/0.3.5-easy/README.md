@@ -152,6 +152,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Romans 12 — Show love by what you do](romans/romans12_1757505046.md)
 13. [Romans 13 — Give people what you owe and keep loving them](romans/romans13_1757505126.md)
 14. [Romans 14 — Welcome believers who choose differently](romans/romans14_1757505264.md)
+15. [Romans 15 — Welcome one another as Christ welcomed you](romans/romans15_1757505356.md)
 
 ## Reading with a learner
 
