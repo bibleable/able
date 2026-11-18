@@ -345,6 +345,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Revelation 21 — God makes all things new](revelation/revelation21_1757521841.md)
 22. [Revelation 22 — The river of life and the promise of Jesus](revelation/revelation22_1757522053.md)
 
+## Genesis
+
+1. [Genesis 1 — God makes the heavens and the earth](genesis/genesis1_1757327525.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
