@@ -444,6 +444,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Leviticus
 
 1. [Leviticus 1 — Bringing a burnt offering](leviticus/leviticus1_1757338437.md)
+2. [Leviticus 2 — Bringing a grain offering](leviticus/leviticus2_1757338569.md)
 
 ## Reading with a learner
 
