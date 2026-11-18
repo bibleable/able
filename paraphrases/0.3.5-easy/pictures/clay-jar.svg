@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 160" role="img">
+  <title>A plain brown clay jar with a wide belly and narrow neck</title>
+  <rect width="220" height="160" rx="8" fill="#fffaf1"/>
+  <g stroke="#583e32" stroke-width="3">
+    <path d="M86 30 L88 52 C87 62 51 69 51 100 Q51 128 83 143 L137 143 Q169 128 169 100 C169 69 133 62 132 52 L134 30Z" fill="#c88159"/>
+    <ellipse cx="110" cy="30" rx="25" ry="6" fill="#82533e"/>
+  </g>
+</svg>

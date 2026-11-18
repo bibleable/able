@@ -178,6 +178,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [2 Corinthians 1 — God comforts us in trouble](2corinthians/2corinthians1_1757507531.md)
 2. [2 Corinthians 2 — Show him again that you love him](2corinthians/2corinthians2_1757507639.md)
+3. [2 Corinthians 3 — God’s Spirit gives life](2corinthians/2corinthians3_1757507755.md)
+4. [2 Corinthians 4 — God gives us strength to keep going](2corinthians/2corinthians4_1757507872.md)
 
 ## Reading with a learner
 
