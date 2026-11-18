@@ -504,6 +504,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 29. [Numbers 29 — Offerings in the seventh month](numbers/numbers29_1757345603.md)
 30. [Numbers 30 — Keeping a promise](numbers/numbers30_1757345673.md)
 31. [Numbers 31 — Israel goes to war against Midian](numbers/numbers31_1757345810.md)
+32. [Numbers 32 — A promise at the Jordan River](numbers/numbers32_1757345937.md)
 
 ## Reading with a learner
 
