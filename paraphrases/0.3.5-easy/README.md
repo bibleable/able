@@ -359,6 +359,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [Genesis 10 — The families of Noah’s three sons](genesis/genesis10_1757328581.md)
 11. [Genesis 11 — Babel and the family of Abram](genesis/genesis11_1757328685.md)
 12. [Genesis 12 — Abram leaves Haran](genesis/genesis12_1757328821.md)
+13. [Genesis 13 — Abram lets Lot choose land](genesis/genesis13_1757328914.md)
+14. [Genesis 14 — Abram brings Lot home](genesis/genesis14_1757329005.md)
 
 ## Reading with a learner
 
