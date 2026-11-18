@@ -521,6 +521,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Deuteronomy 7 — Moses reminds Israel why the LORD chose them](deuteronomy/deuteronomy7_1757347303.md)
 8. [Deuteronomy 8 — Remember who gave you food](deuteronomy/deuteronomy8_1757347386.md)
 9. [Deuteronomy 9 — Moses remembers praying for Israel](deuteronomy/deuteronomy9_1757347479.md)
+10. [Deuteronomy 10 — What the LORD asks of Israel](deuteronomy/deuteronomy10_1757347660.md)
 
 ## Reading with a learner
 
