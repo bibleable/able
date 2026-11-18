@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 100" role="img" aria-labelledby="title">
+  <title id="title">Two equal shares, with three counters on each side</title>
+  <rect width="320" height="100" rx="8" fill="#fffaf1"/>
+  <path d="M160 12v76" stroke="#523e2b" stroke-width="4"/>
+  <g fill="#34645b">
+    <circle cx="36" cy="50" r="15"/>
+    <circle cx="80" cy="50" r="15"/>
+    <circle cx="124" cy="50" r="15"/>
+    <circle cx="196" cy="50" r="15"/>
+    <circle cx="240" cy="50" r="15"/>
+    <circle cx="284" cy="50" r="15"/>
+  </g>
+</svg>
