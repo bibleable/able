@@ -684,6 +684,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 14. [1 Kings 14 — A message for Jeroboam and trouble in Judah](1kings/1kings14_1757414167.md)
 15. [1 Kings 15 — Asa rules Judah while kings change in Israel](1kings/1kings15_1757414268.md)
 16. [1 Kings 16 — From Baasha to Ahab, kings of Israel](1kings/1kings16_1757414453.md)
+17. [1 Kings 17 — Elijah and the widow of Zarephath](1kings/1kings17_1757414548.md)
 
 ## Reading with a learner
 

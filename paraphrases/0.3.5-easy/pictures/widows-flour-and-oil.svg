@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 170" role="img" aria-labelledby="title desc">
+<title id="title">The widow’s flour and oil</title><desc id="desc">A wide jar with a small mound of flour at its base. Beside it is a narrow jug with a handle and a little oil at the bottom. The insides are shown so the amounts are visible.</desc>
+<rect width="380" height="170" rx="10" fill="#fff8eb"/>
+<g stroke="#573e2c" stroke-width="3" stroke-linejoin="round">
+<path d="M48 39h75v12q12 8 11 32l-5 26q-3 9-14 9H57q-11 0-14-9l-5-26q-1-22 10-32Z" fill="#f0d7b4"/>
+<path d="M46 101q18 0 34-11 6-4 14 1 11 8 34 12l-2 5q-2 8-12 8H58q-8 0-10-6Z" fill="#fff9e5"/>
+<path d="M264 51q34-19 40 3 3 19-23 29" fill="none" stroke-width="8"/>
+<path d="M241 29h25l-2 24q1 8 12 18 13 13 7 32-4 15-22 15h-18q-18 0-22-14-5-19 7-33 12-13 12-19Z" fill="#efd7b0"/>
+<path d="M223 102q16-3 31 0t27 0q-3 14-20 14h-18q-17 0-20-14Z" fill="#cb9f41"/>
+</g><g font-family="sans-serif" font-size="19" text-anchor="middle" fill="#31291f"><text x="86" y="148">A handful of flour</text><text x="255" y="148">A little oil</text></g></svg>
