@@ -339,6 +339,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Revelation 15 — A song beside the sea of glass](revelation/revelation15_1757521046.md)
 16. [Revelation 16 — The seven angels pour out their bowls](revelation/revelation16_1757521201.md)
 17. [Revelation 17 — The angel explains the woman and the beast](revelation/revelation17_1757521291.md)
+18. [Revelation 18 — People mourn the fall of Babylon](revelation/revelation18_1757521356.md)
+19. [Revelation 19 — Praise in heaven and the rider on the white horse](revelation/revelation19_1757521562.md)
 
 ## Reading with a learner
 
