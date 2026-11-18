@@ -609,6 +609,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [1 Samuel 1 — Hannah prays for a son](1samuel/1samuel1_1757373089.md)
 2. [1 Samuel 2 — Hannah praises God and Samuel grows up](1samuel/1samuel2_1757373206.md)
+3. [1 Samuel 3 — The LORD calls Samuel](1samuel/1samuel3_1757373270.md)
 
 ## Reading with a learner
 
