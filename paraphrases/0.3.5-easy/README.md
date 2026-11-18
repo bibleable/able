@@ -337,6 +337,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Revelation 13 — A beast from the sea and a beast from the land](revelation/revelation13_1757520783.md)
 14. [Revelation 14 — The Lamb on Mount Zion and the harvest](revelation/revelation14_1757520940.md)
 15. [Revelation 15 — A song beside the sea of glass](revelation/revelation15_1757521046.md)
+16. [Revelation 16 — The seven angels pour out their bowls](revelation/revelation16_1757521201.md)
+17. [Revelation 17 — The angel explains the woman and the beast](revelation/revelation17_1757521291.md)
 
 ## Reading with a learner
 
