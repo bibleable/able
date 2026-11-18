@@ -471,6 +471,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [Leviticus 26 — The LORD remembers his covenant](leviticus/leviticus26_1757341500.md)
 27. [Leviticus 27 — Promises and gifts to the LORD](leviticus/leviticus27_1757341605.md)
 
+## Numbers
+
+1. [Numbers 1 — Moses and Aaron count Israel’s men](numbers/numbers1_1757341775.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
