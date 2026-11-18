@@ -529,6 +529,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Deuteronomy 15 — Cancel debts and give generously](deuteronomy/deuteronomy15_1757348210.md)
 16. [Deuteronomy 16 — Three feasts and fair judges](deuteronomy/deuteronomy16_1757348332.md)
 17. [Deuteronomy 17 — Witnesses, judges and the king](deuteronomy/deuteronomy17_1757348412.md)
+18. [Deuteronomy 18 — Food for the priests and a prophet for Israel](deuteronomy/deuteronomy18_1757348505.md)
 
 ## Reading with a learner
 
