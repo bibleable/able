@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" role="img">
+  <title>Micah returns 1,100 shekels to his mother. She gives 200 shekels to the silver worker.</title>
+  <rect width="360" height="190" rx="8" fill="#fffaf1"/>
+  <g fill="#e3ecdf" stroke="#466648" stroke-width="2">
+    <rect x="17" y="9" width="164" height="38" rx="6"/>
+    <rect x="17" y="76" width="164" height="38" rx="6"/>
+    <rect x="17" y="143" width="164" height="38" rx="6"/>
+  </g>
+  <path d="M99 49v23m-5-6 5 6 5-6M99 116v23m-5-6 5 6 5-6" fill="none" stroke="#344e3c" stroke-width="3"/>
+  <g font-family="sans-serif" fill="#263b2f" font-size="18">
+    <g text-anchor="middle"><text x="99" y="35">Micah</text><text x="99" y="102">His mother</text><text x="99" y="169">Silver worker</text></g>
+    <text x="119" y="66">1,100 shekels</text><text x="119" y="133">200 shekels</text>
+  </g>
+</svg>
