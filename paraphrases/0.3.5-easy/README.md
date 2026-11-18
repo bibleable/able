@@ -507,6 +507,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 32. [Numbers 32 — A promise at the Jordan River](numbers/numbers32_1757345937.md)
 33. [Numbers 33 — The places Israel camped](numbers/numbers33_1757346023.md)
 34. [Numbers 34 — The borders of Canaan](numbers/numbers34_1757346102.md)
+35. [Numbers 35 — Cities where people could find safety](numbers/numbers35_1757346225.md)
 
 ## Reading with a learner
 
