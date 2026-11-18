@@ -671,6 +671,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [1 Kings 1 — Solomon becomes king](1kings/1kings1_1757412198.md)
 2. [1 Kings 2 — David’s last instructions to Solomon](1kings/1kings2_1757412336.md)
 3. [1 Kings 3 — Solomon asks for wisdom](1kings/1kings3_1757412506.md)
+4. [1 Kings 4 — Solomon rules Israel and teaches with wisdom](1kings/1kings4_1757412692.md)
 
 ## Reading with a learner
 
