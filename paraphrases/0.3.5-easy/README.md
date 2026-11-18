@@ -227,6 +227,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [1 Thessalonians 1 — News of your faith has spread](1thessalonians/1thessalonians1_1757511464.md)
 2. [1 Thessalonians 2 — Paul remembers his visit](1thessalonians/1thessalonians2_1757511545.md)
 3. [1 Thessalonians 3 — Timothy brings good news](1thessalonians/1thessalonians3_1757511653.md)
+4. [1 Thessalonians 4 — Encourage each other with hope](1thessalonians/1thessalonians4_1757511795.md)
+5. [1 Thessalonians 5 — Stay alert and care for each other](1thessalonians/1thessalonians5_1757511917.md)
 
 ## Reading with a learner
 
