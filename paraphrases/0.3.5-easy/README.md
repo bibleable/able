@@ -134,6 +134,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [Acts 25 — Paul asks Caesar to hear his case](acts/acts25_1757503270.md)
 26. [Acts 26 — Paul tells King Agrippa why he follows Jesus](acts/acts26_1757503400.md)
 27. [Acts 27 — Everyone survives the shipwreck](acts/acts27_1757503507.md)
+28. [Acts 28 — Paul reaches Rome and welcomes visitors](acts/acts28_1757503655.md)
 
 ## Reading with a learner
 
