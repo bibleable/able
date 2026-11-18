@@ -278,6 +278,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Hebrews 12 — Keep your eyes on Jesus](hebrews/hebrews12_1757515987.md)
 13. [Hebrews 13 — Show love in everyday life](hebrews/hebrews13_1757516115.md)
 
+## James
+
+1. [James 1 — Listen to God and do what he says](james/james1_1757516244.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
