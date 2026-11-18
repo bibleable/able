@@ -153,6 +153,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Romans 13 — Give people what you owe and keep loving them](romans/romans13_1757505126.md)
 14. [Romans 14 — Welcome believers who choose differently](romans/romans14_1757505264.md)
 15. [Romans 15 — Welcome one another as Christ welcomed you](romans/romans15_1757505356.md)
+16. [Romans 16 — Paul greets his friends in Rome](romans/romans16_1757505480.md)
 
 ## Reading with a learner
 
@@ -166,6 +167,6 @@ If something is unclear, ask the reader to point to it. Write down the verse, th
 
 ## About this edition
 
-This draft adapts the [0.3.4 Easy Read text](../0.3.4-easy/) using the repository’s [Berean Standard Bible source](../../comparison/bsb.txt). Verse numbers follow that source, including its empty entries in Mark, Luke, John, and Acts. Headings, pictures, explanations, and reading questions are reading aids.
+This draft adapts the [0.3.4 Easy Read text](../0.3.4-easy/) using the repository’s [Berean Standard Bible source](../../comparison/bsb.txt). Verse numbers follow that source, including its empty entries in Mark, Luke, John, Acts, and Romans. Headings, pictures, explanations, and reading questions are reading aids.
 
 Review with intended readers is pending.
