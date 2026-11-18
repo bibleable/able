@@ -605,6 +605,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Ruth 3 — Ruth asks Boaz to marry her](ruth/ruth3_1757372911.md)
 4. [Ruth 4 — Ruth and Boaz have a son](ruth/ruth4_1757372977.md)
 
+## 1 Samuel
+
+1. [1 Samuel 1 — Hannah prays for a son](1samuel/1samuel1_1757373089.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
