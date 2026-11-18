@@ -335,6 +335,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Revelation 11 — Two witnesses speak and the seventh trumpet sounds](revelation/revelation11_1757520432.md)
 12. [Revelation 12 — The woman, her child and the dragon](revelation/revelation12_1757520617.md)
 13. [Revelation 13 — A beast from the sea and a beast from the land](revelation/revelation13_1757520783.md)
+14. [Revelation 14 — The Lamb on Mount Zion and the harvest](revelation/revelation14_1757520940.md)
+15. [Revelation 15 — A song beside the sea of glass](revelation/revelation15_1757521046.md)
 
 ## Reading with a learner
 
