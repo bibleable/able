@@ -286,6 +286,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [James 4 — Come close to God](james/james4_1757516628.md)
 5. [James 5 — Be patient and pray for each other](james/james5_1757516782.md)
 
+## 1 Peter
+
+1. [1 Peter 1 — God gives us a living hope](1peter/1peter1_1757516866.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
