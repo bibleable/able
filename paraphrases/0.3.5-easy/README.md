@@ -171,6 +171,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [1 Corinthians 12 — One Spirit gives many gifts](1corinthians/1corinthians12_1757506952.md)
 13. [1 Corinthians 13 — Love is the greatest](1corinthians/1corinthians13_1757507030.md)
 14. [1 Corinthians 14 — Speak so others can understand](1corinthians/1corinthians14_1757507145.md)
+15. [1 Corinthians 15 — God raised Christ from death](1corinthians/1corinthians15_1757507292.md)
+16. [1 Corinthians 16 — A gift for Jerusalem and greetings from Paul](1corinthians/1corinthians16_1757507404.md)
 
 ## Reading with a learner
 
