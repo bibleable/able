@@ -190,6 +190,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [2 Corinthians 12 — Christ helps Paul in his weakness](2corinthians/2corinthians12_1757508838.md)
 13. [2 Corinthians 13 — Paul prays for the church](2corinthians/2corinthians13_1757508911.md)
 
+## Galatians
+
+1. [Galatians 1 — Paul tells how he received the good news](galatians/galatians1_1757508984.md)
+2. [Galatians 2 — Paul speaks up when Peter stops sharing meals](galatians/galatians2_1757509082.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
