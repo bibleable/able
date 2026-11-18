@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 190" role="img" aria-labelledby="title desc">
+  <title id="title">What one shekel could buy in Samaria</title>
+  <desc id="desc">One bowl represents one measure. One shekel bought one measure of fine flour or two measures of barley.</desc>
+  <defs>
+    <g id="measure" stroke="#593e27" stroke-width="2.5">
+      <path d="M0 0Q22 -23 44 0Z" fill="#e8ca91"/>
+      <path d="M0 0H44Q40 22 22 22T0 0Z" fill="#bd8054"/>
+    </g>
+  </defs>
+  <rect width="400" height="190" rx="12" fill="#fff9ec"/>
+  <g fill="#30291f" font-family="sans-serif">
+    <text x="200" y="34" font-size="23" text-anchor="middle">What one shekel could buy</text>
+    <text x="27" y="89" font-size="22">Fine flour</text>
+    <text x="27" y="156" font-size="22">Barley</text>
+  </g>
+  <path d="M22 115H378" stroke="#cabca8"/>
+  <use href="#measure" x="220" y="77"/>
+  <use href="#measure" x="220" y="144"/>
+  <use href="#measure" x="281" y="144"/>
+</svg>
