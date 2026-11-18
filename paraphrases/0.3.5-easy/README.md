@@ -517,6 +517,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Deuteronomy 3 — Moses prepares Joshua to lead](deuteronomy/deuteronomy3_1757346792.md)
 4. [Deuteronomy 4 — Remember what the LORD has done](deuteronomy/deuteronomy4_1757346958.md)
 5. [Deuteronomy 5 — Moses reminds Israel of the Ten Commandments](deuteronomy/deuteronomy5_1757347100.md)
+6. [Deuteronomy 6 — Love the LORD and teach your children](deuteronomy/deuteronomy6_1757347196.md)
 
 ## Reading with a learner
 
