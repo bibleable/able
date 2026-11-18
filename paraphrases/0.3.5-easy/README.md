@@ -370,6 +370,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Genesis 21 — Sarah has a son, and God hears Ishmael](genesis/genesis21_1757329822.md)
 22. [Genesis 22 — God provides a ram for Abraham](genesis/genesis22_1757329887.md)
 23. [Genesis 23 — Abraham buys a place to bury Sarah](genesis/genesis23_1757330009.md)
+24. [Genesis 24 — Rebekah agrees to go with Abraham’s servant](genesis/genesis24_1757330148.md)
 
 ## Reading with a learner
 
