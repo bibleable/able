@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 240" role="img" aria-labelledby="title">
+<title id="title">Three places where the ark stayed</title>
+<rect width="550" height="240" rx="12" fill="#fff9ed"/>
+<path d="M46 41v151" stroke="#416557" stroke-width="4"/>
+<g fill="#2e5546"><circle cx="46" cy="41" r="14"/><circle cx="46" cy="117" r="14"/><circle cx="46" cy="192" r="14"/></g>
+<g font-family="sans-serif" font-size="22" fill="#263d35"><text x="82" y="48">Abinadab’s house on the hill</text><text x="82" y="118" font-weight="bold">Obed-edom’s house</text><text x="82" y="149">The ark stays here for three months.</text><text x="82" y="199">David’s tent in Jerusalem</text></g></svg>

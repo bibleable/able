@@ -646,6 +646,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [2 Samuel 3 — David mourns for Abner](2samuel/2samuel3_1757376664.md)
 4. [2 Samuel 4 — David hears of Ish-bosheth’s murder](2samuel/2samuel4_1757376845.md)
 5. [2 Samuel 5 — David becomes king over all Israel](2samuel/2samuel5_1757376996.md)
+6. [2 Samuel 6 — David brings the ark to Jerusalem](2samuel/2samuel6_1757377145.md)
 
 ## Reading with a learner
 
