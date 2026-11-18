@@ -367,6 +367,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Genesis 18 — Abraham welcomes three visitors](genesis/genesis18_1757329412.md)
 19. [Genesis 19 — Lot leaves Sodom](genesis/genesis19_1757329634.md)
 20. [Genesis 20 — God tells Abimelech to return Sarah](genesis/genesis20_1757329734.md)
+21. [Genesis 21 — Sarah has a son, and God hears Ishmael](genesis/genesis21_1757329822.md)
 
 ## Reading with a learner
 
