@@ -691,6 +691,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [1 Kings 21 — Ahab takes Naboth’s vineyard](1kings/1kings21_1757415158.md)
 22. [1 Kings 22 — Micaiah warns Ahab](1kings/1kings22_1757415295.md)
 
+## 2 Kings
+
+1. [2 Kings 1 — Elijah brings a message to Ahaziah](2kings/2kings1_1757415460.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
