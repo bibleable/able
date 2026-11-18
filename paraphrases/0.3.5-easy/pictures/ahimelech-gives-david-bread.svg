@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 190" role="img" aria-labelledby="title">
+<title id="title">Fresh bread replaces the bread Ahimelech gives David</title>
+<rect width="510" height="190" rx="14" fill="#fff9ed"/>
+<g id="loaf" fill="#d5a763" stroke="#72502e" stroke-width="3">
+<path d="M26 67q0-30 35-33 32-3 41 29l-4 6z"/>
+<path d="m46 39 8 11m8-14 9 12" fill="none"/>
+</g>
+<use href="#loaf" y="85"/>
+<g font-family="sans-serif" font-size="21" fill="#243d34">
+<text x="126" y="45" font-weight="bold">Fresh loaves</text><text x="126" y="72">The priests put them before the LORD.</text>
+<text x="126" y="130" font-weight="bold">Loaves taken away</text><text x="126" y="157">Ahimelech gives them to David.</text>
+</g></svg>
