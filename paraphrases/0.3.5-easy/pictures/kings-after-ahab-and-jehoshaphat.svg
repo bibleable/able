@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 180" role="img" aria-labelledby="title desc">
+  <title id="title">Who became king next?</title>
+  <desc id="desc">Israel went from Ahab to Ahaziah. Judah went from Jehoshaphat to Jehoram.</desc>
+  <rect width="440" height="180" rx="10" fill="#fffaf1"/>
+  <g fill="#243a35" font-family="sans-serif" font-size="20" text-anchor="middle">
+    <text x="220" y="32" font-weight="bold">Who became king next?</text>
+    <text x="95" y="77" font-weight="bold">Israel</text><text x="337" y="77" font-weight="bold">Judah</text>
+    <text x="95" y="107">Ahab</text><text x="337" y="107">Jehoshaphat</text>
+    <text x="95" y="163">Ahaziah</text><text x="337" y="163">Jehoram</text>
+  </g>
+  <path d="M95 115v23m-7-7 7 7 7-7m235-16v23m-7-7 7 7 7-7" fill="none" stroke="#395b4d" stroke-width="3"/>
+</svg>

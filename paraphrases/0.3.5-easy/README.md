@@ -689,6 +689,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [1 Kings 19 — Elijah hears a quiet voice](1kings/1kings19_1757414815.md)
 20. [1 Kings 20 — Ahab lets Ben-hadad go](1kings/1kings20_1757415026.md)
 21. [1 Kings 21 — Ahab takes Naboth’s vineyard](1kings/1kings21_1757415158.md)
+22. [1 Kings 22 — Micaiah warns Ahab](1kings/1kings22_1757415295.md)
 
 ## Reading with a learner
 
