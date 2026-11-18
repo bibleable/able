@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" role="img" aria-labelledby="title desc">
+  <title id="title">King Toi sends Joram to King David</title>
+  <desc id="desc">Follow the arrows down. Toi sends his son Joram. Joram brings gifts to David.</desc>
+  <rect width="340" height="250" rx="10" fill="#fffaf1"/>
+  <g fill="#eee2c8" stroke="#513c28" stroke-width="2">
+    <rect x="28" y="10" width="284" height="42" rx="8"/>
+    <rect x="28" y="100" width="284" height="42" rx="8"/>
+    <rect x="28" y="190" width="284" height="42" rx="8"/>
+  </g>
+  <g fill="none" stroke="#513c28" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M74 60v29m-8-8 8 8 8-8"/>
+    <path d="M74 150v29m-8-8 8 8 8-8"/>
+  </g>
+  <g font-family="sans-serif" font-size="21" fill="#30271e">
+    <g text-anchor="middle" font-weight="bold">
+      <text x="170" y="39">King Toi</text>
+      <text x="170" y="129">Joram</text>
+      <text x="170" y="219">King David</text>
+    </g>
+    <text x="98" y="83">sends his son</text>
+    <text x="98" y="173">brings gifts to</text>
+  </g>
+</svg>
