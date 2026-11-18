@@ -556,6 +556,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Joshua 5 — Israel keeps the Passover at Gilgal](joshua/joshua5_1757350889.md)
 6. [Joshua 6 — Jericho falls and Rahab lives](joshua/joshua6_1757350991.md)
 7. [Joshua 7 — Achan takes what belongs to the LORD](joshua/joshua7_1757351130.md)
+8. [Joshua 8 — Israel takes Ai and hears the law](joshua/joshua8_1757351315.md)
 
 ## Reading with a learner
 
