@@ -651,6 +651,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [2 Samuel 8 — David wins battles and rules Israel](2samuel/2samuel8_1757377322.md)
 9. [2 Samuel 9 — David shows kindness to Mephibosheth](2samuel/2samuel9_1757377475.md)
 10. [2 Samuel 10 — Hanun turns away David’s messengers](2samuel/2samuel10_1757377594.md)
+11. [2 Samuel 11 — David, Bathsheba, and Uriah](2samuel/2samuel11_1757377720.md)
 
 ## Reading with a learner
 
