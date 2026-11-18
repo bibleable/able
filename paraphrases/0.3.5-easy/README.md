@@ -426,6 +426,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Exodus 24 — Israel agrees to the covenant](exodus/exodus24_1757336261.md)
 25. [Exodus 25 — Gifts for God’s tent](exodus/exodus25_1757336371.md)
 26. [Exodus 26 — How to make the holy tent](exodus/exodus26_1757336485.md)
+27. [Exodus 27 — The altar, the courtyard and the lamps](exodus/exodus27_1757336605.md)
 
 ## Reading with a learner
 
