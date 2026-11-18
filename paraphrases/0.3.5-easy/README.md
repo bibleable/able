@@ -743,6 +743,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Nehemiah 7 — Nehemiah finds a record of the families](nehemiah/nehemiah7_1757431600.md)
 8. [Nehemiah 8 — Ezra reads and the people listen](nehemiah/nehemiah8_1757431758.md)
 9. [Nehemiah 9 — The people remember and pray](nehemiah/nehemiah9_1757431967.md)
+10. [Nehemiah 10 — The people promise to follow God’s Law](nehemiah/nehemiah10_1757432177.md)
 
 ## Reading with a learner
 
