@@ -637,6 +637,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 28. [1 Samuel 28 — Saul asks Samuel what to do](1samuel/1samuel28_1757375920.md)
 29. [1 Samuel 29 — Achish sends David back](1samuel/1samuel29_1757376006.md)
 30. [1 Samuel 30 — David brings the families home](1samuel/1samuel30_1757376152.md)
+31. [1 Samuel 31 — The people of Jabesh bury Saul and his sons](1samuel/1samuel31_1757376254.md)
 
 ## Reading with a learner
 
