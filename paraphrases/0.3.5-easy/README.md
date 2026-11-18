@@ -258,6 +258,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Titus 2 — Show others how to do good](titus/titus2_1757513963.md)
 3. [Titus 3 — Be ready to help](titus/titus3_1757514125.md)
 
+## Philemon
+
+1. [Philemon 1 — Welcome Onesimus as you would welcome me](philemon/philemon1_1757514279.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
