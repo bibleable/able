@@ -488,6 +488,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Numbers 13 — Twelve scouts explore Canaan](numbers/numbers13_1757343341.md)
 14. [Numbers 14 — Israel turns back from the promised land](numbers/numbers14_1757343470.md)
 15. [Numbers 15 — Offerings and reminders for Israel](numbers/numbers15_1757343749.md)
+16. [Numbers 16 — Korah challenges Moses and Aaron](numbers/numbers16_1757343851.md)
 
 ## Reading with a learner
 
