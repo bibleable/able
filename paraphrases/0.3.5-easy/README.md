@@ -294,6 +294,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [1 Peter 4 — Use your gifts to serve each other](1peter/1peter4_1757517253.md)
 5. [1 Peter 5 — Give God your worries](1peter/1peter5_1757517335.md)
 
+## 2 Peter
+
+1. [2 Peter 1 — Remember what you have learned](2peter/2peter1_1757517425.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
