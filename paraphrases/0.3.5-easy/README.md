@@ -139,6 +139,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Romans
 
 1. [Romans 1 — Paul writes to the believers in Rome](romans/romans1_1757503761.md)
+2. [Romans 2 — God judges everyone fairly](romans/romans2_1757503905.md)
 
 ## Reading with a learner
 
