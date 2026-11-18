@@ -738,6 +738,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Nehemiah 2 — Nehemiah asks the people to rebuild the wall](nehemiah/nehemiah2_1757430934.md)
 3. [Nehemiah 3 — Neighbors rebuild the wall together](nehemiah/nehemiah3_1757431157.md)
 4. [Nehemiah 4 — The people keep building](nehemiah/nehemiah4_1757431266.md)
+5. [Nehemiah 5 — Families ask for help](nehemiah/nehemiah5_1757431348.md)
 
 ## Reading with a learner
 
