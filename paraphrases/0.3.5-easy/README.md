@@ -482,6 +482,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Numbers 7 — Twelve leaders bring their gifts](numbers/numbers7_1757342614.md)
 8. [Numbers 8 — Seven lamps and the Levites’ work](numbers/numbers8_1757342796.md)
 9. [Numbers 9 — Passover and the cloud over the tent](numbers/numbers9_1757342882.md)
+10. [Numbers 10 — The trumpets sound and Israel leaves Sinai](numbers/numbers10_1757342999.md)
 
 ## Reading with a learner
 
