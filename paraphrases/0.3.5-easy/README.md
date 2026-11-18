@@ -664,6 +664,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [2 Samuel 21 — Rizpah keeps watch](2samuel/2samuel21_1792322671.md)
 22. [2 Samuel 22 — David sings to the LORD who rescued him](2samuel/2samuel22_1792322671.md)
 23. [2 Samuel 23 — David’s last words and the names of his warriors](2samuel/2samuel23_1792322671.md)
+24. [2 Samuel 24 — David counts the soldiers and asks for mercy](2samuel/2samuel24_1792322671.md)
 
 ## Reading with a learner
 
