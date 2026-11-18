@@ -150,6 +150,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [Romans 10 — People hear the good news about Jesus](romans/romans10_1757504856.md)
 11. [Romans 11 — God remembers his people and shows mercy](romans/romans11_1757504962.md)
 12. [Romans 12 — Show love by what you do](romans/romans12_1757505046.md)
+13. [Romans 13 — Give people what you owe and keep loving them](romans/romans13_1757505126.md)
 
 ## Reading with a learner
 
