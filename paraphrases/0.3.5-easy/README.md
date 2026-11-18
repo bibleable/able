@@ -628,6 +628,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [1 Samuel 19 — Jonathan and Michal help David](1samuel/1samuel19_1757374900.md)
 20. [1 Samuel 20 — Jonathan keeps his promise to David](1samuel/1samuel20_1757375016.md)
 21. [1 Samuel 21 — David asks for bread at Nob](1samuel/1samuel21_1757375104.md)
+22. [1 Samuel 22 — Abiathar escapes to David](1samuel/1samuel22_1757375167.md)
 
 ## Reading with a learner
 
