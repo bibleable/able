@@ -595,6 +595,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Judges 17 — Micah chooses a priest](judges/judges17_1757355071.md)
 18. [Judges 18 — Dan takes Micah’s idols and priest](judges/judges18_1757355222.md)
 19. [Judges 19 — A woman suffers violence in Gibeah](judges/judges19_1757355308.md)
+20. [Judges 20 — Israel fights the tribe of Benjamin](judges/judges20_1757355424.md)
 
 ## Reading with a learner
 
