@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 130" role="img">
+  <title>Caleb was 40 when he explored the land and 85 when he asked for the hills</title>
+  <rect width="480" height="130" rx="8" fill="#fffaf1"/>
+  <g fill="#263832" text-anchor="middle" font-family="sans-serif">
+    <text x="85" y="56" font-size="24" font-weight="bold">Age 40</text>
+    <text x="394" y="56" font-size="24" font-weight="bold">Age 85</text>
+    <text x="240" y="37" font-size="17">45 years pass</text>
+    <path d="M143 51h186m-9 -7 9 7 -9 7" fill="none" stroke="#46674f" stroke-width="3"/>
+    <text x="85" y="88" font-size="17">Caleb explores</text><text x="85" y="110" font-size="17">the land.</text>
+    <text x="394" y="88" font-size="17">Caleb asks for</text><text x="394" y="110" font-size="17">the hills.</text>
+  </g>
+</svg>
