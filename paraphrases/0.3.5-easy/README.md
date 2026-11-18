@@ -159,6 +159,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [1 Corinthians 1 — Paul asks the believers in Corinth to stay together](1corinthians/1corinthians1_1757505564.md)
 2. [1 Corinthians 2 — God’s Spirit helps us understand](1corinthians/1corinthians2_1757505705.md)
+3. [1 Corinthians 3 — Paul plants, Apollos waters, and God gives growth](1corinthians/1corinthians3_1757505866.md)
 
 ## Reading with a learner
 
