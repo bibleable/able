@@ -463,6 +463,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Leviticus 18 — The LORD gives Israel rules about sex and family](leviticus/leviticus18_1757340461.md)
 19. [Leviticus 19 — Be holy and love your neighbor](leviticus/leviticus19_1757340584.md)
 20. [Leviticus 20 — The LORD sets Israel apart](leviticus/leviticus20_1757340744.md)
+21. [Leviticus 21 — Rules for Aaron and the priests](leviticus/leviticus21_1757340857.md)
 
 ## Reading with a learner
 
