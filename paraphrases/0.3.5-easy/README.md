@@ -392,6 +392,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 43. [Genesis 43 — Benjamin goes to Egypt with his brothers](genesis/genesis43_1757332342.md)
 44. [Genesis 44 — Judah offers to stay in Benjamin’s place](genesis/genesis44_1757332443.md)
 45. [Genesis 45 — Joseph tells his brothers who he is](genesis/genesis45_1757332582.md)
+46. [Genesis 46 — Jacob sees Joseph again in Egypt](genesis/genesis46_1757332745.md)
 
 ## Reading with a learner
 
