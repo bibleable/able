@@ -475,6 +475,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Numbers 1 — Moses and Aaron count Israel’s men](numbers/numbers1_1757341775.md)
 2. [Numbers 2 — Where the tribes camped and when they moved](numbers/numbers2_1757341918.md)
+3. [Numbers 3 — The Levites care for the holy tent](numbers/numbers3_1757342106.md)
 
 ## Reading with a learner
 
