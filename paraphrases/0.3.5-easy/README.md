@@ -331,6 +331,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Revelation 7 — God shelters his people](revelation/revelation7_1757519776.md)
 8. [Revelation 8 — Silence in heaven and four trumpet calls](revelation/revelation8_1757520015.md)
 9. [Revelation 9 — John hears the fifth and sixth trumpets](revelation/revelation9_1757520145.md)
+10. [Revelation 10 — John takes the little scroll](revelation/revelation10_1757520257.md)
+11. [Revelation 11 — Two witnesses speak and the seventh trumpet sounds](revelation/revelation11_1757520432.md)
 
 ## Reading with a learner
 
