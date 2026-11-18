@@ -519,6 +519,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Deuteronomy 5 — Moses reminds Israel of the Ten Commandments](deuteronomy/deuteronomy5_1757347100.md)
 6. [Deuteronomy 6 — Love the LORD and teach your children](deuteronomy/deuteronomy6_1757347196.md)
 7. [Deuteronomy 7 — Moses reminds Israel why the LORD chose them](deuteronomy/deuteronomy7_1757347303.md)
+8. [Deuteronomy 8 — Remember who gave you food](deuteronomy/deuteronomy8_1757347386.md)
 
 ## Reading with a learner
 
