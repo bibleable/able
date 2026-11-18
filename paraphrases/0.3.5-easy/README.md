@@ -723,6 +723,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Ezra 1 — Cyrus sends the temple gifts back to Jerusalem](ezra/ezra1_1757429479.md)
 2. [Ezra 2 — The families who returned home](ezra/ezra2_1757429663.md)
+3. [Ezra 3 — The people rebuild the altar and begin the temple](ezra/ezra3_1757429749.md)
 
 ## Reading with a learner
 
