@@ -270,6 +270,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Hebrews 4 — God still offers his rest](hebrews/hebrews4_1757514848.md)
 5. [Hebrews 5 — God calls Jesus to be high priest](hebrews/hebrews5_1757514955.md)
 6. [Hebrews 6 — Hope holds us steady](hebrews/hebrews6_1757515100.md)
+7. [Hebrews 7 — Jesus remains a priest forever](hebrews/hebrews7_1757515240.md)
+8. [Hebrews 8 — God promises a new covenant](hebrews/hebrews8_1757515368.md)
 
 ## Reading with a learner
 
