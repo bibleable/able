@@ -405,6 +405,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Exodus 3 — God calls Moses from a burning bush](exodus/exodus3_1757333660.md)
 4. [Exodus 4 — Moses and Aaron bring God’s message](exodus/exodus4_1757333763.md)
 5. [Exodus 5 — Pharaoh makes the people gather their own straw](exodus/exodus5_1757333872.md)
+6. [Exodus 6 — God promises to free his people](exodus/exodus6_1757333953.md)
 
 ## Reading with a learner
 
