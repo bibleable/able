@@ -357,6 +357,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Genesis 8 — Noah waits for dry ground](genesis/genesis8_1757328259.md)
 9. [Genesis 9 — God puts a rainbow in the clouds](genesis/genesis9_1757328392.md)
 10. [Genesis 10 — The families of Noah’s three sons](genesis/genesis10_1757328581.md)
+11. [Genesis 11 — Babel and the family of Abram](genesis/genesis11_1757328685.md)
+12. [Genesis 12 — Abram leaves Haran](genesis/genesis12_1757328821.md)
 
 ## Reading with a learner
 
