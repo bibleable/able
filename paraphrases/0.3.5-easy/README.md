@@ -622,6 +622,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [1 Samuel 13 — Saul makes an offering before Samuel arrives](1samuel/1samuel13_1757374264.md)
 14. [1 Samuel 14 — The people speak up for Jonathan](1samuel/1samuel14_1757374339.md)
 15. [1 Samuel 15 — Samuel tells Saul why the LORD has rejected him](1samuel/1samuel15_1757374432.md)
+16. [1 Samuel 16 — The LORD chooses David](1samuel/1samuel16_1757374581.md)
 
 ## Reading with a learner
 
