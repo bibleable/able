@@ -553,6 +553,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Joshua 2 — Rahab asks for a promise](joshua/joshua2_1757350565.md)
 3. [Joshua 3 — Israel crosses the Jordan River](joshua/joshua3_1757350649.md)
 4. [Joshua 4 — Twelve stones at Gilgal](joshua/joshua4_1757350733.md)
+5. [Joshua 5 — Israel keeps the Passover at Gilgal](joshua/joshua5_1757350889.md)
 
 ## Reading with a learner
 
