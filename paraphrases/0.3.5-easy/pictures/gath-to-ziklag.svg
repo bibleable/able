@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 190" role="img" aria-labelledby="title">
+<title id="title">From the king’s city of Gath to the town of Ziklag</title>
+<rect width="500" height="190" rx="12" fill="#fff9ed"/>
+<g stroke="#34554a" stroke-width="3" fill="#a8c1ab">
+<path d="M44 109V63h12V51h12v12h13V51h12v12h12V51h12v12h12v46z"/>
+<path d="M350 110V78l23-18 23 18v32zm47 0V85l19-15 19 15v25z"/>
+</g>
+<path d="M162 88h140m-13-10 14 10-14 10" stroke="#44685b" fill="none" stroke-width="4"/>
+<g text-anchor="middle" font-family="sans-serif" font-size="24" fill="#243d34"><text x="87" y="150">Gath</text><text x="391" y="150">Ziklag</text></g>
+</svg>

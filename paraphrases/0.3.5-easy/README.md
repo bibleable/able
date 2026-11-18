@@ -633,6 +633,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [1 Samuel 24 — David spares Saul in the cave](1samuel/1samuel24_1757375388.md)
 25. [1 Samuel 25 — Abigail asks David to spare her household](1samuel/1samuel25_1757375519.md)
 26. [1 Samuel 26 — David values Saul’s life](1samuel/1samuel26_1757375738.md)
+27. [1 Samuel 27 — David lives among the Philistines](1samuel/1samuel27_1757375841.md)
 
 ## Reading with a learner
 
