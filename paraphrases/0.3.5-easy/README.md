@@ -621,6 +621,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [1 Samuel 12 — Samuel promises to keep praying for Israel](1samuel/1samuel12_1757374170.md)
 13. [1 Samuel 13 — Saul makes an offering before Samuel arrives](1samuel/1samuel13_1757374264.md)
 14. [1 Samuel 14 — The people speak up for Jonathan](1samuel/1samuel14_1757374339.md)
+15. [1 Samuel 15 — Samuel tells Saul why the LORD has rejected him](1samuel/1samuel15_1757374432.md)
 
 ## Reading with a learner
 
