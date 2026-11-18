@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" role="img" aria-labelledby="title">
+  <title id="title">The order of events at Gilgal</title>
+  <rect width="520" height="220" rx="12" fill="#fff9ed"/>
+  <path d="M42 38v144" stroke="#477267" stroke-width="4"/>
+  <g fill="#295348"><circle cx="42" cy="38" r="18"/><circle cx="42" cy="110" r="18"/><circle cx="42" cy="182" r="18"/></g>
+  <g font-family="sans-serif" font-size="22">
+    <g fill="white" text-anchor="middle"><text x="42" y="46">1</text><text x="42" y="118">2</text><text x="42" y="190">3</text></g>
+    <g fill="#213e34"><text x="80" y="46">Saul waits seven days.</text><text x="80" y="118">Saul gives the burnt offering.</text><text x="80" y="190">Samuel arrives as Saul finishes.</text></g>
+  </g>
+</svg>

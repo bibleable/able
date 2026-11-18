@@ -619,6 +619,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [1 Samuel 10 — Israel welcomes Saul as king](1samuel/1samuel10_1757374008.md)
 11. [1 Samuel 11 — Saul helps rescue Jabesh](1samuel/1samuel11_1757374093.md)
 12. [1 Samuel 12 — Samuel promises to keep praying for Israel](1samuel/1samuel12_1757374170.md)
+13. [1 Samuel 13 — Saul makes an offering before Samuel arrives](1samuel/1samuel13_1757374264.md)
 
 ## Reading with a learner
 
