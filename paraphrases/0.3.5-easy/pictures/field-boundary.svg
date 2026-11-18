@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 155" role="img" aria-labelledby="title">
+  <title id="title">A boundary stone marks where two fields meet</title>
+  <rect width="340" height="155" fill="#faf5e9"/>
+  <path d="M5 52h170l-13 96H5z" fill="#c7dfae"/>
+  <path d="M175 52h160v96H162z" fill="#e8ca8e"/>
+  <path d="m175 52-13 96" fill="none" stroke="#544c3b" stroke-width="3"/>
+  <path d="m152 95 4-29 15-6 12 6 4 29z" fill="#797971" stroke="#343932" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="16" fill="#283624" text-anchor="middle">
+    <text x="79" y="120">One field</text><text x="255" y="120">Another field</text>
+    <text x="172" y="29">Boundary marker</text>
+  </g>
+  <path d="M172 35v19" stroke="#343932" stroke-width="2"/>
+</svg>

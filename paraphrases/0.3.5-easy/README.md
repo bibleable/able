@@ -530,6 +530,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 16. [Deuteronomy 16 — Three feasts and fair judges](deuteronomy/deuteronomy16_1757348332.md)
 17. [Deuteronomy 17 — Witnesses, judges and the king](deuteronomy/deuteronomy17_1757348412.md)
 18. [Deuteronomy 18 — Food for the priests and a prophet for Israel](deuteronomy/deuteronomy18_1757348505.md)
+19. [Deuteronomy 19 — Safe cities and truthful witnesses](deuteronomy/deuteronomy19_1757348646.md)
 
 ## Reading with a learner
 
