@@ -447,6 +447,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Leviticus 2 — Bringing a grain offering](leviticus/leviticus2_1757338569.md)
 3. [Leviticus 3 — Bringing a peace offering](leviticus/leviticus3_1757338668.md)
 4. [Leviticus 4 — An offering for sin done by mistake](leviticus/leviticus4_1757338807.md)
+5. [Leviticus 5 — Admitting wrong and bringing an offering](leviticus/leviticus5_1757338946.md)
 
 ## Reading with a learner
 
