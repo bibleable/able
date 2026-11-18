@@ -327,6 +327,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Revelation 3 — Listen to what Jesus says to three churches](revelation/revelation3_1757519163.md)
 4. [Revelation 4 — John sees a throne in heaven](revelation/revelation4_1757519313.md)
 5. [Revelation 5 — The Lamb takes the scroll](revelation/revelation5_1757519512.md)
+6. [Revelation 6 — The Lamb opens six seals](revelation/revelation6_1757519656.md)
+7. [Revelation 7 — God shelters his people](revelation/revelation7_1757519776.md)
 
 ## Reading with a learner
 
