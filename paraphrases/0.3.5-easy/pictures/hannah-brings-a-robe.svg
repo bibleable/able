@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510 210" role="img" aria-labelledby="title">
+  <title id="title">Hannah brings a little robe to Samuel each year</title>
+  <rect width="510" height="210" rx="14" fill="#fff9ef"/>
+  <path d="m69 51 32-17q13 19 26 0l32 17 22 40-22 13-17-24 9 86H78l9-86-17 24-23-13z" fill="#73a5a2" stroke="#254d4f" stroke-width="4"/>
+  <path d="M84 152h60m-46-51h32" stroke="#254d4f" stroke-width="3"/>
+  <g fill="#243e38" font-family="sans-serif" font-size="24">
+    <text x="209" y="80">Each year Hannah</text>
+    <text x="209" y="114">brought Samuel</text>
+    <text x="209" y="148">a little robe.</text>
+  </g>
+</svg>
