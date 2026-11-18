@@ -425,6 +425,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 23. [Exodus 23 — Justice, rest and the journey ahead](exodus/exodus23_1757336087.md)
 24. [Exodus 24 — Israel agrees to the covenant](exodus/exodus24_1757336261.md)
 25. [Exodus 25 — Gifts for God’s tent](exodus/exodus25_1757336371.md)
+26. [Exodus 26 — How to make the holy tent](exodus/exodus26_1757336485.md)
 
 ## Reading with a learner
 
