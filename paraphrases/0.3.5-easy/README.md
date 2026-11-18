@@ -147,6 +147,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Romans 7 — Paul wants to do good but struggles with sin](romans/romans7_1757504461.md)
 8. [Romans 8 — Nothing can separate us from God’s love](romans/romans8_1757504576.md)
 9. [Romans 9 — Paul speaks about Israel and God’s mercy](romans/romans9_1757504764.md)
+10. [Romans 10 — People hear the good news about Jesus](romans/romans10_1757504856.md)
 
 ## Reading with a learner
 

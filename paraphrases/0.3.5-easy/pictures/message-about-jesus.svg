@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" width="300" height="210" role="img" aria-labelledby="title desc">
+  <title id="title">How the good news reaches people</title>
+  <desc id="desc">Someone sends a messenger. The messenger tells people about Jesus. People hear the good news.</desc>
+  <g fill="#edf5f2" stroke="#24463c" stroke-width="2">
+    <rect x="8" y="6" width="284" height="44" rx="7"/>
+    <rect x="8" y="81" width="284" height="44" rx="7"/>
+    <rect x="8" y="156" width="284" height="44" rx="7"/>
+  </g>
+  <g fill="none" stroke="#24463c" stroke-width="3">
+    <path d="M150 52v23m-6 -6 6 6 6 -6"/>
+    <path d="M150 127v23m-6 -6 6 6 6 -6"/>
+  </g>
+  <g fill="#132d26" font-family="sans-serif" font-size="16" text-anchor="middle">
+    <text x="150" y="34">Someone sends a messenger.</text>
+    <text x="150" y="109">The messenger tells about Jesus.</text>
+    <text x="150" y="184">People hear the good news.</text>
+  </g>
+</svg>
