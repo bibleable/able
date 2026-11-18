@@ -701,6 +701,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [2 Kings 6 — Elisha asks the LORD to open eyes](2kings/2kings6_1757416026.md)
 7. [2 Kings 7 — Four men bring good news to Samaria](2kings/2kings7_1757416131.md)
 8. [2 Kings 8 — A woman gets her land back](2kings/2kings8_1757416332.md)
+9. [2 Kings 9 — Jehu becomes king of Israel](2kings/2kings9_1757416476.md)
 
 ## Reading with a learner
 
