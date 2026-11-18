@@ -300,6 +300,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [2 Peter 2 — Watch out for false teachers](2peter/2peter2_1757517521.md)
 3. [2 Peter 3 — God keeps his promise](2peter/2peter3_1757517612.md)
 
+## 1 John
+
+1. [1 John 1 — Walk in the light](1john/1john1_1757517678.md)
+2. [1 John 2 — Love each other and stay close to Christ](1john/1john2_1757517811.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
