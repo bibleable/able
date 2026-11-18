@@ -391,6 +391,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 42. [Genesis 42 — Joseph’s brothers come to buy grain](genesis/genesis42_1757332217.md)
 43. [Genesis 43 — Benjamin goes to Egypt with his brothers](genesis/genesis43_1757332342.md)
 44. [Genesis 44 — Judah offers to stay in Benjamin’s place](genesis/genesis44_1757332443.md)
+45. [Genesis 45 — Joseph tells his brothers who he is](genesis/genesis45_1757332582.md)
 
 ## Reading with a learner
 
