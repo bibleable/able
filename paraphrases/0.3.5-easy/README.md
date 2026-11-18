@@ -710,6 +710,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [2 Kings 15 — Kings change in Israel and Judah](2kings/2kings15_1757417283.md)
 16. [2 Kings 16 — Ahaz brings a new altar to Jerusalem](2kings/2kings16_1757417383.md)
 17. [2 Kings 17 — Assyria takes the people of Israel into exile](2kings/2kings17_1757417528.md)
+18. [2 Kings 18 — Assyria challenges Hezekiah’s trust in the LORD](2kings/2kings18_1757417668.md)
 
 ## Reading with a learner
 
