@@ -452,6 +452,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Leviticus 7 — Sharing the offerings](leviticus/leviticus7_1757339169.md)
 8. [Leviticus 8 — Moses prepares Aaron and his sons to serve](leviticus/leviticus8_1757339270.md)
 9. [Leviticus 9 — Aaron brings the offerings and blesses the people](leviticus/leviticus9_1757339387.md)
+10. [Leviticus 10 — Aaron loses two sons](leviticus/leviticus10_1757339503.md)
 
 ## Reading with a learner
 
