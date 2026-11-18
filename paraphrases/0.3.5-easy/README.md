@@ -589,6 +589,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Judges 11 — Jephthah leads Gilead and makes a vow](judges/judges11_1757354390.md)
 12. [Judges 12 — Jephthah and the judges who followed him](judges/judges12_1757354459.md)
 13. [Judges 13 — An angel announces Samson’s birth](judges/judges13_1757354560.md)
+14. [Judges 14 — Samson tells a riddle](judges/judges14_1757354656.md)
 
 ## Reading with a learner
 

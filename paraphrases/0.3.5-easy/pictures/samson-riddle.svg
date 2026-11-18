@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" role="img">
+  <title>A lion and honey from a honeycomb</title>
+  <rect width="360" height="150" rx="8" fill="#fff9ea"/>
+  <g stroke="#5b3925" stroke-width="3" stroke-linejoin="round">
+    <path d="M88 13l15 9 18-2 4 14 14 10-6 15 3 16-14 7-7 18-16-2-12 10-16-10-14 1-6-15-13-8 4-17-6-12 13-11 3-15 18 1Z" fill="#ae6b38"/>
+    <ellipse cx="87" cy="59" rx="28" ry="31" fill="#e6b56d"/>
+    <path d="M80 67l7 7 7-7Z" fill="#543a2d"/>
+    <path d="M87 74v6m-9-1q4 5 9 1 5 4 10-1" fill="none"/>
+  </g>
+  <g fill="#372e28"><circle cx="77" cy="55" r="3"/><circle cx="99" cy="55" r="3"/></g>
+  <g fill="#eeba44" stroke="#87581f" stroke-width="2">
+    <path id="cell" d="M247 30l12-7 12 7v14l-12 7-12-7Z"/>
+    <use href="#cell" x="24"/><use href="#cell" x="-12" y="21"/><use href="#cell" x="12" y="21"/><use href="#cell" x="36" y="21"/>
+    <path d="M271 77q-2 5-6 11-4 10 5 11 10 0 6-9Z" fill="#d6931c"/>
+  </g>
+  <g font-family="sans-serif" font-size="19" text-anchor="middle" fill="#30291f">
+    <text x="87" y="134">Lion</text><text x="271" y="134">Honey</text>
+  </g>
+</svg>
