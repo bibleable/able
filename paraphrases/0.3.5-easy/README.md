@@ -658,6 +658,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [2 Samuel 15 — Absalom seeks the throne and David leaves Jerusalem](2samuel/2samuel15_1757378226.md)
 16. [2 Samuel 16 — David meets Ziba and Shimei](2samuel/2samuel16_1757378339.md)
 17. [2 Samuel 17 — David receives a warning](2samuel/2samuel17_1757378478.md)
+18. [2 Samuel 18 — David hears the news about Absalom](2samuel/2samuel18_1757378620.md)
 
 ## Reading with a learner
 

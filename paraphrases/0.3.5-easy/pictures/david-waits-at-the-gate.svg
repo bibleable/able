@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" role="img" aria-labelledby="title desc">
+  <title id="title">The guard above and David below</title>
+  <desc id="desc">A guard stands on the roof of the gateway. David sits below, waiting for news.</desc>
+  <rect width="380" height="210" rx="10" fill="#fff9ed"/>
+  <g stroke="#473b30" stroke-width="3" stroke-linejoin="round">
+    <path d="M18 177V78h152v99h-29v-49q-47-52-94 0v49Z" fill="#d5b790"/>
+    <path d="M12 77h163" fill="none"/>
+    <circle cx="95" cy="24" r="9" fill="#996947"/>
+    <path d="m88 34-6 26h24l-5-26Z" fill="#48747c"/>
+    <path d="M88 60v16m13-16v16m-1-39 13-9 8 1" fill="none"/>
+    <path d="M74 154h34v8H74zm4 8v17m26-17v17" fill="#9d754f"/>
+    <circle cx="88" cy="121" r="8" fill="#996947"/>
+    <path d="M82 131h13l2 14 17 1v24h-8l-1-17H79Z" fill="#685c89"/>
+  </g>
+  <g font-family="sans-serif" font-size="20" fill="#302b25"><text x="187" y="53">The guard watches.</text><text x="187" y="151">David waits.</text></g>
+</svg>
