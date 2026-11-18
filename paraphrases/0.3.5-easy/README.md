@@ -540,6 +540,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [Deuteronomy 26 — A basket from the first harvest](deuteronomy/deuteronomy26_1757349374.md)
 27. [Deuteronomy 27 — Write the law on stones](deuteronomy/deuteronomy27_1757349486.md)
 28. [Deuteronomy 28 — Blessings and warnings for Israel](deuteronomy/deuteronomy28_1757349591.md)
+29. [Deuteronomy 29 — Israel makes a covenant in Moab](deuteronomy/deuteronomy29_1757349755.md)
 
 ## Reading with a learner
 
