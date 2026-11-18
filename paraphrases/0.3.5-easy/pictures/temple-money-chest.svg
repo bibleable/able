@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 160" role="img" aria-labelledby="title desc">
+  <title id="title">A chest for the temple gifts</title>
+  <desc id="desc">The lid of the wooden box has a dark opening for money.</desc>
+  <rect width="260" height="160" rx="10" fill="#fff9ec"/>
+  <g stroke="#473224" stroke-width="3" stroke-linejoin="round">
+    <path d="M42 64L160 64L160 135L42 135Z" fill="#c18a58"/>
+    <path d="M160 64L209 40L209 111L160 135Z" fill="#93623e"/>
+    <path d="M42 64L88 39L209 39L160 64Z" fill="#e8b983"/>
+    <ellipse cx="126" cy="51" rx="20" ry="5" fill="#392c22"/>
+  </g>
+</svg>

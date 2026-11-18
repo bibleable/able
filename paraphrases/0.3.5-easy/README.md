@@ -704,6 +704,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [2 Kings 9 — Jehu becomes king of Israel](2kings/2kings9_1757416476.md)
 10. [2 Kings 10 — Jehu rules Israel](2kings/2kings10_1757416657.md)
 11. [2 Kings 11 — Joash becomes king of Judah](2kings/2kings11_1757416834.md)
+12. [2 Kings 12 — Workers repair the temple](2kings/2kings12_1757416982.md)
 
 ## Reading with a learner
 
