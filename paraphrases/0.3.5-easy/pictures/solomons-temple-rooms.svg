@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" role="img" aria-labelledby="title desc">
+  <title id="title">The two rooms inside Solomon’s temple</title>
+  <desc id="desc">A view from above. Enter the main hall on the left. The Most Holy Place is at the back on the right. The main hall is twice as long as the inner room.</desc>
+  <rect width="480" height="200" rx="10" fill="#fff9ed"/>
+  <g stroke="#493e37" stroke-width="3">
+    <rect x="30" y="24" width="280" height="140" fill="#ead8b6"/>
+    <rect x="310" y="24" width="140" height="140" fill="#f0d285"/>
+  </g>
+  <path d="M30 77v34" stroke="#ead8b6" stroke-width="5"/>
+  <path d="M310 77v34" stroke="#f0d285" stroke-width="5"/>
+  <g text-anchor="middle" font-family="sans-serif" fill="#302b25">
+    <text x="170" y="88" font-size="22">Main hall</text>
+    <text x="170" y="116" font-size="18">40 cubits long</text>
+    <text x="380" y="76" font-size="20">Most Holy</text>
+    <text x="380" y="99" font-size="20">Place</text>
+    <text x="380" y="127" font-size="17">20 cubits long</text>
+  </g>
+</svg>
