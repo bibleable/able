@@ -420,6 +420,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Exodus 18 — Jethro helps Moses share the work](exodus/exodus18_1757335406.md)
 19. [Exodus 19 — The people meet God at Mount Sinai](exodus/exodus19_1757335476.md)
 20. [Exodus 20 — God gives the Ten Commandments](exodus/exodus20_1757335668.md)
+21. [Exodus 21 — Rules about servants, injuries and animals](exodus/exodus21_1757335857.md)
 
 ## Reading with a learner
 
