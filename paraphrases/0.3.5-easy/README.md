@@ -564,6 +564,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Joshua 13 — Land for the tribes of Israel](joshua/joshua13_1757352027.md)
 14. [Joshua 14 — Caleb receives Hebron](joshua/joshua14_1757352096.md)
 15. [Joshua 15 — The land Judah’s families received](joshua/joshua15_1757352280.md)
+16. [Joshua 16 — Joseph’s family receives land](joshua/joshua16_1757352350.md)
 
 ## Reading with a learner
 
