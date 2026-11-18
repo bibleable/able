@@ -458,6 +458,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Leviticus 13 — The priest examines skin, cloth and leather](leviticus/leviticus13_1757339856.md)
 14. [Leviticus 14 — Returning to camp and checking a house](leviticus/leviticus14_1757340061.md)
 15. [Leviticus 15 — When fluid or blood leaves the body](leviticus/leviticus15_1757340160.md)
+16. [Leviticus 16 — The Day of Atonement](leviticus/leviticus16_1757340258.md)
 
 ## Reading with a learner
 
