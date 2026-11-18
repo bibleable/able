@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 128" role="img">
+  <title>The travelers leave Bethlehem, pass Jebus, and stop at Gibeah</title>
+  <rect width="390" height="128" rx="8" fill="#fffaf1"/>
+  <g fill="none" stroke="#425f49" stroke-width="3">
+    <path d="M64 60h121m-9-6 9 6-9 6M204 60h117m-9-6 9 6-9 6"/>
+  </g>
+  <g fill="#547658"><circle cx="60" cy="60" r="5"/><circle cx="195" cy="60" r="5"/><circle cx="330" cy="60" r="5"/></g>
+  <g fill="#25392b" font-family="sans-serif" text-anchor="middle">
+    <g font-size="18"><text x="60" y="37">Bethlehem</text><text x="195" y="37">Jebus</text><text x="330" y="37">Gibeah</text></g>
+    <g font-size="15"><text x="60" y="92">They left.</text><text x="195" y="92">They passed by.</text><text x="330" y="92">They stopped.</text></g>
+  </g>
+</svg>
