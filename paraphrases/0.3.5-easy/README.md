@@ -379,6 +379,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [Genesis 30 — Jacob’s family and flocks grow](genesis/genesis30_1757330897.md)
 31. [Genesis 31 — Jacob leaves Laban and heads home](genesis/genesis31_1757330985.md)
 32. [Genesis 32 — Jacob prepares to meet Esau and receives a new name](genesis/genesis32_1757331111.md)
+33. [Genesis 33 — Esau runs to welcome Jacob](genesis/genesis33_1757331192.md)
 
 ## Reading with a learner
 
