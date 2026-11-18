@@ -587,6 +587,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Judges 9 — Abimelech becomes king at Shechem](judges/judges9_1757354223.md)
 10. [Judges 10 — Israel turns back to the LORD](judges/judges10_1757354327.md)
 11. [Judges 11 — Jephthah leads Gilead and makes a vow](judges/judges11_1757354390.md)
+12. [Judges 12 — Jephthah and the judges who followed him](judges/judges12_1757354459.md)
 
 ## Reading with a learner
 

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 235" role="img">
+  <title>Jephthah, Ibzan, Elon, and Abdon in order, with their years as judges</title>
+  <rect width="280" height="235" rx="8" fill="#fffaf1"/>
+  <rect x="16" y="8" width="248" height="40" rx="6" fill="#e1ebde" stroke="#51694e"/>
+  <g font-family="sans-serif" font-size="20" fill="#24372b"><text x="32" y="35">Jephthah</text><text x="160" y="35">6 years</text></g>
+  <path d="M140 49v15m-5-5 5 5 5-5" fill="none" stroke="#435847" stroke-width="2"/>
+  <rect x="16" y="67" width="248" height="40" rx="6" fill="#e1ebde" stroke="#51694e"/>
+  <g font-family="sans-serif" font-size="20" fill="#24372b"><text x="32" y="94">Ibzan</text><text x="160" y="94">7 years</text></g>
+  <path d="M140 108v15m-5-5 5 5 5-5" fill="none" stroke="#435847" stroke-width="2"/>
+  <rect x="16" y="126" width="248" height="40" rx="6" fill="#e1ebde" stroke="#51694e"/>
+  <g font-family="sans-serif" font-size="20" fill="#24372b"><text x="32" y="153">Elon</text><text x="160" y="153">10 years</text></g>
+  <path d="M140 167v15m-5-5 5 5 5-5" fill="none" stroke="#435847" stroke-width="2"/>
+  <rect x="16" y="185" width="248" height="40" rx="6" fill="#e1ebde" stroke="#51694e"/>
+  <g font-family="sans-serif" font-size="20" fill="#24372b"><text x="32" y="212">Abdon</text><text x="160" y="212">8 years</text></g>
+</svg>
