@@ -481,6 +481,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Numbers 6 — The Nazirite promise and a blessing for Israel](numbers/numbers6_1757342524.md)
 7. [Numbers 7 — Twelve leaders bring their gifts](numbers/numbers7_1757342614.md)
 8. [Numbers 8 — Seven lamps and the Levites’ work](numbers/numbers8_1757342796.md)
+9. [Numbers 9 — Passover and the cloud over the tent](numbers/numbers9_1757342882.md)
 
 ## Reading with a learner
 
