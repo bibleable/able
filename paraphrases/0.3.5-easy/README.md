@@ -373,6 +373,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Genesis 24 — Rebekah agrees to go with Abraham’s servant](genesis/genesis24_1757330148.md)
 25. [Genesis 25 — Esau sells his birthright to Jacob](genesis/genesis25_1757330285.md)
 26. [Genesis 26 — Isaac finds water and makes peace](genesis/genesis26_1757330400.md)
+27. [Genesis 27 — Jacob takes Esau’s blessing](genesis/genesis27_1757330618.md)
 
 ## Reading with a learner
 
