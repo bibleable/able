@@ -401,6 +401,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Exodus
 
 1. [Exodus 1 — Two midwives let the baby boys live](exodus/exodus1_1757333431.md)
+2. [Exodus 2 — A baby by the Nile](exodus/exodus2_1757333530.md)
 
 ## Reading with a learner
 
