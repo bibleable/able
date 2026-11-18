@@ -356,6 +356,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Genesis 7 — Noah and his family enter the ark](genesis/genesis7_1757328177.md)
 8. [Genesis 8 — Noah waits for dry ground](genesis/genesis8_1757328259.md)
 9. [Genesis 9 — God puts a rainbow in the clouds](genesis/genesis9_1757328392.md)
+10. [Genesis 10 — The families of Noah’s three sons](genesis/genesis10_1757328581.md)
 
 ## Reading with a learner
 
