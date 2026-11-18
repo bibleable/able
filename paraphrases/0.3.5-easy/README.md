@@ -653,6 +653,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [2 Samuel 10 — Hanun turns away David’s messengers](2samuel/2samuel10_1757377594.md)
 11. [2 Samuel 11 — David, Bathsheba, and Uriah](2samuel/2samuel11_1757377720.md)
 12. [2 Samuel 12 — Nathan tells David a story](2samuel/2samuel12_1757377817.md)
+13. [2 Samuel 13 — Tamar, Amnon, and Absalom](2samuel/2samuel13_1757377986.md)
 
 ## Reading with a learner
 

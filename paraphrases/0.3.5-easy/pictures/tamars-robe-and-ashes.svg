@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 165" role="img" aria-labelledby="title desc">
+  <title id="title">Tamar shows her grief</title>
+  <desc id="desc">A colorful robe is torn at the neck. Beside it is a small pile of ashes.</desc>
+  <rect width="360" height="165" rx="10" fill="#fff9ed"/>
+  <path d="m67 23 20-7 4 13-3 13 9-7-3 19 10-23-1-9 5-6 19 7 27 26-16 17-13-12 6 62H59l5-62-15 12-14-17Z" fill="#5d8295" stroke="#34464f" stroke-width="3"/>
+  <path d="M62 81h65v8H61zm-2 18h69v8H59z" fill="#ecc876"/>
+  <path d="m214 109 15-9 13-1 15-14 16 8 11-1 21 17Z" fill="#85817b" stroke="#48443f" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="20" fill="#302b25" text-anchor="middle"><text x="95" y="146">Torn robe</text><text x="259" y="146">Ashes</text></g>
+</svg>
