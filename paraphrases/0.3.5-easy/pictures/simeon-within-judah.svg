@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 152" role="img">
+  <title>Simeon's share lies inside Judah's first share</title>
+  <rect x="8" y="8" width="324" height="136" rx="8" fill="#f8edcf" stroke="#624925" stroke-width="4"/>
+  <rect x="63" y="63" width="214" height="59" rx="6" fill="#dcebdc" stroke="#395d47" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="21" fill="#25372d" text-anchor="middle">
+    <text x="170" y="44">Judah’s first share</text>
+    <text x="170" y="100">Simeon’s share</text>
+  </g>
+</svg>
