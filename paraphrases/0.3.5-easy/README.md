@@ -161,6 +161,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [1 Corinthians 2 — God’s Spirit helps us understand](1corinthians/1corinthians2_1757505705.md)
 3. [1 Corinthians 3 — Paul plants, Apollos waters, and God gives growth](1corinthians/1corinthians3_1757505866.md)
 4. [1 Corinthians 4 — Paul asks the believers to follow his example](1corinthians/1corinthians4_1757505952.md)
+5. [1 Corinthians 5 — Paul asks the church to face wrongdoing](1corinthians/1corinthians5_1757506040.md)
 
 ## Reading with a learner
 

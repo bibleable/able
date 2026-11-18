@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="145" viewBox="0 0 350 145" role="img" aria-labelledby="title desc">
+  <title id="title">Dough rises</title><desc id="desc">On the left, a small lump of dough rests in a bowl. On the right, the dough fills the bowl and rises above the rim.</desc>
+  <rect width="350" height="145" rx="8" fill="#fffaf1"/>
+  <g stroke="#694c33" stroke-width="3" fill="#ecd5ac">
+    <path d="M52 76 Q57 49 77 48 Q99 49 103 76Z"/>
+    <path d="M224 76 Q223 33 253 27 Q301 10 320 76Z"/>
+  </g>
+  <g fill="#94bdba" stroke="#2e5357" stroke-width="3"><path d="M24 72h106q-9 46-53 46T24 72Z"/><path d="M218 72h106q-9 46-53 46t-53-46Z"/></g>
+  <path d="M150 74h44m-9 -8 9 8 -9 8" stroke="#324641" fill="none" stroke-width="3"/>
+  <g font-family="sans-serif" fill="#20352e" font-size="16" text-anchor="middle"><text x="77" y="138">Before</text><text x="271" y="138">After the dough rises</text></g>
+</svg>
