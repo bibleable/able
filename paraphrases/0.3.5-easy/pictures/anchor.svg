@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 150" role="img">
+  <title>A rope fastened to the ring of an anchor</title>
+  <rect width="220" height="150" rx="8" fill="#f5f9f9"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="110" cy="32" r="10" stroke="#294451" stroke-width="7"/>
+    <path d="M110 42 V123 M88 56 H132 M110 123 Q77 118 62 87 L61 102 M62 87 L78 94 M110 123 Q143 118 158 87 L159 102 M158 87 L142 94" stroke="#294451" stroke-width="8"/>
+    <path d="M107 25 Q100 15 113 8 L122 2" stroke="#965f37" stroke-width="5"/>
+  </g>
+</svg>

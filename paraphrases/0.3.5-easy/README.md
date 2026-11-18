@@ -268,6 +268,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Hebrews 2 — Jesus shares our human life](hebrews/hebrews2_1757514552.md)
 3. [Hebrews 3 — Listen to God today](hebrews/hebrews3_1757514717.md)
 4. [Hebrews 4 — God still offers his rest](hebrews/hebrews4_1757514848.md)
+5. [Hebrews 5 — God calls Jesus to be high priest](hebrews/hebrews5_1757514955.md)
+6. [Hebrews 6 — Hope holds us steady](hebrews/hebrews6_1757515100.md)
 
 ## Reading with a learner
 
