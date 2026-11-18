@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 160" role="img" aria-labelledby="title">
+  <title id="title">The ark moves from Ashdod to Gath to Ekron</title>
+  <rect width="540" height="160" rx="14" fill="#fff9ed"/>
+  <g stroke="#365b51" stroke-width="5" fill="none">
+    <path d="M95 63h154m-12-9 12 9-12 9m57-9h155m-12-9 12 9-12 9"/>
+  </g>
+  <g fill="#265746">
+    <circle cx="73" cy="63" r="14"/><circle cx="270" cy="63" r="14"/><circle cx="470" cy="63" r="14"/>
+  </g>
+  <g text-anchor="middle" font-family="sans-serif" font-size="27" fill="#223f35">
+    <text x="73" y="119">Ashdod</text><text x="270" y="119">Gath</text><text x="470" y="119">Ekron</text>
+  </g>
+</svg>
