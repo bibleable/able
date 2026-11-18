@@ -715,6 +715,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [2 Kings 20 — The LORD hears Hezekiah’s prayer](2kings/2kings20_1757418034.md)
 21. [2 Kings 21 — The LORD warns Jerusalem](2kings/2kings21_1757418124.md)
 22. [2 Kings 22 — Josiah hears the Book of the Law](2kings/2kings22_1757418263.md)
+23. [2 Kings 23 — Josiah and the people renew their promise](2kings/2kings23_1757418366.md)
 
 ## Reading with a learner
 
