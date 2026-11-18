@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 185" role="img">
+  <title>Deborah sits under a palm tree. A visitor stands facing her.</title>
+  <rect width="360" height="185" rx="8" fill="#fff8e9"/>
+  <path d="M29 162h300" stroke="#756345" stroke-width="4"/>
+  <path d="M79 161q20-58 17-112h10q8 59-11 112Z" fill="#9c784f" stroke="#55422d" stroke-width="3"/>
+  <g fill="#5a844d" stroke="#365b38" stroke-width="2">
+    <path d="M102 49Q50 1 24 55Q54 32 102 49Z"/>
+    <path d="M102 49Q55 34 43 88Q66 60 102 49Z"/>
+    <path d="M102 49Q98 9 144 13Q113 24 102 49Z"/>
+    <path d="M102 49Q151 6 186 55Q143 35 102 49Z"/>
+    <path d="M102 49Q149 40 164 84Q138 60 102 49Z"/>
+  </g>
+  <path d="M111 137h41v24h-41Z" fill="#ac9678"/>
+  <g stroke="#403f35" stroke-width="3" stroke-linejoin="round">
+    <circle cx="136" cy="92" r="12" fill="#ae7957"/>
+    <path d="M126 106h20l6 23 20 5 5 26h-14l-5-15-35-6Z" fill="#47777a"/>
+    <circle cx="247" cy="75" r="12" fill="#a77555"/>
+    <path d="M238 90h18l9 52h-10v18h-10v-18h-13Z" fill="#9e694c"/>
+  </g>
+</svg>
