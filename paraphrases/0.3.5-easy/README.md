@@ -348,6 +348,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Genesis
 
 1. [Genesis 1 — God makes the heavens and the earth](genesis/genesis1_1757327525.md)
+2. [Genesis 2 — God plants a garden in Eden](genesis/genesis2_1757327639.md)
+3. [Genesis 3 — The man and the woman hide from God](genesis/genesis3_1757327745.md)
 
 ## Reading with a learner
 
