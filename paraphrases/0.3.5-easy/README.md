@@ -495,6 +495,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Numbers 20 — Water from the rock and Aaron’s death](numbers/numbers20_1757344384.md)
 21. [Numbers 21 — The bronze snake and the journey to Bashan](numbers/numbers21_1757344566.md)
 22. [Numbers 22 — Balak sends for Balaam](numbers/numbers22_1757344729.md)
+23. [Numbers 23 — Balaam blesses Israel](numbers/numbers23_1757344828.md)
 
 ## Reading with a learner
 
