@@ -554,6 +554,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Joshua 3 — Israel crosses the Jordan River](joshua/joshua3_1757350649.md)
 4. [Joshua 4 — Twelve stones at Gilgal](joshua/joshua4_1757350733.md)
 5. [Joshua 5 — Israel keeps the Passover at Gilgal](joshua/joshua5_1757350889.md)
+6. [Joshua 6 — Jericho falls and Rahab lives](joshua/joshua6_1757350991.md)
 
 ## Reading with a learner
 
