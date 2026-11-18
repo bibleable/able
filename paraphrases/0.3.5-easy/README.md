@@ -681,6 +681,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [1 Kings 11 — Solomon turns away from the LORD](1kings/1kings11_1757413746.md)
 12. [1 Kings 12 — The kingdom divides](1kings/1kings12_1757413864.md)
 13. [1 Kings 13 — A man from Judah brings a warning to Bethel](1kings/1kings13_1757414016.md)
+14. [1 Kings 14 — A message for Jeroboam and trouble in Judah](1kings/1kings14_1757414167.md)
 
 ## Reading with a learner
 
