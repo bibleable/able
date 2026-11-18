@@ -439,6 +439,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 37. [Exodus 37 — Bezalel makes the furnishings for the holy tent](exodus/exodus37_1757337865.md)
 38. [Exodus 38 — The courtyard and the record of the metals](exodus/exodus38_1757338016.md)
 39. [Exodus 39 — The workers bring their finished work to Moses](exodus/exodus39_1757338210.md)
+40. [Exodus 40 — The cloud covers the holy tent](exodus/exodus40_1757338339.md)
 
 ## Reading with a learner
 
