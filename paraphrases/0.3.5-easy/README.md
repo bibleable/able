@@ -316,6 +316,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [3 John 1 — Gaius helps traveling believers](3john/3john1_1757518466.md)
 
+## Jude
+
+1. [Jude 1 — Hold on to your faith and show mercy](jude/jude1_1757518633.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
