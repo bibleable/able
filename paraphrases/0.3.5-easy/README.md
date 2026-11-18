@@ -363,6 +363,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 14. [Genesis 14 — Abram brings Lot home](genesis/genesis14_1757329005.md)
 15. [Genesis 15 — Abram looks up at the stars](genesis/genesis15_1757329122.md)
 16. [Genesis 16 — The LORD hears Hagar](genesis/genesis16_1757329190.md)
+17. [Genesis 17 — God gives Abram a new name](genesis/genesis17_1757329277.md)
+18. [Genesis 18 — Abraham welcomes three visitors](genesis/genesis18_1757329412.md)
 
 ## Reading with a learner
 
