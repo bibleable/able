@@ -593,6 +593,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Judges 15 — Samson fights at Lehi and cries out for water](judges/judges15_1757354798.md)
 16. [Judges 16 — Samson tells Delilah his secret](judges/judges16_1757354913.md)
 17. [Judges 17 — Micah chooses a priest](judges/judges17_1757355071.md)
+18. [Judges 18 — Dan takes Micah’s idols and priest](judges/judges18_1757355222.md)
 
 ## Reading with a learner
 
