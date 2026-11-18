@@ -205,6 +205,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Ephesians 2 — Christ brings us into one family](ephesians/ephesians2_1757509714.md)
 3. [Ephesians 3 — Paul prays that believers will know Christ’s love](ephesians/ephesians3_1757509859.md)
 4. [Ephesians 4 — Speak the truth with love](ephesians/ephesians4_1757510020.md)
+5. [Ephesians 5 — Live in love and light](ephesians/ephesians5_1757510185.md)
+6. [Ephesians 6 — Stand firm and pray for each other](ephesians/ephesians6_1757510351.md)
 
 ## Reading with a learner
 
