@@ -516,6 +516,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Deuteronomy 2 — Israel travels past its neighbors](deuteronomy/deuteronomy2_1757346647.md)
 3. [Deuteronomy 3 — Moses prepares Joshua to lead](deuteronomy/deuteronomy3_1757346792.md)
 4. [Deuteronomy 4 — Remember what the LORD has done](deuteronomy/deuteronomy4_1757346958.md)
+5. [Deuteronomy 5 — Moses reminds Israel of the Ten Commandments](deuteronomy/deuteronomy5_1757347100.md)
 
 ## Reading with a learner
 
