@@ -740,6 +740,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Nehemiah 4 — The people keep building](nehemiah/nehemiah4_1757431266.md)
 5. [Nehemiah 5 — Families ask for help](nehemiah/nehemiah5_1757431348.md)
 6. [Nehemiah 6 — Nehemiah stays to finish the wall](nehemiah/nehemiah6_1757431457.md)
+7. [Nehemiah 7 — Nehemiah finds a record of the families](nehemiah/nehemiah7_1757431600.md)
 
 ## Reading with a learner
 
