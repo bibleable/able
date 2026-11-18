@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" role="img" aria-labelledby="title">
+  <title id="title">One marked box out of ten equal boxes</title>
+  <rect x="4" y="4" width="42" height="42" rx="4" fill="#cde8d7" stroke="#29433c" stroke-width="2"/>
+  <rect x="51" y="4" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="98" y="4" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="145" y="4" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="192" y="4" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="4" y="51" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="51" y="51" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="98" y="51" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="145" y="51" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <rect x="192" y="51" width="42" height="42" rx="4" fill="#fffaf1" stroke="#29433c" stroke-width="2"/>
+  <path d="m13 25 8 8 15-18" fill="none" stroke="#29433c" stroke-width="4"/>
+</svg>
