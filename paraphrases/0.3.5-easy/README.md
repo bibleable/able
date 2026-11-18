@@ -245,6 +245,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [1 Timothy 5 — Care for widows and treat leaders fairly](1timothy/1timothy5_1757512884.md)
 6. [1 Timothy 6 — Put your hope in God](1timothy/1timothy6_1757512986.md)
 
+## 2 Timothy
+
+1. [2 Timothy 1 — Keep using the gift God gave you](2timothy/2timothy1_1757513138.md)
+2. [2 Timothy 2 — Pass on what you have learned](2timothy/2timothy2_1757513247.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
