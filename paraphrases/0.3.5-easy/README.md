@@ -168,6 +168,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [1 Corinthians 9 — Paul shares the good news free of charge](1corinthians/1corinthians9_1757506588.md)
 10. [1 Corinthians 10 — Remember Israel and care for others](1corinthians/1corinthians10_1757506729.md)
 11. [1 Corinthians 11 — When believers meet together](1corinthians/1corinthians11_1757506854.md)
+12. [1 Corinthians 12 — One Spirit gives many gifts](1corinthians/1corinthians12_1757506952.md)
+13. [1 Corinthians 13 — Love is the greatest](1corinthians/1corinthians13_1757507030.md)
 
 ## Reading with a learner
 
