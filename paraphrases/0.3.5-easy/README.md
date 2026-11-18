@@ -167,6 +167,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [1 Corinthians 8 — Love guides what we choose to eat](1corinthians/1corinthians8_1757506481.md)
 9. [1 Corinthians 9 — Paul shares the good news free of charge](1corinthians/1corinthians9_1757506588.md)
 10. [1 Corinthians 10 — Remember Israel and care for others](1corinthians/1corinthians10_1757506729.md)
+11. [1 Corinthians 11 — When believers meet together](1corinthians/1corinthians11_1757506854.md)
 
 ## Reading with a learner
 
