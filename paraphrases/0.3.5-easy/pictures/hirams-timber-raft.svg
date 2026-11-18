@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title desc">
+  <title id="title">Logs tied together as a raft</title>
+  <desc id="desc">Five logs float side by side. Two bands of rope hold the logs together.</desc>
+  <rect width="320" height="160" rx="10" fill="#cfe9ed"/>
+  <g fill="none" stroke="#6297a5" stroke-width="3" stroke-linecap="round">
+    <path d="M22 39q12 6 23 0m211 8q14 6 28 0M18 119q11 5 22 0m204 10q14 6 30 0"/>
+  </g>
+  <g fill="#b98150" stroke="#523b2b" stroke-width="2.5">
+    <rect x="55" y="34" width="206" height="18" rx="8"/>
+    <rect x="49" y="52" width="215" height="18" rx="8"/>
+    <rect x="55" y="70" width="213" height="18" rx="8"/>
+    <rect x="51" y="88" width="212" height="18" rx="8"/>
+    <rect x="58" y="106" width="204" height="18" rx="8"/>
+  </g>
+  <g fill="#efcf84" stroke="#5d4a32" stroke-width="2">
+    <rect x="85" y="32" width="9" height="94" rx="3"/>
+    <rect x="221" y="32" width="9" height="94" rx="3"/>
+  </g>
+</svg>
