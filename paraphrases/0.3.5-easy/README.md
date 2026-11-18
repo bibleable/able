@@ -376,6 +376,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 27. [Genesis 27 — Jacob takes Esau’s blessing](genesis/genesis27_1757330618.md)
 28. [Genesis 28 — Jacob dreams of a ladder to heaven](genesis/genesis28_1757330693.md)
 29. [Genesis 29 — Jacob meets Rachel, and Leah names her sons](genesis/genesis29_1757330783.md)
+30. [Genesis 30 — Jacob’s family and flocks grow](genesis/genesis30_1757330897.md)
 
 ## Reading with a learner
 
