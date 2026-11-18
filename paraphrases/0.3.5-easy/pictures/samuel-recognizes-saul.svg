@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 192" role="img" aria-labelledby="title">
+  <title id="title">Two days in order. Samuel hears about the man, then sees Saul.</title>
+  <rect width="490" height="192" rx="12" fill="#fff9ed"/>
+  <path d="M38 47v91" stroke="#487263" stroke-width="4"/>
+  <g fill="#285344"><circle cx="38" cy="47" r="10"/><circle cx="38" cy="138" r="10"/></g>
+  <g font-family="sans-serif" font-size="22" fill="#243f36">
+    <text x="66" y="49" font-weight="bold">The day before</text>
+    <text x="66" y="80">God tells Samuel a man will come.</text>
+    <text x="66" y="140" font-weight="bold">The next day</text>
+    <text x="66" y="171">God shows Samuel that the man is Saul.</text>
+  </g>
+</svg>

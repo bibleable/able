@@ -615,6 +615,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [1 Samuel 6 — The ark returns to Israel](1samuel/1samuel6_1757373557.md)
 7. [1 Samuel 7 — Samuel prays for Israel](1samuel/1samuel7_1757373663.md)
 8. [1 Samuel 8 — Israel asks for a king](1samuel/1samuel8_1757373718.md)
+9. [1 Samuel 9 — Saul meets Samuel](1samuel/1samuel9_1757373891.md)
 
 ## Reading with a learner
 
