@@ -320,6 +320,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Jude 1 — Hold on to your faith and show mercy](jude/jude1_1757518633.md)
 
+## Revelation
+
+1. [Revelation 1 — John hears a voice and turns](revelation/revelation1_1757518825.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
