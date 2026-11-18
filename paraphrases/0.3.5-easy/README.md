@@ -374,6 +374,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [Genesis 25 — Esau sells his birthright to Jacob](genesis/genesis25_1757330285.md)
 26. [Genesis 26 — Isaac finds water and makes peace](genesis/genesis26_1757330400.md)
 27. [Genesis 27 — Jacob takes Esau’s blessing](genesis/genesis27_1757330618.md)
+28. [Genesis 28 — Jacob dreams of a ladder to heaven](genesis/genesis28_1757330693.md)
 
 ## Reading with a learner
 
