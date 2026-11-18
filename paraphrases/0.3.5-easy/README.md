@@ -735,6 +735,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Nehemiah
 
 1. [Nehemiah 1 — Nehemiah hears news of Jerusalem and prays](nehemiah/nehemiah1_1757430803.md)
+2. [Nehemiah 2 — Nehemiah asks the people to rebuild the wall](nehemiah/nehemiah2_1757430934.md)
 
 ## Reading with a learner
 
