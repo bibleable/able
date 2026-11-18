@@ -527,6 +527,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Deuteronomy 13 — Moses warns Israel about following other gods](deuteronomy/deuteronomy13_1757347977.md)
 14. [Deuteronomy 14 — Food for Israel and a share for others](deuteronomy/deuteronomy14_1757348101.md)
 15. [Deuteronomy 15 — Cancel debts and give generously](deuteronomy/deuteronomy15_1757348210.md)
+16. [Deuteronomy 16 — Three feasts and fair judges](deuteronomy/deuteronomy16_1757348332.md)
 
 ## Reading with a learner
 
