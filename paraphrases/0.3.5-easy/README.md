@@ -591,6 +591,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Judges 13 — An angel announces Samson’s birth](judges/judges13_1757354560.md)
 14. [Judges 14 — Samson tells a riddle](judges/judges14_1757354656.md)
 15. [Judges 15 — Samson fights at Lehi and cries out for water](judges/judges15_1757354798.md)
+16. [Judges 16 — Samson tells Delilah his secret](judges/judges16_1757354913.md)
 
 ## Reading with a learner
 
