@@ -566,6 +566,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Joshua 15 — The land Judah’s families received](joshua/joshua15_1757352280.md)
 16. [Joshua 16 — Joseph’s family receives land](joshua/joshua16_1757352350.md)
 17. [Joshua 17 — Manasseh’s families receive their land](joshua/joshua17_1757352466.md)
+18. [Joshua 18 — Benjamin receives land](joshua/joshua18_1757352605.md)
 
 ## Reading with a learner
 

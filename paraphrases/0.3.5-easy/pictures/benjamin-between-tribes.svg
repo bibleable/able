@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 176" role="img">
+  <title>Joseph to the north, Benjamin in the middle, Judah to the south</title>
+  <rect width="320" height="176" rx="8" fill="#fffaf1"/>
+  <g stroke="#4c604d" stroke-width="2">
+    <rect x="78" y="12" width="210" height="48" fill="#e1e9d8"/>
+    <rect x="78" y="60" width="210" height="48" fill="#f4dfad"/>
+    <rect x="78" y="108" width="210" height="48" fill="#e1e9d8"/>
+  </g>
+  <g font-family="sans-serif" text-anchor="middle" fill="#26362b">
+    <g font-size="21"><text x="183" y="44">Joseph</text><text x="183" y="92">Benjamin</text><text x="183" y="140">Judah</text></g>
+    <g font-size="16"><text x="40" y="42">North</text><text x="40" y="138">South</text></g>
+  </g>
+</svg>
