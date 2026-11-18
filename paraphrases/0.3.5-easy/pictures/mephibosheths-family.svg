@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 222" role="img" aria-labelledby="title desc">
+  <title id="title">Three generations of Saul’s family</title>
+  <desc id="desc">Follow the line down from Saul to his son Jonathan, then to Jonathan’s son Mephibosheth.</desc>
+  <rect width="340" height="222" rx="10" fill="#fff9ed"/>
+  <g stroke="#386653" stroke-width="4"><path d="M48 45v135"/></g>
+  <g fill="#386653"><circle cx="48" cy="40" r="8"/><circle cx="48" cy="108" r="8"/><circle cx="48" cy="176" r="8"/></g>
+  <g fill="#233c30" font-family="sans-serif">
+    <g font-size="24" font-weight="bold"><text x="72" y="45">Saul</text><text x="72" y="113">Jonathan</text><text x="72" y="181">Mephibosheth</text></g>
+    <g font-size="18"><text x="72" y="137">Saul’s son</text><text x="72" y="205">Jonathan’s son</text></g>
+  </g>
+</svg>
