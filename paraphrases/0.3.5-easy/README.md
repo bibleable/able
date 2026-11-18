@@ -502,6 +502,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 27. [Numbers 27 — Five sisters ask for land and Joshua becomes a leader](numbers/numbers27_1757345379.md)
 28. [Numbers 28 — Offerings through the year](numbers/numbers28_1757345486.md)
 29. [Numbers 29 — Offerings in the seventh month](numbers/numbers29_1757345603.md)
+30. [Numbers 30 — Keeping a promise](numbers/numbers30_1757345673.md)
 
 ## Reading with a learner
 
