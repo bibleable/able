@@ -252,6 +252,12 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [2 Timothy 3 — Hold on to what you learned](2timothy/2timothy3_1757513387.md)
 4. [2 Timothy 4 — Finish the work God gave you](2timothy/2timothy4_1757513547.md)
 
+## Titus
+
+1. [Titus 1 — Choose leaders who hold to the truth](titus/titus1_1757513838.md)
+2. [Titus 2 — Show others how to do good](titus/titus2_1757513963.md)
+3. [Titus 3 — Be ready to help](titus/titus3_1757514125.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
