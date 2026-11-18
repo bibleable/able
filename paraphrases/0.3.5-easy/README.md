@@ -249,6 +249,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [2 Timothy 1 — Keep using the gift God gave you](2timothy/2timothy1_1757513138.md)
 2. [2 Timothy 2 — Pass on what you have learned](2timothy/2timothy2_1757513247.md)
+3. [2 Timothy 3 — Hold on to what you learned](2timothy/2timothy3_1757513387.md)
+4. [2 Timothy 4 — Finish the work God gave you](2timothy/2timothy4_1757513547.md)
 
 ## Reading with a learner
 
