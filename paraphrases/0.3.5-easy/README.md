@@ -625,6 +625,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 16. [1 Samuel 16 — The LORD chooses David](1samuel/1samuel16_1757374581.md)
 17. [1 Samuel 17 — David faces Goliath](1samuel/1samuel17_1757374708.md)
 18. [1 Samuel 18 — Jonathan loves David, but Saul fears him](1samuel/1samuel18_1757374828.md)
+19. [1 Samuel 19 — Jonathan and Michal help David](1samuel/1samuel19_1757374900.md)
 
 ## Reading with a learner
 

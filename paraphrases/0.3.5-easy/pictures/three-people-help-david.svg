@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" role="img" aria-labelledby="title">
+<title id="title">Three people David turns to, in order</title>
+<rect width="500" height="260" rx="14" fill="#fff9ed"/>
+<path d="M40 40v172" stroke="#426d61" stroke-width="4"/>
+<g fill="#295346"><circle cx="40" cy="40" r="14"/><circle cx="40" cy="126" r="14"/><circle cx="40" cy="212" r="14"/></g>
+<g font-family="sans-serif" font-size="23" fill="#213c33">
+<text x="76" y="43" font-weight="bold">Jonathan</text><text x="76" y="72">Speaks to Saul for David.</text>
+<text x="76" y="129" font-weight="bold">Michal</text><text x="76" y="158">Helps David escape.</text>
+<text x="76" y="215" font-weight="bold">Samuel</text><text x="76" y="244">Listens to David at Ramah.</text>
+</g></svg>
