@@ -145,6 +145,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Romans 5 — Jesus brings us peace with God](romans/romans5_1757504223.md)
 6. [Romans 6 — Living a new life with Jesus](romans/romans6_1757504398.md)
 7. [Romans 7 — Paul wants to do good but struggles with sin](romans/romans7_1757504461.md)
+8. [Romans 8 — Nothing can separate us from God’s love](romans/romans8_1757504576.md)
 
 ## Reading with a learner
 
