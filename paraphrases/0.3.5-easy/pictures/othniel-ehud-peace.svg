@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 136" role="img">
+  <title>Peace after Othniel, 40 years. Peace after Ehud, 80 years.</title>
+  <rect width="360" height="136" rx="8" fill="#fffaf1"/>
+  <g font-family="sans-serif" fill="#23352c">
+    <text x="16" y="26" font-size="20">Years of peace</text>
+    <text x="16" y="65" font-size="18">Othniel</text>
+    <text x="16" y="111" font-size="18">Ehud</text>
+    <rect x="96" y="44" width="90" height="30" rx="3" fill="#416b52"/>
+    <rect x="96" y="90" width="180" height="30" rx="3" fill="#416b52"/>
+    <text x="194" y="65" font-size="18">40</text>
+    <text x="284" y="111" font-size="18">80</text>
+  </g>
+</svg>

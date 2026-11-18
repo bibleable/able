@@ -578,6 +578,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Judges 1 — Israel’s tribes after Joshua dies](judges/judges1_1757353415.md)
 2. [Judges 2 — The LORD sends judges to help Israel](judges/judges2_1757353533.md)
+3. [Judges 3 — Othniel, Ehud, and Shamgar rescue Israel](judges/judges3_1757353600.md)
 
 ## Reading with a learner
 
