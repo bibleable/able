@@ -617,6 +617,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [1 Samuel 8 — Israel asks for a king](1samuel/1samuel8_1757373718.md)
 9. [1 Samuel 9 — Saul meets Samuel](1samuel/1samuel9_1757373891.md)
 10. [1 Samuel 10 — Israel welcomes Saul as king](1samuel/1samuel10_1757374008.md)
+11. [1 Samuel 11 — Saul helps rescue Jabesh](1samuel/1samuel11_1757374093.md)
 
 ## Reading with a learner
 

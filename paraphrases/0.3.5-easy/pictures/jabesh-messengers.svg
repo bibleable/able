@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 200" role="img" aria-labelledby="title">
+  <title id="title">The messengers carry a request to Gibeah and a promise of help back to Jabesh</title>
+  <rect width="540" height="200" rx="12" fill="#fff9ed"/>
+  <g font-family="sans-serif" fill="#263d36" font-size="22">
+    <text x="30" y="38">The messengers ask for help.</text>
+    <text x="30" y="78" font-weight="bold">Jabesh</text><text x="351" y="78" font-weight="bold">Gibeah</text>
+    <text x="30" y="132">The messengers bring back good news.</text>
+    <text x="30" y="173" font-weight="bold">Jabesh</text><text x="351" y="173" font-weight="bold">Bezek</text>
+  </g>
+  <g fill="none" stroke="#39695c" stroke-width="4">
+    <path d="M135 71h185m-12-9 13 9-13 9"/>
+    <path d="M320 166H135m12-9-13 9 13 9"/>
+  </g>
+</svg>
