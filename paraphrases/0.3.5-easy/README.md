@@ -454,6 +454,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Leviticus 9 — Aaron brings the offerings and blesses the people](leviticus/leviticus9_1757339387.md)
 10. [Leviticus 10 — Aaron loses two sons](leviticus/leviticus10_1757339503.md)
 11. [Leviticus 11 — Clean and unclean animals](leviticus/leviticus11_1757339643.md)
+12. [Leviticus 12 — After a child is born](leviticus/leviticus12_1757339718.md)
 
 ## Reading with a learner
 
