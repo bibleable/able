@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 130" width="440" height="130" role="img" aria-labelledby="title desc">
+  <title id="title">Adam and Jesus</title>
+  <desc id="desc">Adam disobeyed and many became sinners. Jesus obeyed and God makes many right with him.</desc>
+  <rect width="440" height="130" rx="8" fill="#fffaf1"/>
+  <g fill="#21342e" font-family="sans-serif" font-size="17">
+    <text x="14" y="38">Adam disobeyed</text><text x="216" y="38">Many became sinners.</text>
+    <text x="14" y="95">Jesus obeyed</text><text x="216" y="85">God makes many</text><text x="216" y="107">right with him.</text>
+  </g>
+  <g fill="none" stroke="#31584b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 32h39m-8 -6 8 6 -8 6"/><path d="M160 90h39m-8 -6 8 6 -8 6"/>
+  </g>
+</svg>
