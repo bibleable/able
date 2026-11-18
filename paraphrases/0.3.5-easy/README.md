@@ -394,6 +394,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 45. [Genesis 45 — Joseph tells his brothers who he is](genesis/genesis45_1757332582.md)
 46. [Genesis 46 — Jacob sees Joseph again in Egypt](genesis/genesis46_1757332745.md)
 47. [Genesis 47 — Joseph gives his family a home in Goshen](genesis/genesis47_1757332894.md)
+48. [Genesis 48 — Jacob blesses Ephraim and Manasseh](genesis/genesis48_1757332988.md)
 
 ## Reading with a learner
 
