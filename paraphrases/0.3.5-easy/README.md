@@ -185,6 +185,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [2 Corinthians 7 — Titus brings good news from Corinth](2corinthians/2corinthians7_1757508214.md)
 8. [2 Corinthians 8 — Finish preparing your gift](2corinthians/2corinthians8_1757508369.md)
 9. [2 Corinthians 9 — Give with joy](2corinthians/2corinthians9_1757508467.md)
+10. [2 Corinthians 10 — Paul explains the work the Lord gave him](2corinthians/2corinthians10_1757508574.md)
+11. [2 Corinthians 11 — Paul speaks up for the church](2corinthians/2corinthians11_1757508711.md)
 
 ## Reading with a learner
 
