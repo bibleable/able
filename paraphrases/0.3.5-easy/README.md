@@ -273,6 +273,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Hebrews 7 — Jesus remains a priest forever](hebrews/hebrews7_1757515240.md)
 8. [Hebrews 8 — God promises a new covenant](hebrews/hebrews8_1757515368.md)
 9. [Hebrews 9 — Christ offered himself once for all](hebrews/hebrews9_1757515500.md)
+10. [Hebrews 10 — Keep trusting God](hebrews/hebrews10_1757515615.md)
 
 ## Reading with a learner
 
