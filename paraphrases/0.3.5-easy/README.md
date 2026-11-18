@@ -534,6 +534,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Deuteronomy 20 — Moses speaks about Israel at war](deuteronomy/deuteronomy20_1757348729.md)
 21. [Deuteronomy 21 — An unknown killer and laws for families](deuteronomy/deuteronomy21_1757348844.md)
 22. [Deuteronomy 22 — Helping neighbors and hearing marriage cases](deuteronomy/deuteronomy22_1757348938.md)
+23. [Deuteronomy 23 — Laws for Israel’s gatherings and daily life](deuteronomy/deuteronomy23_1757349072.md)
 
 ## Reading with a learner
 
