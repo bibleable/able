@@ -449,6 +449,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Leviticus 4 — An offering for sin done by mistake](leviticus/leviticus4_1757338807.md)
 5. [Leviticus 5 — Admitting wrong and bringing an offering](leviticus/leviticus5_1757338946.md)
 6. [Leviticus 6 — Repaying a neighbor and caring for the offerings](leviticus/leviticus6_1757339048.md)
+7. [Leviticus 7 — Sharing the offerings](leviticus/leviticus7_1757339169.md)
 
 ## Reading with a learner
 
