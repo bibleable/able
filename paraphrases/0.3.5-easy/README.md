@@ -182,6 +182,9 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [2 Corinthians 4 — God gives us strength to keep going](2corinthians/2corinthians4_1757507872.md)
 5. [2 Corinthians 5 — God brings us back to himself](2corinthians/2corinthians5_1757507968.md)
 6. [2 Corinthians 6 — Open your hearts to us](2corinthians/2corinthians6_1757508131.md)
+7. [2 Corinthians 7 — Titus brings good news from Corinth](2corinthians/2corinthians7_1757508214.md)
+8. [2 Corinthians 8 — Finish preparing your gift](2corinthians/2corinthians8_1757508369.md)
+9. [2 Corinthians 9 — Give with joy](2corinthians/2corinthians9_1757508467.md)
 
 ## Reading with a learner
 
