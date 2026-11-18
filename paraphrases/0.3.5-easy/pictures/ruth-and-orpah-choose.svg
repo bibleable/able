@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 215" role="img" aria-labelledby="title">
+  <title id="title">Orpah and Ruth on the road with Naomi</title>
+  <rect width="540" height="215" rx="12" fill="#fff9ed"/>
+  <g fill="none" stroke="#436751" stroke-width="4"><path d="M270 55v25H140v25m130-25h130v25"/></g>
+  <g font-family="sans-serif" text-anchor="middle" font-size="24" fill="#173b30">
+    <text x="270" y="43">On the road with Naomi</text>
+    <text x="140" y="135" font-weight="bold">Orpah</text><text x="400" y="135" font-weight="bold">Ruth</text>
+    <text x="140" y="176">Goes home</text><text x="400" y="176">Stays with Naomi</text>
+  </g>
+</svg>

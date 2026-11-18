@@ -598,6 +598,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Judges 20 — Israel fights the tribe of Benjamin](judges/judges20_1757355424.md)
 21. [Judges 21 — Israel grieves for Benjamin](judges/judges21_1757355592.md)
 
+## Ruth
+
+1. [Ruth 1 — Ruth stays with Naomi](ruth/ruth1_1757372779.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
