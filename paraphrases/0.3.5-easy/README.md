@@ -409,6 +409,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Exodus 7 — Aaron lifts his staff at the Nile](exodus/exodus7_1757334060.md)
 8. [Exodus 8 — Frogs, gnats, and flies come to Egypt](exodus/exodus8_1757334166.md)
 9. [Exodus 9 — The LORD warns Pharaoh before the hail falls](exodus/exodus9_1757334274.md)
+10. [Exodus 10 — Locusts and darkness cover Egypt](exodus/exodus10_1757334359.md)
 
 ## Reading with a learner
 
