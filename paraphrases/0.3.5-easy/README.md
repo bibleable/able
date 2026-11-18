@@ -388,6 +388,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 39. [Genesis 39 — The LORD stays with Joseph in Egypt](genesis/genesis39_1757331905.md)
 40. [Genesis 40 — Joseph explains two dreams in prison](genesis/genesis40_1757331980.md)
 41. [Genesis 41 — Joseph stores grain for the hungry years](genesis/genesis41_1757332113.md)
+42. [Genesis 42 — Joseph’s brothers come to buy grain](genesis/genesis42_1757332217.md)
 
 ## Reading with a learner
 
