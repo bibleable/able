@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img">
+  <title>A cornerstone where two stone walls meet</title>
+  <rect width="320" height="160" rx="8" fill="#fffaf1"/>
+  <g stroke="#453a30" stroke-width="2" stroke-linejoin="round">
+    <path d="M20 36 L142 66 V100 L20 70Z M142 66 L294 30 V64 L142 100Z" fill="#d6c5ac"/>
+    <path d="M60 46 V80 M101 56 V90 M194 54 V88 M244 42 V76" fill="none"/>
+    <path d="M101 56 L142 66 L194 54 V88 L142 100 L101 90Z" fill="#d79546"/>
+    <path d="M142 66 V100 M158 96 L177 123 H201" fill="none"/>
+  </g>
+  <text x="152" y="148" font-family="sans-serif" font-size="19" fill="#302b25">Cornerstone</text>
+</svg>

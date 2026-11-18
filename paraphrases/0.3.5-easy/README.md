@@ -199,6 +199,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Galatians 5 — Use your freedom to serve each other](galatians/galatians5_1757509362.md)
 6. [Galatians 6 — Help each other and keep doing good](galatians/galatians6_1757509453.md)
 
+## Ephesians
+
+1. [Ephesians 1 — God brings everything together in Christ](ephesians/ephesians1_1757509564.md)
+2. [Ephesians 2 — Christ brings us into one family](ephesians/ephesians2_1757509714.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
