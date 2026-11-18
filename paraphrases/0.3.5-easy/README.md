@@ -654,6 +654,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [2 Samuel 11 — David, Bathsheba, and Uriah](2samuel/2samuel11_1757377720.md)
 12. [2 Samuel 12 — Nathan tells David a story](2samuel/2samuel12_1757377817.md)
 13. [2 Samuel 13 — Tamar, Amnon, and Absalom](2samuel/2samuel13_1757377986.md)
+14. [2 Samuel 14 — Absalom returns to Jerusalem](2samuel/2samuel14_1757378106.md)
 
 ## Reading with a learner
 

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" role="img" aria-labelledby="title desc">
+  <title id="title">Water spilled on the ground</title>
+  <desc id="desc">A tipped cup pours water onto the earth. The water spreads out across the ground.</desc>
+  <rect width="320" height="150" rx="10" fill="#fff9ed"/>
+  <path d="M0 108q75-10 155 0t165-3v45H0Z" fill="#c29c70"/>
+  <path d="m45 51 31-34 50 48-25 29Z" fill="#d38d56" stroke="#513b31" stroke-width="3"/>
+  <ellipse cx="114" cy="79" rx="8" ry="20" transform="rotate(43 114 79)" fill="#724f3c" stroke="#513b31" stroke-width="3"/>
+  <path d="M124 81q30 6 36 26l11 7-18 1q-9-19-32-27Z" fill="#39839c"/>
+  <path d="M129 113q14-8 30-6 15-5 38 0 22 1 33 7-18 6-40 4-41 8-61-5Z" fill="#39839c"/>
+</svg>
