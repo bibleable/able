@@ -497,6 +497,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 22. [Numbers 22 — Balak sends for Balaam](numbers/numbers22_1757344729.md)
 23. [Numbers 23 — Balaam blesses Israel](numbers/numbers23_1757344828.md)
 24. [Numbers 24 — Balaam sees Israel’s tents and a future king](numbers/numbers24_1757344974.md)
+25. [Numbers 25 — Israel worships Baal at Peor](numbers/numbers25_1757345097.md)
 
 ## Reading with a learner
 
