@@ -289,6 +289,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 1 Peter
 
 1. [1 Peter 1 — God gives us a living hope](1peter/1peter1_1757516866.md)
+2. [1 Peter 2 — God builds his people together](1peter/1peter2_1757516979.md)
 
 ## Reading with a learner
 
