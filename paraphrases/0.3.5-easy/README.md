@@ -242,6 +242,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [1 Timothy 2 — Pray for everyone](1timothy/1timothy2_1757512548.md)
 3. [1 Timothy 3 — People who lead and serve the church](1timothy/1timothy3_1757512666.md)
 4. [1 Timothy 4 — Timothy can set an example](1timothy/1timothy4_1757512784.md)
+5. [1 Timothy 5 — Care for widows and treat leaders fairly](1timothy/1timothy5_1757512884.md)
+6. [1 Timothy 6 — Put your hope in God](1timothy/1timothy6_1757512986.md)
 
 ## Reading with a learner
 
