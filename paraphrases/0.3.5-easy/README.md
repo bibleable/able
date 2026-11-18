@@ -539,6 +539,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [Deuteronomy 25 — Fair measures and a brother’s duty](deuteronomy/deuteronomy25_1757349229.md)
 26. [Deuteronomy 26 — A basket from the first harvest](deuteronomy/deuteronomy26_1757349374.md)
 27. [Deuteronomy 27 — Write the law on stones](deuteronomy/deuteronomy27_1757349486.md)
+28. [Deuteronomy 28 — Blessings and warnings for Israel](deuteronomy/deuteronomy28_1757349591.md)
 
 ## Reading with a learner
 
