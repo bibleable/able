@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 212" role="img" aria-labelledby="title">
+  <title id="title">Rain falls on wheat at harvest time</title>
+  <rect width="440" height="212" rx="12" fill="#fff9ee"/>
+  <path d="M114 65c-19 0-21-28-2-32 4-24 43-24 48-2 19-12 42 2 41 18 16-1 18 16 2 16z" fill="#556a7a"/>
+  <path d="m114 79-10 18m37-18-10 18m38-18-10 18m38-18-10 18" stroke="#37718b" stroke-width="5" stroke-linecap="round"/>
+  <g id="wheat" stroke="#755620" stroke-width="3" fill="#e3bc65">
+    <path d="M98 181v-62"/><path d="M98 139q-15-1-15-17 14 3 15 17m0 11q16-3 16-18-14 2-16 18m0-25q-8-10 0-21 9 11 0 21"/>
+  </g>
+  <use href="#wheat" x="40"/><use href="#wheat" x="80"/><use href="#wheat" x="120"/>
+  <g fill="#263d37" font-family="sans-serif" font-size="22"><text x="246" y="58">Rain</text><text x="246" y="152">Ripe wheat</text></g>
+</svg>
