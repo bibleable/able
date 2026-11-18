@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" role="img" aria-labelledby="title">
+<title id="title">Saul and the three children named in this chapter</title>
+<rect width="600" height="200" rx="12" fill="#fff9ed"/>
+<path d="M300 50v33H97v31m203-31v31m0-31h203v31" fill="none" stroke="#386653" stroke-width="4"/>
+<g text-anchor="middle" font-family="sans-serif" fill="#253f33" font-size="24">
+<text x="300" y="38" font-weight="bold">Saul</text>
+<text x="97" y="143">Jonathan</text><text x="300" y="143">Merab</text><text x="503" y="143">Michal</text>
+<g font-size="20"><text x="97" y="174">Son</text><text x="300" y="174">Older daughter</text><text x="503" y="174">Younger daughter</text></g>
+</g></svg>

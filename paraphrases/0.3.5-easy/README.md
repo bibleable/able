@@ -624,6 +624,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [1 Samuel 15 — Samuel tells Saul why the LORD has rejected him](1samuel/1samuel15_1757374432.md)
 16. [1 Samuel 16 — The LORD chooses David](1samuel/1samuel16_1757374581.md)
 17. [1 Samuel 17 — David faces Goliath](1samuel/1samuel17_1757374708.md)
+18. [1 Samuel 18 — Jonathan loves David, but Saul fears him](1samuel/1samuel18_1757374828.md)
 
 ## Reading with a learner
 
