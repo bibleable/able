@@ -697,6 +697,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [2 Kings 2 — Elisha picks up Elijah’s cloak](2kings/2kings2_1757415573.md)
 3. [2 Kings 3 — Water fills the valley](2kings/2kings3_1757415710.md)
 4. [2 Kings 4 — Oil for a widow and life for a child](2kings/2kings4_1757415801.md)
+5. [2 Kings 5 — Naaman washes in the Jordan](2kings/2kings5_1757415891.md)
 
 ## Reading with a learner
 
