@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 230" role="img" aria-labelledby="title desc">
+  <title id="title">The shadow goes back up ten steps</title>
+  <desc id="desc">An arrow points from the bottom toward the top of the steps.</desc>
+  <rect width="340" height="230" rx="10" fill="#fff8eb"/>
+  <text x="170" y="30" text-anchor="middle" font-family="sans-serif" font-size="21" fill="#243b39">Back up ten steps</text>
+  <path d="M30 198v-14h27v-14h27v-14h27v-14h27v-14h27v-14h27v-14h27v-14h27v-14h27v-14h29v140Z" fill="#d0bb96" stroke="#544934" stroke-width="3"/>
+  <path d="M48 155L242 53m-18 0 18 0-8 17" fill="none" stroke="#225766" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
