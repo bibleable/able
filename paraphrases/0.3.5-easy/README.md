@@ -483,6 +483,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Numbers 8 — Seven lamps and the Levites’ work](numbers/numbers8_1757342796.md)
 9. [Numbers 9 — Passover and the cloud over the tent](numbers/numbers9_1757342882.md)
 10. [Numbers 10 — The trumpets sound and Israel leaves Sinai](numbers/numbers10_1757342999.md)
+11. [Numbers 11 — Moses asks for help and the people ask for meat](numbers/numbers11_1757343124.md)
 
 ## Reading with a learner
 
