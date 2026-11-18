@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 244" role="img" aria-labelledby="title">
+  <title id="title">Zelophehad is the father of Mahlah, Tirzah, Hoglah, Milcah, and Noah</title>
+  <rect width="390" height="244" rx="10" fill="#fffaf1"/>
+  <g fill="none" stroke="#356356" stroke-width="3">
+    <path d="M152 122h46 M198 30v184 M198 30h35 M198 76h35 M198 122h35 M198 168h35 M198 214h35"/>
+  </g>
+  <g fill="#223e37" font-family="sans-serif" font-size="21">
+    <text x="22" y="129">Zelophehad</text>
+    <text x="245" y="37">Mahlah</text>
+    <text x="245" y="83">Tirzah</text>
+    <text x="245" y="129">Hoglah</text>
+    <text x="245" y="175">Milcah</text>
+    <text x="245" y="221">Noah</text>
+  </g>
+</svg>
