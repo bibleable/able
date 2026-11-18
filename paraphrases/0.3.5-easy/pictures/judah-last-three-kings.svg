@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 220" role="img" aria-labelledby="title desc">
+  <title id="title">Three kings of Judah in order</title>
+  <desc id="desc">Jehoiakim, then his son Jehoiachin, then Jehoiachin’s uncle Zedekiah.</desc>
+  <rect width="350" height="220" rx="12" fill="#fff8eb"/>
+  <g fill="#243c34" text-anchor="middle" font-family="sans-serif">
+    <text x="175" y="32" font-weight="bold" font-size="22">Three kings of Judah</text>
+    <text x="175" y="69" font-size="21">Jehoiakim</text>
+    <text x="175" y="130" font-size="21">Jehoiachin, his son</text>
+    <text x="175" y="192" font-size="21">Zedekiah, Jehoiachin’s uncle</text>
+  </g>
+  <path d="M175 78v25m-7-7 7 7 7-7M175 139v25m-7-7 7 7 7-7" stroke="#3f6556" stroke-width="3" fill="none"/>
+</svg>
