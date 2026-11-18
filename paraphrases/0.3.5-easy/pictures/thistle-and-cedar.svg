@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 195" role="img" aria-labelledby="title">
+  <title id="title">A thistle and a tall cedar</title>
+  <rect width="320" height="195" rx="10" fill="#fff8eb"/>
+  <path d="M18 150H302" stroke="#75634a" stroke-width="3"/>
+  <path d="M225 148V47" stroke="#68492f" stroke-width="12"/>
+  <path d="M223 14Q211 42 187 49L211 51Q185 70 161 74L202 78Q175 96 144 103Q181 111 215 104Q244 115 294 100Q265 96 241 77L277 73Q252 65 237 52L257 49Q235 38 223 14Z" fill="#3e6652"/>
+  <path d="M75 150V117M75 138L60 129L67 138L62 140L75 144M76 133L91 124L85 133L89 134L76 140" fill="#587344" stroke="#455b37" stroke-width="2"/>
+  <path d="M67 114L65 103L71 108L73 98L77 107L82 101L82 115Z" fill="#955987"/>
+  <path d="M65 112L71 115L76 111L81 115L85 111Q82 129 74 126Q68 124 65 112Z" fill="#567344"/>
+  <g fill="#332f28" font-family="sans-serif" font-size="19" text-anchor="middle"><text x="75" y="178">Thistle</text><text x="223" y="178">Cedar</text></g>
+</svg>
