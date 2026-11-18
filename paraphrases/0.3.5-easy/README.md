@@ -630,6 +630,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [1 Samuel 21 — David asks for bread at Nob](1samuel/1samuel21_1757375104.md)
 22. [1 Samuel 22 — Abiathar escapes to David](1samuel/1samuel22_1757375167.md)
 23. [1 Samuel 23 — David saves the people of Keilah](1samuel/1samuel23_1757375277.md)
+24. [1 Samuel 24 — David spares Saul in the cave](1samuel/1samuel24_1757375388.md)
 
 ## Reading with a learner
 
