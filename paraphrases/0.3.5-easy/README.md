@@ -493,6 +493,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Numbers 18 — Shares for the priests and the Levites](numbers/numbers18_1757344126.md)
 19. [Numbers 19 — Water for cleansing after a death](numbers/numbers19_1757344272.md)
 20. [Numbers 20 — Water from the rock and Aaron’s death](numbers/numbers20_1757344384.md)
+21. [Numbers 21 — The bronze snake and the journey to Bashan](numbers/numbers21_1757344566.md)
 
 ## Reading with a learner
 
