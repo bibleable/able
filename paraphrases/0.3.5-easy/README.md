@@ -174,6 +174,11 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [1 Corinthians 15 — God raised Christ from death](1corinthians/1corinthians15_1757507292.md)
 16. [1 Corinthians 16 — A gift for Jerusalem and greetings from Paul](1corinthians/1corinthians16_1757507404.md)
 
+## 2 Corinthians
+
+1. [2 Corinthians 1 — God comforts us in trouble](2corinthians/2corinthians1_1757507531.md)
+2. [2 Corinthians 2 — Show him again that you love him](2corinthians/2corinthians2_1757507639.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
