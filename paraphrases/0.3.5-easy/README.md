@@ -686,6 +686,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 16. [1 Kings 16 — From Baasha to Ahab, kings of Israel](1kings/1kings16_1757414453.md)
 17. [1 Kings 17 — Elijah and the widow of Zarephath](1kings/1kings17_1757414548.md)
 18. [1 Kings 18 — The LORD answers Elijah on Mount Carmel](1kings/1kings18_1757414706.md)
+19. [1 Kings 19 — Elijah hears a quiet voice](1kings/1kings19_1757414815.md)
 
 ## Reading with a learner
 
