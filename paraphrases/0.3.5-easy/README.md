@@ -490,6 +490,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Numbers 15 — Offerings and reminders for Israel](numbers/numbers15_1757343749.md)
 16. [Numbers 16 — Korah challenges Moses and Aaron](numbers/numbers16_1757343851.md)
 17. [Numbers 17 — Aaron’s staff grows almonds](numbers/numbers17_1757343928.md)
+18. [Numbers 18 — Shares for the priests and the Levites](numbers/numbers18_1757344126.md)
 
 ## Reading with a learner
 
