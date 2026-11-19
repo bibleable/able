@@ -1145,6 +1145,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Daniel
 
+1. [Daniel 1 — Daniel asks for a ten-day test](daniel/daniel1_1757475997.md)
 12. [Daniel 12 — A promise for Daniel at the end](daniel/daniel12_1757477396.md)
 
 ## Hosea

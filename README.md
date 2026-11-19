@@ -193,7 +193,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Daniel</summary>
 
-[12](paraphrases/0.3.5-easy/daniel/daniel12_1757477396.md)
+[1](paraphrases/0.3.5-easy/daniel/daniel1_1757475997.md) · [12](paraphrases/0.3.5-easy/daniel/daniel12_1757477396.md)
 
 </details>
 
