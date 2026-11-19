@@ -1171,6 +1171,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
 48. [Jeremiah 48 — Grief for Moab](jeremiah/jeremiah48_1757469683.md)
 49. [Jeremiah 49 — Messages for nations around Israel](jeremiah/jeremiah49_1757469777.md)
+50. [Jeremiah 50 — Babylon falls and God's people come home](jeremiah/jeremiah50_1757469970.md)
 52. [Jeremiah 52 — Jerusalem falls and its people go into exile](jeremiah/jeremiah52_1757470169.md)
 
 ## Lamentations
