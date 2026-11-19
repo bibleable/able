@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 180" role="img" aria-labelledby="t d">
+<title id="t">A balance weighs two loads</title><desc id="d">The pan holding two weights hangs lower than the pan holding one.</desc>
+<rect width="300" height="180" rx="12" fill="#fff8ec"/>
+<g fill="none" stroke="#344d47" stroke-linejoin="round"><path d="M150 51v99m-32 6h64M55 70l190-37" stroke-width="7"/>
+<path d="M55 70l-31 58h62z M245 33l-31 58h62z" stroke-width="2.5"/></g>
+<g fill="#9b653a" stroke="#513728" stroke-width="2"><rect x="32" y="111" width="20" height="17"/><rect x="56" y="111" width="20" height="17"/><rect x="235" y="74" width="20" height="17"/></g>
+<g fill="#628c85" stroke="#344d47" stroke-width="3"><path d="M23 129h64q-32 27-64 0z M213 92h64q-32 27-64 0z"/><circle cx="150" cy="51" r="5"/></g></svg>
