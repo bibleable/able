@@ -855,6 +855,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 45. [Psalm 45 — A wedding song for the king](psalms/psalms45_1757442192.md)
 46. [Psalm 46 — God is our shelter and strength](psalms/psalms46_1757442262.md)
 47. [Psalm 47 — Sing praises to our King](psalms/psalms47_1757442326.md)
+48. [Psalm 48 — Walk around Zion](psalms/psalms48_1757442437.md)
 
 ## Reading with a learner
 
