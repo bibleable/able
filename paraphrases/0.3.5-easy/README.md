@@ -754,6 +754,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [2 Chronicles 15 — Asa and the people promise to seek the LORD](2chronicles/2chronicles15_1757424535.md)
 16. [2 Chronicles 16 — Asa asks another king for help](2chronicles/2chronicles16_1757424639.md)
 17. [2 Chronicles 17 — Jehoshaphat sends teachers through Judah](2chronicles/2chronicles17_1757424777.md)
+18. [2 Chronicles 18 — Micaiah warns King Ahab](2chronicles/2chronicles18_1757424922.md)
 19. [2 Chronicles 19 — Jehoshaphat appoints judges](2chronicles/2chronicles19_1757425010.md)
 21. [2 Chronicles 21 — Elijah sends King Jehoram a letter](2chronicles/2chronicles21_1757425280.md)
 22. [2 Chronicles 22 — An aunt saves Joash](2chronicles/2chronicles22_1757425400.md)
