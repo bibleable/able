@@ -781,6 +781,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 16. [Job 16 — Job says his friends give him no comfort](job/job16_1757435531.md)
 17. [Job 17 — Job asks where his hope has gone](job/job17_1757435585.md)
 18. [Job 18 — Bildad speaks of a lamp going out](job/job18_1757435692.md)
+19. [Job 19 — Job asks for pity and speaks of his Redeemer](job/job19_1757435795.md)
 
 ## Reading with a learner
 
