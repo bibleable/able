@@ -749,6 +749,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 16. [2 Chronicles 16 — Asa asks another king for help](2chronicles/2chronicles16_1757424639.md)
 17. [2 Chronicles 17 — Jehoshaphat sends teachers through Judah](2chronicles/2chronicles17_1757424777.md)
 19. [2 Chronicles 19 — Jehoshaphat appoints judges](2chronicles/2chronicles19_1757425010.md)
+21. [2 Chronicles 21 — Elijah sends King Jehoram a letter](2chronicles/2chronicles21_1757425280.md)
 22. [2 Chronicles 22 — An aunt saves Joash](2chronicles/2chronicles22_1757425400.md)
 27. [2 Chronicles 27 — Jotham rules in Jerusalem](2chronicles/2chronicles27_1757427856.md)
 
