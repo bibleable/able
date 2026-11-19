@@ -1101,6 +1101,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
 
+## Lamentations
+
+5. [Lamentations 5 — LORD, bring us back to You](lamentations/lamentations5_1757470654.md)
+
 ## Ezekiel
 
 2. [Ezekiel 2 — God sends Ezekiel to speak](ezekiel/ezekiel2_1757470907.md)

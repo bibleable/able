@@ -177,6 +177,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Lamentations</summary>
+
+[5](paraphrases/0.3.5-easy/lamentations/lamentations5_1757470654.md)
+
+</details>
+
+<details>
 <summary>Ezekiel</summary>
 
 [2](paraphrases/0.3.5-easy/ezekiel/ezekiel2_1757470907.md) · [15](paraphrases/0.3.5-easy/ezekiel/ezekiel15_1757472180.md)
