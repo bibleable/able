@@ -193,7 +193,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Daniel</summary>
 
-[1](paraphrases/0.3.5-easy/daniel/daniel1_1757475997.md) · [4](paraphrases/0.3.5-easy/daniel/daniel4_1757476279.md) · [5](paraphrases/0.3.5-easy/daniel/daniel5_1757476440.md) · [6](paraphrases/0.3.5-easy/daniel/daniel6_1757476600.md) · [7](paraphrases/0.3.5-easy/daniel/daniel7_1757476728.md) · [8](paraphrases/0.3.5-easy/daniel/daniel8_1757476829.md) · [9](paraphrases/0.3.5-easy/daniel/daniel9_1757477020.md) · [10](paraphrases/0.3.5-easy/daniel/daniel10_1757477146.md) · [12](paraphrases/0.3.5-easy/daniel/daniel12_1757477396.md)
+[1](paraphrases/0.3.5-easy/daniel/daniel1_1757475997.md) · [3](paraphrases/0.3.5-easy/daniel/daniel3_1757476198.md) · [4](paraphrases/0.3.5-easy/daniel/daniel4_1757476279.md) · [5](paraphrases/0.3.5-easy/daniel/daniel5_1757476440.md) · [6](paraphrases/0.3.5-easy/daniel/daniel6_1757476600.md) · [7](paraphrases/0.3.5-easy/daniel/daniel7_1757476728.md) · [8](paraphrases/0.3.5-easy/daniel/daniel8_1757476829.md) · [9](paraphrases/0.3.5-easy/daniel/daniel9_1757477020.md) · [10](paraphrases/0.3.5-easy/daniel/daniel10_1757477146.md) · [12](paraphrases/0.3.5-easy/daniel/daniel12_1757477396.md)
 
 </details>
 

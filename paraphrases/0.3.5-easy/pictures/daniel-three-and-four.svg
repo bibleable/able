@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 150" role="img" aria-labelledby="t"><title id="t">Three people thrown in, four seen walking inside</title><rect width="350" height="150" fill="#fff9ec" rx="10"/>
+<text x="14" y="40" font-family="sans-serif" font-size="18" fill="#233d34">Thrown into the fire</text>
+<g fill="#365d63"><circle cx="216" cy="25" r="6"/><rect x="208" y="33" width="16" height="23" rx="6"/></g>
+<g fill="#365d63"><circle cx="251" cy="25" r="6"/><rect x="243" y="33" width="16" height="23" rx="6"/></g>
+<g fill="#365d63"><circle cx="286" cy="25" r="6"/><rect x="278" y="33" width="16" height="23" rx="6"/></g>
+<text x="14" y="115" font-family="sans-serif" font-size="18" fill="#233d34">Seen walking inside</text>
+<g fill="#365d63"><circle cx="216" cy="100" r="6"/><rect x="208" y="108" width="16" height="23" rx="6"/></g>
+<g fill="#365d63"><circle cx="251" cy="100" r="6"/><rect x="243" y="108" width="16" height="23" rx="6"/></g>
+<g fill="#365d63"><circle cx="286" cy="100" r="6"/><rect x="278" y="108" width="16" height="23" rx="6"/></g>
+<g fill="#365d63"><circle cx="321" cy="100" r="6"/><rect x="313" y="108" width="16" height="23" rx="6"/></g>
+</svg>
