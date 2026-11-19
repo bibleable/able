@@ -877,6 +877,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 67. [Psalm 67 — Let all the peoples praise you](psalms/psalms67_1757444138.md)
 68. [Psalm 68 — God carries our load each day](psalms/psalms68_1757444282.md)
 69. [Psalm 69 — God, do not let me sink](psalms/psalms69_1757444412.md)
+70. [Psalm 70 — Hurry to help me, LORD](psalms/psalms70_1757444459.md)
 
 ## Reading with a learner
 
