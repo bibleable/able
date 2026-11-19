@@ -1044,6 +1044,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Isaiah 21 — A lookout reports that Babylon has fallen](isaiah/isaiah21_1757459683.md)
 22. [Isaiah 22 — A key for Eliakim](isaiah/isaiah22_1757459799.md)
 23. [Isaiah 23 — Tyre loses its harbor](isaiah/isaiah23_1757459869.md)
+24. [Isaiah 24 — Songs from the ends of the earth](isaiah/isaiah24_1757459962.md)
 
 ## Reading with a learner
 
