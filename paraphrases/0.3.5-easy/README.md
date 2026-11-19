@@ -928,6 +928,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 118. [Psalm 118 — His love lasts forever](psalms/psalms118_1757448966.md)
 119. [Psalm 119 — Your word lights my path](psalms/psalms119_1757449220.md)
 120. [Psalm 120 — I want peace](psalms/psalms120_1757449268.md)
+121. [Psalm 121 — Where does my help come from?](psalms/psalms121_1757449314.md)
 
 ## Reading with a learner
 
