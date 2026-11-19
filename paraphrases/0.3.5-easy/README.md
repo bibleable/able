@@ -861,6 +861,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 51. [Psalm 51 — God, give me a clean heart](psalms/psalms51_1757442774.md)
 52. [Psalm 52 — David trusts in God’s faithful love](psalms/psalms52_1757442861.md)
 53. [Psalm 53 — God looks down from heaven](psalms/psalms53_1757442940.md)
+54. [Psalm 54 — God is my helper](psalms/psalms54_1757443001.md)
 
 ## Reading with a learner
 
