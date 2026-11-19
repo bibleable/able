@@ -4,7 +4,7 @@ Start with Mark 1. Read one short section at a time.
 
 Pause at the question. You can answer by talking, signing, pointing, or using your communication device.
 
-If you are trying a chapter with a reader, let them finish one section. Ask one question at a time. “What happened in this part?” Give them time to answer in their own way. Then ask, “What does the picture show you?” If a word or picture is confusing, note the verse and the reader’s own words so it can be revised.
+To try a passage with a reader, see [Reading with a learner](#reading-with-a-learner).
 
 ## Mark
 
@@ -1405,6 +1405,6 @@ If something is unclear, ask the reader to point to it. Write down the verse, th
 
 ## About this edition
 
-This draft adapts the [0.3.4 Easy Read text](../0.3.4-easy/) using the repository’s [Berean Standard Bible source](../../comparison/bsb.txt). Verse numbers follow that source, including its empty entries in Mark, Luke, John, Acts, and Romans. Headings, pictures, explanations, and reading questions are reading aids.
+This draft adapts the [0.3.4 Easy Read text](../0.3.4-easy/) using the repository’s [Berean Standard Bible source](../../comparison/bsb.txt). Verse numbers follow that source, including its empty entries in Matthew, Mark, Luke, John, Acts, and Romans. Headings, pictures, explanations, and reading questions are reading aids.
 
 Review with intended readers is pending.
