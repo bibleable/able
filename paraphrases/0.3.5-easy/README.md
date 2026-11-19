@@ -759,6 +759,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Esther 7 — Esther asks the king to spare her people](esther/esther7_1757433587.md)
 8. [Esther 8 — A new order for the Jews](esther/esther8_1757433723.md)
 9. [Esther 9 — The Jews remember with a feast](esther/esther9_1757433853.md)
+10. [Esther 10 — Mordecai uses his position to help his people](esther/esther10_1757433888.md)
 
 ## Reading with a learner
 
