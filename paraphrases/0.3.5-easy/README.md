@@ -1179,6 +1179,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 42. [Ezekiel 42 — Rooms for the priests and a wall around the holy area](ezekiel/ezekiel42_1757475338.md)
 43. [Ezekiel 43 — The glory of the LORD returns to the temple](ezekiel/ezekiel43_1757475480.md)
 44. [Ezekiel 44 — The east gate stays shut and the priests serve](ezekiel/ezekiel44_1757475573.md)
+45. [Ezekiel 45 — Shares of land and fair measures](ezekiel/ezekiel45_1757475683.md)
 
 ## Daniel
 
