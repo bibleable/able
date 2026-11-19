@@ -1166,6 +1166,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)
 26. [Ezekiel 26 — Tyre will become a bare rock](ezekiel/ezekiel26_1757473467.md)
 27. [Ezekiel 27 — A song for Tyre, the city like a ship](ezekiel/ezekiel27_1757473591.md)
+28. [Ezekiel 28 — The ruler of Tyre grows proud](ezekiel/ezekiel28_1757473778.md)
 29. [Ezekiel 29 — Egypt is like a reed that breaks](ezekiel/ezekiel29_1757473939.md)
 30. [Ezekiel 30 — Egypt and its helpers will fall](ezekiel/ezekiel30_1757474065.md)
 31. [Ezekiel 31 — The tall cedar falls](ezekiel/ezekiel31_1757474156.md)
