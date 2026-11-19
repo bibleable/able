@@ -123,7 +123,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Psalms</summary>
 
-[1](paraphrases/0.3.5-easy/psalms/psalms1_1757438403.md) · [2](paraphrases/0.3.5-easy/psalms/psalms2_1757438510.md) · [3](paraphrases/0.3.5-easy/psalms/psalms3_1757438591.md) · [4](paraphrases/0.3.5-easy/psalms/psalms4_1757438667.md) · [5](paraphrases/0.3.5-easy/psalms/psalms5_1757438778.md) · [6](paraphrases/0.3.5-easy/psalms/psalms6_1757438845.md)
+[1](paraphrases/0.3.5-easy/psalms/psalms1_1757438403.md) · [2](paraphrases/0.3.5-easy/psalms/psalms2_1757438510.md) · [3](paraphrases/0.3.5-easy/psalms/psalms3_1757438591.md) · [4](paraphrases/0.3.5-easy/psalms/psalms4_1757438667.md) · [5](paraphrases/0.3.5-easy/psalms/psalms5_1757438778.md) · [6](paraphrases/0.3.5-easy/psalms/psalms6_1757438845.md) · [7](paraphrases/0.3.5-easy/psalms/psalms7_1757438915.md)
 
 </details>
 

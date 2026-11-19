@@ -814,6 +814,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Psalm 4 — David lies down in peace](psalms/psalms4_1757438667.md)
 5. [Psalm 5 — David prays in the morning](psalms/psalms5_1757438778.md)
 6. [Psalm 6 — The LORD hears David weep](psalms/psalms6_1757438845.md)
+7. [Psalm 7 — David asks God to judge fairly](psalms/psalms7_1757438915.md)
 
 ## Reading with a learner
 
