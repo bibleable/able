@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 185" role="img" aria-labelledby="title desc">
+<title id="title">Leave through the opposite gate</title>
+<desc id="desc">One arrow goes from the north gate to the south gate. Another goes from the south gate to the north gate.</desc>
+<rect width="320" height="185" rx="10" fill="#fff9ee"/>
+<g fill="#30291f" text-anchor="middle" font-size="18" font-family="sans-serif">
+<text x="160" y="25">North gate</text><text x="160" y="174">South gate</text></g>
+<path d="M106 40H65v103h41m108 0h41V40h-41" fill="none" stroke="#796853" stroke-width="6"/>
+<g fill="none" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+<path d="M133 42v99l-11-15m11 15 11-15" stroke="#285b74"/>
+<path d="M187 142V43l-11 15m11-15 11 15" stroke="#376447"/>
+</g></svg>
