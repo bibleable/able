@@ -1123,6 +1123,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Jeremiah
 
 1. [Jeremiah 1 — The LORD gives Jeremiah words to speak](jeremiah/jeremiah1_1757464330.md)
+7. [Jeremiah 7 — Jeremiah speaks at the temple gate](jeremiah/jeremiah7_1757465035.md)
 8. [Jeremiah 8 — Jeremiah grieves for his wounded people](jeremiah/jeremiah8_1757465135.md)
 9. [Jeremiah 9 — Tears for Judah](jeremiah/jeremiah9_1757465245.md)
 10. [Jeremiah 10 — The living God made the earth](jeremiah/jeremiah10_1757465331.md)
