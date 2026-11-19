@@ -753,6 +753,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [2 Chronicles 21 — Elijah sends King Jehoram a letter](2chronicles/2chronicles21_1757425280.md)
 22. [2 Chronicles 22 — An aunt saves Joash](2chronicles/2chronicles22_1757425400.md)
 23. [2 Chronicles 23 — Joash comes out of hiding and becomes king](2chronicles/2chronicles23_1757425575.md)
+24. [2 Chronicles 24 — Joash repairs the temple, then turns away from God](2chronicles/2chronicles24_1757425724.md)
 27. [2 Chronicles 27 — Jotham rules in Jerusalem](2chronicles/2chronicles27_1757427856.md)
 31. [2 Chronicles 31 — The people bring enough to share](2chronicles/2chronicles31_1757428596.md)
 
