@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 244" role="img" aria-labelledby="title desc">
+  <title id="title">The wall around the holy area</title>
+  <desc id="desc">Viewed from above, the square wall encloses the holy area. Its length and width are each 500 cubits.</desc>
+  <rect width="360" height="244" rx="8" fill="#fff9ed"/>
+  <rect x="75" y="51" width="160" height="160" fill="#dfebdf" stroke="#4d5d48" stroke-width="5"/>
+  <g font-family="sans-serif" font-size="18" fill="#293c31" text-anchor="middle">
+    <text x="155" y="32">500 cubits</text>
+    <text x="155" y="137">Holy area</text>
+    <text x="298" y="137">500 cubits</text>
+  </g>
+</svg>
