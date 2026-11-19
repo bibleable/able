@@ -981,6 +981,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Proverbs 18 — Listen before you answer](proverbs/proverbs18_1757453635.md)
 19. [Proverbs 19 — Kindness to someone in need](proverbs/proverbs19_1757453772.md)
 20. [Proverbs 20 — An honest measure](proverbs/proverbs20_1757453896.md)
+21. [Proverbs 21 — Hear the cry of the poor](proverbs/proverbs21_1757454069.md)
 
 ## Reading with a learner
 
