@@ -847,6 +847,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 37. [Psalm 37 — Trust the LORD and do good](psalms/psalms37_1757441570.md)
 38. [Psalm 38 — LORD, stay close to me](psalms/psalms38_1757441638.md)
 39. [Psalm 39 — LORD, show me how short my life is](psalms/psalms39_1757441712.md)
+40. [Psalm 40 — The LORD heard my cry](psalms/psalms40_1757441810.md)
 
 ## Reading with a learner
 
