@@ -1123,6 +1123,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Jeremiah
 
 1. [Jeremiah 1 — The LORD gives Jeremiah words to speak](jeremiah/jeremiah1_1757464330.md)
+2. [Jeremiah 2 — Israel leaves the spring of fresh water](jeremiah/jeremiah2_1757464531.md)
 3. [Jeremiah 3 — God calls Israel and Judah back](jeremiah/jeremiah3_1757464618.md)
 4. [Jeremiah 4 — A warning horn sounds in Judah](jeremiah/jeremiah4_1757464740.md)
 5. [Jeremiah 5 — A search for an honest person](jeremiah/jeremiah5_1757464810.md)
