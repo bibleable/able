@@ -787,6 +787,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 22. [Job 22 — Eliphaz accuses Job of hurting others](job/job22_1757436133.md)
 23. [Job 23 — Job longs for God to hear him](job/job23_1757436230.md)
 24. [Job 24 — Job asks when God will judge](job/job24_1757436343.md)
+25. [Job 25 — Bildad asks who can be pure before God](job/job25_1757436406.md)
 
 ## Reading with a learner
 
