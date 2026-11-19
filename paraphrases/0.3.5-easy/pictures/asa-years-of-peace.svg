@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 146" role="img" aria-labelledby="title desc">
+<title id="title">Two years in Asa’s reign</title>
+<desc id="desc">In year 15 the people gathered in Jerusalem. Peace lasted until year 35.</desc>
+<rect width="440" height="146" rx="10" fill="#fff9ef"/>
+<path d="M105 61H333" stroke="#536b5c" stroke-width="4"/>
+<g fill="#345548"><circle cx="105" cy="61" r="7"/><circle cx="333" cy="61" r="7"/></g>
+<g font-family="sans-serif" text-anchor="middle" fill="#263931">
+<g font-size="22" font-weight="bold"><text x="105" y="40">Year 15</text><text x="333" y="40">Year 35</text></g>
+<g font-size="18"><text x="105" y="97">The people gather</text><text x="105" y="122">in Jerusalem.</text><text x="333" y="97">Peace lasts</text><text x="333" y="122">until this year.</text></g>
+</g></svg>
