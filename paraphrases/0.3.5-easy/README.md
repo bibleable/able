@@ -920,6 +920,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 110. [Psalm 110 — A king and a priest forever](psalms/psalms110_1757448418.md)
 111. [Psalm 111 — Remember what the LORD has done](psalms/psalms111_1757448463.md)
 112. [Psalm 112 — A generous person trusts the LORD](psalms/psalms112_1757448519.md)
+113. [Psalm 113 — The LORD lifts up people in need](psalms/psalms113_1757448583.md)
 
 ## Reading with a learner
 
