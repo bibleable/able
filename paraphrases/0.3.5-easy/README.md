@@ -1057,6 +1057,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 34. [Isaiah 34 — Owls will nest in Edom](isaiah/isaiah34_1757460955.md)
 35. [Isaiah 35 — A road home to Zion](isaiah/isaiah35_1757461037.md)
 36. [Isaiah 36 — The people on the wall stay silent](isaiah/isaiah36_1757461135.md)
+37. [Isaiah 37 — Hezekiah brings a letter to the LORD](isaiah/isaiah37_1757461243.md)
 
 ## Reading with a learner
 
