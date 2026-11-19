@@ -745,6 +745,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [2 Chronicles 5 — The priests bring the ark into the temple](2chronicles/2chronicles5_1757423422.md)
 7. [2 Chronicles 7 — The LORD hears Solomon’s prayer](2chronicles/2chronicles7_1757423665.md)
 8. [2 Chronicles 8 — Solomon builds cities and arranges worship](2chronicles/2chronicles8_1757423767.md)
+9. [2 Chronicles 9 — The queen of Sheba asks Solomon hard questions](2chronicles/2chronicles9_1757423944.md)
 10. [2 Chronicles 10 — The people ask Rehoboam for lighter work](2chronicles/2chronicles10_1757424060.md)
 11. [2 Chronicles 11 — Rehoboam sends the soldiers home](2chronicles/2chronicles11_1757424140.md)
 12. [2 Chronicles 12 — Rehoboam listens when Egypt attacks](2chronicles/2chronicles12_1757424238.md)
