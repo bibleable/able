@@ -925,6 +925,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 115. [Psalm 115 — Trust in the LORD](psalms/psalms115_1757448740.md)
 116. [Psalm 116 — The LORD heard my cry](psalms/psalms116_1757448825.md)
 117. [Psalm 117 — Every nation, praise the LORD](psalms/psalms117_1757448868.md)
+118. [Psalm 118 — His love lasts forever](psalms/psalms118_1757448966.md)
 
 ## Reading with a learner
 
