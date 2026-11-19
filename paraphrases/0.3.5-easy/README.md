@@ -944,6 +944,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 134. [Psalm 134 — Praise the LORD at night](psalms/psalms134_1757450217.md)
 135. [Psalm 135 — Praise the LORD in his courtyards](psalms/psalms135_1757450313.md)
 136. [Psalm 136 — His love lasts forever](psalms/psalms136_1757450419.md)
+137. [Psalm 137 — We remembered Jerusalem](psalms/psalms137_1757450490.md)
 
 ## Reading with a learner
 
