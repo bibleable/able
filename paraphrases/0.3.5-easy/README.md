@@ -1067,6 +1067,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 44. [Isaiah 44 — The God who made Israel](isaiah/isaiah44_1757462020.md)
 45. [Isaiah 45 — God calls Cyrus by name](isaiah/isaiah45_1757462103.md)
 46. [Isaiah 46 — I will carry you](isaiah/isaiah46_1757462166.md)
+47. [Isaiah 47 — Babylon loses its throne](isaiah/isaiah47_1757462270.md)
 
 ## Reading with a learner
 
