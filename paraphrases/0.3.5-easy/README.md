@@ -903,6 +903,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 93. [Psalm 93 — The LORD rules over the roaring waters](psalms/psalms93_1757446649.md)
 94. [Psalm 94 — The God who made the ear can hear](psalms/psalms94_1757446736.md)
 95. [Psalm 95 — Today, listen to his voice](psalms/psalms95_1757446837.md)
+96. [Psalm 96 — Sing to the LORD a new song](psalms/psalms96_1757446953.md)
 
 ## Reading with a learner
 
