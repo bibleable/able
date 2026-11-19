@@ -1123,6 +1123,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [Jeremiah 1 — The LORD gives Jeremiah words to speak](jeremiah/jeremiah1_1757464330.md)
 21. [Jeremiah 21 — A choice for the people of Jerusalem](jeremiah/jeremiah21_1757466519.md)
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
+39. [Jeremiah 39 — Jerusalem falls to Babylon](jeremiah/jeremiah39_1757468799.md)
 43. [Jeremiah 43 — The people go to Egypt](jeremiah/jeremiah43_1757469167.md)
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
