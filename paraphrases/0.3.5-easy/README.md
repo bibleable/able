@@ -850,6 +850,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 40. [Psalm 40 — The LORD heard my cry](psalms/psalms40_1757441810.md)
 41. [Psalm 41 — The LORD cares for the sick](psalms/psalms41_1757441889.md)
 42. [Psalm 42 — I thirst for the living God](psalms/psalms42_1757441974.md)
+43. [Psalm 43 — Send your light and your truth](psalms/psalms43_1757442029.md)
 
 ## Reading with a learner
 
