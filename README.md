@@ -240,6 +240,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Zephaniah</summary>
+
+[1](paraphrases/0.3.5-easy/zephaniah/zephaniah1_1757481593.md)
+
+</details>
+
+<details>
 <summary>Haggai</summary>
 
 [1](paraphrases/0.3.5-easy/haggai/haggai1_1757481941.md) · [2](paraphrases/0.3.5-easy/haggai/haggai2_1757482052.md)
