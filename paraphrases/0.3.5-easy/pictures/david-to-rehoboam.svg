@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 195" role="img" aria-labelledby="title">
+  <title id="title">Three generations, from David to his son Solomon to his grandson Rehoboam</title>
+  <rect width="260" height="195" rx="8" fill="#faf6eb"/>
+  <path d="M130 32v128" stroke="#496059" stroke-width="3"/>
+  <g fill="#deede1" stroke="#496059" stroke-width="2">
+    <rect x="52" y="10" width="156" height="40" rx="8"/>
+    <rect x="52" y="76" width="156" height="40" rx="8"/>
+    <rect x="52" y="142" width="156" height="40" rx="8"/>
+  </g>
+  <g text-anchor="middle" font-family="sans-serif" font-size="21" fill="#223d33">
+    <text x="130" y="37">David</text><text x="130" y="103">Solomon</text><text x="130" y="169">Rehoboam</text>
+  </g>
+</svg>
