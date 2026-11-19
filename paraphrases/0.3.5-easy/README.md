@@ -952,6 +952,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 142. [Psalm 142 — You know my way](psalms/psalms142_1757450942.md)
 143. [Psalm 143 — Teach me the way to go](psalms/psalms143_1757451023.md)
 144. [Psalm 144 — A prayer for peace in our streets](psalms/psalms144_1757451111.md)
+145. [Psalm 145 — The LORD is near to those who call](psalms/psalms145_1757451232.md)
 
 ## Reading with a learner
 
