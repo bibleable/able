@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 170" role="img" aria-labelledby="title desc">
+  <title id="title">A city gate with a bar</title>
+  <desc id="desc">A wooden bar stretches across the closed gate between two towers in a city wall.</desc>
+  <rect width="380" height="170" rx="8" fill="#f7f2e6"/>
+  <g stroke="#494138" stroke-width="3" fill="#dbc8a6">
+    <path d="M15 145V69h350v76z"/>
+    <path d="M72 145V39h14v10h12V39h14v10h12V39h13v106z"/>
+    <path d="M243 145V39h14v10h12V39h14v10h12V39h13v106z"/>
+  </g>
+  <path d="M143 145V92a47 47 0 0 1 94 0v53z" fill="#a76a43" stroke="#49392c" stroke-width="3"/>
+  <path d="M190 47v98" stroke="#49392c" stroke-width="3"/>
+  <rect x="132" y="103" width="116" height="12" rx="2" fill="#4b382d"/>
+</svg>
