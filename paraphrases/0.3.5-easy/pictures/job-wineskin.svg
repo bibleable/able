@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-labelledby="title desc">
+  <title id="title">A tightly closed wineskin</title>
+  <desc id="desc">A leather bag bulges below its small tied neck.</desc>
+  <rect width="320" height="200" rx="14" fill="#fff8ea"/>
+  <path d="M144 25 Q160 19 176 25 L171 52 C173 68 224 90 224 130 Q226 176 167 180 Q99 184 96 137 C92 99 139 74 149 51 Z" fill="#ba7347" stroke="#422d22" stroke-width="5"/>
+  <path d="M110 141 Q113 171 166 169 Q198 168 210 151" fill="none" stroke="#543522" stroke-width="3" stroke-dasharray="5 4"/>
+  <path d="M144 43 L176 40 M144 48 L175 45 Q189 45 194 64" fill="none" stroke="#422d22" stroke-width="5" stroke-linecap="round"/>
+</svg>

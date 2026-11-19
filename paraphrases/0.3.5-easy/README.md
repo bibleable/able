@@ -794,6 +794,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 29. [Job 29 — Job remembers the days when people listened](job/job29_1757436822.md)
 30. [Job 30 — Job cries out for help](job/job30_1757436903.md)
 31. [Job 31 — Job asks God to hear his case](job/job31_1757437073.md)
+32. [Job 32 — Elihu speaks after the others fall silent](job/job32_1757437181.md)
 
 ## Reading with a learner
 
