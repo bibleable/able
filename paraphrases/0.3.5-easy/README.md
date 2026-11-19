@@ -875,6 +875,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 65. [Psalm 65 — God waters the earth](psalms/psalms65_1757443996.md)
 66. [Psalm 66 — Come and hear what God has done](psalms/psalms66_1757444078.md)
 67. [Psalm 67 — Let all the peoples praise you](psalms/psalms67_1757444138.md)
+68. [Psalm 68 — God carries our load each day](psalms/psalms68_1757444282.md)
 
 ## Reading with a learner
 
