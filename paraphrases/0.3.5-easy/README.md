@@ -1014,6 +1014,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Song of Solomon 2 — Come away with me](songofsongs/songofsongs2_1757456812.md)
 3. [Song of Solomon 3 — Have you seen the one I love?](songofsongs/songofsongs3_1757456874.md)
 4. [Song of Solomon 4 — A garden full of fragrance](songofsongs/songofsongs4_1757456982.md)
+5. [Song of Solomon 5 — This is my love and my friend](songofsongs/songofsongs5_1757457103.md)
 
 ## Reading with a learner
 
