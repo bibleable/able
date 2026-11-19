@@ -1053,6 +1053,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [Isaiah 30 — This is the way](isaiah/isaiah30_1757460570.md)
 31. [Isaiah 31 — The LORD protects Jerusalem](isaiah/isaiah31_1757460635.md)
 32. [Isaiah 32 — A place to live in peace](isaiah/isaiah32_1757460715.md)
+33. [Isaiah 33 — A tent that stays in place](isaiah/isaiah33_1757460837.md)
 
 ## Reading with a learner
 
