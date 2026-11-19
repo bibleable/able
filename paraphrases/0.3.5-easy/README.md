@@ -756,6 +756,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Esther 4 — Esther decides to go to the king](esther/esther4_1757433349.md)
 5. [Esther 5 — Esther invites the king and Haman](esther/esther5_1757433422.md)
 6. [Esther 6 — The king honors Mordecai](esther/esther6_1757433493.md)
+7. [Esther 7 — Esther asks the king to spare her people](esther/esther7_1757433587.md)
 
 ## Reading with a learner
 
