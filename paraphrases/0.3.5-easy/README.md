@@ -1124,6 +1124,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Jeremiah 1 — The LORD gives Jeremiah words to speak](jeremiah/jeremiah1_1757464330.md)
 12. [Jeremiah 12 — Why do people who do wrong live so well?](jeremiah/jeremiah12_1757465548.md)
+16. [Jeremiah 16 — God tells Jeremiah why Judah will lose its home](jeremiah/jeremiah16_1757465993.md)
 17. [Jeremiah 17 — A tree with roots by the stream](jeremiah/jeremiah17_1757466121.md)
 18. [Jeremiah 18 — Jeremiah watches a potter reshape the clay](jeremiah/jeremiah18_1757466235.md)
 19. [Jeremiah 19 — A broken jar shows what will happen to Jerusalem](jeremiah/jeremiah19_1757466334.md)
