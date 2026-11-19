@@ -1128,6 +1128,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Jeremiah 20 — Jeremiah cannot keep God’s message to himself](jeremiah/jeremiah20_1757466446.md)
 21. [Jeremiah 21 — A choice for the people of Jerusalem](jeremiah/jeremiah21_1757466519.md)
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
+27. [Jeremiah 27 — Jeremiah wears a yoke](jeremiah/jeremiah27_1757467199.md)
 28. [Jeremiah 28 — Hananiah breaks Jeremiah’s wooden yoke](jeremiah/jeremiah28_1757467299.md)
 29. [Jeremiah 29 — A letter to the people in Babylon](jeremiah/jeremiah29_1757467446.md)
 30. [Jeremiah 30 — God promises freedom to Israel and Judah](jeremiah/jeremiah30_1757467602.md)
