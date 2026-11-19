@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 110" role="img" aria-labelledby="title">
+<title id="title">A cloud, a small wisp, then clear sky</title>
+<g fill="#cbe4f2" stroke="#385364" stroke-width="2">
+<rect x="2" y="2" width="122" height="106" rx="8"/><rect x="134" y="2" width="122" height="106" rx="8"/><rect x="266" y="2" width="122" height="106" rx="8"/></g>
+<g fill="white" stroke="#526f81" stroke-width="2"><path d="M24 65 Q13 53 26 44 Q27 29 43 33 Q53 14 70 30 Q91 24 96 42 Q116 46 103 62 Q91 71 24 65Z"/><path d="M174 57 Q171 50 180 48 Q186 37 195 46 Q208 42 214 52 Q220 61 174 57Z"/></g>
+<g font-family="sans-serif" font-size="15" fill="#193649" text-anchor="middle"><text x="63" y="94">Cloud</text><text x="195" y="94">Fading</text><text x="327" y="94">Clear sky</text></g>
+</svg>

@@ -769,6 +769,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Job 4 — Eliphaz answers Job](job/job4_1757434249.md)
 5. [Job 5 — Eliphaz tells Job to ask God for help](job/job5_1757434339.md)
 6. [Job 6 — Job asks his friends for kindness](job/job6_1757434468.md)
+7. [Job 7 — Job asks God for a moment of rest](job/job7_1757434550.md)
 
 ## Reading with a learner
 
