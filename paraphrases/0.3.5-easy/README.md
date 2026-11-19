@@ -897,6 +897,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 87. [Psalm 87 — This one was born in Zion](psalms/psalms87_1757446043.md)
 88. [Psalm 88 — Day and night I call to you](psalms/psalms88_1757446146.md)
 89. [Psalm 89 — Remember your promise to David](psalms/psalms89_1757446274.md)
+90. [Psalm 90 — Teach us to number our days](psalms/psalms90_1757446419.md)
 
 ## Reading with a learner
 
