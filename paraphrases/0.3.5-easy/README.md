@@ -883,6 +883,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 73. [Psalm 73 — You hold my right hand](psalms/psalms73_1757444726.md)
 74. [Psalm 74 — God, remember your people](psalms/psalms74_1757444832.md)
 75. [Psalm 75 — God chooses the time to judge](psalms/psalms75_1757444910.md)
+76. [Psalm 76 — God rises to save the lowly](psalms/psalms76_1757444990.md)
 
 ## Reading with a learner
 
