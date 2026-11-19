@@ -965,6 +965,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Proverbs 2 — Search for wisdom like treasure](proverbs/proverbs2_1757451765.md)
 3. [Proverbs 3 — Trust the LORD and help your neighbor](proverbs/proverbs3_1757451882.md)
 4. [Proverbs 4 — Stay on the wise path](proverbs/proverbs4_1757452016.md)
+5. [Proverbs 5 — Be faithful to your wife](proverbs/proverbs5_1757452131.md)
 
 ## Reading with a learner
 
