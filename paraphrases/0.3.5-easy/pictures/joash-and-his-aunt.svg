@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 180" role="img" aria-labelledby="title desc">
+  <title id="title">Joash and his aunt</title>
+  <desc id="desc">Ahaziah is Joash’s father. Ahaziah’s sister Jehoshabeath is Joash’s aunt.</desc>
+  <rect width="480" height="180" rx="10" fill="#fffaf1"/>
+  <g stroke="#655238" stroke-width="3" fill="none">
+    <path d="M122 60V113M180 47H297"/>
+  </g>
+  <g stroke="#655238" stroke-width="2">
+    <rect x="42" y="20" width="145" height="42" rx="8" fill="#f4dbae"/>
+    <rect x="293" y="20" width="163" height="42" rx="8" fill="#f4dbae"/>
+    <rect x="42" y="112" width="145" height="45" rx="8" fill="#dcebdd"/>
+  </g>
+  <g text-anchor="middle" font-family="sans-serif" fill="#322b22">
+    <g font-size="21"><text x="114" y="48">Ahaziah</text><text x="374" y="48">Jehoshabeath</text><text x="114" y="141">Joash</text></g>
+    <g font-size="17"><text x="240" y="36">his sister</text><text x="161" y="94">his son</text><text x="374" y="90">Joash’s aunt</text></g>
+  </g>
+</svg>
