@@ -786,6 +786,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Job 21 — Job asks why wicked people prosper](job/job21_1757436007.md)
 22. [Job 22 — Eliphaz accuses Job of hurting others](job/job22_1757436133.md)
 23. [Job 23 — Job longs for God to hear him](job/job23_1757436230.md)
+24. [Job 24 — Job asks when God will judge](job/job24_1757436343.md)
 
 ## Reading with a learner
 
