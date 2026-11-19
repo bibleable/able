@@ -879,6 +879,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 69. [Psalm 69 — God, do not let me sink](psalms/psalms69_1757444412.md)
 70. [Psalm 70 — Hurry to help me, LORD](psalms/psalms70_1757444459.md)
 71. [Psalm 71 — Stay with me when I grow old](psalms/psalms71_1757444519.md)
+72. [Psalm 72 — A king who hears people in need](psalms/psalms72_1757444613.md)
 
 ## Reading with a learner
 
