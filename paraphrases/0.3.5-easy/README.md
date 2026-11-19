@@ -1038,6 +1038,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Isaiah 15 — Moab weeps for its towns](isaiah/isaiah15_1757459134.md)
 16. [Isaiah 16 — Moab asks for shelter](isaiah/isaiah16_1757459210.md)
 17. [Isaiah 17 — Only a few olives remain](isaiah/isaiah17_1757459295.md)
+18. [Isaiah 18 — Gifts from a land of rivers](isaiah/isaiah18_1757459390.md)
 
 ## Reading with a learner
 
