@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 165" role="img" aria-labelledby="title desc">
+  <title id="title">A strong bronze wall</title>
+  <desc id="desc">A solid bronze-colored wall stands upright. God compares Jeremiah to a wall that will hold firm.</desc>
+  <rect width="320" height="165" fill="#fff9ed"/>
+  <path d="M39 52l24-18h217l-23 18z" fill="#dba875" stroke="#573621" stroke-width="3"/>
+  <path d="M257 52l23-18v85l-23 18z" fill="#805333" stroke="#573621" stroke-width="3"/>
+  <path d="M39 52h218v85H39z" fill="#b97c4b" stroke="#573621" stroke-width="3"/>
+  <path d="M39 80h218M39 109h218M92 52v28m91-28v28M61 80v29m89-29v29m85-29v29M92 109v28m91-28v28" fill="none" stroke="#754b30" stroke-width="3"/>
+</svg>
