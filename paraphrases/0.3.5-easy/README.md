@@ -1123,6 +1123,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Jeremiah
 
 1. [Jeremiah 1 — The LORD gives Jeremiah words to speak](jeremiah/jeremiah1_1757464330.md)
+4. [Jeremiah 4 — A warning horn sounds in Judah](jeremiah/jeremiah4_1757464740.md)
 5. [Jeremiah 5 — A search for an honest person](jeremiah/jeremiah5_1757464810.md)
 6. [Jeremiah 6 — The people refuse to hear the warning](jeremiah/jeremiah6_1757464909.md)
 7. [Jeremiah 7 — Jeremiah speaks at the temple gate](jeremiah/jeremiah7_1757465035.md)
