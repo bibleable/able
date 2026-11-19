@@ -1182,6 +1182,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 37. [Ezekiel 37 — Dry bones live and two sticks become one](ezekiel/ezekiel37_1757474922.md)
 38. [Ezekiel 38 — Gog comes against Israel](ezekiel/ezekiel38_1757474984.md)
 39. [Ezekiel 39 — Gog falls on the mountains of Israel](ezekiel/ezekiel39_1757475099.md)
+40. [Ezekiel 40 — A man measures the temple gates](ezekiel/ezekiel40_1757475202.md)
 41. [Ezekiel 41 — The man measures the temple rooms](ezekiel/ezekiel41_1757475268.md)
 42. [Ezekiel 42 — Rooms for the priests and a wall around the holy area](ezekiel/ezekiel42_1757475338.md)
 43. [Ezekiel 43 — The glory of the LORD returns to the temple](ezekiel/ezekiel43_1757475480.md)
