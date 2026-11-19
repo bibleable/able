@@ -1181,6 +1181,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 44. [Ezekiel 44 — The east gate stays shut and the priests serve](ezekiel/ezekiel44_1757475573.md)
 45. [Ezekiel 45 — Shares of land and fair measures](ezekiel/ezekiel45_1757475683.md)
 46. [Ezekiel 46 — The people come to worship](ezekiel/ezekiel46_1757475785.md)
+47. [Ezekiel 47 — A river flows from the temple](ezekiel/ezekiel47_1757475865.md)
 
 ## Daniel
 
