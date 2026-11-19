@@ -242,7 +242,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Zephaniah</summary>
 
-[1](paraphrases/0.3.5-easy/zephaniah/zephaniah1_1757481593.md)
+[1](paraphrases/0.3.5-easy/zephaniah/zephaniah1_1757481593.md) · [2](paraphrases/0.3.5-easy/zephaniah/zephaniah2_1757481696.md)
 
 </details>
 
