@@ -1249,6 +1249,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Daniel
 
 1. [Daniel 1 — Daniel asks for a ten-day test](daniel/daniel1_1757475997.md)
+4. [Daniel 4 — The king dreams about a great tree](daniel/daniel4_1757476279.md)
 5. [Daniel 5 — Daniel reads the writing on the wall](daniel/daniel5_1757476440.md)
 6. [Daniel 6 — Daniel keeps praying](daniel/daniel6_1757476600.md)
 7. [Daniel 7 — Daniel sees four beasts and a kingdom that lasts](daniel/daniel7_1757476728.md)
