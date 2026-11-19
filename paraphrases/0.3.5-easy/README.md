@@ -1134,6 +1134,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 41. [Jeremiah 41 — Johanan brings the captives back](jeremiah/jeremiah41_1757469006.md)
 42. [Jeremiah 42 — The people ask Jeremiah to pray](jeremiah/jeremiah42_1757469121.md)
 43. [Jeremiah 43 — The people go to Egypt](jeremiah/jeremiah43_1757469167.md)
+44. [Jeremiah 44 — The people in Egypt refuse to listen](jeremiah/jeremiah44_1757469287.md)
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
 
