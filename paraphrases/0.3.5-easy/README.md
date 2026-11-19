@@ -1011,6 +1011,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Song of Solomon
 
 1. [Song of Solomon 1 — Follow the tracks of the flock](songofsongs/songofsongs1_1757456695.md)
+2. [Song of Solomon 2 — Come away with me](songofsongs/songofsongs2_1757456812.md)
 
 ## Reading with a learner
 
