@@ -1153,6 +1153,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Ezekiel 9 — A mark for those who grieve](ezekiel/ezekiel9_1757471630.md)
 10. [Ezekiel 10 — The glory of the LORD moves to the east gate](ezekiel/ezekiel10_1757471728.md)
 11. [Ezekiel 11 — God promises to bring his scattered people home](ezekiel/ezekiel11_1757471870.md)
+12. [Ezekiel 12 — Ezekiel packs a bag and leaves his home](ezekiel/ezekiel12_1757471956.md)
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)

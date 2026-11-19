@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 165" role="img" aria-labelledby="title desc">
+  <title id="title">A bag packed for a journey</title>
+  <desc id="desc">A cloth bag with a long strap for carrying it on one shoulder.</desc>
+  <rect width="320" height="165" rx="10" fill="#fff8ec"/>
+  <path d="M99 91C103 51 142 12 182 18C213 23 220 56 211 92" fill="none" stroke="#553e32" stroke-width="11"/>
+  <path d="M97 82Q150 96 216 80L220 126Q219 144 198 146L115 146Q94 143 94 125Z" fill="#ba8254" stroke="#553e32" stroke-width="4"/>
+  <path d="M97 82Q151 70 216 80L202 106Q154 119 109 104Z" fill="#e1aa78" stroke="#553e32" stroke-width="4"/>
+</svg>
