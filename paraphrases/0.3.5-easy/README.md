@@ -817,6 +817,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Psalm 7 — David asks God to judge fairly](psalms/psalms7_1757438915.md)
 8. [Psalm 8 — David looks up at the sky](psalms/psalms8_1757438987.md)
 9. [Psalm 9 — The LORD hears people in trouble](psalms/psalms9_1757439129.md)
+10. [Psalm 10 — The LORD hears people who need help](psalms/psalms10_1757439195.md)
 
 ## Reading with a learner
 
