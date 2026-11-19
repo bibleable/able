@@ -873,6 +873,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 63. [Psalm 63 — David longs for God](psalms/psalms63_1757443833.md)
 64. [Psalm 64 — God hears David’s complaint](psalms/psalms64_1757443933.md)
 65. [Psalm 65 — God waters the earth](psalms/psalms65_1757443996.md)
+66. [Psalm 66 — Come and hear what God has done](psalms/psalms66_1757444078.md)
 
 ## Reading with a learner
 
