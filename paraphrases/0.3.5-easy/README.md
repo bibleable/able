@@ -842,6 +842,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 32. [Psalm 32 — David tells the LORD what he has done](psalms/psalms32_1757441159.md)
 33. [Psalm 33 — Sing a new song to the LORD](psalms/psalms33_1757441256.md)
 34. [Psalm 34 — Taste and see that the LORD is good](psalms/psalms34_1757441354.md)
+35. [Psalm 35 — David asks the LORD to defend him](psalms/psalms35_1757441434.md)
 
 ## Reading with a learner
 
