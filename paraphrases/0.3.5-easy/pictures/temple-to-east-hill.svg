@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 152" role="img" aria-labelledby="title desc">
+  <title id="title">From the temple to the mountain in the east</title>
+  <desc id="desc">Arrows lead from the temple doorway to the east gate, then to the mountain outside the city.</desc>
+  <rect width="520" height="152" rx="10" fill="#fff9ee"/>
+  <g stroke="#554435" stroke-width="3" stroke-linejoin="round">
+    <path d="M24 64l51-33 51 33z M36 64h78v36H36z" fill="#e8cda2"/>
+    <path d="M65 100V72h21v28" fill="#74563f"/>
+    <path d="M222 100V47h20v11h33V47h20v53h-27V76h-19v24z" fill="#d6b786"/>
+    <path d="M364 100l58-64 20 25 10-10 44 49z" fill="#a6bc93"/>
+  </g>
+  <g stroke="#324d60" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M143 77h57l-9-8m9 8-9 8 M310 77h45l-9-8m9 8-9 8"/>
+  </g>
+  <g fill="#28251f" text-anchor="middle" font-family="sans-serif" font-size="17">
+    <text x="75" y="131">Temple doorway</text><text x="258" y="131">East gate</text><text x="433" y="131">Mountain</text>
+  </g>
+</svg>

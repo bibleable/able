@@ -1151,6 +1151,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Ezekiel 6 — The LORD speaks to the mountains of Israel](ezekiel/ezekiel6_1757471304.md)
 8. [Ezekiel 8 — God shows Ezekiel what people worship in the temple](ezekiel/ezekiel8_1757471522.md)
 9. [Ezekiel 9 — A mark for those who grieve](ezekiel/ezekiel9_1757471630.md)
+10. [Ezekiel 10 — The glory of the LORD moves to the east gate](ezekiel/ezekiel10_1757471728.md)
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)
