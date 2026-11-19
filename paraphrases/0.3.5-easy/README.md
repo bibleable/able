@@ -987,6 +987,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Proverbs 24 — What a field can teach](proverbs/proverbs24_1757454425.md)
 25. [Proverbs 25 — A cup of water for an enemy](proverbs/proverbs25_1757454556.md)
 26. [Proverbs 26 — When gossip stops](proverbs/proverbs26_1757454756.md)
+27. [Proverbs 27 — A friend’s honest words](proverbs/proverbs27_1757454900.md)
 
 ## Reading with a learner
 
