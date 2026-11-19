@@ -1311,6 +1311,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Zechariah 5 — The flying scroll and the basket](zechariah/zechariah5_1757482505.md)
 6. [Zechariah 6 — Four chariots and a crown](zechariah/zechariah6_1757482603.md)
 7. [Zechariah 7 — The LORD asks His people to show mercy](zechariah/zechariah7_1757482673.md)
+8. [Zechariah 8 — Children will play in Jerusalem again](zechariah/zechariah8_1757482833.md)
 9. [Zechariah 9 — A humble king will bring peace](zechariah/zechariah9_1757482973.md)
 10. [Zechariah 10 — The LORD calls His people home](zechariah/zechariah10_1757483042.md)
 11. [Zechariah 11 — A shepherd with two staffs](zechariah/zechariah11_1757483191.md)
