@@ -889,6 +889,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 79. [Psalm 79 — Hear the prisoners and help us](psalms/psalms79_1757445404.md)
 80. [Psalm 80 — Look after the vine you planted](psalms/psalms80_1757445484.md)
 81. [Psalm 81 — If only my people would listen](psalms/psalms81_1757445606.md)
+82. [Psalm 82 — Defend those who need help](psalms/psalms82_1757445672.md)
 
 ## Reading with a learner
 
