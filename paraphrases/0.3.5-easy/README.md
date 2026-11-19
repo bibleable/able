@@ -870,6 +870,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 60. [Psalm 60 — God, help your people again](psalms/psalms60_1757443567.md)
 61. [Psalm 61 — Lead me to the high rock](psalms/psalms61_1757443658.md)
 62. [Psalm 62 — Tell God what is in your heart](psalms/psalms62_1757443749.md)
+63. [Psalm 63 — David longs for God](psalms/psalms63_1757443833.md)
 
 ## Reading with a learner
 
