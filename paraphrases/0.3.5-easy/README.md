@@ -748,6 +748,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Nehemiah 12 — Two choirs give thanks for the wall](nehemiah/nehemiah12_1757432700.md)
 13. [Nehemiah 13 — Nehemiah returns to Jerusalem](nehemiah/nehemiah13_1757432833.md)
 
+## Esther
+
+1. [Esther 1 — Queen Vashti refuses the king’s order](esther/esther1_1757433035.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
