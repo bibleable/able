@@ -785,6 +785,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Job 20 — Zophar says stolen wealth will not last](job/job20_1757435905.md)
 21. [Job 21 — Job asks why wicked people prosper](job/job21_1757436007.md)
 22. [Job 22 — Eliphaz accuses Job of hurting others](job/job22_1757436133.md)
+23. [Job 23 — Job longs for God to hear him](job/job23_1757436230.md)
 
 ## Reading with a learner
 
