@@ -922,6 +922,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 112. [Psalm 112 — A generous person trusts the LORD](psalms/psalms112_1757448519.md)
 113. [Psalm 113 — The LORD lifts up people in need](psalms/psalms113_1757448583.md)
 114. [Psalm 114 — The sea and the mountains move](psalms/psalms114_1757448677.md)
+115. [Psalm 115 — Trust in the LORD](psalms/psalms115_1757448740.md)
 
 ## Reading with a learner
 
