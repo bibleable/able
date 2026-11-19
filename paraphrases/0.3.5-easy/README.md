@@ -756,6 +756,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [2 Chronicles 17 — Jehoshaphat sends teachers through Judah](2chronicles/2chronicles17_1757424777.md)
 18. [2 Chronicles 18 — Micaiah warns King Ahab](2chronicles/2chronicles18_1757424922.md)
 19. [2 Chronicles 19 — Jehoshaphat appoints judges](2chronicles/2chronicles19_1757425010.md)
+20. [2 Chronicles 20 — Jehoshaphat asks God for help](2chronicles/2chronicles20_1757425164.md)
 21. [2 Chronicles 21 — Elijah sends King Jehoram a letter](2chronicles/2chronicles21_1757425280.md)
 22. [2 Chronicles 22 — An aunt saves Joash](2chronicles/2chronicles22_1757425400.md)
 23. [2 Chronicles 23 — Joash comes out of hiding and becomes king](2chronicles/2chronicles23_1757425575.md)
