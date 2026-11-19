@@ -770,6 +770,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Job 5 — Eliphaz tells Job to ask God for help](job/job5_1757434339.md)
 6. [Job 6 — Job asks his friends for kindness](job/job6_1757434468.md)
 7. [Job 7 — Job asks God for a moment of rest](job/job7_1757434550.md)
+8. [Job 8 — Bildad tells Job to seek God](job/job8_1757434652.md)
 
 ## Reading with a learner
 
