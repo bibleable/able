@@ -773,6 +773,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Job 8 — Bildad tells Job to seek God](job/job8_1757434652.md)
 9. [Job 9 — Job longs to speak without fear](job/job9_1757434777.md)
 10. [Job 10 — Job asks God why he suffers](job/job10_1757434867.md)
+11. [Job 11 — Zophar tells Job to turn to God](job/job11_1757434946.md)
 
 ## Reading with a learner
 
