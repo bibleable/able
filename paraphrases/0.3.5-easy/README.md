@@ -827,6 +827,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Psalm 17 — David asks the LORD to keep him safe](psalms/psalms17_1757439775.md)
 18. [Psalm 18 — David sings about the LORD who rescued him](psalms/psalms18_1757439919.md)
 19. [Psalm 19 — The sky tells of God’s glory](psalms/psalms19_1757440060.md)
+20. [Psalm 20 — The people pray for their king](psalms/psalms20_1757440124.md)
 
 ## Reading with a learner
 
