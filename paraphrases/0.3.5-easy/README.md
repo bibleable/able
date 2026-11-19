@@ -857,6 +857,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 47. [Psalm 47 — Sing praises to our King](psalms/psalms47_1757442326.md)
 48. [Psalm 48 — Walk around Zion](psalms/psalms48_1757442437.md)
 49. [Psalm 49 — What can money buy?](psalms/psalms49_1757442508.md)
+50. [Psalm 50 — God calls his people to listen](psalms/psalms50_1757442638.md)
 
 ## Reading with a learner
 
