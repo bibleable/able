@@ -858,6 +858,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 48. [Psalm 48 — Walk around Zion](psalms/psalms48_1757442437.md)
 49. [Psalm 49 — What can money buy?](psalms/psalms49_1757442508.md)
 50. [Psalm 50 — God calls his people to listen](psalms/psalms50_1757442638.md)
+51. [Psalm 51 — God, give me a clean heart](psalms/psalms51_1757442774.md)
 
 ## Reading with a learner
 
