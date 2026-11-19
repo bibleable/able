@@ -837,6 +837,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 27. [Psalm 27 — The LORD is my light](psalms/psalms27_1757440695.md)
 28. [Psalm 28 — The LORD hears David call for help](psalms/psalms28_1757440814.md)
 29. [Psalm 29 — The voice of the LORD](psalms/psalms29_1757440893.md)
+30. [Psalm 30 — You turned my mourning into dancing](psalms/psalms30_1757440968.md)
 
 ## Reading with a learner
 
