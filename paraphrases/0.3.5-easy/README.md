@@ -1062,6 +1062,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 39. [Isaiah 39 — Hezekiah shows his treasures](isaiah/isaiah39_1757461457.md)
 40. [Isaiah 40 — Strength for tired people](isaiah/isaiah40_1757461591.md)
 41. [Isaiah 41 — I will hold your hand](isaiah/isaiah41_1757461717.md)
+42. [Isaiah 42 — A gentle servant brings justice](isaiah/isaiah42_1757461820.md)
 
 ## Reading with a learner
 
