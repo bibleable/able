@@ -1155,6 +1155,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Nahum
 
+1. [Nahum 1 — A message of peace for Judah](nahum/nahum1_1757481056.md)
 2. [Nahum 2 — The people flee from Nineveh](nahum/nahum2_1757481115.md)
 
 ## Zechariah

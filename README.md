@@ -228,7 +228,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Nahum</summary>
 
-[2](paraphrases/0.3.5-easy/nahum/nahum2_1757481115.md)
+[1](paraphrases/0.3.5-easy/nahum/nahum1_1757481056.md) · [2](paraphrases/0.3.5-easy/nahum/nahum2_1757481115.md)
 
 </details>
 
