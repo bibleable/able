@@ -93,6 +93,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>1 Chronicles</summary>
+
+[20](paraphrases/0.3.5-easy/1chronicles/1chronicles20_1757421732.md)
+
+</details>
+
+<details>
 <summary>2 Chronicles</summary>
 
 [27](paraphrases/0.3.5-easy/2chronicles/2chronicles27_1757427856.md)
