@@ -825,6 +825,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Psalm 15 — Who may stay in the LORD’s tent?](psalms/psalms15_1757439540.md)
 16. [Psalm 16 — The LORD shows David the path of life](psalms/psalms16_1757439667.md)
 17. [Psalm 17 — David asks the LORD to keep him safe](psalms/psalms17_1757439775.md)
+18. [Psalm 18 — David sings about the LORD who rescued him](psalms/psalms18_1757439919.md)
 
 ## Reading with a learner
 
