@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" role="img" aria-labelledby="title desc">
+  <title id="title">Zechariah’s two shepherd’s staffs</title>
+  <desc id="desc">Two long wooden sticks stand beside each other. One is named Favor and the other Union.</desc>
+  <rect width="320" height="210" rx="10" fill="#fff8eb"/>
+  <g stroke="#775132" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M94 142V48c0-26-31-26-31-2"/>
+    <path d="M242 142V48c0-26-31-26-31-2"/>
+  </g>
+  <g text-anchor="middle" font-size="23" font-family="sans-serif" fill="#30291f">
+    <text x="86" y="182">Favor</text><text x="234" y="182">Union</text>
+  </g>
+</svg>
