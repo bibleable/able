@@ -812,6 +812,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Psalm 2 — The LORD chooses his King](psalms/psalms2_1757438510.md)
 3. [Psalm 3 — David calls to the LORD for help](psalms/psalms3_1757438591.md)
 4. [Psalm 4 — David lies down in peace](psalms/psalms4_1757438667.md)
+5. [Psalm 5 — David prays in the morning](psalms/psalms5_1757438778.md)
 
 ## Reading with a learner
 
