@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 165" role="img" aria-labelledby="t d">
+<title id="t">Daniel’s open window</title><desc id="d">An arrow shows that the open window in Daniel’s upstairs room faced Jerusalem.</desc>
+<rect width="380" height="165" rx="10" fill="#fff8e9"/>
+<rect x="65" y="32" width="86" height="84" fill="#bfe3f0" stroke="#503e32" stroke-width="5"/>
+<path d="M65 32L39 19v108l26-11z M151 32l26-13v108l-26-11z" fill="#ba9875" stroke="#503e32" stroke-width="3"/>
+<path d="M194 76h108m-14 -12 15 12-15 12" fill="none" stroke="#30584a" stroke-width="5"/>
+<g font-family="sans-serif" fill="#243c34" font-size="18" text-anchor="middle"><text x="107" y="149">Daniel’s room</text><text x="272" y="115">Toward Jerusalem</text></g>
+</svg>
