@@ -207,7 +207,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Zechariah</summary>
 
-[3](paraphrases/0.3.5-easy/zechariah/zechariah3_1757482368.md)
+[3](paraphrases/0.3.5-easy/zechariah/zechariah3_1757482368.md) · [5](paraphrases/0.3.5-easy/zechariah/zechariah5_1757482505.md)
 
 </details>
 

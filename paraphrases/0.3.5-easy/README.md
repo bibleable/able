@@ -1124,6 +1124,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Zechariah
 
 3. [Zechariah 3 — Clean clothes for Joshua](zechariah/zechariah3_1757482368.md)
+5. [Zechariah 5 — The flying scroll and the basket](zechariah/zechariah5_1757482505.md)
 
 ## Malachi
 
