@@ -924,6 +924,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 114. [Psalm 114 — The sea and the mountains move](psalms/psalms114_1757448677.md)
 115. [Psalm 115 — Trust in the LORD](psalms/psalms115_1757448740.md)
 116. [Psalm 116 — The LORD heard my cry](psalms/psalms116_1757448825.md)
+117. [Psalm 117 — Every nation, praise the LORD](psalms/psalms117_1757448868.md)
 
 ## Reading with a learner
 
