@@ -753,6 +753,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [Esther 1 — Queen Vashti refuses the king’s order](esther/esther1_1757433035.md)
 2. [Esther 2 — Esther becomes queen](esther/esther2_1757433181.md)
 3. [Esther 3 — Haman turns against the Jews](esther/esther3_1757433266.md)
+4. [Esther 4 — Esther decides to go to the king](esther/esther4_1757433349.md)
 
 ## Reading with a learner
 
