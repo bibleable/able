@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120" role="img" aria-labelledby="title desc"><title id="title">One basket out of ten</title><desc id="desc">Two rows have five baskets each. A ring marks the first basket.</desc><rect width="300" height="120" rx="10" fill="#fffaf1"/><circle cx="35" cy="32" r="24" fill="none" stroke="#175b65" stroke-width="3"/>
+<g transform="translate(35 32)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(92 32)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(149 32)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(206 32)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(263 32)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(35 87)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(92 87)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(149 87)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(206 87)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+<g transform="translate(263 87)"><path d="M-12 -2 Q0 -23 12 -2 M-16 -2 H16 L12 13 H-12 Z" stroke="#513e2d" stroke-width="3" fill="#e9bc78"/></g>
+</svg>
