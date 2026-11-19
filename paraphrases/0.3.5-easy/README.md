@@ -736,6 +736,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [2 Chronicles 11 — Rehoboam sends the soldiers home](2chronicles/2chronicles11_1757424140.md)
 12. [2 Chronicles 12 — Rehoboam listens when Egypt attacks](2chronicles/2chronicles12_1757424238.md)
 14. [2 Chronicles 14 — Asa asks the LORD for help](2chronicles/2chronicles14_1757424418.md)
+16. [2 Chronicles 16 — Asa asks another king for help](2chronicles/2chronicles16_1757424639.md)
 17. [2 Chronicles 17 — Jehoshaphat sends teachers through Judah](2chronicles/2chronicles17_1757424777.md)
 19. [2 Chronicles 19 — Jehoshaphat appoints judges](2chronicles/2chronicles19_1757425010.md)
 22. [2 Chronicles 22 — An aunt saves Joash](2chronicles/2chronicles22_1757425400.md)
