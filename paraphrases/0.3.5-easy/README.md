@@ -1060,6 +1060,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 37. [Isaiah 37 — Hezekiah brings a letter to the LORD](isaiah/isaiah37_1757461243.md)
 38. [Isaiah 38 — Hezekiah gives thanks for his life](isaiah/isaiah38_1757461387.md)
 39. [Isaiah 39 — Hezekiah shows his treasures](isaiah/isaiah39_1757461457.md)
+40. [Isaiah 40 — Strength for tired people](isaiah/isaiah40_1757461591.md)
 
 ## Reading with a learner
 
