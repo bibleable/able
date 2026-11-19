@@ -765,6 +765,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 29. [2 Chronicles 29 — Hezekiah opens the temple doors](2chronicles/2chronicles29_1757428208.md)
 30. [2 Chronicles 30 — Hezekiah invites Israel and Judah to Passover](2chronicles/2chronicles30_1757428368.md)
 31. [2 Chronicles 31 — The people bring enough to share](2chronicles/2chronicles31_1757428596.md)
+32. [2 Chronicles 32 — Hezekiah and Isaiah pray for Jerusalem](2chronicles/2chronicles32_1757428728.md)
 33. [2 Chronicles 33 — Manasseh prays in Babylon](2chronicles/2chronicles33_1757428881.md)
 34. [2 Chronicles 34 — Josiah hears the Book of the Law](2chronicles/2chronicles34_1757429045.md)
 35. [2 Chronicles 35 — Josiah gathers the people for Passover](2chronicles/2chronicles35_1757429221.md)
