@@ -904,6 +904,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 94. [Psalm 94 — The God who made the ear can hear](psalms/psalms94_1757446736.md)
 95. [Psalm 95 — Today, listen to his voice](psalms/psalms95_1757446837.md)
 96. [Psalm 96 — Sing to the LORD a new song](psalms/psalms96_1757446953.md)
+97. [Psalm 97 — Even the mountains melt before the LORD](psalms/psalms97_1757447079.md)
 
 ## Reading with a learner
 
