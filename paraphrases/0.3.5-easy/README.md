@@ -729,6 +729,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [1 Chronicles 13 — David brings the ark to Obed-edom’s house](1chronicles/1chronicles13_1757420707.md)
 14. [1 Chronicles 14 — David asks God what to do](1chronicles/1chronicles14_1757420880.md)
 15. [1 Chronicles 15 — The Levites carry the ark to Jerusalem](1chronicles/1chronicles15_1757421078.md)
+16. [1 Chronicles 16 — A song of thanks at the ark](1chronicles/1chronicles16_1757421205.md)
 17. [1 Chronicles 17 — The LORD makes a promise to David’s family](1chronicles/1chronicles17_1757421367.md)
 18. [1 Chronicles 18 — David’s victories and the people who served with him](1chronicles/1chronicles18_1757421545.md)
 19. [1 Chronicles 19 — David sends comfort, but Hanun suspects his messengers](1chronicles/1chronicles19_1757421642.md)
