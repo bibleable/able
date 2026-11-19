@@ -760,6 +760,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [2 Chronicles 26 — Uzziah becomes proud and ignores the priests](2chronicles/2chronicles26_1757427776.md)
 27. [2 Chronicles 27 — Jotham rules in Jerusalem](2chronicles/2chronicles27_1757427856.md)
 31. [2 Chronicles 31 — The people bring enough to share](2chronicles/2chronicles31_1757428596.md)
+36. [2 Chronicles 36 — Jerusalem falls, and Cyrus calls the people home](2chronicles/2chronicles36_1757429366.md)
 
 ## Ezra
 
