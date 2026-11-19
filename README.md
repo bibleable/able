@@ -179,7 +179,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Ezekiel</summary>
 
-[15](paraphrases/0.3.5-easy/ezekiel/ezekiel15_1757472180.md)
+[2](paraphrases/0.3.5-easy/ezekiel/ezekiel2_1757470907.md) · [15](paraphrases/0.3.5-easy/ezekiel/ezekiel15_1757472180.md)
 
 </details>
 

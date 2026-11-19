@@ -1103,6 +1103,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Ezekiel
 
+2. [Ezekiel 2 — God sends Ezekiel to speak](ezekiel/ezekiel2_1757470907.md)
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
 
 ## Hosea
