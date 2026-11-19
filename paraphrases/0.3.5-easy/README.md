@@ -848,6 +848,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 38. [Psalm 38 — LORD, stay close to me](psalms/psalms38_1757441638.md)
 39. [Psalm 39 — LORD, show me how short my life is](psalms/psalms39_1757441712.md)
 40. [Psalm 40 — The LORD heard my cry](psalms/psalms40_1757441810.md)
+41. [Psalm 41 — The LORD cares for the sick](psalms/psalms41_1757441889.md)
 
 ## Reading with a learner
 
