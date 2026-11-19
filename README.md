@@ -95,7 +95,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>1 Chronicles</summary>
 
-[3](paraphrases/0.3.5-easy/1chronicles/1chronicles3_1757419075.md) · [8](paraphrases/0.3.5-easy/1chronicles/1chronicles8_1757419897.md) · [10](paraphrases/0.3.5-easy/1chronicles/1chronicles10_1757420237.md) · [13](paraphrases/0.3.5-easy/1chronicles/1chronicles13_1757420707.md) · [14](paraphrases/0.3.5-easy/1chronicles/1chronicles14_1757420880.md) · [18](paraphrases/0.3.5-easy/1chronicles/1chronicles18_1757421545.md) · [20](paraphrases/0.3.5-easy/1chronicles/1chronicles20_1757421732.md)
+[3](paraphrases/0.3.5-easy/1chronicles/1chronicles3_1757419075.md) · [8](paraphrases/0.3.5-easy/1chronicles/1chronicles8_1757419897.md) · [10](paraphrases/0.3.5-easy/1chronicles/1chronicles10_1757420237.md) · [13](paraphrases/0.3.5-easy/1chronicles/1chronicles13_1757420707.md) · [14](paraphrases/0.3.5-easy/1chronicles/1chronicles14_1757420880.md) · [18](paraphrases/0.3.5-easy/1chronicles/1chronicles18_1757421545.md) · [20](paraphrases/0.3.5-easy/1chronicles/1chronicles20_1757421732.md) · [24](paraphrases/0.3.5-easy/1chronicles/1chronicles24_1757422155.md)
 
 </details>
 

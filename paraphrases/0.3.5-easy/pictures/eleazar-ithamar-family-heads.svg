@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" role="img" aria-labelledby="t d">
+<title id="t">Family heads from Aaron’s two sons</title>
+<desc id="d">Sixteen heads came from Eleazar’s family and eight from Ithamar’s. The first bar is twice as long as the second.</desc>
+<rect width="400" height="140" rx="8" fill="#fff9ef"/>
+<g font-family="sans-serif" font-size="22" fill="#262e2c">
+<text x="16" y="42">Eleazar</text><text x="16" y="103">Ithamar</text>
+<text x="332" y="42">16</text><text x="230" y="103">8</text></g>
+<g fill="#47725e"><rect x="115" y="22" width="200" height="23"/><rect x="115" y="83" width="100" height="23"/></g>
+</svg>
