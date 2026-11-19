@@ -1070,6 +1070,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 47. [Isaiah 47 — Babylon loses its throne](isaiah/isaiah47_1757462270.md)
 48. [Isaiah 48 — Leave Babylon with a shout of joy](isaiah/isaiah48_1757462350.md)
 49. [Isaiah 49 — I will never forget you](isaiah/isaiah49_1757462505.md)
+50. [Isaiah 50 — The servant listens each morning](isaiah/isaiah50_1757462629.md)
 
 ## Reading with a learner
 
