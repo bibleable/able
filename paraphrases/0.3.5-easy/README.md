@@ -820,6 +820,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [Psalm 10 — The LORD hears people who need help](psalms/psalms10_1757439195.md)
 11. [Psalm 11 — David trusts the LORD when others tell him to run](psalms/psalms11_1757439254.md)
 12. [Psalm 12 — The LORD promises safety](psalms/psalms12_1757439331.md)
+13. [Psalm 13 — How long, LORD?](psalms/psalms13_1757439397.md)
 
 ## Reading with a learner
 
