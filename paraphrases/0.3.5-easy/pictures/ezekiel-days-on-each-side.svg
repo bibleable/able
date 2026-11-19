@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 165" role="img" aria-labelledby="title desc">
+  <title id="title">A day for each year</title>
+  <desc id="desc">First, Ezekiel lies on his left side for Israel for 390 days. Then he lies on his right side for Judah for 40 days.</desc>
+  <rect width="400" height="165" rx="8" fill="#fff9ed"/>
+  <rect x="10" y="12" width="183" height="142" rx="8" fill="#e0eadf"/>
+  <rect x="207" y="12" width="183" height="142" rx="8" fill="#e4e9f4"/>
+  <g font-family="sans-serif" text-anchor="middle" fill="#24352e">
+    <text x="102" y="49" font-size="22">Left side</text>
+    <text x="298" y="49" font-size="22">Right side</text>
+    <text x="102" y="89" font-size="26" font-weight="bold">390 days</text>
+    <text x="298" y="89" font-size="26" font-weight="bold">40 days</text>
+    <text x="102" y="126" font-size="21">Israel</text>
+    <text x="298" y="126" font-size="21">Judah</text>
+  </g>
+</svg>
