@@ -945,6 +945,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 135. [Psalm 135 — Praise the LORD in his courtyards](psalms/psalms135_1757450313.md)
 136. [Psalm 136 — His love lasts forever](psalms/psalms136_1757450419.md)
 137. [Psalm 137 — We remembered Jerusalem](psalms/psalms137_1757450490.md)
+138. [Psalm 138 — When I called, you answered](psalms/psalms138_1757450569.md)
 
 ## Reading with a learner
 
