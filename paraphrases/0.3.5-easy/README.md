@@ -1040,6 +1040,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Isaiah 17 — Only a few olives remain](isaiah/isaiah17_1757459295.md)
 18. [Isaiah 18 — Gifts from a land of rivers](isaiah/isaiah18_1757459390.md)
 19. [Isaiah 19 — Three nations share God’s blessing](isaiah/isaiah19_1757459517.md)
+20. [Isaiah 20 — Isaiah walks barefoot](isaiah/isaiah20_1757459585.md)
 
 ## Reading with a learner
 
