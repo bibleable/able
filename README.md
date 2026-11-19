@@ -221,7 +221,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Zechariah</summary>
 
-[2](paraphrases/0.3.5-easy/zechariah/zechariah2_1757482270.md) · [3](paraphrases/0.3.5-easy/zechariah/zechariah3_1757482368.md) · [4](paraphrases/0.3.5-easy/zechariah/zechariah4_1757482434.md) · [5](paraphrases/0.3.5-easy/zechariah/zechariah5_1757482505.md) · [13](paraphrases/0.3.5-easy/zechariah/zechariah13_1757483562.md)
+[2](paraphrases/0.3.5-easy/zechariah/zechariah2_1757482270.md) · [3](paraphrases/0.3.5-easy/zechariah/zechariah3_1757482368.md) · [4](paraphrases/0.3.5-easy/zechariah/zechariah4_1757482434.md) · [5](paraphrases/0.3.5-easy/zechariah/zechariah5_1757482505.md) · [7](paraphrases/0.3.5-easy/zechariah/zechariah7_1757482673.md) · [13](paraphrases/0.3.5-easy/zechariah/zechariah13_1757483562.md)
 
 </details>
 
