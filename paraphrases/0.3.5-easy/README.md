@@ -734,6 +734,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [1 Chronicles 18 — David’s victories and the people who served with him](1chronicles/1chronicles18_1757421545.md)
 19. [1 Chronicles 19 — David sends comfort, but Hanun suspects his messengers](1chronicles/1chronicles19_1757421642.md)
 20. [1 Chronicles 20 — Joab captures Rabbah](1chronicles/1chronicles20_1757421732.md)
+21. [1 Chronicles 21 — David counts the people and asks God for mercy](1chronicles/1chronicles21_1757421821.md)
 22. [1 Chronicles 22 — David helps Solomon get ready to build the temple](1chronicles/1chronicles22_1757421934.md)
 23. [1 Chronicles 23 — David gives the Levites their work](1chronicles/1chronicles23_1757422073.md)
 24. [1 Chronicles 24 — The priests take turns serving](1chronicles/1chronicles24_1757422155.md)
