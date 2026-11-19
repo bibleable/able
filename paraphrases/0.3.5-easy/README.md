@@ -1250,6 +1250,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Hosea 13 — Israel forgets who helped them](hosea/hosea13_1757478643.md)
 14. [Hosea 14 — Israel, come back to the LORD](hosea/hosea14_1757478698.md)
 
+## Joel
+
+1. [Joel 1 — Locusts eat the crops](joel/joel1_1757478775.md)
+
 ## Amos
 
 1. [Amos 1 — Amos tells why the LORD will punish five neighbors of Israel](amos/amos1_1757479140.md)

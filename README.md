@@ -205,6 +205,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Joel</summary>
+
+[1](paraphrases/0.3.5-easy/joel/joel1_1757478775.md)
+
+</details>
+
+<details>
 <summary>Amos</summary>
 
 [1](paraphrases/0.3.5-easy/amos/amos1_1757479140.md) · [2](paraphrases/0.3.5-easy/amos/amos2_1757479235.md) · [3](paraphrases/0.3.5-easy/amos/amos3_1757479322.md) · [4](paraphrases/0.3.5-easy/amos/amos4_1757479373.md) · [5](paraphrases/0.3.5-easy/amos/amos5_1757479492.md) · [6](paraphrases/0.3.5-easy/amos/amos6_1757479562.md) · [7](paraphrases/0.3.5-easy/amos/amos7_1757479647.md) · [8](paraphrases/0.3.5-easy/amos/amos8_1757479750.md) · [9](paraphrases/0.3.5-easy/amos/amos9_1757479830.md)
