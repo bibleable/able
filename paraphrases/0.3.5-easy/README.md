@@ -853,6 +853,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 43. [Psalm 43 — Send your light and your truth](psalms/psalms43_1757442029.md)
 44. [Psalm 44 — Rise up and help us](psalms/psalms44_1757442094.md)
 45. [Psalm 45 — A wedding song for the king](psalms/psalms45_1757442192.md)
+46. [Psalm 46 — God is our shelter and strength](psalms/psalms46_1757442262.md)
 
 ## Reading with a learner
 
