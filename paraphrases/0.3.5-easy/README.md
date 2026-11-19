@@ -1064,6 +1064,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 41. [Isaiah 41 — I will hold your hand](isaiah/isaiah41_1757461717.md)
 42. [Isaiah 42 — A gentle servant brings justice](isaiah/isaiah42_1757461820.md)
 43. [Isaiah 43 — I have called you by name](isaiah/isaiah43_1757461911.md)
+44. [Isaiah 44 — The God who made Israel](isaiah/isaiah44_1757462020.md)
 
 ## Reading with a learner
 
