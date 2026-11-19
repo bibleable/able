@@ -163,6 +163,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Ezekiel</summary>
+
+[15](paraphrases/0.3.5-easy/ezekiel/ezekiel15_1757472180.md)
+
+</details>
+
+<details>
 <summary>Hosea</summary>
 
 [3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md)

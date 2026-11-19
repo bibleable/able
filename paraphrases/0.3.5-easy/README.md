@@ -1092,6 +1092,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
 
+## Ezekiel
+
+15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
+
 ## Hosea
 
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
