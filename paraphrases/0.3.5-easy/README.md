@@ -1163,6 +1163,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Nahum 2 — The people flee from Nineveh](nahum/nahum2_1757481115.md)
 3. [Nahum 3 — No one comes to Nineveh’s aid](nahum/nahum3_1757481180.md)
 
+## Habakkuk
+
+1. [Habakkuk 1 — How long must I call for help?](habakkuk/habakkuk1_1757481281.md)
+
 ## Zechariah
 
 2. [Zechariah 2 — The LORD promises to live in Jerusalem](zechariah/zechariah2_1757482270.md)
