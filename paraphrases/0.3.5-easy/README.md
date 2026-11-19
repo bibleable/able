@@ -967,6 +967,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Proverbs 4 — Stay on the wise path](proverbs/proverbs4_1757452016.md)
 5. [Proverbs 5 — Be faithful to your wife](proverbs/proverbs5_1757452131.md)
 6. [Proverbs 6 — Learn from the ant and the lamp](proverbs/proverbs6_1757452209.md)
+7. [Proverbs 7 — A warning from the window](proverbs/proverbs7_1757452340.md)
 
 ## Reading with a learner
 
