@@ -1046,6 +1046,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 23. [Isaiah 23 — Tyre loses its harbor](isaiah/isaiah23_1757459869.md)
 24. [Isaiah 24 — Songs from the ends of the earth](isaiah/isaiah24_1757459962.md)
 25. [Isaiah 25 — The LORD will wipe away every tear](isaiah/isaiah25_1757460056.md)
+26. [Isaiah 26 — A song of trust in the LORD](isaiah/isaiah26_1757460163.md)
 
 ## Reading with a learner
 
