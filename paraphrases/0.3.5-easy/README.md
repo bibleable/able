@@ -1215,6 +1215,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Zephaniah 1 — The LORD warns Judah](zephaniah/zephaniah1_1757481593.md)
 2. [Zephaniah 2 — Seek the LORD while there is time](zephaniah/zephaniah2_1757481696.md)
+3. [Zephaniah 3 — The LORD promises to bring his people home](zephaniah/zephaniah3_1757481836.md)
 
 ## Haggai
 
