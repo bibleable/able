@@ -731,6 +731,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## 2 Chronicles
 
+1. [2 Chronicles 1 — Solomon asks God for wisdom](2chronicles/2chronicles1_1757422946.md)
 3. [2 Chronicles 3 — Solomon builds the temple in Jerusalem](2chronicles/2chronicles3_1757423180.md)
 5. [2 Chronicles 5 — The priests bring the ark into the temple](2chronicles/2chronicles5_1757423422.md)
 11. [2 Chronicles 11 — Rehoboam sends the soldiers home](2chronicles/2chronicles11_1757424140.md)
