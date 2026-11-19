@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 255" role="img" aria-labelledby="t d"><title id="t">The statue in the king’s dream</title><desc id="d">Labels match each part of a standing figure to its material, from its gold head down to its feet of iron and clay.</desc>
+<rect width="380" height="255" rx="10" fill="#fff9eb"/>
+<g stroke="#483e35" stroke-width="2"><circle cx="90" cy="30" r="20" fill="#e7bc48"/><path d="M60 54h60l13 59h-15l-9-37v26H71V76l-9 37H47z" fill="#c5cbd0"/><path d="M71 102h38l-1 58H94l-4-29-4 29H72z" fill="#be8155"/><path d="M72 160h14v47H72z M94 160h14v47H94z" fill="#75828b"/><path d="M72 207h14v19H58v-8z M94 207h14l14 11v8H94z" fill="#b88d78"/><path d="M72 210l12 8m13-7 13 10" stroke="#627079" stroke-width="4"/></g>
+<g stroke="#786d60" stroke-width="1.5"><path d="M115 30h40m-22 45h22m-39 55h39m-39 55h39m-29 34h29"/></g>
+<g font-family="sans-serif" font-size="18" fill="#292e2b"><text x="164" y="36">Gold head</text><text x="164" y="81">Silver chest and arms</text><text x="164" y="136">Bronze belly and thighs</text><text x="164" y="191">Iron legs</text><text x="164" y="225">Iron and clay feet</text></g></svg>
