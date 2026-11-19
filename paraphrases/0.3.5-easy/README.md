@@ -1194,6 +1194,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Micah 4 — The nations will learn to live in peace](micah/micah4_1757480676.md)
 5. [Micah 5 — A ruler will come from Bethlehem](micah/micah5_1757480776.md)
 6. [Micah 6 — What the LORD asks of his people](micah/micah6_1757480850.md)
+7. [Micah 7 — I will wait for the God who saves me](micah/micah7_1757480959.md)
 
 ## Nahum
 
