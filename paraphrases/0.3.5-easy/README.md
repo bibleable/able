@@ -1112,6 +1112,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Hosea
 
+1. [Hosea 1 — The names of Hosea’s children](hosea/hosea1_1757477492.md)
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
 6. [Hosea 6 — The LORD asks for lasting love](hosea/hosea6_1757478038.md)
 8. [Hosea 8 — Israel forgets the LORD](hosea/hosea8_1757478251.md)
