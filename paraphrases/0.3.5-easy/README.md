@@ -852,6 +852,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 42. [Psalm 42 — I thirst for the living God](psalms/psalms42_1757441974.md)
 43. [Psalm 43 — Send your light and your truth](psalms/psalms43_1757442029.md)
 44. [Psalm 44 — Rise up and help us](psalms/psalms44_1757442094.md)
+45. [Psalm 45 — A wedding song for the king](psalms/psalms45_1757442192.md)
 
 ## Reading with a learner
 
