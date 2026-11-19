@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" role="img" aria-labelledby="title desc">
+<title id="title">Water flows from Jerusalem in two directions</title>
+<desc id="desc">One arrow points west from Jerusalem to the Western Sea. Another points east to the Eastern Sea.</desc>
+<rect width="400" height="130" fill="#fffaf0"/>
+<g font-family="sans-serif" text-anchor="middle" font-size="18" fill="#253039">
+<text x="200" y="32">Jerusalem</text><text x="70" y="105">Western Sea</text><text x="330" y="105">Eastern Sea</text>
+</g>
+<circle cx="200" cy="58" r="7" fill="#69442d"/>
+<path d="M185 58H71m18-10L70 58l19 10m126-10h114m-18-10 19 10-19 10" fill="none" stroke="#176887" stroke-width="5" stroke-linejoin="round"/>
+</svg>

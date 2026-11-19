@@ -1317,6 +1317,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Zechariah 11 — A shepherd with two staffs](zechariah/zechariah11_1757483191.md)
 12. [Zechariah 12 — The LORD defends Jerusalem and its people mourn](zechariah/zechariah12_1757483388.md)
 13. [Zechariah 13 — The LORD answers His people](zechariah/zechariah13_1757483562.md)
+14. [Zechariah 14 — The LORD will be King over all the earth](zechariah/zechariah14_1757483688.md)
 
 ## Malachi
 
