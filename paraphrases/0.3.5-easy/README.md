@@ -797,6 +797,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 32. [Job 32 — Elihu speaks after the others fall silent](job/job32_1757437181.md)
 33. [Job 33 — Elihu tells Job how God speaks](job/job33_1757437304.md)
 34. [Job 34 — Elihu says God judges fairly](job/job34_1757437502.md)
+35. [Job 35 — Elihu asks Job to look at the sky](job/job35_1757437576.md)
 
 ## Reading with a learner
 
