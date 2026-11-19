@@ -1168,6 +1168,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [Ezekiel 30 — Egypt and its helpers will fall](ezekiel/ezekiel30_1757474065.md)
 31. [Ezekiel 31 — The tall cedar falls](ezekiel/ezekiel31_1757474156.md)
 32. [Ezekiel 32 — A song of grief for Egypt](ezekiel/ezekiel32_1757474321.md)
+33. [Ezekiel 33 — A watchman warns the people](ezekiel/ezekiel33_1757474520.md)
 35. [Ezekiel 35 — The LORD answers Edom’s hatred](ezekiel/ezekiel35_1757474705.md)
 42. [Ezekiel 42 — Rooms for the priests and a wall around the holy area](ezekiel/ezekiel42_1757475338.md)
 
