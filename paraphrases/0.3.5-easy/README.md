@@ -1080,6 +1080,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 57. [Isaiah 57 — Peace for those far and near](isaiah/isaiah57_1757463329.md)
 58. [Isaiah 58 — Share your bread with the hungry](isaiah/isaiah58_1757463449.md)
 59. [Isaiah 59 — The LORD sees and comes to save](isaiah/isaiah59_1757463570.md)
+60. [Isaiah 60 — Jerusalem’s gates stay open](isaiah/isaiah60_1757463671.md)
 
 ## Reading with a learner
 
