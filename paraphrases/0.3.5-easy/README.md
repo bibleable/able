@@ -1017,6 +1017,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Song of Solomon 5 — This is my love and my friend](songofsongs/songofsongs5_1757457103.md)
 6. [Song of Solomon 6 — Among the lilies](songofsongs/songofsongs6_1757457254.md)
 7. [Song of Solomon 7 — Come with me to the countryside](songofsongs/songofsongs7_1757457332.md)
+8. [Song of Solomon 8 — Rivers cannot sweep love away](songofsongs/songofsongs8_1757457402.md)
 
 ## Reading with a learner
 
