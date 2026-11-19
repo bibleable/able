@@ -949,6 +949,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 139. [Psalm 139 — LORD, you know me](psalms/psalms139_1757450646.md)
 140. [Psalm 140 — Protect me from violent people](psalms/psalms140_1757450777.md)
 141. [Psalm 141 — Guard the door of my lips](psalms/psalms141_1757450883.md)
+142. [Psalm 142 — You know my way](psalms/psalms142_1757450942.md)
 
 ## Reading with a learner
 
