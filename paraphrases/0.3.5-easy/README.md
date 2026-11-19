@@ -993,6 +993,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [Proverbs 30 — What Agur learned by looking](proverbs/proverbs30_1757455498.md)
 31. [Proverbs 31 — Speak up for others and honor good work](proverbs/proverbs31_1757455576.md)
 
+## Ecclesiastes
+
+1. [Ecclesiastes 1 — Chasing the wind](ecclesiastes/ecclesiastes1_1757455662.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
