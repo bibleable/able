@@ -896,6 +896,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 86. [Psalm 86 — Teach me your way](psalms/psalms86_1757445991.md)
 87. [Psalm 87 — This one was born in Zion](psalms/psalms87_1757446043.md)
 88. [Psalm 88 — Day and night I call to you](psalms/psalms88_1757446146.md)
+89. [Psalm 89 — Remember your promise to David](psalms/psalms89_1757446274.md)
 
 ## Reading with a learner
 
