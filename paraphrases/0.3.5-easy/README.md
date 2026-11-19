@@ -941,6 +941,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 131. [Psalm 131 — Quiet like a child](psalms/psalms131_1757450035.md)
 132. [Psalm 132 — A home for the ark](psalms/psalms132_1757450130.md)
 133. [Psalm 133 — The joy of living together in peace](psalms/psalms133_1757450169.md)
+134. [Psalm 134 — Praise the LORD at night](psalms/psalms134_1757450217.md)
 
 ## Reading with a learner
 
