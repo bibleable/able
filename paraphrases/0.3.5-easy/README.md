@@ -1029,6 +1029,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Isaiah 6 — Isaiah says, “Send me!”](isaiah/isaiah6_1757458091.md)
 7. [Isaiah 7 — A sign for King Ahaz](isaiah/isaiah7_1757458238.md)
 8. [Isaiah 8 — A name on a scroll](isaiah/isaiah8_1757458358.md)
+9. [Isaiah 9 — A child who will rule in peace](isaiah/isaiah9_1757458447.md)
 
 ## Reading with a learner
 
