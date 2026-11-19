@@ -1236,6 +1236,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Hosea
 
 1. [Hosea 1 — The names of Hosea’s children](hosea/hosea1_1757477492.md)
+2. [Hosea 2 — God promises to love his people again](hosea/hosea2_1757477623.md)
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
 4. [Hosea 4 — The LORD speaks against Israel’s people and priests](hosea/hosea4_1757477876.md)
 5. [Hosea 5 — The LORD calls His people to admit their wrongs](hosea/hosea5_1757477965.md)
