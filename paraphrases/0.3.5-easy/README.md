@@ -866,6 +866,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 56. [Psalm 56 — When I am afraid, I trust you](psalms/psalms56_1757443221.md)
 57. [Psalm 57 — I will wake the dawn](psalms/psalms57_1757443333.md)
 58. [Psalm 58 — God judges the earth](psalms/psalms58_1757443421.md)
+59. [Psalm 59 — David sings to God in the morning](psalms/psalms59_1757443504.md)
 
 ## Reading with a learner
 
