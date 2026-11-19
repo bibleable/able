@@ -1207,6 +1207,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Malachi
 
+1. [Malachi 1 — The LORD asks the priests to honor him](malachi/malachi1_1757483789.md)
 4. [Malachi 4 — The LORD promises healing](malachi/malachi4_1757484093.md)
 
 ## Reading with a learner
