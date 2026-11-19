@@ -1211,6 +1211,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Habakkuk 2 — Habakkuk waits for the LORD’s answer](habakkuk/habakkuk2_1757481446.md)
 3. [Habakkuk 3 — Even then I will rejoice in the LORD](habakkuk/habakkuk3_1757481518.md)
 
+## Haggai
+
+1. [Haggai 1 — The people begin to rebuild the temple](haggai/haggai1_1757481941.md)
+
 ## Zechariah
 
 2. [Zechariah 2 — The LORD promises to live in Jerusalem](zechariah/zechariah2_1757482270.md)
