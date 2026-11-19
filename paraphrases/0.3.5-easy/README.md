@@ -1083,6 +1083,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 60. [Isaiah 60 — Jerusalem’s gates stay open](isaiah/isaiah60_1757463671.md)
 61. [Isaiah 61 — Good news for people who are hurting](isaiah/isaiah61_1757463757.md)
 62. [Isaiah 62 — A new name for Jerusalem](isaiah/isaiah62_1757463867.md)
+63. [Isaiah 63 — The people remember how God rescued them](isaiah/isaiah63_1757463952.md)
 
 ## Reading with a learner
 
