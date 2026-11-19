@@ -863,6 +863,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 53. [Psalm 53 — God looks down from heaven](psalms/psalms53_1757442940.md)
 54. [Psalm 54 — God is my helper](psalms/psalms54_1757443001.md)
 55. [Psalm 55 — When a close friend turns against me](psalms/psalms55_1757443166.md)
+56. [Psalm 56 — When I am afraid, I trust you](psalms/psalms56_1757443221.md)
 
 ## Reading with a learner
 
