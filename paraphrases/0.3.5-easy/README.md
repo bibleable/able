@@ -876,6 +876,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 66. [Psalm 66 — Come and hear what God has done](psalms/psalms66_1757444078.md)
 67. [Psalm 67 — Let all the peoples praise you](psalms/psalms67_1757444138.md)
 68. [Psalm 68 — God carries our load each day](psalms/psalms68_1757444282.md)
+69. [Psalm 69 — God, do not let me sink](psalms/psalms69_1757444412.md)
 
 ## Reading with a learner
 
