@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" role="img" aria-labelledby="title desc">
+<title id="title">The mast and sail of a trading ship</title>
+<desc id="desc">A tall wooden mast holds up the broad sail above the deck.</desc>
+<rect width="360" height="190" rx="10" fill="#edf5f8"/>
+<path d="M0 153q45-10 90 0t90 0 90 0 90 0v37H0z" fill="#8ebbc9"/>
+<path d="M40 123h276l-29 31H81z" fill="#ac805c" stroke="#503d30" stroke-width="3"/>
+<path d="M163 122V20" stroke="#684736" stroke-width="6"/>
+<path d="M77 35h172q-14 40 1 63H78q16-31-1-63z" fill="#f4dfb5" stroke="#756048" stroke-width="2"/>
+<g font-family="sans-serif" font-size="16" fill="#262d30"><text x="149" y="73">Sail</text><text x="218" y="118">Mast</text></g>
+<path d="M211 113h-43" stroke="#38474c" stroke-width="2"/>
+</svg>
