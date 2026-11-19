@@ -1022,6 +1022,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Isaiah
 
 1. [Isaiah 1 — Learn to do right](isaiah/isaiah1_1757457491.md)
+2. [Isaiah 2 — The nations learn peace](isaiah/isaiah2_1757457597.md)
 
 ## Reading with a learner
 

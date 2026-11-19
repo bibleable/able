@@ -151,7 +151,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Isaiah</summary>
 
-[1](paraphrases/0.3.5-easy/isaiah/isaiah1_1757457491.md)
+[1](paraphrases/0.3.5-easy/isaiah/isaiah1_1757457491.md) · [2](paraphrases/0.3.5-easy/isaiah/isaiah2_1757457597.md)
 
 </details>
 
