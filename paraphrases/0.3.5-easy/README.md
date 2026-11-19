@@ -828,6 +828,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Psalm 18 — David sings about the LORD who rescued him](psalms/psalms18_1757439919.md)
 19. [Psalm 19 — The sky tells of God’s glory](psalms/psalms19_1757440060.md)
 20. [Psalm 20 — The people pray for their king](psalms/psalms20_1757440124.md)
+21. [Psalm 21 — The king rejoices because the LORD saved him](psalms/psalms21_1757440206.md)
 
 ## Reading with a learner
 
