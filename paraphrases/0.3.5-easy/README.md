@@ -730,6 +730,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## 2 Chronicles
 
+5. [2 Chronicles 5 — The priests bring the ark into the temple](2chronicles/2chronicles5_1757423422.md)
 17. [2 Chronicles 17 — Jehoshaphat sends teachers through Judah](2chronicles/2chronicles17_1757424777.md)
 19. [2 Chronicles 19 — Jehoshaphat appoints judges](2chronicles/2chronicles19_1757425010.md)
 27. [2 Chronicles 27 — Jotham rules in Jerusalem](2chronicles/2chronicles27_1757427856.md)
