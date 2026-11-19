@@ -1130,6 +1130,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
 5. [Hosea 5 — The LORD calls His people to admit their wrongs](hosea/hosea5_1757477965.md)
 6. [Hosea 6 — The LORD asks for lasting love](hosea/hosea6_1757478038.md)
+7. [Hosea 7 — Israel looks elsewhere for help](hosea/hosea7_1757478147.md)
 8. [Hosea 8 — Israel forgets the LORD](hosea/hosea8_1757478251.md)
 11. [Hosea 11 — I taught you to walk](hosea/hosea11_1757478513.md)
 12. [Hosea 12 — Come back and act fairly](hosea/hosea12_1757478577.md)
