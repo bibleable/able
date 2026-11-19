@@ -983,6 +983,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Proverbs 20 — An honest measure](proverbs/proverbs20_1757453896.md)
 21. [Proverbs 21 — Hear the cry of the poor](proverbs/proverbs21_1757454069.md)
 22. [Proverbs 22 — A good name and a fair hearing](proverbs/proverbs22_1757454161.md)
+23. [Proverbs 23 — Listen and choose wisely](proverbs/proverbs23_1757454283.md)
 
 ## Reading with a learner
 
