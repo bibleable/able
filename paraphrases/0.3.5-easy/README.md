@@ -1139,6 +1139,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Amos
 
 3. [Amos 3 — Amos explains why he must speak](amos/amos3_1757479322.md)
+4. [Amos 4 — Still you did not come back to Me](amos/amos4_1757479373.md)
 6. [Amos 6 — A warning to leaders who feel safe](amos/amos6_1757479562.md)
 8. [Amos 8 — A basket of summer fruit](amos/amos8_1757479750.md)
 
