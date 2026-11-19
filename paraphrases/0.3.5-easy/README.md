@@ -1141,6 +1141,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Hosea 6 — The LORD asks for lasting love](hosea/hosea6_1757478038.md)
 7. [Hosea 7 — Israel looks elsewhere for help](hosea/hosea7_1757478147.md)
 8. [Hosea 8 — Israel forgets the LORD](hosea/hosea8_1757478251.md)
+9. [Hosea 9 — Israel will leave the LORD’s land](hosea/hosea9_1757478339.md)
 10. [Hosea 10 — It is time to seek the LORD](hosea/hosea10_1757478423.md)
 11. [Hosea 11 — I taught you to walk](hosea/hosea11_1757478513.md)
 12. [Hosea 12 — Come back and act fairly](hosea/hosea12_1757478577.md)

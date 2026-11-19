@@ -200,7 +200,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Hosea</summary>
 
-[1](paraphrases/0.3.5-easy/hosea/hosea1_1757477492.md) · [3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md) · [5](paraphrases/0.3.5-easy/hosea/hosea5_1757477965.md) · [6](paraphrases/0.3.5-easy/hosea/hosea6_1757478038.md) · [7](paraphrases/0.3.5-easy/hosea/hosea7_1757478147.md) · [8](paraphrases/0.3.5-easy/hosea/hosea8_1757478251.md) · [10](paraphrases/0.3.5-easy/hosea/hosea10_1757478423.md) · [11](paraphrases/0.3.5-easy/hosea/hosea11_1757478513.md) · [12](paraphrases/0.3.5-easy/hosea/hosea12_1757478577.md) · [13](paraphrases/0.3.5-easy/hosea/hosea13_1757478643.md) · [14](paraphrases/0.3.5-easy/hosea/hosea14_1757478698.md)
+[1](paraphrases/0.3.5-easy/hosea/hosea1_1757477492.md) · [3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md) · [5](paraphrases/0.3.5-easy/hosea/hosea5_1757477965.md) · [6](paraphrases/0.3.5-easy/hosea/hosea6_1757478038.md) · [7](paraphrases/0.3.5-easy/hosea/hosea7_1757478147.md) · [8](paraphrases/0.3.5-easy/hosea/hosea8_1757478251.md) · [9](paraphrases/0.3.5-easy/hosea/hosea9_1757478339.md) · [10](paraphrases/0.3.5-easy/hosea/hosea10_1757478423.md) · [11](paraphrases/0.3.5-easy/hosea/hosea11_1757478513.md) · [12](paraphrases/0.3.5-easy/hosea/hosea12_1757478577.md) · [13](paraphrases/0.3.5-easy/hosea/hosea13_1757478643.md) · [14](paraphrases/0.3.5-easy/hosea/hosea14_1757478698.md)
 
 </details>
 
