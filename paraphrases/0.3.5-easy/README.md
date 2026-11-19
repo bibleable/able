@@ -1154,6 +1154,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)
+31. [Ezekiel 31 — The tall cedar falls](ezekiel/ezekiel31_1757474156.md)
 35. [Ezekiel 35 — The LORD answers Edom’s hatred](ezekiel/ezekiel35_1757474705.md)
 42. [Ezekiel 42 — Rooms for the priests and a wall around the holy area](ezekiel/ezekiel42_1757475338.md)
 
