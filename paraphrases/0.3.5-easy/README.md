@@ -1258,6 +1258,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Daniel 8 — Gabriel explains the ram and the goat](daniel/daniel8_1757476829.md)
 9. [Daniel 9 — Daniel prays for Jerusalem](daniel/daniel9_1757477020.md)
 10. [Daniel 10 — A messenger helps Daniel stand](daniel/daniel10_1757477146.md)
+11. [Daniel 11 — Kings of the North and South struggle for power](daniel/daniel11_1757477272.md)
 12. [Daniel 12 — A promise for Daniel at the end](daniel/daniel12_1757477396.md)
 
 ## Hosea
