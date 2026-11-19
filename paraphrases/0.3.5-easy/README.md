@@ -1045,6 +1045,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 22. [Isaiah 22 — A key for Eliakim](isaiah/isaiah22_1757459799.md)
 23. [Isaiah 23 — Tyre loses its harbor](isaiah/isaiah23_1757459869.md)
 24. [Isaiah 24 — Songs from the ends of the earth](isaiah/isaiah24_1757459962.md)
+25. [Isaiah 25 — The LORD will wipe away every tear](isaiah/isaiah25_1757460056.md)
 
 ## Reading with a learner
 
