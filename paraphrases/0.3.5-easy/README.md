@@ -1072,6 +1072,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 49. [Isaiah 49 — I will never forget you](isaiah/isaiah49_1757462505.md)
 50. [Isaiah 50 — The servant listens each morning](isaiah/isaiah50_1757462629.md)
 51. [Isaiah 51 — The LORD comforts His people](isaiah/isaiah51_1757462712.md)
+52. [Isaiah 52 — Good news on the mountains](isaiah/isaiah52_1757462788.md)
 
 ## Reading with a learner
 
