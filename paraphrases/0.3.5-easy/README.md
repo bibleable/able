@@ -1051,6 +1051,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 28. [Isaiah 28 — A stone people can build on](isaiah/isaiah28_1757460358.md)
 29. [Isaiah 29 — A message like a sealed scroll](isaiah/isaiah29_1757460440.md)
 30. [Isaiah 30 — This is the way](isaiah/isaiah30_1757460570.md)
+31. [Isaiah 31 — The LORD protects Jerusalem](isaiah/isaiah31_1757460635.md)
 
 ## Reading with a learner
 
