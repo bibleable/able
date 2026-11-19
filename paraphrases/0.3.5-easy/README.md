@@ -963,6 +963,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 1. [Proverbs 1 — Listen to wisdom](proverbs/proverbs1_1757451698.md)
 2. [Proverbs 2 — Search for wisdom like treasure](proverbs/proverbs2_1757451765.md)
+3. [Proverbs 3 — Trust the LORD and help your neighbor](proverbs/proverbs3_1757451882.md)
 
 ## Reading with a learner
 
