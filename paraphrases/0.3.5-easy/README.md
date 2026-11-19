@@ -1140,6 +1140,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Amos
 
+1. [Amos 1 — Amos tells why the LORD will punish five neighbors of Israel](amos/amos1_1757479140.md)
 2. [Amos 2 — The LORD speaks against people who sell the poor](amos/amos2_1757479235.md)
 3. [Amos 3 — Amos explains why he must speak](amos/amos3_1757479322.md)
 4. [Amos 4 — Still you did not come back to Me](amos/amos4_1757479373.md)
