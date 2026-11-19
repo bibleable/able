@@ -891,6 +891,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 81. [Psalm 81 — If only my people would listen](psalms/psalms81_1757445606.md)
 82. [Psalm 82 — Defend those who need help](psalms/psalms82_1757445672.md)
 83. [Psalm 83 — God, do not stay silent](psalms/psalms83_1757445737.md)
+84. [Psalm 84 — One day in your house](psalms/psalms84_1757445810.md)
 
 ## Reading with a learner
 
