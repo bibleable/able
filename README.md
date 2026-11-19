@@ -158,7 +158,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Jeremiah</summary>
 
-[45](paraphrases/0.3.5-easy/jeremiah/jeremiah45_1757469357.md)
+[45](paraphrases/0.3.5-easy/jeremiah/jeremiah45_1757469357.md) · [47](paraphrases/0.3.5-easy/jeremiah/jeremiah47_1757469513.md)
 
 </details>
 

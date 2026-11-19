@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 140" role="img" aria-labelledby="title">
+  <title id="title">A river rises and covers the ground on both sides</title>
+  <defs>
+    <path id="land" d="M0 70 Q24 65 48 69 L66 111 H99 L121 69 Q145 66 170 70 V133 H0Z"/>
+  </defs>
+  <g transform="translate(4 3)">
+    <rect width="170" height="133" fill="#eff7fa"/>
+    <use href="#land" fill="#a9865e"/>
+    <path d="M55 86 Q66 82 78 86 T114 85 L99 111 H66Z" fill="#3883a6"/>
+  </g>
+  <g transform="translate(195 3)">
+    <rect width="170" height="133" fill="#eff7fa"/>
+    <use href="#land" fill="#a9865e"/>
+    <path d="M0 54 Q12 48 26 54 T53 54 T82 54 T111 54 T140 54 T170 54 V70 Q145 66 121 69 L99 111 H66 L48 69 Q24 65 0 70Z" fill="#3883a6"/>
+  </g>
+</svg>

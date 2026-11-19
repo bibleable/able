@@ -1091,6 +1091,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Jeremiah
 
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
+47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
 
 ## Ezekiel
 
