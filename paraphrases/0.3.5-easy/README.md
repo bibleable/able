@@ -914,6 +914,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 104. [Psalm 104 — All creatures look to you for food](psalms/psalms104_1757447773.md)
 105. [Psalm 105 — The LORD remembers his promise](psalms/psalms105_1757447834.md)
 106. [Psalm 106 — Remember us and gather us home](psalms/psalms106_1757447970.md)
+107. [Psalm 107 — They cried out to the LORD](psalms/psalms107_1757448124.md)
 
 ## Reading with a learner
 
