@@ -803,6 +803,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 38. [Job 38 — The LORD answers Job from the whirlwind](job/job38_1757437819.md)
 39. [Job 39 — The LORD asks Job about the animals](job/job39_1757437985.md)
 40. [Job 40 — Job answers, and the LORD describes Behemoth](job/job40_1757438112.md)
+41. [Job 41 — The LORD describes Leviathan](job/job41_1757438226.md)
 
 ## Reading with a learner
 
