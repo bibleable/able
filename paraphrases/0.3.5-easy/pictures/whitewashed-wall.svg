@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 158" role="img" aria-labelledby="title desc">
+  <title id="title">A wall before and after the storm</title>
+  <desc id="desc">On the left a cracked wall has a white coating. On the right the stones lie in a heap on its base.</desc>
+  <rect width="420" height="158" rx="10" fill="#edf5fa"/>
+  <path d="M12 125h396" stroke="#685747" stroke-width="3"/>
+  <g stroke="#594c43" stroke-width="3" stroke-linejoin="round">
+    <path d="M28 120V43l129-2 3 79z" fill="#faf8ec"/>
+    <path d="M31 68h124M29 94h129M72 42v26m43 0v26m-59 0v26" fill="none" stroke="#aea497"/>
+    <path d="M122 43l-8 11 6 6-13 14" fill="none"/>
+    <path d="M27 119h136v6H27zM259 118h139v7H259z" fill="#9c8571"/>
+    <g fill="#e0d5c2">
+      <path d="m265 117 4-21 41 4-3 18zM310 117l3-19 39 2 4 18zM359 117l-2-20 30-6 6 26z"/>
+      <path d="m279 96 9-19 32 12-5 10zM321 97l-4-17 28-6 10 23z"/>
+    </g>
+  </g>
+  <path d="M181 81h47l-11-10m11 10-11 10" fill="none" stroke="#344e60" stroke-width="4"/>
+</svg>
