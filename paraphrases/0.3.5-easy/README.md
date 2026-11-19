@@ -746,6 +746,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [2 Chronicles 10 — The people ask Rehoboam for lighter work](2chronicles/2chronicles10_1757424060.md)
 11. [2 Chronicles 11 — Rehoboam sends the soldiers home](2chronicles/2chronicles11_1757424140.md)
 12. [2 Chronicles 12 — Rehoboam listens when Egypt attacks](2chronicles/2chronicles12_1757424238.md)
+13. [2 Chronicles 13 — Judah calls to the LORD for help](2chronicles/2chronicles13_1757424350.md)
 14. [2 Chronicles 14 — Asa asks the LORD for help](2chronicles/2chronicles14_1757424418.md)
 15. [2 Chronicles 15 — Asa and the people promise to seek the LORD](2chronicles/2chronicles15_1757424535.md)
 16. [2 Chronicles 16 — Asa asks another king for help](2chronicles/2chronicles16_1757424639.md)
