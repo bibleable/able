@@ -905,6 +905,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 95. [Psalm 95 — Today, listen to his voice](psalms/psalms95_1757446837.md)
 96. [Psalm 96 — Sing to the LORD a new song](psalms/psalms96_1757446953.md)
 97. [Psalm 97 — Even the mountains melt before the LORD](psalms/psalms97_1757447079.md)
+98. [Psalm 98 — Let the rivers clap their hands](psalms/psalms98_1757447149.md)
 
 ## Reading with a learner
 
