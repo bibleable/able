@@ -746,6 +746,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 10. [Nehemiah 10 — The people promise to follow God’s Law](nehemiah/nehemiah10_1757432177.md)
 11. [Nehemiah 11 — Who lived in Jerusalem?](nehemiah/nehemiah11_1757432524.md)
 12. [Nehemiah 12 — Two choirs give thanks for the wall](nehemiah/nehemiah12_1757432700.md)
+13. [Nehemiah 13 — Nehemiah returns to Jerusalem](nehemiah/nehemiah13_1757432833.md)
 
 ## Reading with a learner
 
