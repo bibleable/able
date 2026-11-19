@@ -724,6 +724,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [1 Chronicles 1 — The families from Adam to Abraham and beyond](1chronicles/1chronicles1_1757418729.md)
 3. [1 Chronicles 3 — David’s family](1chronicles/1chronicles3_1757419075.md)
 5. [1 Chronicles 5 — The families east of the Jordan River](1chronicles/1chronicles5_1757419340.md)
+7. [1 Chronicles 7 — Family records from six tribes of Israel](1chronicles/1chronicles7_1757419686.md)
 8. [1 Chronicles 8 — Benjamin’s family and the family of Saul](1chronicles/1chronicles8_1757419897.md)
 10. [1 Chronicles 10 — The death of King Saul](1chronicles/1chronicles10_1757420237.md)
 13. [1 Chronicles 13 — David brings the ark to Obed-edom’s house](1chronicles/1chronicles13_1757420707.md)
