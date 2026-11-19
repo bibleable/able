@@ -1172,6 +1172,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 48. [Jeremiah 48 — Grief for Moab](jeremiah/jeremiah48_1757469683.md)
 49. [Jeremiah 49 — Messages for nations around Israel](jeremiah/jeremiah49_1757469777.md)
 50. [Jeremiah 50 — Babylon falls and God's people come home](jeremiah/jeremiah50_1757469970.md)
+51. [Jeremiah 51 — A scroll sinks in the Euphrates](jeremiah/jeremiah51_1757470078.md)
 52. [Jeremiah 52 — Jerusalem falls and its people go into exile](jeremiah/jeremiah52_1757470169.md)
 
 ## Lamentations
