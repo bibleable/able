@@ -1174,6 +1174,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 36. [Ezekiel 36 — God promises Israel a home and a new heart](ezekiel/ezekiel36_1757474799.md)
 37. [Ezekiel 37 — Dry bones live and two sticks become one](ezekiel/ezekiel37_1757474922.md)
 38. [Ezekiel 38 — Gog comes against Israel](ezekiel/ezekiel38_1757474984.md)
+39. [Ezekiel 39 — Gog falls on the mountains of Israel](ezekiel/ezekiel39_1757475099.md)
 42. [Ezekiel 42 — Rooms for the priests and a wall around the holy area](ezekiel/ezekiel42_1757475338.md)
 
 ## Daniel

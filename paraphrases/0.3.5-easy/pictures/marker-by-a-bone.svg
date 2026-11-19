@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 135" role="img" aria-labelledby="title desc">
+  <title id="title">A marker beside a bone</title>
+  <desc id="desc">An upright stone marks the place where a bone lies on the ground.</desc>
+  <rect width="300" height="135" rx="10" fill="#eef5f7"/>
+  <path d="M0 95Q120 86 300 96V135H0Z" fill="#dfd0af"/>
+  <path d="m88 97 5-65 12-10 14 6 6 68z" fill="#919a98" stroke="#485354" stroke-width="3"/>
+  <path d="M169 101q-10-2-8-9t10-3q3-9 10-6t4 11l32 8q8-8 13-2t-2 10q4 9-4 11t-12-9l-34-9q-5 6-9-2z" fill="#fff7e5" stroke="#6b5b46" stroke-width="2.5"/>
+</svg>
