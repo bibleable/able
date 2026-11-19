@@ -1132,6 +1132,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 39. [Jeremiah 39 — Jerusalem falls to Babylon](jeremiah/jeremiah39_1757468799.md)
 40. [Jeremiah 40 — Jeremiah stays with the people in Judah](jeremiah/jeremiah40_1757468911.md)
 41. [Jeremiah 41 — Johanan brings the captives back](jeremiah/jeremiah41_1757469006.md)
+42. [Jeremiah 42 — The people ask Jeremiah to pray](jeremiah/jeremiah42_1757469121.md)
 43. [Jeremiah 43 — The people go to Egypt](jeremiah/jeremiah43_1757469167.md)
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
