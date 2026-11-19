@@ -1114,6 +1114,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
 6. [Hosea 6 — The LORD asks for lasting love](hosea/hosea6_1757478038.md)
+11. [Hosea 11 — I taught you to walk](hosea/hosea11_1757478513.md)
 12. [Hosea 12 — Come back and act fairly](hosea/hosea12_1757478577.md)
 14. [Hosea 14 — Israel, come back to the LORD](hosea/hosea14_1757478698.md)
 

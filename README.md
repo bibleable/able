@@ -193,7 +193,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Hosea</summary>
 
-[3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md) · [6](paraphrases/0.3.5-easy/hosea/hosea6_1757478038.md) · [12](paraphrases/0.3.5-easy/hosea/hosea12_1757478577.md) · [14](paraphrases/0.3.5-easy/hosea/hosea14_1757478698.md)
+[3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md) · [6](paraphrases/0.3.5-easy/hosea/hosea6_1757478038.md) · [11](paraphrases/0.3.5-easy/hosea/hosea11_1757478513.md) · [12](paraphrases/0.3.5-easy/hosea/hosea12_1757478577.md) · [14](paraphrases/0.3.5-easy/hosea/hosea14_1757478698.md)
 
 </details>
 
