@@ -743,6 +743,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [2 Chronicles 3 — Solomon builds the temple in Jerusalem](2chronicles/2chronicles3_1757423180.md)
 4. [2 Chronicles 4 — Basins, lamps, and tables for the temple](2chronicles/2chronicles4_1757423358.md)
 5. [2 Chronicles 5 — The priests bring the ark into the temple](2chronicles/2chronicles5_1757423422.md)
+6. [2 Chronicles 6 — Solomon asks God to hear everyone who prays](2chronicles/2chronicles6_1757423570.md)
 7. [2 Chronicles 7 — The LORD hears Solomon’s prayer](2chronicles/2chronicles7_1757423665.md)
 8. [2 Chronicles 8 — Solomon builds cities and arranges worship](2chronicles/2chronicles8_1757423767.md)
 9. [2 Chronicles 9 — The queen of Sheba asks Solomon hard questions](2chronicles/2chronicles9_1757423944.md)
