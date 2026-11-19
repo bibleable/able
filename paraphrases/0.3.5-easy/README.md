@@ -1081,6 +1081,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 58. [Isaiah 58 — Share your bread with the hungry](isaiah/isaiah58_1757463449.md)
 59. [Isaiah 59 — The LORD sees and comes to save](isaiah/isaiah59_1757463570.md)
 60. [Isaiah 60 — Jerusalem’s gates stay open](isaiah/isaiah60_1757463671.md)
+61. [Isaiah 61 — Good news for people who are hurting](isaiah/isaiah61_1757463757.md)
 
 ## Reading with a learner
 
