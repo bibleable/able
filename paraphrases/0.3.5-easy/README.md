@@ -878,6 +878,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 68. [Psalm 68 — God carries our load each day](psalms/psalms68_1757444282.md)
 69. [Psalm 69 — God, do not let me sink](psalms/psalms69_1757444412.md)
 70. [Psalm 70 — Hurry to help me, LORD](psalms/psalms70_1757444459.md)
+71. [Psalm 71 — Stay with me when I grow old](psalms/psalms71_1757444519.md)
 
 ## Reading with a learner
 
