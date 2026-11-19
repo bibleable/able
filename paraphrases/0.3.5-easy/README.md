@@ -1028,6 +1028,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Isaiah 5 — The song about the vineyard](isaiah/isaiah5_1757458001.md)
 6. [Isaiah 6 — Isaiah says, “Send me!”](isaiah/isaiah6_1757458091.md)
 7. [Isaiah 7 — A sign for King Ahaz](isaiah/isaiah7_1757458238.md)
+8. [Isaiah 8 — A name on a scroll](isaiah/isaiah8_1757458358.md)
 
 ## Reading with a learner
 
