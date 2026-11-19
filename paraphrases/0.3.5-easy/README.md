@@ -894,6 +894,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 84. [Psalm 84 — One day in your house](psalms/psalms84_1757445810.md)
 85. [Psalm 85 — Give your people life again](psalms/psalms85_1757445888.md)
 86. [Psalm 86 — Teach me your way](psalms/psalms86_1757445991.md)
+87. [Psalm 87 — This one was born in Zion](psalms/psalms87_1757446043.md)
 
 ## Reading with a learner
 
