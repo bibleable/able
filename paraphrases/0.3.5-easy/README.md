@@ -860,6 +860,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 50. [Psalm 50 — God calls his people to listen](psalms/psalms50_1757442638.md)
 51. [Psalm 51 — God, give me a clean heart](psalms/psalms51_1757442774.md)
 52. [Psalm 52 — David trusts in God’s faithful love](psalms/psalms52_1757442861.md)
+53. [Psalm 53 — God looks down from heaven](psalms/psalms53_1757442940.md)
 
 ## Reading with a learner
 
