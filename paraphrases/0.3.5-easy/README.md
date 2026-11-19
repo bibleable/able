@@ -722,6 +722,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 1 Chronicles
 
 3. [1 Chronicles 3 — David’s family](1chronicles/1chronicles3_1757419075.md)
+14. [1 Chronicles 14 — David asks God what to do](1chronicles/1chronicles14_1757420880.md)
 20. [1 Chronicles 20 — Joab captures Rabbah](1chronicles/1chronicles20_1757421732.md)
 
 ## 2 Chronicles
