@@ -1034,6 +1034,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Isaiah 11 — A ruler from Jesse’s family](isaiah/isaiah11_1757458772.md)
 12. [Isaiah 12 — A song of thanks](isaiah/isaiah12_1757458864.md)
 13. [Isaiah 13 — A warning for Babylon](isaiah/isaiah13_1757458937.md)
+14. [Isaiah 14 — The cruel king loses his power](isaiah/isaiah14_1757459034.md)
 
 ## Reading with a learner
 
