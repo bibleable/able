@@ -761,6 +761,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Esther 9 — The Jews remember with a feast](esther/esther9_1757433853.md)
 10. [Esther 10 — Mordecai uses his position to help his people](esther/esther10_1757433888.md)
 
+## Job
+
+1. [Job 1 — Four messengers bring Job terrible news](job/job1_1757433985.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.

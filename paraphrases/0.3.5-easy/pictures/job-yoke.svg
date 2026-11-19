@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" role="img" aria-labelledby="title">
+<title id="title">A pair of oxen joined by a wooden yoke</title>
+<rect width="320" height="150" rx="9" fill="#fffaf1"/>
+<defs><g id="ox" stroke="#503b2e" stroke-width="3" stroke-linejoin="round">
+<ellipse cy="25" rx="38" ry="36" fill="#ad805e"/>
+<path d="M-20 0Q-43 -7 -38 -26Q-29 -11 -12 -13M20 0Q43 -7 38 -26Q29 -11 12 -13" fill="#f7ead0"/>
+<path d="M-20 -7Q0 -22 20 -7L15 22Q0 35 -15 22Z" fill="#c89974"/>
+<circle cx="-9" cy="2" r="2"/><circle cx="9" cy="2" r="2"/>
+</g></defs>
+<use href="#ox" x="86" y="55"/><use href="#ox" x="234" y="55"/>
+<rect x="44" y="85" width="232" height="13" rx="6" fill="#845127" stroke="#482d19" stroke-width="3"/>
+<path d="M71 96q0 30 30 0m118 0q0 30 30 0" fill="none" stroke="#70492c" stroke-width="5"/>
+</svg>
