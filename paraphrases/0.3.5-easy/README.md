@@ -1130,6 +1130,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 2. [Zechariah 2 — The LORD promises to live in Jerusalem](zechariah/zechariah2_1757482270.md)
 3. [Zechariah 3 — Clean clothes for Joshua](zechariah/zechariah3_1757482368.md)
+4. [Zechariah 4 — Zerubbabel will finish the temple](zechariah/zechariah4_1757482434.md)
 5. [Zechariah 5 — The flying scroll and the basket](zechariah/zechariah5_1757482505.md)
 13. [Zechariah 13 — The LORD answers His people](zechariah/zechariah13_1757483562.md)
 

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 155" role="img" aria-labelledby="title">
+  <title id="title">A cord with a pointed weight hangs beside a straight wall</title>
+  <rect width="260" height="155" rx="8" fill="#faf6eb"/>
+  <g stroke="#604e41" stroke-width="2.5">
+    <path fill="#d3b597" d="M95 35h116v102H95z"/>
+    <path fill="none" d="M95 60h116M95 86h116M95 112h116M150 35v25m-27 0v26m55-26v26m-28 0v26m-27 0v25m55-25v25"/>
+    <path fill="#aa7851" d="M69 27h69v8H69z"/>
+  </g>
+  <path stroke="#263f4c" stroke-width="3" d="M76 35v73"/>
+  <path stroke="#263f4c" stroke-width="2.5" fill="#58778a" d="M76 106l8 8-8 17-8-17z"/>
+</svg>
