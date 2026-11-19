@@ -772,6 +772,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Job 7 — Job asks God for a moment of rest](job/job7_1757434550.md)
 8. [Job 8 — Bildad tells Job to seek God](job/job8_1757434652.md)
 9. [Job 9 — Job longs to speak without fear](job/job9_1757434777.md)
+10. [Job 10 — Job asks God why he suffers](job/job10_1757434867.md)
 
 ## Reading with a learner
 
