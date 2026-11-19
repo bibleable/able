@@ -800,6 +800,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 35. [Job 35 — Elihu asks Job to look at the sky](job/job35_1757437576.md)
 36. [Job 36 — Elihu points to the storm](job/job36_1757437668.md)
 37. [Job 37 — Elihu asks Job to stand still and listen](job/job37_1757437753.md)
+38. [Job 38 — The LORD answers Job from the whirlwind](job/job38_1757437819.md)
 
 ## Reading with a learner
 
