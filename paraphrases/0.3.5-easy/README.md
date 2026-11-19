@@ -799,6 +799,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 34. [Job 34 — Elihu says God judges fairly](job/job34_1757437502.md)
 35. [Job 35 — Elihu asks Job to look at the sky](job/job35_1757437576.md)
 36. [Job 36 — Elihu points to the storm](job/job36_1757437668.md)
+37. [Job 37 — Elihu asks Job to stand still and listen](job/job37_1757437753.md)
 
 ## Reading with a learner
 
