@@ -843,6 +843,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 33. [Psalm 33 — Sing a new song to the LORD](psalms/psalms33_1757441256.md)
 34. [Psalm 34 — Taste and see that the LORD is good](psalms/psalms34_1757441354.md)
 35. [Psalm 35 — David asks the LORD to defend him](psalms/psalms35_1757441434.md)
+36. [Psalm 36 — Your love reaches to the sky](psalms/psalms36_1757441487.md)
 
 ## Reading with a learner
 
