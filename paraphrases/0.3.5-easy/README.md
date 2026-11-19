@@ -1025,6 +1025,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Isaiah 2 — The nations learn peace](isaiah/isaiah2_1757457597.md)
 3. [Isaiah 3 — The LORD calls the leaders to account](isaiah/isaiah3_1757457746.md)
 4. [Isaiah 4 — A shelter over Zion](isaiah/isaiah4_1757457847.md)
+5. [Isaiah 5 — The song about the vineyard](isaiah/isaiah5_1757458001.md)
 
 ## Reading with a learner
 
