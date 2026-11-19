@@ -835,6 +835,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [Psalm 25 — LORD, teach me your paths](psalms/psalms25_1757440536.md)
 26. [Psalm 26 — David asks the LORD to look at his life](psalms/psalms26_1757440628.md)
 27. [Psalm 27 — The LORD is my light](psalms/psalms27_1757440695.md)
+28. [Psalm 28 — The LORD hears David call for help](psalms/psalms28_1757440814.md)
 
 ## Reading with a learner
 
