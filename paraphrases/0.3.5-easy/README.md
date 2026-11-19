@@ -988,6 +988,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [Proverbs 25 — A cup of water for an enemy](proverbs/proverbs25_1757454556.md)
 26. [Proverbs 26 — When gossip stops](proverbs/proverbs26_1757454756.md)
 27. [Proverbs 27 — A friend’s honest words](proverbs/proverbs27_1757454900.md)
+28. [Proverbs 28 — Courage to do what is right](proverbs/proverbs28_1757455173.md)
 
 ## Reading with a learner
 
