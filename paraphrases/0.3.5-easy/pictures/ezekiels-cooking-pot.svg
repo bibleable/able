@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 170" role="img" aria-labelledby="title desc">
+<title id="title">A stained copper cooking pot</title>
+<desc id="desc">Dark rough patches mark the copper pot above the glowing coals.</desc>
+<rect width="280" height="170" rx="10" fill="#fff8ee"/>
+<g stroke="#553c31" stroke-width="4" stroke-linejoin="round">
+<path d="M74 52H55q-12 0-8 11t30 9m129-20h19q12 0 8 11t-30 9" fill="none"/>
+<path d="M71 48h138l-13 58q-6 22-55 22t-56-22z" fill="#c0845f"/>
+<ellipse cx="140" cy="48" rx="69" ry="13" fill="#865d4c"/>
+</g>
+<g fill="#694c3c"><path d="m91 77 12-8 12 8-4 10-15 3zM140 99l9-7 18 3 2 12-16 7-11-5z"/></g>
+<g fill="#d77644" stroke="#6d4536" stroke-width="3"><ellipse cx="107" cy="140" rx="20" ry="7"/><ellipse cx="147" cy="143" rx="20" ry="7"/><ellipse cx="183" cy="137" rx="17" ry="7"/></g>
+</svg>

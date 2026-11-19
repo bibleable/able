@@ -1163,6 +1163,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 17. [Ezekiel 17 — Two eagles, a vine, and a broken promise](ezekiel/ezekiel17_1757472498.md)
 18. [Ezekiel 18 — Each person answers for what they do](ezekiel/ezekiel18_1757472639.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
+24. [Ezekiel 24 — A cooking pot and a sign of grief](ezekiel/ezekiel24_1757473283.md)
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)
 26. [Ezekiel 26 — Tyre will become a bare rock](ezekiel/ezekiel26_1757473467.md)
 27. [Ezekiel 27 — A song for Tyre, the city like a ship](ezekiel/ezekiel27_1757473591.md)
