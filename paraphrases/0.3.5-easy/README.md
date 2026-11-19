@@ -1245,6 +1245,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Ezekiel 20 — Israel’s leaders come to ask the LORD](ezekiel/ezekiel20_1757472820.md)
 21. [Ezekiel 21 — The sword and the two roads](ezekiel/ezekiel21_1757472911.md)
 22. [Ezekiel 22 — The LORD calls Jerusalem to account](ezekiel/ezekiel22_1757473064.md)
+23. [Ezekiel 23 — Two sisters stand for Samaria and Jerusalem](ezekiel/ezekiel23_1757473179.md)
 24. [Ezekiel 24 — A cooking pot and a sign of grief](ezekiel/ezekiel24_1757473283.md)
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)
 26. [Ezekiel 26 — Tyre will become a bare rock](ezekiel/ezekiel26_1757473467.md)

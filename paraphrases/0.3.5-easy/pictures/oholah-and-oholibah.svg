@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 165" role="img" aria-labelledby="title desc">
+<title id="title">The two sisters and their cities</title>
+<desc id="desc">Read each row from left to right. Oholah represents Samaria. Oholibah represents Jerusalem.</desc>
+<rect width="420" height="165" rx="10" fill="#fff9ed"/>
+<g font-family="sans-serif" fill="#243a31" font-size="20"><text x="20" y="31">Sister</text><text x="240" y="31">City</text></g>
+<g fill="#e1ede6"><rect x="12" y="43" width="396" height="48" rx="6"/><rect x="12" y="101" width="396" height="48" rx="6"/></g>
+<g stroke="#426453" stroke-width="3" fill="none"><path d="M153 67h62l-9 -7m9 7-9 7M153 125h62l-9 -7m9 7-9 7"/></g>
+<g font-family="sans-serif" fill="#243a31" font-size="24"><text x="20" y="75">Oholah</text><text x="240" y="75">Samaria</text><text x="20" y="133">Oholibah</text><text x="240" y="133">Jerusalem</text></g>
+</svg>
