@@ -1135,6 +1135,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Hosea 8 — Israel forgets the LORD](hosea/hosea8_1757478251.md)
 11. [Hosea 11 — I taught you to walk](hosea/hosea11_1757478513.md)
 12. [Hosea 12 — Come back and act fairly](hosea/hosea12_1757478577.md)
+13. [Hosea 13 — Israel forgets who helped them](hosea/hosea13_1757478643.md)
 14. [Hosea 14 — Israel, come back to the LORD](hosea/hosea14_1757478698.md)
 
 ## Amos
