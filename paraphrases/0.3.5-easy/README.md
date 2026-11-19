@@ -1146,6 +1146,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Ezekiel
 
 2. [Ezekiel 2 — God sends Ezekiel to speak](ezekiel/ezekiel2_1757470907.md)
+3. [Ezekiel 3 — Ezekiel receives God’s words and must warn Israel](ezekiel/ezekiel3_1757470976.md)
 4. [Ezekiel 4 — Ezekiel shows what will happen to Jerusalem](ezekiel/ezekiel4_1757471096.md)
 5. [Ezekiel 5 — Three parts of Ezekiel’s hair tell Jerusalem’s story](ezekiel/ezekiel5_1757471203.md)
 6. [Ezekiel 6 — The LORD speaks to the mountains of Israel](ezekiel/ezekiel6_1757471304.md)
