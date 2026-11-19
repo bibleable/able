@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 332 152" role="img" aria-labelledby="title">
+<title id="title">Joseph and Asenath are the parents of Manasseh and Ephraim.</title>
+<rect width="332" height="152" rx="10" fill="#fff9ed"/>
+<rect x="58.0" y="10" width="216" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="166.0" y="39" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Joseph and Asenath</text>
+<path d="M166.0 54v22 M83 76H249 M83 76v20 M249 76v20" fill="none" stroke="#35614d" stroke-width="3"/>
+<rect x="5" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="83.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Manasseh</text>
+<rect x="171" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="249.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Ephraim</text>
+</svg>

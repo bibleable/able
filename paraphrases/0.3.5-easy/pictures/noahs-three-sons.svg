@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 498 152" role="img" aria-labelledby="title">
+<title id="title">One line from Noah branches to Shem, Ham, and Japheth.</title>
+<rect width="498" height="152" rx="10" fill="#fff9ed"/>
+<rect x="174.0" y="10" width="150" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="249.0" y="39" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Noah</text>
+<path d="M249.0 54v22 M83 76H415 M83 76v20 M249 76v20 M415 76v20" fill="none" stroke="#35614d" stroke-width="3"/>
+<rect x="5" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="83.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Shem</text>
+<rect x="171" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="249.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Ham</text>
+<rect x="337" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="415.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Japheth</text>
+</svg>

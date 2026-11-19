@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 216" role="img" aria-labelledby="title">
+<title id="title">First the dove returns. Next it brings an olive leaf. The last time it stays away.</title>
+<rect width="360" height="216" rx="10" fill="#fff9ed"/>
+<rect x="16" y="10" width="328" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="180.0" y="39" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">The dove returns.</text>
+<path d="M180 54v23l-6-7m6 7 6-7" fill="none" stroke="#35614d" stroke-width="3"/>
+<rect x="16" y="82" width="328" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="180.0" y="111" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">It returns with an olive leaf.</text>
+<path d="M180 126v23l-6-7m6 7 6-7" fill="none" stroke="#35614d" stroke-width="3"/>
+<rect x="16" y="154" width="328" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="180.0" y="183" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">It does not return.</text>
+</svg>

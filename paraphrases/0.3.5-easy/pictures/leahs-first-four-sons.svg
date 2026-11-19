@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 664 152" role="img" aria-labelledby="title">
+<title id="title">Four branches from Leah lead to Reuben, Simeon, Levi, and Judah.</title>
+<rect width="664" height="152" rx="10" fill="#fff9ed"/>
+<rect x="257.0" y="10" width="150" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="332.0" y="39" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Leah</text>
+<path d="M332.0 54v22 M83 76H581 M83 76v20 M249 76v20 M415 76v20 M581 76v20" fill="none" stroke="#35614d" stroke-width="3"/>
+<rect x="5" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="83.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Reuben</text>
+<rect x="171" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="249.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Simeon</text>
+<rect x="337" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="415.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Levi</text>
+<rect x="503" y="96" width="156" height="44" rx="7" fill="#e4efe7" stroke="#35614d"/>
+<text x="581.0" y="125" font-family="sans-serif" text-anchor="middle" font-size="20" fill="#213e30">Judah</text>
+</svg>
