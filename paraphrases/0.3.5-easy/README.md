@@ -974,6 +974,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Proverbs 11 — An honest weight and an open hand](proverbs/proverbs11_1757452860.md)
 12. [Proverbs 12 — Words that hurt and words that heal](proverbs/proverbs12_1757452955.md)
 13. [Proverbs 13 — Walk with wise people](proverbs/proverbs13_1757453085.md)
+14. [Proverbs 14 — Wisdom at home and among neighbors](proverbs/proverbs14_1757453189.md)
 
 ## Reading with a learner
 
