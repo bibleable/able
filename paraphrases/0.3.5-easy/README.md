@@ -1156,6 +1156,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 2. [Micah 2 — The LORD sees families losing their homes](micah/micah2_1757480456.md)
 3. [Micah 3 — Leaders take money to judge unfairly](micah/micah3_1757480526.md)
+5. [Micah 5 — A ruler will come from Bethlehem](micah/micah5_1757480776.md)
 
 ## Nahum
 

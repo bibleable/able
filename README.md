@@ -221,7 +221,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Micah</summary>
 
-[2](paraphrases/0.3.5-easy/micah/micah2_1757480456.md) · [3](paraphrases/0.3.5-easy/micah/micah3_1757480526.md)
+[2](paraphrases/0.3.5-easy/micah/micah2_1757480456.md) · [3](paraphrases/0.3.5-easy/micah/micah3_1757480526.md) · [5](paraphrases/0.3.5-easy/micah/micah5_1757480776.md)
 
 </details>
 
