@@ -802,6 +802,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 37. [Job 37 — Elihu asks Job to stand still and listen](job/job37_1757437753.md)
 38. [Job 38 — The LORD answers Job from the whirlwind](job/job38_1757437819.md)
 39. [Job 39 — The LORD asks Job about the animals](job/job39_1757437985.md)
+40. [Job 40 — Job answers, and the LORD describes Behemoth](job/job40_1757438112.md)
 
 ## Reading with a learner
 
