@@ -186,7 +186,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Ezekiel</summary>
 
-[2](paraphrases/0.3.5-easy/ezekiel/ezekiel2_1757470907.md) · [6](paraphrases/0.3.5-easy/ezekiel/ezekiel6_1757471304.md) · [9](paraphrases/0.3.5-easy/ezekiel/ezekiel9_1757471630.md) · [15](paraphrases/0.3.5-easy/ezekiel/ezekiel15_1757472180.md) · [19](paraphrases/0.3.5-easy/ezekiel/ezekiel19_1757472717.md) · [35](paraphrases/0.3.5-easy/ezekiel/ezekiel35_1757474705.md)
+[2](paraphrases/0.3.5-easy/ezekiel/ezekiel2_1757470907.md) · [6](paraphrases/0.3.5-easy/ezekiel/ezekiel6_1757471304.md) · [9](paraphrases/0.3.5-easy/ezekiel/ezekiel9_1757471630.md) · [15](paraphrases/0.3.5-easy/ezekiel/ezekiel15_1757472180.md) · [19](paraphrases/0.3.5-easy/ezekiel/ezekiel19_1757472717.md) · [25](paraphrases/0.3.5-easy/ezekiel/ezekiel25_1757473373.md) · [35](paraphrases/0.3.5-easy/ezekiel/ezekiel35_1757474705.md)
 
 </details>
 
