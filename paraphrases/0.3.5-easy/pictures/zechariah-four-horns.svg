@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" role="img" aria-labelledby="title desc">
+  <title id="title">Four horns in Zechariah's vision</title>
+  <desc id="desc">Four curved animal horns stand side by side. Each horn represents a power that scattered God's people.</desc>
+  <rect width="360" height="140" fill="#fff9ef"/>
+  <defs>
+    <g id="horn" stroke="#513b29" stroke-width="3" stroke-linejoin="round">
+      <path d="M9 99Q53 91 60 25Q77 87 29 112Z" fill="#d8b482"/>
+      <path d="M9 99Q23 96 29 112Q15 117 9 99Z" fill="#896443"/>
+    </g>
+  </defs>
+  <use href="#horn" x="8"/><use href="#horn" x="94"/><use href="#horn" x="180"/><use href="#horn" x="266"/>
+</svg>

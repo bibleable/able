@@ -1304,6 +1304,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Zechariah
 
+1. [Zechariah 1 — God promises to return to Jerusalem](zechariah/zechariah1_1757482196.md)
 2. [Zechariah 2 — The LORD promises to live in Jerusalem](zechariah/zechariah2_1757482270.md)
 3. [Zechariah 3 — Clean clothes for Joshua](zechariah/zechariah3_1757482368.md)
 4. [Zechariah 4 — Zerubbabel will finish the temple](zechariah/zechariah4_1757482434.md)
