@@ -864,6 +864,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 54. [Psalm 54 — God is my helper](psalms/psalms54_1757443001.md)
 55. [Psalm 55 — When a close friend turns against me](psalms/psalms55_1757443166.md)
 56. [Psalm 56 — When I am afraid, I trust you](psalms/psalms56_1757443221.md)
+57. [Psalm 57 — I will wake the dawn](psalms/psalms57_1757443333.md)
 
 ## Reading with a learner
 
