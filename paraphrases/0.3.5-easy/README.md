@@ -1019,6 +1019,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 7. [Song of Solomon 7 — Come with me to the countryside](songofsongs/songofsongs7_1757457332.md)
 8. [Song of Solomon 8 — Rivers cannot sweep love away](songofsongs/songofsongs8_1757457402.md)
 
+## Isaiah
+
+1. [Isaiah 1 — Learn to do right](isaiah/isaiah1_1757457491.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
