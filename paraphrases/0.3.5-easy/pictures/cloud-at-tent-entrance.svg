@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+<title id="title">A cloud rests at the entrance of a tent.</title>
+<rect width="360" height="180" rx="10" fill="#fff9ed"/>
+<path d="M76 145l78-94 115 94Z" fill="#dfc99e" stroke="#71634a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M122 144l32-55 28 55Z" fill="#76654e" stroke="#695a48" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><g transform="translate(93 -5) scale(.78)"><path d="M48 104Q21 94 38 74Q32 51 55 49Q61 23 85 39Q108 26 121 50Q149 56 133 77Q147 102 118 105Z" fill="#dde9ed" stroke="#577483" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+</svg>

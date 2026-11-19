@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+<title id="title">A strip of blue water changes to red as Aaron strikes the Nile.</title>
+<rect width="360" height="180" rx="10" fill="#fff9ed"/>
+<rect x="16" y="56" width="127" height="59" rx="5" fill="#a7d2dc" stroke="#476655" stroke-width="2"/><rect x="217" y="56" width="127" height="59" rx="5" fill="#c57d6b" stroke="#476655" stroke-width="2"/><path d="M153 85h50l-9-8m9 8-9 8" fill="none" stroke="#3e5d4e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="80" y="146" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Water</text><text x="280" y="146" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Blood</text>
+</svg>

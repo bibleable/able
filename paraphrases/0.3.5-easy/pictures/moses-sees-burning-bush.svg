@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+<title id="title">Flames rise among the branches of a living bush.</title>
+<rect width="360" height="180" rx="10" fill="#fff9ed"/>
+<path d="M111 125Q72 93 119 67Q114 95 144 80Q150 60 156 32Q181 51 186 79Q201 68 215 29Q236 73 219 88Q245 83 252 64Q267 108 234 127Z" fill="#edab46" stroke="#ab5329" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M178 152v-45l-39-40m39 40 36-51m-35 69-53-24m53 24 51-24" fill="none" stroke="#655038" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="138" cy="68" rx="12" ry="7" fill="#426943"/><ellipse cx="118" cy="99" rx="12" ry="7" fill="#426943"/><ellipse cx="215" cy="56" rx="12" ry="7" fill="#426943"/><ellipse cx="232" cy="100" rx="12" ry="7" fill="#426943"/>
+</svg>

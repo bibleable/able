@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+<title id="title">Cloud by day and fire by night.</title>
+<rect width="360" height="180" rx="10" fill="#fff9ed"/>
+<path d="M48 104Q21 94 38 74Q32 51 55 49Q61 23 85 39Q108 26 121 50Q149 56 133 77Q147 102 118 105Z" fill="#dde9ed" stroke="#577483" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M244 112Q206 90 239 59Q234 76 251 73Q275 49 266 21Q312 50 294 75Q312 71 315 54Q334 108 286 116Z" fill="#e99d40" stroke="#965028" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="85" y="150" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Day · cloud</text><text x="271" y="150" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Night · fire</text>
+</svg>

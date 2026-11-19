@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+<title id="title">An outer rectangle of curtains encloses the holy tent.</title>
+<rect width="360" height="180" rx="10" fill="#fff9ed"/>
+<rect x="15" y="18" width="330" height="143" rx="5" fill="#eee6cc" stroke="#476655" stroke-width="2"/><rect x="97" y="46" width="166" height="55" rx="5" fill="#e0ccb0" stroke="#476655" stroke-width="2"/><text x="180" y="81" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Holy tent</text><text x="180" y="137" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Courtyard</text>
+</svg>

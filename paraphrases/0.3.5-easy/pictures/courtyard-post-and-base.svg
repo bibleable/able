@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" role="img" aria-labelledby="title">
+<title id="title">One upright post rests on one bronze base.</title>
+<rect width="360" height="180" rx="10" fill="#fff9ed"/>
+<rect x="164" y="15" width="32" height="105" rx="5" fill="#d0b595" stroke="#476655" stroke-width="2"/><rect x="141" y="117" width="78" height="38" rx="5" fill="#c88d60" stroke="#476655" stroke-width="2"/><text x="100" y="69" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Post</text><path d="M124 64h36" fill="none" stroke="#3e5d4e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="265" y="144" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#253c31">Base</text><path d="M222 137h17" fill="none" stroke="#3e5d4e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
