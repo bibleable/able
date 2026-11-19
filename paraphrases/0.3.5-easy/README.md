@@ -915,6 +915,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 105. [Psalm 105 — The LORD remembers his promise](psalms/psalms105_1757447834.md)
 106. [Psalm 106 — Remember us and gather us home](psalms/psalms106_1757447970.md)
 107. [Psalm 107 — They cried out to the LORD](psalms/psalms107_1757448124.md)
+108. [Psalm 108 — I will wake the dawn](psalms/psalms108_1757448191.md)
 
 ## Reading with a learner
 
