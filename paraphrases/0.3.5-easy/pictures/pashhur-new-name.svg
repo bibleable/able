@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 170" role="img" aria-labelledby="title desc">
+<title id="title">The name Jeremiah gives Pashhur</title>
+<desc id="desc">An arrow leads from Pashhur to Magor-missabib. The new name means terror on every side.</desc>
+<rect width="400" height="170" rx="8" fill="#fff9ed"/>
+<g font-family="sans-serif" text-anchor="middle" fill="#28362d">
+<text x="200" y="34" font-size="23">Pashhur</text>
+<path d="M200 47v23m-7-7 7 7 7-7" fill="none" stroke="#485f50" stroke-width="3"/>
+<text x="200" y="105" font-size="25" font-weight="bold">Magor-missabib</text>
+<text x="200" y="143" font-size="20">Terror on every side</text>
+</g></svg>

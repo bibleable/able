@@ -1123,6 +1123,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 1. [Jeremiah 1 — The LORD gives Jeremiah words to speak](jeremiah/jeremiah1_1757464330.md)
 12. [Jeremiah 12 — Why do people who do wrong live so well?](jeremiah/jeremiah12_1757465548.md)
 19. [Jeremiah 19 — A broken jar shows what will happen to Jerusalem](jeremiah/jeremiah19_1757466334.md)
+20. [Jeremiah 20 — Jeremiah cannot keep God’s message to himself](jeremiah/jeremiah20_1757466446.md)
 21. [Jeremiah 21 — A choice for the people of Jerusalem](jeremiah/jeremiah21_1757466519.md)
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
 28. [Jeremiah 28 — Hananiah breaks Jeremiah’s wooden yoke](jeremiah/jeremiah28_1757467299.md)
