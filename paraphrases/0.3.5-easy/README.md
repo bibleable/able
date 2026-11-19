@@ -1031,6 +1031,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Isaiah 8 — A name on a scroll](isaiah/isaiah8_1757458358.md)
 9. [Isaiah 9 — A child who will rule in peace](isaiah/isaiah9_1757458447.md)
 10. [Isaiah 10 — Assyria’s power will end](isaiah/isaiah10_1757458599.md)
+11. [Isaiah 11 — A ruler from Jesse’s family](isaiah/isaiah11_1757458772.md)
 
 ## Reading with a learner
 
