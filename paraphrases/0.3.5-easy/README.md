@@ -1078,6 +1078,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 55. [Isaiah 55 — Come to the water](isaiah/isaiah55_1757463167.md)
 56. [Isaiah 56 — A house of prayer for all nations](isaiah/isaiah56_1757463239.md)
 57. [Isaiah 57 — Peace for those far and near](isaiah/isaiah57_1757463329.md)
+58. [Isaiah 58 — Share your bread with the hungry](isaiah/isaiah58_1757463449.md)
 
 ## Reading with a learner
 
