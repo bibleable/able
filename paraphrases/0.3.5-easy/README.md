@@ -1214,6 +1214,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Haggai
 
 1. [Haggai 1 — The people begin to rebuild the temple](haggai/haggai1_1757481941.md)
+2. [Haggai 2 — The LORD encourages the temple builders](haggai/haggai2_1757482052.md)
 
 ## Zechariah
 
