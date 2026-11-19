@@ -1042,6 +1042,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [Isaiah 19 — Three nations share God’s blessing](isaiah/isaiah19_1757459517.md)
 20. [Isaiah 20 — Isaiah walks barefoot](isaiah/isaiah20_1757459585.md)
 21. [Isaiah 21 — A lookout reports that Babylon has fallen](isaiah/isaiah21_1757459683.md)
+22. [Isaiah 22 — A key for Eliakim](isaiah/isaiah22_1757459799.md)
 
 ## Reading with a learner
 
