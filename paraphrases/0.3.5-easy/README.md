@@ -1203,6 +1203,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Habakkuk
 
 1. [Habakkuk 1 — How long must I call for help?](habakkuk/habakkuk1_1757481281.md)
+2. [Habakkuk 2 — Habakkuk waits for the LORD’s answer](habakkuk/habakkuk2_1757481446.md)
 3. [Habakkuk 3 — Even then I will rejoice in the LORD](habakkuk/habakkuk3_1757481518.md)
 
 ## Zechariah

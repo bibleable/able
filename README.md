@@ -235,7 +235,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Habakkuk</summary>
 
-[1](paraphrases/0.3.5-easy/habakkuk/habakkuk1_1757481281.md) · [3](paraphrases/0.3.5-easy/habakkuk/habakkuk3_1757481518.md)
+[1](paraphrases/0.3.5-easy/habakkuk/habakkuk1_1757481281.md) · [2](paraphrases/0.3.5-easy/habakkuk/habakkuk2_1757481446.md) · [3](paraphrases/0.3.5-easy/habakkuk/habakkuk3_1757481518.md)
 
 </details>
 
