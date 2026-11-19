@@ -762,6 +762,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 31. [2 Chronicles 31 — The people bring enough to share](2chronicles/2chronicles31_1757428596.md)
 33. [2 Chronicles 33 — Manasseh prays in Babylon](2chronicles/2chronicles33_1757428881.md)
 34. [2 Chronicles 34 — Josiah hears the Book of the Law](2chronicles/2chronicles34_1757429045.md)
+35. [2 Chronicles 35 — Josiah gathers the people for Passover](2chronicles/2chronicles35_1757429221.md)
 36. [2 Chronicles 36 — Jerusalem falls, and Cyrus calls the people home](2chronicles/2chronicles36_1757429366.md)
 
 ## Ezra
