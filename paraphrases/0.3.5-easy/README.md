@@ -921,6 +921,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 111. [Psalm 111 — Remember what the LORD has done](psalms/psalms111_1757448463.md)
 112. [Psalm 112 — A generous person trusts the LORD](psalms/psalms112_1757448519.md)
 113. [Psalm 113 — The LORD lifts up people in need](psalms/psalms113_1757448583.md)
+114. [Psalm 114 — The sea and the mountains move](psalms/psalms114_1757448677.md)
 
 ## Reading with a learner
 
