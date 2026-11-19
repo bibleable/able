@@ -813,6 +813,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Psalm 3 — David calls to the LORD for help](psalms/psalms3_1757438591.md)
 4. [Psalm 4 — David lies down in peace](psalms/psalms4_1757438667.md)
 5. [Psalm 5 — David prays in the morning](psalms/psalms5_1757438778.md)
+6. [Psalm 6 — The LORD hears David weep](psalms/psalms6_1757438845.md)
 
 ## Reading with a learner
 
