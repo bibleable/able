@@ -1161,6 +1161,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Zechariah 3 — Clean clothes for Joshua](zechariah/zechariah3_1757482368.md)
 4. [Zechariah 4 — Zerubbabel will finish the temple](zechariah/zechariah4_1757482434.md)
 5. [Zechariah 5 — The flying scroll and the basket](zechariah/zechariah5_1757482505.md)
+6. [Zechariah 6 — Four chariots and a crown](zechariah/zechariah6_1757482603.md)
 7. [Zechariah 7 — The LORD asks His people to show mercy](zechariah/zechariah7_1757482673.md)
 10. [Zechariah 10 — The LORD calls His people home](zechariah/zechariah10_1757483042.md)
 13. [Zechariah 13 — The LORD answers His people](zechariah/zechariah13_1757483562.md)
