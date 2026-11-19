@@ -1047,6 +1047,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Isaiah 24 — Songs from the ends of the earth](isaiah/isaiah24_1757459962.md)
 25. [Isaiah 25 — The LORD will wipe away every tear](isaiah/isaiah25_1757460056.md)
 26. [Isaiah 26 — A song of trust in the LORD](isaiah/isaiah26_1757460163.md)
+27. [Isaiah 27 — The LORD tends His vineyard](isaiah/isaiah27_1757460262.md)
 
 ## Reading with a learner
 
