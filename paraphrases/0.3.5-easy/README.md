@@ -986,6 +986,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 23. [Proverbs 23 — Listen and choose wisely](proverbs/proverbs23_1757454283.md)
 24. [Proverbs 24 — What a field can teach](proverbs/proverbs24_1757454425.md)
 25. [Proverbs 25 — A cup of water for an enemy](proverbs/proverbs25_1757454556.md)
+26. [Proverbs 26 — When gossip stops](proverbs/proverbs26_1757454756.md)
 
 ## Reading with a learner
 
