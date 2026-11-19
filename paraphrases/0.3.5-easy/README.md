@@ -966,6 +966,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Proverbs 3 — Trust the LORD and help your neighbor](proverbs/proverbs3_1757451882.md)
 4. [Proverbs 4 — Stay on the wise path](proverbs/proverbs4_1757452016.md)
 5. [Proverbs 5 — Be faithful to your wife](proverbs/proverbs5_1757452131.md)
+6. [Proverbs 6 — Learn from the ant and the lamp](proverbs/proverbs6_1757452209.md)
 
 ## Reading with a learner
 
