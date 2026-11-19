@@ -806,6 +806,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 41. [Job 41 — The LORD describes Leviathan](job/job41_1757438226.md)
 42. [Job 42 — Job prays for his friends](job/job42_1757438326.md)
 
+## Psalms
+
+1. [Psalm 1 — A tree beside streams of water](psalms/psalms1_1757438403.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
