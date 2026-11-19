@@ -741,6 +741,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [1 Chronicles 26 — Families guard the gates and care for the gifts](1chronicles/1chronicles26_1757422375.md)
 27. [1 Chronicles 27 — The people who served King David](1chronicles/1chronicles27_1757422588.md)
 28. [1 Chronicles 28 — David gives Solomon the temple plans](1chronicles/1chronicles28_1757422686.md)
+29. [1 Chronicles 29 — The people give freely and Solomon becomes king](1chronicles/1chronicles29_1757422832.md)
 
 ## 2 Chronicles
 
