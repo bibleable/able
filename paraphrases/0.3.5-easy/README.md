@@ -976,6 +976,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Proverbs 13 — Walk with wise people](proverbs/proverbs13_1757453085.md)
 14. [Proverbs 14 — Wisdom at home and among neighbors](proverbs/proverbs14_1757453189.md)
 15. [Proverbs 15 — A gentle answer](proverbs/proverbs15_1757453299.md)
+16. [Proverbs 16 — The LORD guides our steps](proverbs/proverbs16_1757453380.md)
 
 ## Reading with a learner
 
