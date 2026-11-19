@@ -908,6 +908,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 98. [Psalm 98 — Let the rivers clap their hands](psalms/psalms98_1757447149.md)
 99. [Psalm 99 — The LORD our God is holy](psalms/psalms99_1757447202.md)
 100. [Psalm 100 — Come to God with thanks](psalms/psalms100_1757447265.md)
+101. [Psalm 101 — I will live honestly in my house](psalms/psalms101_1757447358.md)
 
 ## Reading with a learner
 
