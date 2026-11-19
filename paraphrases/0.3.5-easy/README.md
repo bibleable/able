@@ -727,6 +727,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [1 Chronicles 5 — The families east of the Jordan River](1chronicles/1chronicles5_1757419340.md)
 7. [1 Chronicles 7 — Family records from six tribes of Israel](1chronicles/1chronicles7_1757419686.md)
 8. [1 Chronicles 8 — Benjamin’s family and the family of Saul](1chronicles/1chronicles8_1757419897.md)
+9. [1 Chronicles 9 — Families return and serve in Jerusalem](1chronicles/1chronicles9_1757420132.md)
 10. [1 Chronicles 10 — The death of King Saul](1chronicles/1chronicles10_1757420237.md)
 11. [1 Chronicles 11 — David becomes king over all Israel](1chronicles/1chronicles11_1757420493.md)
 12. [1 Chronicles 12 — Israel gathers to make David king](1chronicles/1chronicles12_1757420601.md)
