@@ -1071,6 +1071,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 48. [Isaiah 48 — Leave Babylon with a shout of joy](isaiah/isaiah48_1757462350.md)
 49. [Isaiah 49 — I will never forget you](isaiah/isaiah49_1757462505.md)
 50. [Isaiah 50 — The servant listens each morning](isaiah/isaiah50_1757462629.md)
+51. [Isaiah 51 — The LORD comforts His people](isaiah/isaiah51_1757462712.md)
 
 ## Reading with a learner
 
