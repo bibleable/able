@@ -898,6 +898,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 88. [Psalm 88 — Day and night I call to you](psalms/psalms88_1757446146.md)
 89. [Psalm 89 — Remember your promise to David](psalms/psalms89_1757446274.md)
 90. [Psalm 90 — Teach us to number our days](psalms/psalms90_1757446419.md)
+91. [Psalm 91 — I will be with him in trouble](psalms/psalms91_1757446513.md)
 
 ## Reading with a learner
 
