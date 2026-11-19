@@ -849,6 +849,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 39. [Psalm 39 — LORD, show me how short my life is](psalms/psalms39_1757441712.md)
 40. [Psalm 40 — The LORD heard my cry](psalms/psalms40_1757441810.md)
 41. [Psalm 41 — The LORD cares for the sick](psalms/psalms41_1757441889.md)
+42. [Psalm 42 — I thirst for the living God](psalms/psalms42_1757441974.md)
 
 ## Reading with a learner
 
