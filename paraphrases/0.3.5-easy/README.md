@@ -969,6 +969,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Proverbs 6 — Learn from the ant and the lamp](proverbs/proverbs6_1757452209.md)
 7. [Proverbs 7 — A warning from the window](proverbs/proverbs7_1757452340.md)
 8. [Proverbs 8 — Wisdom calls to everyone](proverbs/proverbs8_1757452479.md)
+9. [Proverbs 9 — Two invitations](proverbs/proverbs9_1757452618.md)
 
 ## Reading with a learner
 
