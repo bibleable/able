@@ -1129,6 +1129,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 21. [Jeremiah 21 — A choice for the people of Jerusalem](jeremiah/jeremiah21_1757466519.md)
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
 28. [Jeremiah 28 — Hananiah breaks Jeremiah’s wooden yoke](jeremiah/jeremiah28_1757467299.md)
+33. [Jeremiah 33 — Joy will return to Jerusalem](jeremiah/jeremiah33_1757468030.md)
 34. [Jeremiah 34 — The people break their promise to free their slaves](jeremiah/jeremiah34_1757468143.md)
 35. [Jeremiah 35 — A family obeys Jonadab](jeremiah/jeremiah35_1757468263.md)
 36. [Jeremiah 36 — Baruch writes God's words on a scroll](jeremiah/jeremiah36_1757468421.md)
