@@ -1169,6 +1169,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
 46. [Jeremiah 46 — Egypt’s army falls and the LORD promises to help Israel](jeremiah/jeremiah46_1757469444.md)
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
+52. [Jeremiah 52 — Jerusalem falls and its people go into exile](jeremiah/jeremiah52_1757470169.md)
 
 ## Lamentations
 
