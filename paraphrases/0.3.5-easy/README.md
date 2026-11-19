@@ -1006,6 +1006,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 9. [Ecclesiastes 9 — The wise man nobody remembered](ecclesiastes/ecclesiastes9_1757456355.md)
 10. [Ecclesiastes 10 — A little foolishness](ecclesiastes/ecclesiastes10_1757456431.md)
 11. [Ecclesiastes 11 — Sow your seed in the morning](ecclesiastes/ecclesiastes11_1757456514.md)
+12. [Ecclesiastes 12 — Remember the One who made you](ecclesiastes/ecclesiastes12_1757456592.md)
 
 ## Reading with a learner
 

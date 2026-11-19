@@ -137,7 +137,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Ecclesiastes</summary>
 
-[1](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes1_1757455662.md) · [2](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes2_1757455732.md) · [3](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes3_1757455851.md) · [4](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes4_1757455925.md) · [5](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes5_1757455999.md) · [6](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes6_1757456079.md) · [7](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes7_1757456176.md) · [8](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes8_1757456274.md) · [9](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes9_1757456355.md) · [10](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes10_1757456431.md) · [11](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes11_1757456514.md)
+[1](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes1_1757455662.md) · [2](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes2_1757455732.md) · [3](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes3_1757455851.md) · [4](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes4_1757455925.md) · [5](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes5_1757455999.md) · [6](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes6_1757456079.md) · [7](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes7_1757456176.md) · [8](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes8_1757456274.md) · [9](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes9_1757456355.md) · [10](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes10_1757456431.md) · [11](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes11_1757456514.md) · [12](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes12_1757456592.md)
 
 </details>
 
