@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 140" role="img" aria-labelledby="title">
+  <title id="title">Baskets of ripe figs and spoiled figs</title>
+  <defs>
+    <g id="ripe" stroke="#453345" stroke-width="2">
+      <path d="M0 0q-1 8-8 14c-15 14-9 28 8 28s24-15 10-28Q2 7 2 0Z" fill="#846083"/>
+      <path d="M1 2l3-7" stroke="#53683f" stroke-width="4"/>
+    </g>
+    <g id="spoiled" stroke="#594537" stroke-width="2">
+      <path d="M0 0l-3 9-8 4-3 8 3 7 6-2 6 4 9-5 2-7-5-5-3-8Z" fill="#96785f"/>
+      <path d="M-7 16l3 6m7-9-2 7" fill="none"/>
+      <circle cx="5" cy="23" r="2" fill="#44362a"/>
+    </g>
+    <g id="basket" stroke="#675039" stroke-width="3">
+      <path d="M0 0h136l-14 45H14Z" fill="#d5aa6b"/>
+      <path d="M7 14h122M11 28h114M33 1l4 43m31-43v43m36-43-4 43" fill="none"/>
+    </g>
+  </defs>
+  <rect width="340" height="140" rx="8" fill="#faf6ec"/>
+  <use href="#ripe" x="57" y="27"/><use href="#ripe" x="87" y="18"/><use href="#ripe" x="117" y="29"/>
+  <use href="#ripe" x="73" y="40"/><use href="#ripe" x="103" y="42"/>
+  <use href="#spoiled" x="224" y="48"/><use href="#spoiled" x="247" y="39"/><use href="#spoiled" x="277" y="48"/>
+  <use href="#spoiled" x="237" y="57"/><use href="#spoiled" x="262" y="54"/>
+  <use href="#basket" x="19" y="69"/><use href="#basket" x="185" y="69"/>
+</svg>
