@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 176" role="img" aria-labelledby="title desc">
+  <title id="title">Three generations of Saul’s family</title>
+  <desc id="desc">Read down from Kish to his son Saul, then to Saul’s son Jonathan.</desc>
+  <rect width="360" height="176" rx="8" fill="#fff9ed"/>
+  <g stroke="#574b38" stroke-width="3" fill="none"><path d="M132 43v32m-6-8 6 8 6-8M132 100v32m-6-8 6 8 6-8"/></g>
+  <g font-family="sans-serif" fill="#30291f">
+    <g text-anchor="middle" font-size="23"><text x="132" y="35">Kish</text><text x="132" y="96">Saul</text><text x="132" y="158">Jonathan</text></g>
+    <g font-size="17"><text x="154" y="66">his son</text><text x="154" y="124">his son</text></g>
+  </g>
+</svg>

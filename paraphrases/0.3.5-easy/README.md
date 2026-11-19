@@ -722,6 +722,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 1 Chronicles
 
 3. [1 Chronicles 3 — David’s family](1chronicles/1chronicles3_1757419075.md)
+8. [1 Chronicles 8 — Benjamin’s family and the family of Saul](1chronicles/1chronicles8_1757419897.md)
 10. [1 Chronicles 10 — The death of King Saul](1chronicles/1chronicles10_1757420237.md)
 13. [1 Chronicles 13 — David brings the ark to Obed-edom’s house](1chronicles/1chronicles13_1757420707.md)
 14. [1 Chronicles 14 — David asks God what to do](1chronicles/1chronicles14_1757420880.md)
