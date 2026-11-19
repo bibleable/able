@@ -867,6 +867,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 57. [Psalm 57 — I will wake the dawn](psalms/psalms57_1757443333.md)
 58. [Psalm 58 — God judges the earth](psalms/psalms58_1757443421.md)
 59. [Psalm 59 — David sings to God in the morning](psalms/psalms59_1757443504.md)
+60. [Psalm 60 — God, help your people again](psalms/psalms60_1757443567.md)
 
 ## Reading with a learner
 
