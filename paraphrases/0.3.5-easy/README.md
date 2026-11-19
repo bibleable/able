@@ -844,6 +844,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 34. [Psalm 34 — Taste and see that the LORD is good](psalms/psalms34_1757441354.md)
 35. [Psalm 35 — David asks the LORD to defend him](psalms/psalms35_1757441434.md)
 36. [Psalm 36 — Your love reaches to the sky](psalms/psalms36_1757441487.md)
+37. [Psalm 37 — Trust the LORD and do good](psalms/psalms37_1757441570.md)
 
 ## Reading with a learner
 
