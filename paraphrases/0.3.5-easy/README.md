@@ -1249,6 +1249,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Daniel
 
 1. [Daniel 1 — Daniel asks for a ten-day test](daniel/daniel1_1757475997.md)
+7. [Daniel 7 — Daniel sees four beasts and a kingdom that lasts](daniel/daniel7_1757476728.md)
 8. [Daniel 8 — Gabriel explains the ram and the goat](daniel/daniel8_1757476829.md)
 9. [Daniel 9 — Daniel prays for Jerusalem](daniel/daniel9_1757477020.md)
 10. [Daniel 10 — A messenger helps Daniel stand](daniel/daniel10_1757477146.md)
