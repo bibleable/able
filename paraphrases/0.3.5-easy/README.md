@@ -1082,6 +1082,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 59. [Isaiah 59 — The LORD sees and comes to save](isaiah/isaiah59_1757463570.md)
 60. [Isaiah 60 — Jerusalem’s gates stay open](isaiah/isaiah60_1757463671.md)
 61. [Isaiah 61 — Good news for people who are hurting](isaiah/isaiah61_1757463757.md)
+62. [Isaiah 62 — A new name for Jerusalem](isaiah/isaiah62_1757463867.md)
 
 ## Reading with a learner
 
