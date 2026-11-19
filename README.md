@@ -212,6 +212,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Obadiah</summary>
+
+[1](paraphrases/0.3.5-easy/obadiah/obadiah1_1757479908.md)
+
+</details>
+
+<details>
 <summary>Jonah</summary>
 
 [1](paraphrases/0.3.5-easy/jonah/jonah1_1757479993.md) · [2](paraphrases/0.3.5-easy/jonah/jonah2_1757480092.md) · [3](paraphrases/0.3.5-easy/jonah/jonah3_1757480197.md) · [4](paraphrases/0.3.5-easy/jonah/jonah4_1757480257.md)

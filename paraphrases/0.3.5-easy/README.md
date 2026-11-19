@@ -1262,6 +1262,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Amos 8 — A basket of summer fruit](amos/amos8_1757479750.md)
 9. [Amos 9 — The LORD promises Israel a home again](amos/amos9_1757479830.md)
 
+## Obadiah
+
+1. [Obadiah 1 — The LORD calls Edom to account](obadiah/obadiah1_1757479908.md)
+
 ## Jonah
 
 1. [Jonah 1 — Jonah takes a ship to Tarshish](jonah/jonah1_1757479993.md)
