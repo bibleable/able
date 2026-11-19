@@ -752,6 +752,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [2 Chronicles 19 — Jehoshaphat appoints judges](2chronicles/2chronicles19_1757425010.md)
 21. [2 Chronicles 21 — Elijah sends King Jehoram a letter](2chronicles/2chronicles21_1757425280.md)
 22. [2 Chronicles 22 — An aunt saves Joash](2chronicles/2chronicles22_1757425400.md)
+23. [2 Chronicles 23 — Joash comes out of hiding and becomes king](2chronicles/2chronicles23_1757425575.md)
 27. [2 Chronicles 27 — Jotham rules in Jerusalem](2chronicles/2chronicles27_1757427856.md)
 31. [2 Chronicles 31 — The people bring enough to share](2chronicles/2chronicles31_1757428596.md)
 
