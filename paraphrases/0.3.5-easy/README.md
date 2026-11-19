@@ -1002,6 +1002,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Ecclesiastes 5 — Listen and keep your promises](ecclesiastes/ecclesiastes5_1757455999.md)
 6. [Ecclesiastes 6 — Having enough and still wanting more](ecclesiastes/ecclesiastes6_1757456079.md)
 7. [Ecclesiastes 7 — What sorrow can teach](ecclesiastes/ecclesiastes7_1757456176.md)
+8. [Ecclesiastes 8 — What even the wise cannot know](ecclesiastes/ecclesiastes8_1757456274.md)
 
 ## Reading with a learner
 
