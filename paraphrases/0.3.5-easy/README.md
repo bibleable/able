@@ -1058,6 +1058,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 35. [Isaiah 35 — A road home to Zion](isaiah/isaiah35_1757461037.md)
 36. [Isaiah 36 — The people on the wall stay silent](isaiah/isaiah36_1757461135.md)
 37. [Isaiah 37 — Hezekiah brings a letter to the LORD](isaiah/isaiah37_1757461243.md)
+38. [Isaiah 38 — Hezekiah gives thanks for his life](isaiah/isaiah38_1757461387.md)
 
 ## Reading with a learner
 
