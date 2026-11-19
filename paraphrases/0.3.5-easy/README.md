@@ -887,6 +887,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 77. [Psalm 77 — I remember what you have done](psalms/psalms77_1757445088.md)
 78. [Psalm 78 — Tell the children what God has done](psalms/psalms78_1757445316.md)
 79. [Psalm 79 — Hear the prisoners and help us](psalms/psalms79_1757445404.md)
+80. [Psalm 80 — Look after the vine you planted](psalms/psalms80_1757445484.md)
 
 ## Reading with a learner
 
