@@ -901,6 +901,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 91. [Psalm 91 — I will be with him in trouble](psalms/psalms91_1757446513.md)
 92. [Psalm 92 — Praise in the morning and at night](psalms/psalms92_1757446597.md)
 93. [Psalm 93 — The LORD rules over the roaring waters](psalms/psalms93_1757446649.md)
+94. [Psalm 94 — The God who made the ear can hear](psalms/psalms94_1757446736.md)
 
 ## Reading with a learner
 
