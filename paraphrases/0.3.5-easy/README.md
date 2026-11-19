@@ -1119,6 +1119,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
 
+## Daniel
+
+12. [Daniel 12 — A promise for Daniel at the end](daniel/daniel12_1757477396.md)
+
 ## Hosea
 
 1. [Hosea 1 — The names of Hosea’s children](hosea/hosea1_1757477492.md)
