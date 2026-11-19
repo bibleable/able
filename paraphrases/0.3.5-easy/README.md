@@ -1037,6 +1037,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 14. [Isaiah 14 — The cruel king loses his power](isaiah/isaiah14_1757459034.md)
 15. [Isaiah 15 — Moab weeps for its towns](isaiah/isaiah15_1757459134.md)
 16. [Isaiah 16 — Moab asks for shelter](isaiah/isaiah16_1757459210.md)
+17. [Isaiah 17 — Only a few olives remain](isaiah/isaiah17_1757459295.md)
 
 ## Reading with a learner
 
