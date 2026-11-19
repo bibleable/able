@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 140" role="img" aria-labelledby="title">
+<title id="title">A patch of coarse woven sackcloth</title>
+<defs><pattern id="weave" width="20" height="20" patternUnits="userSpaceOnUse">
+<rect width="20" height="20" fill="#634d39"/>
+<path d="M0 5h20m-20 10h20" stroke="#b69a76" stroke-width="7"/>
+<path d="M5 0v20M15 0v20" stroke="#c9ae8a" stroke-width="7"/>
+<path d="M0 5h10m0 10h10" stroke="#b69a76" stroke-width="7"/>
+</pattern></defs>
+<rect width="212" height="140" rx="8" fill="#faf5eb"/>
+<path d="M26 23l160-4 1 98-162 4z" fill="url(#weave)" stroke="#604a36" stroke-width="2"/>
+</svg>

@@ -778,6 +778,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Job 13 — Job asks God to hear his case](job/job13_1757435171.md)
 14. [Job 14 — Job asks if a person can live again](job/job14_1757435255.md)
 15. [Job 15 — Eliphaz challenges Job again](job/job15_1757435422.md)
+16. [Job 16 — Job says his friends give him no comfort](job/job16_1757435531.md)
 
 ## Reading with a learner
 
