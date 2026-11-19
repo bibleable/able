@@ -931,6 +931,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 121. [Psalm 121 — Where does my help come from?](psalms/psalms121_1757449314.md)
 122. [Psalm 122 — Pray for peace in Jerusalem](psalms/psalms122_1757449405.md)
 123. [Psalm 123 — We look to you for mercy](psalms/psalms123_1757449467.md)
+124. [Psalm 124 — We escaped like a bird](psalms/psalms124_1757449546.md)
 
 ## Reading with a learner
 
