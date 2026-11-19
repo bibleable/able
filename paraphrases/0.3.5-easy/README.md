@@ -882,6 +882,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 72. [Psalm 72 — A king who hears people in need](psalms/psalms72_1757444613.md)
 73. [Psalm 73 — You hold my right hand](psalms/psalms73_1757444726.md)
 74. [Psalm 74 — God, remember your people](psalms/psalms74_1757444832.md)
+75. [Psalm 75 — God chooses the time to judge](psalms/psalms75_1757444910.md)
 
 ## Reading with a learner
 
