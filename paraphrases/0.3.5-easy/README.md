@@ -1049,6 +1049,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [Isaiah 26 — A song of trust in the LORD](isaiah/isaiah26_1757460163.md)
 27. [Isaiah 27 — The LORD tends His vineyard](isaiah/isaiah27_1757460262.md)
 28. [Isaiah 28 — A stone people can build on](isaiah/isaiah28_1757460358.md)
+29. [Isaiah 29 — A message like a sealed scroll](isaiah/isaiah29_1757460440.md)
 
 ## Reading with a learner
 
