@@ -1171,6 +1171,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 33. [Ezekiel 33 — A watchman warns the people](ezekiel/ezekiel33_1757474520.md)
 34. [Ezekiel 34 — The LORD looks for his scattered sheep](ezekiel/ezekiel34_1757474660.md)
 35. [Ezekiel 35 — The LORD answers Edom’s hatred](ezekiel/ezekiel35_1757474705.md)
+36. [Ezekiel 36 — God promises Israel a home and a new heart](ezekiel/ezekiel36_1757474799.md)
 42. [Ezekiel 42 — Rooms for the priests and a wall around the holy area](ezekiel/ezekiel42_1757475338.md)
 
 ## Daniel
