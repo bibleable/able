@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 175" role="img" aria-labelledby="title desc">
+<title id="title">A shaft and a passage underground</title><desc id="desc">A vertical opening from the grassy surface leads to a passage in the rock.</desc>
+<rect width="320" height="175" fill="#e2f2f7"/>
+<path d="M0 44h320v131H0z" fill="#b18d70"/><path d="M0 44h104m39 0h177" stroke="#476945" stroke-width="7"/>
+<path d="M104 42h39v78h107v27H104z" fill="#2e2c30"/>
+<g fill="#2a201d" font-family="sans-serif" font-size="17"><text x="157" y="32">Surface</text><text x="14" y="87">Shaft</text><text x="166" y="169">Passage</text></g>
+<path d="M61 81h55m79 71v-15" stroke="#faf5e7" stroke-width="3"/>
+</svg>
