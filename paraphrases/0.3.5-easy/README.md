@@ -1168,6 +1168,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Amos 6 — A warning to leaders who feel safe](amos/amos6_1757479562.md)
 7. [Amos 7 — Amos sees a plumb line](amos/amos7_1757479647.md)
 8. [Amos 8 — A basket of summer fruit](amos/amos8_1757479750.md)
+9. [Amos 9 — The LORD promises Israel a home again](amos/amos9_1757479830.md)
 
 ## Jonah
 
