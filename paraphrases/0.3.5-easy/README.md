@@ -1182,6 +1182,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 45. [Ezekiel 45 — Shares of land and fair measures](ezekiel/ezekiel45_1757475683.md)
 46. [Ezekiel 46 — The people come to worship](ezekiel/ezekiel46_1757475785.md)
 47. [Ezekiel 47 — A river flows from the temple](ezekiel/ezekiel47_1757475865.md)
+48. [Ezekiel 48 — The tribes receive land and the city receives a name](ezekiel/ezekiel48_1757475934.md)
 
 ## Daniel
 
