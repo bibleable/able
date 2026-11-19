@@ -1050,6 +1050,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 27. [Isaiah 27 — The LORD tends His vineyard](isaiah/isaiah27_1757460262.md)
 28. [Isaiah 28 — A stone people can build on](isaiah/isaiah28_1757460358.md)
 29. [Isaiah 29 — A message like a sealed scroll](isaiah/isaiah29_1757460440.md)
+30. [Isaiah 30 — This is the way](isaiah/isaiah30_1757460570.md)
 
 ## Reading with a learner
 
