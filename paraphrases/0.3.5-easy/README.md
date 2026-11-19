@@ -792,6 +792,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 27. [Job 27 — Job promises to speak the truth](job/job27_1757436603.md)
 28. [Job 28 — Where can we find wisdom?](job/job28_1757436708.md)
 29. [Job 29 — Job remembers the days when people listened](job/job29_1757436822.md)
+30. [Job 30 — Job cries out for help](job/job30_1757436903.md)
 
 ## Reading with a learner
 
