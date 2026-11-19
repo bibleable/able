@@ -1112,6 +1112,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Jeremiah
 
+21. [Jeremiah 21 — A choice for the people of Jerusalem](jeremiah/jeremiah21_1757466519.md)
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
 43. [Jeremiah 43 — The people go to Egypt](jeremiah/jeremiah43_1757469167.md)
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
