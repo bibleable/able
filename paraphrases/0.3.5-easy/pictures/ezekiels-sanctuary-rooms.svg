@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 170" role="img" aria-labelledby="title desc">
+<title id="title">The two measured rooms</title>
+<desc id="desc">The outer room is a rectangle, forty cubits by twenty. The Most Holy Place is a square, twenty cubits by twenty.</desc>
+<rect width="460" height="170" rx="10" fill="#fff9ef"/>
+<g stroke="#574638" stroke-width="3">
+<rect x="25" y="30" width="220" height="110" fill="#ebd4b1"/>
+<rect x="307" y="30" width="110" height="110" fill="#dfc5a1"/>
+</g>
+<g fill="#302820" text-anchor="middle" font-family="sans-serif" font-size="16">
+<text x="135" y="77">Outer room</text><text x="135" y="103">40 × 20 cubits</text>
+<text x="362" y="65">Most Holy</text><text x="362" y="86">Place</text><text x="362" y="112" font-size="14">20 × 20 cubits</text>
+</g></svg>
