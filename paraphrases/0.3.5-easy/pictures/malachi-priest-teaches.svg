@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 115" role="img" aria-labelledby="title desc">
+<title id="title">How the priest serves as a messenger</title>
+<desc id="desc">The LORD gives his message to the priest. The priest teaches the people.</desc>
+<rect width="480" height="115" rx="8" fill="#fff9ed"/>
+<g fill="#dfebdf" stroke="#526951" stroke-width="2"><rect x="8" y="38" width="113" height="48" rx="6"/><rect x="186" y="38" width="104" height="48" rx="6"/><rect x="353" y="38" width="119" height="48" rx="6"/></g>
+<g fill="none" stroke="#34513d" stroke-width="3"><path d="M126 63h51l-8-7m8 7-8 7M295 63h50l-8-7m8 7-8 7"/></g>
+<g font-family="sans-serif" text-anchor="middle" fill="#25372b" font-size="20"><text x="65" y="69">The LORD</text><text x="238" y="69">Priest</text><text x="412" y="69">People</text><g font-size="15"><text x="153" y="28">gives a message</text><text x="321" y="28">teaches</text></g></g>
+</svg>

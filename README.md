@@ -249,7 +249,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Malachi</summary>
 
-[1](paraphrases/0.3.5-easy/malachi/malachi1_1757483789.md) · [3](paraphrases/0.3.5-easy/malachi/malachi3_1757484032.md) · [4](paraphrases/0.3.5-easy/malachi/malachi4_1757484093.md)
+[1](paraphrases/0.3.5-easy/malachi/malachi1_1757483789.md) · [2](paraphrases/0.3.5-easy/malachi/malachi2_1757483925.md) · [3](paraphrases/0.3.5-easy/malachi/malachi3_1757484032.md) · [4](paraphrases/0.3.5-easy/malachi/malachi4_1757484093.md)
 
 </details>
 

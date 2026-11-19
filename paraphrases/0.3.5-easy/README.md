@@ -1224,6 +1224,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Malachi
 
 1. [Malachi 1 — The LORD asks the priests to honor him](malachi/malachi1_1757483789.md)
+2. [Malachi 2 — Keep faith with God and one another](malachi/malachi2_1757483925.md)
 3. [Malachi 3 — Return to me, says the LORD](malachi/malachi3_1757484032.md)
 4. [Malachi 4 — The LORD promises healing](malachi/malachi4_1757484093.md)
 
