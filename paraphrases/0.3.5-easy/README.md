@@ -929,6 +929,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 119. [Psalm 119 — Your word lights my path](psalms/psalms119_1757449220.md)
 120. [Psalm 120 — I want peace](psalms/psalms120_1757449268.md)
 121. [Psalm 121 — Where does my help come from?](psalms/psalms121_1757449314.md)
+122. [Psalm 122 — Pray for peace in Jerusalem](psalms/psalms122_1757449405.md)
 
 ## Reading with a learner
 
