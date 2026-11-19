@@ -1130,6 +1130,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
 28. [Jeremiah 28 — Hananiah breaks Jeremiah’s wooden yoke](jeremiah/jeremiah28_1757467299.md)
 37. [Jeremiah 37 — The king asks Jeremiah for news from God](jeremiah/jeremiah37_1757468531.md)
+38. [Jeremiah 38 — Ebed-melech helps Jeremiah out of the mud](jeremiah/jeremiah38_1757468676.md)
 39. [Jeremiah 39 — Jerusalem falls to Babylon](jeremiah/jeremiah39_1757468799.md)
 40. [Jeremiah 40 — Jeremiah stays with the people in Judah](jeremiah/jeremiah40_1757468911.md)
 41. [Jeremiah 41 — Johanan brings the captives back](jeremiah/jeremiah41_1757469006.md)

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-labelledby="title desc">
+  <title id="title">The cistern where Jeremiah sank</title>
+  <desc id="desc">A cutaway shows a deep storage pit. Mud lies at the bottom. A rope reaches down from above.</desc>
+  <rect width="400" height="220" fill="#fffaf1"/>
+  <path d="M0 46h122v42l-35 30v65q0 15 15 15h170q15 0 15-15v-65l-35-30V46h148v174H0Z" fill="#b88353" stroke="#583f30" stroke-width="3"/>
+  <path d="M89 163q36-9 80 0t80 0q20-3 36 0v20q0 13-13 13H102q-13 0-13-13Z" fill="#543a2b"/>
+  <path d="M170 6v143" stroke="#845122" stroke-width="6" fill="none"/>
+  <g font-family="sans-serif" font-size="20"><text x="181" y="76" fill="#32281f">Rope</text><text x="173" y="187" fill="#fff">Mud</text></g>
+</svg>
