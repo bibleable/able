@@ -148,6 +148,10 @@ We will always be with the Lord.
 | --- | --- |
 | Believers who died will rise. | All the believers will meet the Lord together. |
 
+![Those who died trusting Christ rise first. Then all his people meet him together.](../pictures/meet-the-lord-together.svg)
+
+Paul includes those who have died in this promise.
+
 ## 1 Thessalonians 4:18
 
 Use these words to give each other courage.

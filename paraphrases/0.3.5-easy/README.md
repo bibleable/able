@@ -4,6 +4,8 @@ Start with Mark 1. Read one short section at a time.
 
 Pause at the question. You can answer by talking, signing, pointing, or using your communication device.
 
+If you are trying a chapter with a reader, let them finish one section. Ask one question at a time. “What happened in this part?” Give them time to answer in their own way. Then ask, “What does the picture show you?” If a word or picture is confusing, note the verse and the reader’s own words so it can be revised.
+
 ## Mark
 
 1. [Mark 1 — Jesus begins his work](mark/mark1_1757488307.md)

@@ -88,6 +88,10 @@ We have nothing more to add.
 | --- | --- |
 | Thessalonica | Macedonia, Achaia, and beyond |
 
+![News from Thessalonica reaches Macedonia and Achaia.](../pictures/word-from-thessalonica.svg)
+
+People beyond these places also heard about the believers’ faith.
+
 ## 1 Thessalonians 1:9
 
 People tell us how warmly you welcomed us.

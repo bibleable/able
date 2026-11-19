@@ -136,6 +136,10 @@ Hold on to what we taught you in person and by letter.
 | --- | --- |
 | The believers heard Paul teach. | The believers read what Paul taught. |
 
+![The church received the same teaching in person and by letter.](../pictures/teaching-heard-and-read.svg)
+
+Both ways helped the believers remember what Paul taught.
+
 ## 2 Thessalonians 2:16
 
 Think of our Lord Jesus Christ and God our Father.

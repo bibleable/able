@@ -68,6 +68,10 @@ We gladly shared God’s good news with you.
 
 We were glad to share our very lives too.
 
+![Paul and his companions share both the good news and their own lives.](../pictures/paul-shares-his-life.svg)
+
+Their love showed in what they said and how they lived among the people.
+
 ## 1 Thessalonians 2:9
 
 Brothers and sisters, remember how hard we worked.

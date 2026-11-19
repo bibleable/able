@@ -32,6 +32,10 @@ Your trust in him keeps growing.
 
 Each of you loves the others more and more.
 
+![Paul gives thanks for growing faith in God and growing love for others.](../pictures/growing-faith-and-love.svg)
+
+The two branches show the two things Paul noticed.
+
 ## 2 Thessalonians 1:4
 
 We tell God’s other churches how proud we are of you.

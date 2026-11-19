@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 180" role="img" aria-labelledby="title"><title id="title">A running track leads to a finish line.</title>
+<rect width="380" height="180" rx="10" fill="#fff9ed"/>
+<path d="M48 124Q117 34 310 64M53 148Q138 60 311 89" stroke="#456552" fill="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M302 56v51" stroke="#6e4b40" fill="5" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><text x="287" y="141" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#203a30">Finish</text>
+</svg>
