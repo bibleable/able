@@ -1239,6 +1239,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Ezekiel 13 — False prophets promise peace](ezekiel/ezekiel13_1757472049.md)
 14. [Ezekiel 14 — The LORD asks Israel to turn back to him](ezekiel/ezekiel14_1757472131.md)
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
+16. [Ezekiel 16 — Jerusalem forgets, but God remembers his promise](ezekiel/ezekiel16_1757472356.md)
 17. [Ezekiel 17 — Two eagles, a vine, and a broken promise](ezekiel/ezekiel17_1757472498.md)
 18. [Ezekiel 18 — Each person answers for what they do](ezekiel/ezekiel18_1757472639.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
