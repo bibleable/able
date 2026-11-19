@@ -919,6 +919,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 109. [Psalm 109 — Stand beside me and help me](psalms/psalms109_1757448345.md)
 110. [Psalm 110 — A king and a priest forever](psalms/psalms110_1757448418.md)
 111. [Psalm 111 — Remember what the LORD has done](psalms/psalms111_1757448463.md)
+112. [Psalm 112 — A generous person trusts the LORD](psalms/psalms112_1757448519.md)
 
 ## Reading with a learner
 
