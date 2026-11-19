@@ -1127,6 +1127,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Hosea 12 — Come back and act fairly](hosea/hosea12_1757478577.md)
 14. [Hosea 14 — Israel, come back to the LORD](hosea/hosea14_1757478698.md)
 
+## Amos
+
+6. [Amos 6 — A warning to leaders who feel safe](amos/amos6_1757479562.md)
+
 ## Jonah
 
 1. [Jonah 1 — Jonah takes a ship to Tarshish](jonah/jonah1_1757479993.md)
