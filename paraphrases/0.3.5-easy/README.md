@@ -950,6 +950,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 140. [Psalm 140 — Protect me from violent people](psalms/psalms140_1757450777.md)
 141. [Psalm 141 — Guard the door of my lips](psalms/psalms141_1757450883.md)
 142. [Psalm 142 — You know my way](psalms/psalms142_1757450942.md)
+143. [Psalm 143 — Teach me the way to go](psalms/psalms143_1757451023.md)
 
 ## Reading with a learner
 
