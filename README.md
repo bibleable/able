@@ -93,6 +93,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>2 Chronicles</summary>
+
+[27](paraphrases/0.3.5-easy/2chronicles/2chronicles27_1757427856.md)
+
+</details>
+
+<details>
 <summary>Ezra</summary>
 
 [1](paraphrases/0.3.5-easy/ezra/ezra1_1757429479.md) · [2](paraphrases/0.3.5-easy/ezra/ezra2_1757429663.md) · [3](paraphrases/0.3.5-easy/ezra/ezra3_1757429749.md) · [4](paraphrases/0.3.5-easy/ezra/ezra4_1757429839.md) · [5](paraphrases/0.3.5-easy/ezra/ezra5_1757429932.md) · [6](paraphrases/0.3.5-easy/ezra/ezra6_1757430019.md) · [7](paraphrases/0.3.5-easy/ezra/ezra7_1757430148.md) · [8](paraphrases/0.3.5-easy/ezra/ezra8_1757430325.md) · [9](paraphrases/0.3.5-easy/ezra/ezra9_1757430426.md) · [10](paraphrases/0.3.5-easy/ezra/ezra10_1757430661.md)
