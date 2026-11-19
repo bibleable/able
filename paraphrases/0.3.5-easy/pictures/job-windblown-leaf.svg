@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 110" role="img" aria-labelledby="title">
+<title id="title">Wind carries a single leaf</title>
+<rect width="280" height="110" rx="8" fill="#faf5e9"/>
+<g fill="none" stroke="#587182" stroke-width="3" stroke-linecap="round">
+<path d="M20 38q36-15 66-2t55-6"/><path d="M35 59q28-13 53-5t58-6"/><path d="M63 79q22-9 41-4t30-5"/>
+</g>
+<g stroke="#654325" stroke-width="3" stroke-linecap="round">
+<path d="M166 66q-4-40 72-43-12 55-59 52z" fill="#cc9255"/>
+<path d="M151 81q33-21 67-45m-28 28 2-18m3 14 16 1" fill="none"/>
+</g></svg>
