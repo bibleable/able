@@ -1003,6 +1003,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 6. [Ecclesiastes 6 — Having enough and still wanting more](ecclesiastes/ecclesiastes6_1757456079.md)
 7. [Ecclesiastes 7 — What sorrow can teach](ecclesiastes/ecclesiastes7_1757456176.md)
 8. [Ecclesiastes 8 — What even the wise cannot know](ecclesiastes/ecclesiastes8_1757456274.md)
+9. [Ecclesiastes 9 — The wise man nobody remembered](ecclesiastes/ecclesiastes9_1757456355.md)
 
 ## Reading with a learner
 
