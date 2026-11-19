@@ -102,7 +102,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>2 Chronicles</summary>
 
-[5](paraphrases/0.3.5-easy/2chronicles/2chronicles5_1757423422.md) · [17](paraphrases/0.3.5-easy/2chronicles/2chronicles17_1757424777.md) · [19](paraphrases/0.3.5-easy/2chronicles/2chronicles19_1757425010.md) · [27](paraphrases/0.3.5-easy/2chronicles/2chronicles27_1757427856.md)
+[3](paraphrases/0.3.5-easy/2chronicles/2chronicles3_1757423180.md) · [5](paraphrases/0.3.5-easy/2chronicles/2chronicles5_1757423422.md) · [17](paraphrases/0.3.5-easy/2chronicles/2chronicles17_1757424777.md) · [19](paraphrases/0.3.5-easy/2chronicles/2chronicles19_1757425010.md) · [27](paraphrases/0.3.5-easy/2chronicles/2chronicles27_1757427856.md)
 
 </details>
 
