@@ -1145,6 +1145,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Ezekiel
 
+1. [Ezekiel 1 — Ezekiel sees the glory of the LORD by the river](ezekiel/ezekiel1_1757470778.md)
 2. [Ezekiel 2 — God sends Ezekiel to speak](ezekiel/ezekiel2_1757470907.md)
 3. [Ezekiel 3 — Ezekiel receives God’s words and must warn Israel](ezekiel/ezekiel3_1757470976.md)
 4. [Ezekiel 4 — Ezekiel shows what will happen to Jerusalem](ezekiel/ezekiel4_1757471096.md)

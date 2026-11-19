@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-labelledby="title">
+  <title id="title">A rainbow curves across a rainy sky</title>
+  <rect width="320" height="160" rx="10" fill="#e5f1f6"/>
+  <g fill="none" stroke-width="8">
+    <path d="M42 134a118 118 0 0 1 236 0" stroke="#ae423f"/>
+    <path d="M50 134a110 110 0 0 1 220 0" stroke="#e19341"/>
+    <path d="M58 134a102 102 0 0 1 204 0" stroke="#e7cb5b"/>
+    <path d="M66 134a94 94 0 0 1 188 0" stroke="#57916a"/>
+    <path d="M74 134a86 86 0 0 1 172 0" stroke="#537ba5"/>
+    <path d="M82 134a78 78 0 0 1 156 0" stroke="#8874a7"/>
+  </g>
+  <path d="M208 129q-13-17 6-27 5-22 28-17 14-14 30 0 21-3 25 16 20 4 13 22-3 8-15 8h-78z" fill="#bdcbd5" stroke="#617584" stroke-width="2"/>
+  <path d="m230 137-4 8m26-8-4 8m26-8-4 8" stroke="#527998" stroke-width="3" stroke-linecap="round"/>
+</svg>
