@@ -1126,6 +1126,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [Jonah 3 — Nineveh listens to God’s warning](jonah/jonah3_1757480197.md)
 4. [Jonah 4 — God cares about Nineveh](jonah/jonah4_1757480257.md)
 
+## Micah
+
+3. [Micah 3 — Leaders take money to judge unfairly](micah/micah3_1757480526.md)
+
 ## Zechariah
 
 2. [Zechariah 2 — The LORD promises to live in Jerusalem](zechariah/zechariah2_1757482270.md)
