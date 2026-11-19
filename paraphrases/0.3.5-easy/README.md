@@ -1136,6 +1136,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 43. [Jeremiah 43 — The people go to Egypt](jeremiah/jeremiah43_1757469167.md)
 44. [Jeremiah 44 — The people in Egypt refuse to listen](jeremiah/jeremiah44_1757469287.md)
 45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
+46. [Jeremiah 46 — Egypt’s army falls and the LORD promises to help Israel](jeremiah/jeremiah46_1757469444.md)
 47. [Jeremiah 47 — An army comes like a flood](jeremiah/jeremiah47_1757469513.md)
 
 ## Lamentations
