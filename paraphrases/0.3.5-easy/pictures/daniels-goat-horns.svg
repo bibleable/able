@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 145" role="img" aria-labelledby="title desc">
+<title id="title">The goat’s horns in Daniel’s vision</title><desc id="desc">One horn for the first king of Greece. An arrow points to four horns for the four kingdoms that follow.</desc>
+<defs><path id="horn" d="M0 0 Q17 -18 10 -48 Q34 -24 23 0 Z" fill="#efc891" stroke="#523b2e" stroke-width="2"/></defs>
+<rect width="440" height="145" rx="9" fill="#fffaf0"/>
+<use href="#horn" transform="translate(70 87) scale(1.35)"/>
+<path d="M140 60h55m-12 -12 13 12-13 12" fill="none" stroke="#39554a" stroke-width="4"/>
+<g transform="translate(222 86)"><use href="#horn"/><use href="#horn" x="46"/><use href="#horn" x="92"/><use href="#horn" x="138"/></g>
+<g text-anchor="middle" font-family="sans-serif" font-size="21" fill="#263b33"><text x="85" y="121">First king</text><text x="300" y="121">Four kingdoms</text></g></svg>
