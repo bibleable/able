@@ -1074,6 +1074,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 51. [Isaiah 51 — The LORD comforts His people](isaiah/isaiah51_1757462712.md)
 52. [Isaiah 52 — Good news on the mountains](isaiah/isaiah52_1757462788.md)
 53. [Isaiah 53 — The servant carries our sorrows](isaiah/isaiah53_1757463011.md)
+54. [Isaiah 54 — Make room in your tent](isaiah/isaiah54_1757463093.md)
 
 ## Reading with a learner
 
