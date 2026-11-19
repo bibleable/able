@@ -1149,6 +1149,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 4. [Ezekiel 4 — Ezekiel shows what will happen to Jerusalem](ezekiel/ezekiel4_1757471096.md)
 5. [Ezekiel 5 — Three parts of Ezekiel’s hair tell Jerusalem’s story](ezekiel/ezekiel5_1757471203.md)
 6. [Ezekiel 6 — The LORD speaks to the mountains of Israel](ezekiel/ezekiel6_1757471304.md)
+7. [Ezekiel 7 — Silver and gold cannot save Israel](ezekiel/ezekiel7_1757471452.md)
 8. [Ezekiel 8 — God shows Ezekiel what people worship in the temple](ezekiel/ezekiel8_1757471522.md)
 9. [Ezekiel 9 — A mark for those who grieve](ezekiel/ezekiel9_1757471630.md)
 10. [Ezekiel 10 — The glory of the LORD moves to the east gate](ezekiel/ezekiel10_1757471728.md)
