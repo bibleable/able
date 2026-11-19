@@ -1249,6 +1249,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Daniel
 
 1. [Daniel 1 — Daniel asks for a ten-day test](daniel/daniel1_1757475997.md)
+9. [Daniel 9 — Daniel prays for Jerusalem](daniel/daniel9_1757477020.md)
 10. [Daniel 10 — A messenger helps Daniel stand](daniel/daniel10_1757477146.md)
 12. [Daniel 12 — A promise for Daniel at the end](daniel/daniel12_1757477396.md)
 
