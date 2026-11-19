@@ -822,6 +822,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 12. [Psalm 12 — The LORD promises safety](psalms/psalms12_1757439331.md)
 13. [Psalm 13 — How long, LORD?](psalms/psalms13_1757439397.md)
 14. [Psalm 14 — The LORD shelters people in trouble](psalms/psalms14_1757439480.md)
+15. [Psalm 15 — Who may stay in the LORD’s tent?](psalms/psalms15_1757439540.md)
 
 ## Reading with a learner
 
