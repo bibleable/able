@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 140" role="img" aria-labelledby="title desc">
+  <title id="title">Ezekiel joins the two sticks</title>
+  <desc id="desc">Two separate sticks marked Judah and Joseph appear on the left. An arrow points to one joined stick on the right.</desc>
+  <rect width="460" height="140" rx="10" fill="#fff9ee"/>
+  <g fill="#e3ba89" stroke="#60462c" stroke-width="2.5">
+    <rect x="20" y="28" width="107" height="28" rx="9"/>
+    <rect x="20" y="83" width="107" height="28" rx="9"/>
+    <rect x="224" y="56" width="211" height="28" rx="9"/>
+  </g>
+  <g fill="#342a20" font-family="sans-serif" font-size="17" text-anchor="middle">
+    <text x="74" y="48">Judah</text><text x="74" y="103">Joseph</text>
+    <text x="277" y="76">Judah</text><text x="380" y="76">Joseph</text>
+  </g>
+  <path d="M147 70h52l-11-10m11 10-11 10" fill="none" stroke="#344e60" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
