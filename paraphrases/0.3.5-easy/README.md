@@ -809,6 +809,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Psalms
 
 1. [Psalm 1 — A tree beside streams of water](psalms/psalms1_1757438403.md)
+2. [Psalm 2 — The LORD chooses his King](psalms/psalms2_1757438510.md)
 
 ## Reading with a learner
 
