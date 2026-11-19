@@ -1085,6 +1085,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 62. [Isaiah 62 — A new name for Jerusalem](isaiah/isaiah62_1757463867.md)
 63. [Isaiah 63 — The people remember how God rescued them](isaiah/isaiah63_1757463952.md)
 64. [Isaiah 64 — You are the potter](isaiah/isaiah64_1757464016.md)
+65. [Isaiah 65 — The LORD promises a new earth](isaiah/isaiah65_1757464126.md)
 
 ## Reading with a learner
 
