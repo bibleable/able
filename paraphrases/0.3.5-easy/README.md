@@ -840,6 +840,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 30. [Psalm 30 — You turned my mourning into dancing](psalms/psalms30_1757440968.md)
 31. [Psalm 31 — David puts his life in the LORD’s hands](psalms/psalms31_1757441101.md)
 32. [Psalm 32 — David tells the LORD what he has done](psalms/psalms32_1757441159.md)
+33. [Psalm 33 — Sing a new song to the LORD](psalms/psalms33_1757441256.md)
 
 ## Reading with a learner
 
