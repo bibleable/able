@@ -761,6 +761,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 25. [2 Chronicles 25 — Amaziah listens to one warning and refuses another](2chronicles/2chronicles25_1757427649.md)
 26. [2 Chronicles 26 — Uzziah becomes proud and ignores the priests](2chronicles/2chronicles26_1757427776.md)
 27. [2 Chronicles 27 — Jotham rules in Jerusalem](2chronicles/2chronicles27_1757427856.md)
+28. [2 Chronicles 28 — Oded asks Israel to send the captives home](2chronicles/2chronicles28_1757428126.md)
 30. [2 Chronicles 30 — Hezekiah invites Israel and Judah to Passover](2chronicles/2chronicles30_1757428368.md)
 31. [2 Chronicles 31 — The people bring enough to share](2chronicles/2chronicles31_1757428596.md)
 33. [2 Chronicles 33 — Manasseh prays in Babylon](2chronicles/2chronicles33_1757428881.md)

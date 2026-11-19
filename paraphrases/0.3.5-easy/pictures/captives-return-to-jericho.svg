@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 180" role="img" aria-labelledby="t d">
+<title id="t">The journey to Jericho</title><desc id="d">The captives and leaders travel to Jericho. Only the leaders return to Samaria.</desc>
+<rect width="420" height="180" rx="10" fill="#fff9ed"/>
+<g font-family="sans-serif" text-anchor="middle" fill="#273e37"><text x="210" y="30" font-size="17">Leaders and captives</text><text x="65" y="94" font-size="20">Samaria</text><text x="356" y="94" font-size="20">Jericho</text><text x="210" y="160" font-size="17">Leaders return</text></g>
+<g stroke="#3d6558" stroke-width="4" fill="none" stroke-linejoin="round"><path d="M65 65 Q210 37 352 65m-14 -11 14 11-17 5"/><path d="M352 111 Q210 139 65 111m14 11-14-11 17-5"/></g></svg>
