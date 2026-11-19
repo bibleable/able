@@ -776,6 +776,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Job 11 — Zophar tells Job to turn to God](job/job11_1757434946.md)
 12. [Job 12 — Job says all life is in God’s hands](job/job12_1757435053.md)
 13. [Job 13 — Job asks God to hear his case](job/job13_1757435171.md)
+14. [Job 14 — Job asks if a person can live again](job/job14_1757435255.md)
 
 ## Reading with a learner
 

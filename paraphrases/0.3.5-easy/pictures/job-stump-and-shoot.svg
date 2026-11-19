@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 145" role="img" aria-labelledby="title">
+<title id="title">A new shoot grows from a cut tree stump</title>
+<rect width="280" height="145" rx="10" fill="#fff9ed"/>
+<path d="M17 125 Q140 110 262 125" fill="none" stroke="#675542" stroke-width="4"/>
+<path d="M84 65 L80 106 65 123 90 119 103 121 127 116 157 121 181 123 166 105 164 65Z" fill="#92613d" stroke="#513724" stroke-width="3"/>
+<ellipse cx="124" cy="65" rx="40" ry="11" fill="#d5af7d" stroke="#513724" stroke-width="3"/>
+<ellipse cx="124" cy="65" rx="23" ry="5" fill="none" stroke="#92683f" stroke-width="2"/>
+<path d="M162 92 Q188 76 194 36" fill="none" stroke="#315a39" stroke-width="5"/>
+<g fill="#83ad68" stroke="#315a39" stroke-width="2"><path d="M187 65 Q160 60 168 40 Q190 44 187 65Z"/><path d="M192 49 Q194 26 218 24 Q216 44 192 49Z"/></g></svg>
