@@ -942,6 +942,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 132. [Psalm 132 — A home for the ark](psalms/psalms132_1757450130.md)
 133. [Psalm 133 — The joy of living together in peace](psalms/psalms133_1757450169.md)
 134. [Psalm 134 — Praise the LORD at night](psalms/psalms134_1757450217.md)
+135. [Psalm 135 — Praise the LORD in his courtyards](psalms/psalms135_1757450313.md)
 
 ## Reading with a learner
 
