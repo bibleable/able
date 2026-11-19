@@ -909,6 +909,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 99. [Psalm 99 — The LORD our God is holy](psalms/psalms99_1757447202.md)
 100. [Psalm 100 — Come to God with thanks](psalms/psalms100_1757447265.md)
 101. [Psalm 101 — I will live honestly in my house](psalms/psalms101_1757447358.md)
+102. [Psalm 102 — Hear my prayer when I grow weak](psalms/psalms102_1757447521.md)
 
 ## Reading with a learner
 
