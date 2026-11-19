@@ -830,6 +830,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 20. [Psalm 20 — The people pray for their king](psalms/psalms20_1757440124.md)
 21. [Psalm 21 — The king rejoices because the LORD saved him](psalms/psalms21_1757440206.md)
 22. [Psalm 22 — My God, why have you left me?](psalms/psalms22_1757440315.md)
+23. [Psalm 23 — The LORD is my shepherd](psalms/psalms23_1757440380.md)
 
 ## Reading with a learner
 
