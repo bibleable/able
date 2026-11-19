@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" role="img" aria-labelledby="title desc">
+  <title id="title">Stones hidden under the palace entrance</title>
+  <desc id="desc">A side view shows three large stones in clay below a row of paving bricks.</desc>
+  <rect width="400" height="180" rx="8" fill="#fffaf1"/>
+  <text x="200" y="32" text-anchor="middle" font-size="21" font-family="sans-serif" fill="#332820">Brick path at the palace entrance</text>
+  <rect x="20" y="78" width="360" height="85" fill="#dfbb92"/>
+  <g fill="#ae6348" stroke="#543c30" stroke-width="3">
+    <rect x="20" y="55" width="90" height="24" rx="2"/>
+    <rect x="110" y="55" width="90" height="24" rx="2"/>
+    <rect x="200" y="55" width="90" height="24" rx="2"/>
+    <rect x="290" y="55" width="90" height="24" rx="2"/>
+  </g>
+  <g fill="#747878" stroke="#363d3d" stroke-width="3">
+    <path d="m60 115 12-20 33-5 19 13 4 16-43 5z"/>
+    <path d="m151 118 14-26 35-3 27 17-5 17-46 2z"/>
+    <path d="m257 116 11-18 26-7 34 12 8 16-55 6z"/>
+  </g>
+  <text x="200" y="153" text-anchor="middle" font-size="20" font-family="sans-serif" fill="#332820">Large stones in the clay</text>
+</svg>
