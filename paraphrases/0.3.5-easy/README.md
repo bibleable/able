@@ -791,6 +791,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [Job 26 — Job speaks of a whisper and thunder](job/job26_1757436492.md)
 27. [Job 27 — Job promises to speak the truth](job/job27_1757436603.md)
 28. [Job 28 — Where can we find wisdom?](job/job28_1757436708.md)
+29. [Job 29 — Job remembers the days when people listened](job/job29_1757436822.md)
 
 ## Reading with a learner
 
