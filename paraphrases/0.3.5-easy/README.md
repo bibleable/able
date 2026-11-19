@@ -823,6 +823,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 13. [Psalm 13 — How long, LORD?](psalms/psalms13_1757439397.md)
 14. [Psalm 14 — The LORD shelters people in trouble](psalms/psalms14_1757439480.md)
 15. [Psalm 15 — Who may stay in the LORD’s tent?](psalms/psalms15_1757439540.md)
+16. [Psalm 16 — The LORD shows David the path of life](psalms/psalms16_1757439667.md)
 
 ## Reading with a learner
 
