@@ -968,6 +968,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 5. [Proverbs 5 — Be faithful to your wife](proverbs/proverbs5_1757452131.md)
 6. [Proverbs 6 — Learn from the ant and the lamp](proverbs/proverbs6_1757452209.md)
 7. [Proverbs 7 — A warning from the window](proverbs/proverbs7_1757452340.md)
+8. [Proverbs 8 — Wisdom calls to everyone](proverbs/proverbs8_1757452479.md)
 
 ## Reading with a learner
 
