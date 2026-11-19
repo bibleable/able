@@ -1076,6 +1076,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 53. [Isaiah 53 — The servant carries our sorrows](isaiah/isaiah53_1757463011.md)
 54. [Isaiah 54 — Make room in your tent](isaiah/isaiah54_1757463093.md)
 55. [Isaiah 55 — Come to the water](isaiah/isaiah55_1757463167.md)
+56. [Isaiah 56 — A house of prayer for all nations](isaiah/isaiah56_1757463239.md)
 
 ## Reading with a learner
 
