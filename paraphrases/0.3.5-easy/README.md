@@ -885,6 +885,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 75. [Psalm 75 — God chooses the time to judge](psalms/psalms75_1757444910.md)
 76. [Psalm 76 — God rises to save the lowly](psalms/psalms76_1757444990.md)
 77. [Psalm 77 — I remember what you have done](psalms/psalms77_1757445088.md)
+78. [Psalm 78 — Tell the children what God has done](psalms/psalms78_1757445316.md)
 
 ## Reading with a learner
 
