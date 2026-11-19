@@ -1119,6 +1119,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Jonah
 
+1. [Jonah 1 — Jonah takes a ship to Tarshish](jonah/jonah1_1757479993.md)
 2. [Jonah 2 — Jonah prays inside the fish](jonah/jonah2_1757480092.md)
 3. [Jonah 3 — Nineveh listens to God’s warning](jonah/jonah3_1757480197.md)
 4. [Jonah 4 — God cares about Nineveh](jonah/jonah4_1757480257.md)
