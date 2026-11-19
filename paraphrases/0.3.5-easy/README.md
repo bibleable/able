@@ -833,6 +833,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 23. [Psalm 23 — The LORD is my shepherd](psalms/psalms23_1757440380.md)
 24. [Psalm 24 — Who is the King of Glory?](psalms/psalms24_1757440456.md)
 25. [Psalm 25 — LORD, teach me your paths](psalms/psalms25_1757440536.md)
+26. [Psalm 26 — David asks the LORD to look at his life](psalms/psalms26_1757440628.md)
 
 ## Reading with a learner
 
