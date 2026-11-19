@@ -907,6 +907,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 97. [Psalm 97 — Even the mountains melt before the LORD](psalms/psalms97_1757447079.md)
 98. [Psalm 98 — Let the rivers clap their hands](psalms/psalms98_1757447149.md)
 99. [Psalm 99 — The LORD our God is holy](psalms/psalms99_1757447202.md)
+100. [Psalm 100 — Come to God with thanks](psalms/psalms100_1757447265.md)
 
 ## Reading with a learner
 
