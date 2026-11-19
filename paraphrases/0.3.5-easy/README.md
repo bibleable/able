@@ -783,6 +783,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Job 18 — Bildad speaks of a lamp going out](job/job18_1757435692.md)
 19. [Job 19 — Job asks for pity and speaks of his Redeemer](job/job19_1757435795.md)
 20. [Job 20 — Zophar says stolen wealth will not last](job/job20_1757435905.md)
+21. [Job 21 — Job asks why wicked people prosper](job/job21_1757436007.md)
 
 ## Reading with a learner
 
