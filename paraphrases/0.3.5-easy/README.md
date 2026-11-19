@@ -956,6 +956,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 146. [Psalm 146 — The LORD helps people in need](psalms/psalms146_1757451301.md)
 147. [Psalm 147 — God gathers his people home](psalms/psalms147_1757451375.md)
 148. [Psalm 148 — Praise from heaven and earth](psalms/psalms148_1757451443.md)
+149. [Psalm 149 — Sing together with joy](psalms/psalms149_1757451538.md)
 
 ## Reading with a learner
 
