@@ -722,6 +722,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## 1 Chronicles
 
 1. [1 Chronicles 1 — The families from Adam to Abraham and beyond](1chronicles/1chronicles1_1757418729.md)
+2. [1 Chronicles 2 — Judah’s family and the line to David](1chronicles/1chronicles2_1757418948.md)
 3. [1 Chronicles 3 — David’s family](1chronicles/1chronicles3_1757419075.md)
 4. [1 Chronicles 4 — The families of Judah and Simeon](1chronicles/1chronicles4_1757419179.md)
 5. [1 Chronicles 5 — The families east of the Jordan River](1chronicles/1chronicles5_1757419340.md)
