@@ -872,6 +872,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 62. [Psalm 62 — Tell God what is in your heart](psalms/psalms62_1757443749.md)
 63. [Psalm 63 — David longs for God](psalms/psalms63_1757443833.md)
 64. [Psalm 64 — God hears David’s complaint](psalms/psalms64_1757443933.md)
+65. [Psalm 65 — God waters the earth](psalms/psalms65_1757443996.md)
 
 ## Reading with a learner
 
