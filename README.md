@@ -172,7 +172,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Hosea</summary>
 
-[3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md)
+[3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md) · [14](paraphrases/0.3.5-easy/hosea/hosea14_1757478698.md)
 
 </details>
 

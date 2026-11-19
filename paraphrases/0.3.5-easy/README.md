@@ -1100,6 +1100,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Hosea
 
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
+14. [Hosea 14 — Israel, come back to the LORD](hosea/hosea14_1757478698.md)
 
 ## Jonah
 
