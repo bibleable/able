@@ -1164,6 +1164,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [Ezekiel 18 — Each person answers for what they do](ezekiel/ezekiel18_1757472639.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
 25. [Ezekiel 25 — The LORD speaks to Judah’s neighbors](ezekiel/ezekiel25_1757473373.md)
+26. [Ezekiel 26 — Tyre will become a bare rock](ezekiel/ezekiel26_1757473467.md)
 29. [Ezekiel 29 — Egypt is like a reed that breaks](ezekiel/ezekiel29_1757473939.md)
 30. [Ezekiel 30 — Egypt and its helpers will fall](ezekiel/ezekiel30_1757474065.md)
 31. [Ezekiel 31 — The tall cedar falls](ezekiel/ezekiel31_1757474156.md)
