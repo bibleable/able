@@ -179,7 +179,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Lamentations</summary>
 
-[1](paraphrases/0.3.5-easy/lamentations/lamentations1_1757470260.md) · [5](paraphrases/0.3.5-easy/lamentations/lamentations5_1757470654.md)
+[1](paraphrases/0.3.5-easy/lamentations/lamentations1_1757470260.md) · [2](paraphrases/0.3.5-easy/lamentations/lamentations2_1757470384.md) · [5](paraphrases/0.3.5-easy/lamentations/lamentations5_1757470654.md)
 
 </details>
 

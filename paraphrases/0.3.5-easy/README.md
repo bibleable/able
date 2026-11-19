@@ -1188,6 +1188,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Lamentations
 
 1. [Lamentations 1 — Jerusalem weeps and calls to the LORD](lamentations/lamentations1_1757470260.md)
+2. [Lamentations 2 — Jerusalem cries out for her children](lamentations/lamentations2_1757470384.md)
 5. [Lamentations 5 — LORD, bring us back to You](lamentations/lamentations5_1757470654.md)
 
 ## Ezekiel
