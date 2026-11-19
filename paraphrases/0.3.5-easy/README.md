@@ -937,6 +937,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 127. [Psalm 127 — The LORD builds the house](psalms/psalms127_1757449730.md)
 128. [Psalm 128 — A blessing around the table](psalms/psalms128_1757449784.md)
 129. [Psalm 129 — The LORD cut the ropes](psalms/psalms129_1757449893.md)
+130. [Psalm 130 — Waiting for the morning](psalms/psalms130_1757449951.md)
 
 ## Reading with a learner
 
