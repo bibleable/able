@@ -1096,6 +1096,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
 
+## Malachi
+
+4. [Malachi 4 — The LORD promises healing](malachi/malachi4_1757484093.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
