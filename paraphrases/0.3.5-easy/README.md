@@ -726,6 +726,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 3. [1 Chronicles 3 — David’s family](1chronicles/1chronicles3_1757419075.md)
 4. [1 Chronicles 4 — The families of Judah and Simeon](1chronicles/1chronicles4_1757419179.md)
 5. [1 Chronicles 5 — The families east of the Jordan River](1chronicles/1chronicles5_1757419340.md)
+6. [1 Chronicles 6 — Levi’s family, their work, and their towns](1chronicles/1chronicles6_1757419464.md)
 7. [1 Chronicles 7 — Family records from six tribes of Israel](1chronicles/1chronicles7_1757419686.md)
 8. [1 Chronicles 8 — Benjamin’s family and the family of Saul](1chronicles/1chronicles8_1757419897.md)
 9. [1 Chronicles 9 — Families return and serve in Jerusalem](1chronicles/1chronicles9_1757420132.md)
