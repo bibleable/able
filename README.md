@@ -130,7 +130,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Proverbs</summary>
 
-[1](paraphrases/0.3.5-easy/proverbs/proverbs1_1757451698.md)
+[1](paraphrases/0.3.5-easy/proverbs/proverbs1_1757451698.md) · [2](paraphrases/0.3.5-easy/proverbs/proverbs2_1757451765.md)
 
 </details>
 
