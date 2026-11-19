@@ -939,6 +939,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 129. [Psalm 129 — The LORD cut the ropes](psalms/psalms129_1757449893.md)
 130. [Psalm 130 — Waiting for the morning](psalms/psalms130_1757449951.md)
 131. [Psalm 131 — Quiet like a child](psalms/psalms131_1757450035.md)
+132. [Psalm 132 — A home for the ark](psalms/psalms132_1757450130.md)
 
 ## Reading with a learner
 
