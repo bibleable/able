@@ -137,7 +137,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Ecclesiastes</summary>
 
-[1](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes1_1757455662.md)
+[1](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes1_1757455662.md) · [2](paraphrases/0.3.5-easy/ecclesiastes/ecclesiastes2_1757455732.md)
 
 </details>
 
