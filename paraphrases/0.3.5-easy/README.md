@@ -947,6 +947,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 137. [Psalm 137 — We remembered Jerusalem](psalms/psalms137_1757450490.md)
 138. [Psalm 138 — When I called, you answered](psalms/psalms138_1757450569.md)
 139. [Psalm 139 — LORD, you know me](psalms/psalms139_1757450646.md)
+140. [Psalm 140 — Protect me from violent people](psalms/psalms140_1757450777.md)
 
 ## Reading with a learner
 
