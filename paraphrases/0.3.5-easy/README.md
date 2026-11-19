@@ -989,6 +989,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 26. [Proverbs 26 — When gossip stops](proverbs/proverbs26_1757454756.md)
 27. [Proverbs 27 — A friend’s honest words](proverbs/proverbs27_1757454900.md)
 28. [Proverbs 28 — Courage to do what is right](proverbs/proverbs28_1757455173.md)
+29. [Proverbs 29 — A king who listens to the poor](proverbs/proverbs29_1757455375.md)
 
 ## Reading with a learner
 
