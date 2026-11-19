@@ -957,6 +957,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 147. [Psalm 147 — God gathers his people home](psalms/psalms147_1757451375.md)
 148. [Psalm 148 — Praise from heaven and earth](psalms/psalms148_1757451443.md)
 149. [Psalm 149 — Sing together with joy](psalms/psalms149_1757451538.md)
+150. [Psalm 150 — Let everything that breathes praise the LORD](psalms/psalms150_1757451589.md)
 
 ## Reading with a learner
 
