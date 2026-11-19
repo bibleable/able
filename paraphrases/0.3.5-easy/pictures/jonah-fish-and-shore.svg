@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 150" role="img" aria-labelledby="title">
+  <title id="title">The fish in the sea and Jonah on dry land</title>
+  <rect width="320" height="150" rx="8" fill="#edf7fa"/>
+  <path d="M0 82 Q18 74 36 82 T72 82 T108 82 T144 82 T180 82 T216 82 L224 150 H0Z" fill="#76b8cf"/>
+  <path d="M167 150 Q194 113 213 85 Q235 66 320 63 V150Z" fill="#eac68c" stroke="#806442" stroke-width="2"/>
+  <g stroke="#284a55" stroke-width="3" stroke-linejoin="round">
+    <path d="M51 98 L23 85 L27 111 L22 130 L51 115 Q92 141 137 110 Q112 73 68 89Z" fill="#4f8793"/>
+    <circle cx="116" cy="103" r="3" fill="#fff"/>
+  </g>
+  <g stroke="#503e33" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="260" cy="43" r="9" fill="#b67d55"/>
+    <path d="M254 54 L247 81 H271 L265 54Z" fill="#ae5643"/>
+    <path d="M252 59 L242 68 L235 62 M267 59 L278 68 M254 82 L252 95 H246 M265 82 L269 94 H276" fill="none"/>
+  </g>
+</svg>

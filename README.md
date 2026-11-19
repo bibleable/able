@@ -177,6 +177,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Jonah</summary>
+
+[2](paraphrases/0.3.5-easy/jonah/jonah2_1757480092.md)
+
+</details>
+
+<details>
 <summary>Malachi</summary>
 
 [4](paraphrases/0.3.5-easy/malachi/malachi4_1757484093.md)
