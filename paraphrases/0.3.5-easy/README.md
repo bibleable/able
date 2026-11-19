@@ -911,6 +911,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 101. [Psalm 101 — I will live honestly in my house](psalms/psalms101_1757447358.md)
 102. [Psalm 102 — Hear my prayer when I grow weak](psalms/psalms102_1757447521.md)
 103. [Psalm 103 — Remember the LORD’s kindness](psalms/psalms103_1757447656.md)
+104. [Psalm 104 — All creatures look to you for food](psalms/psalms104_1757447773.md)
 
 ## Reading with a learner
 
