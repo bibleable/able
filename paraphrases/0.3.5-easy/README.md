@@ -1130,6 +1130,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 3. [Micah 3 — Leaders take money to judge unfairly](micah/micah3_1757480526.md)
 
+## Nahum
+
+2. [Nahum 2 — The people flee from Nineveh](nahum/nahum2_1757481115.md)
+
 ## Zechariah
 
 2. [Zechariah 2 — The LORD promises to live in Jerusalem](zechariah/zechariah2_1757482270.md)
