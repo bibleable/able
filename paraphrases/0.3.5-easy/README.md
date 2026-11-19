@@ -1063,6 +1063,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 40. [Isaiah 40 — Strength for tired people](isaiah/isaiah40_1757461591.md)
 41. [Isaiah 41 — I will hold your hand](isaiah/isaiah41_1757461717.md)
 42. [Isaiah 42 — A gentle servant brings justice](isaiah/isaiah42_1757461820.md)
+43. [Isaiah 43 — I have called you by name](isaiah/isaiah43_1757461911.md)
 
 ## Reading with a learner
 
