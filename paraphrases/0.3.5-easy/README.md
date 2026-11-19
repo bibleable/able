@@ -978,6 +978,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 15. [Proverbs 15 — A gentle answer](proverbs/proverbs15_1757453299.md)
 16. [Proverbs 16 — The LORD guides our steps](proverbs/proverbs16_1757453380.md)
 17. [Proverbs 17 — A friend loves at all times](proverbs/proverbs17_1757453481.md)
+18. [Proverbs 18 — Listen before you answer](proverbs/proverbs18_1757453635.md)
 
 ## Reading with a learner
 
