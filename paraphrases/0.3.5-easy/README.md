@@ -959,6 +959,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 149. [Psalm 149 — Sing together with joy](psalms/psalms149_1757451538.md)
 150. [Psalm 150 — Let everything that breathes praise the LORD](psalms/psalms150_1757451589.md)
 
+## Proverbs
+
+1. [Proverbs 1 — Listen to wisdom](proverbs/proverbs1_1757451698.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.

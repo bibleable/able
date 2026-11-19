@@ -128,6 +128,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Proverbs</summary>
+
+[1](paraphrases/0.3.5-easy/proverbs/proverbs1_1757451698.md)
+
+</details>
+
+<details>
 <summary>Mark</summary>
 
 [1](paraphrases/0.3.5-easy/mark/mark1_1757488307.md) · [2](paraphrases/0.3.5-easy/mark/mark2_1757488422.md) · [3](paraphrases/0.3.5-easy/mark/mark3_1757488519.md) · [4](paraphrases/0.3.5-easy/mark/mark4_1757488688.md) · [5](paraphrases/0.3.5-easy/mark/mark5_1757488886.md) · [6](paraphrases/0.3.5-easy/mark/mark6_1757489209.md) · [7](paraphrases/0.3.5-easy/mark/mark7_1757489381.md) · [8](paraphrases/0.3.5-easy/mark/mark8_1757489607.md) · [9](paraphrases/0.3.5-easy/mark/mark9_1757489818.md) · [10](paraphrases/0.3.5-easy/mark/mark10_1757490019.md) · [11](paraphrases/0.3.5-easy/mark/mark11_1757490250.md) · [12](paraphrases/0.3.5-easy/mark/mark12_1757490501.md) · [13](paraphrases/0.3.5-easy/mark/mark13_1757490633.md) · [14](paraphrases/0.3.5-easy/mark/mark14_1757490812.md) · [15](paraphrases/0.3.5-easy/mark/mark15_1757490989.md) · [16](paraphrases/0.3.5-easy/mark/mark16_1757491130.md)
