@@ -172,7 +172,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Jeremiah</summary>
 
-[21](paraphrases/0.3.5-easy/jeremiah/jeremiah21_1757466519.md) · [24](paraphrases/0.3.5-easy/jeremiah/jeremiah24_1757466758.md) · [43](paraphrases/0.3.5-easy/jeremiah/jeremiah43_1757469167.md) · [45](paraphrases/0.3.5-easy/jeremiah/jeremiah45_1757469357.md) · [47](paraphrases/0.3.5-easy/jeremiah/jeremiah47_1757469513.md)
+[1](paraphrases/0.3.5-easy/jeremiah/jeremiah1_1757464330.md) · [21](paraphrases/0.3.5-easy/jeremiah/jeremiah21_1757466519.md) · [24](paraphrases/0.3.5-easy/jeremiah/jeremiah24_1757466758.md) · [43](paraphrases/0.3.5-easy/jeremiah/jeremiah43_1757469167.md) · [45](paraphrases/0.3.5-easy/jeremiah/jeremiah45_1757469357.md) · [47](paraphrases/0.3.5-easy/jeremiah/jeremiah47_1757469513.md)
 
 </details>
 
