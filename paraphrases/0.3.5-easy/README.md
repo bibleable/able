@@ -764,6 +764,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Job
 
 1. [Job 1 — Four messengers bring Job terrible news](job/job1_1757433985.md)
+2. [Job 2 — Three friends sit with Job](job/job2_1757434087.md)
 
 ## Reading with a learner
 
