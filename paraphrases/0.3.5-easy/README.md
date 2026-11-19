@@ -1117,6 +1117,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Ezekiel
 
 2. [Ezekiel 2 — God sends Ezekiel to speak](ezekiel/ezekiel2_1757470907.md)
+6. [Ezekiel 6 — The LORD speaks to the mountains of Israel](ezekiel/ezekiel6_1757471304.md)
 9. [Ezekiel 9 — A mark for those who grieve](ezekiel/ezekiel9_1757471630.md)
 15. [Ezekiel 15 — Wood from a vine](ezekiel/ezekiel15_1757472180.md)
 19. [Ezekiel 19 — A song of grief for Israel’s princes](ezekiel/ezekiel19_1757472717.md)
