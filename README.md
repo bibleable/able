@@ -207,7 +207,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Joel</summary>
 
-[1](paraphrases/0.3.5-easy/joel/joel1_1757478775.md)
+[1](paraphrases/0.3.5-easy/joel/joel1_1757478775.md) · [2](paraphrases/0.3.5-easy/joel/joel2_1757478899.md) · [3](paraphrases/0.3.5-easy/joel/joel3_1757479073.md)
 
 </details>
 

@@ -1253,6 +1253,8 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 ## Joel
 
 1. [Joel 1 — Locusts eat the crops](joel/joel1_1757478775.md)
+2. [Joel 2 — Come back to the LORD](joel/joel2_1757478899.md)
+3. [Joel 3 — The LORD judges the nations](joel/joel3_1757479073.md)
 
 ## Amos
 
