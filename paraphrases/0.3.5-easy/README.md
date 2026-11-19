@@ -738,6 +738,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 23. [1 Chronicles 23 — David gives the Levites their work](1chronicles/1chronicles23_1757422073.md)
 24. [1 Chronicles 24 — The priests take turns serving](1chronicles/1chronicles24_1757422155.md)
 25. [1 Chronicles 25 — Musicians take turns leading worship](1chronicles/1chronicles25_1757422265.md)
+26. [1 Chronicles 26 — Families guard the gates and care for the gifts](1chronicles/1chronicles26_1757422375.md)
 28. [1 Chronicles 28 — David gives Solomon the temple plans](1chronicles/1chronicles28_1757422686.md)
 
 ## 2 Chronicles
