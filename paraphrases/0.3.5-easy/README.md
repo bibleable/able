@@ -729,6 +729,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 18. [1 Chronicles 18 — David’s victories and the people who served with him](1chronicles/1chronicles18_1757421545.md)
 20. [1 Chronicles 20 — Joab captures Rabbah](1chronicles/1chronicles20_1757421732.md)
 24. [1 Chronicles 24 — The priests take turns serving](1chronicles/1chronicles24_1757422155.md)
+25. [1 Chronicles 25 — Musicians take turns leading worship](1chronicles/1chronicles25_1757422265.md)
 
 ## 2 Chronicles
 
