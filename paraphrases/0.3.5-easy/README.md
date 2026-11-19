@@ -1008,6 +1008,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 11. [Ecclesiastes 11 — Sow your seed in the morning](ecclesiastes/ecclesiastes11_1757456514.md)
 12. [Ecclesiastes 12 — Remember the One who made you](ecclesiastes/ecclesiastes12_1757456592.md)
 
+## Song of Solomon
+
+1. [Song of Solomon 1 — Follow the tracks of the flock](songofsongs/songofsongs1_1757456695.md)
+
 ## Reading with a learner
 
 Let the reader choose a section. Give them time to read it, or read it aloud together.
