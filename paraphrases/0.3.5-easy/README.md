@@ -999,6 +999,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Ecclesiastes 2 — What do I gain from my work?](ecclesiastes/ecclesiastes2_1757455732.md)
 3. [Ecclesiastes 3 — A time for everything](ecclesiastes/ecclesiastes3_1757455851.md)
 4. [Ecclesiastes 4 — Someone to lift you up](ecclesiastes/ecclesiastes4_1757455925.md)
+5. [Ecclesiastes 5 — Listen and keep your promises](ecclesiastes/ecclesiastes5_1757455999.md)
 
 ## Reading with a learner
 
