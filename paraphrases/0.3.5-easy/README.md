@@ -1055,6 +1055,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 32. [Isaiah 32 — A place to live in peace](isaiah/isaiah32_1757460715.md)
 33. [Isaiah 33 — A tent that stays in place](isaiah/isaiah33_1757460837.md)
 34. [Isaiah 34 — Owls will nest in Edom](isaiah/isaiah34_1757460955.md)
+35. [Isaiah 35 — A road home to Zion](isaiah/isaiah35_1757461037.md)
 
 ## Reading with a learner
 
