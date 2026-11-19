@@ -1127,6 +1127,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 19. [Jeremiah 19 — A broken jar shows what will happen to Jerusalem](jeremiah/jeremiah19_1757466334.md)
 20. [Jeremiah 20 — Jeremiah cannot keep God’s message to himself](jeremiah/jeremiah20_1757466446.md)
 21. [Jeremiah 21 — A choice for the people of Jerusalem](jeremiah/jeremiah21_1757466519.md)
+23. [Jeremiah 23 — God promises a king who will do right](jeremiah/jeremiah23_1757466694.md)
 24. [Jeremiah 24 — Two baskets of figs](jeremiah/jeremiah24_1757466758.md)
 25. [Jeremiah 25 — Seventy years under Babylon's rule](jeremiah/jeremiah25_1757466962.md)
 26. [Jeremiah 26 — Jeremiah speaks in his own defense](jeremiah/jeremiah26_1757467066.md)
