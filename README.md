@@ -205,6 +205,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Zechariah</summary>
+
+[3](paraphrases/0.3.5-easy/zechariah/zechariah3_1757482368.md)
+
+</details>
+
+<details>
 <summary>Malachi</summary>
 
 [4](paraphrases/0.3.5-easy/malachi/malachi4_1757484093.md)

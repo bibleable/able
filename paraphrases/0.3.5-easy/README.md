@@ -1121,6 +1121,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 2. [Jonah 2 — Jonah prays inside the fish](jonah/jonah2_1757480092.md)
 3. [Jonah 3 — Nineveh listens to God’s warning](jonah/jonah3_1757480197.md)
 
+## Zechariah
+
+3. [Zechariah 3 — Clean clothes for Joshua](zechariah/zechariah3_1757482368.md)
+
 ## Malachi
 
 4. [Malachi 4 — The LORD promises healing](malachi/malachi4_1757484093.md)
