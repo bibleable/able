@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" role="img" aria-labelledby="title">
+  <title id="title">A gold scepter, the staff a king holds</title>
+  <rect width="320" height="110" rx="12" fill="#fffaf1"/>
+  <g transform="rotate(-12 160 55)" stroke="#614515" stroke-width="3">
+    <rect x="28" y="49" width="240" height="12" rx="6" fill="#deb452"/>
+    <rect x="238" y="44" width="10" height="22" rx="3" fill="#f4cb5e"/>
+    <ellipse cx="264" cy="55" rx="18" ry="16" fill="#e8b63e"/>
+  </g>
+</svg>
