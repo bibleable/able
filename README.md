@@ -156,6 +156,13 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 </details>
 
 <details>
+<summary>Jeremiah</summary>
+
+[45](paraphrases/0.3.5-easy/jeremiah/jeremiah45_1757469357.md)
+
+</details>
+
+<details>
 <summary>Hosea</summary>
 
 [3](paraphrases/0.3.5-easy/hosea/hosea3_1757477706.md)

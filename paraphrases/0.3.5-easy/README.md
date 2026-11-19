@@ -1088,6 +1088,10 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 65. [Isaiah 65 — The LORD promises a new earth](isaiah/isaiah65_1757464126.md)
 66. [Isaiah 66 — The LORD comforts His people](isaiah/isaiah66_1757464218.md)
 
+## Jeremiah
+
+45. [Jeremiah 45 — A promise for Baruch](jeremiah/jeremiah45_1757469357.md)
+
 ## Hosea
 
 3. [Hosea 3 — Hosea shows love to his wife again](hosea/hosea3_1757477706.md)
