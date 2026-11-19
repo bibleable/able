@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 160" role="img" aria-labelledby="title desc">
+<title id="title">One road divides into two</title>
+<desc id="desc">One branch leads to Rabbah in Ammon. The other leads to Jerusalem in Judah.</desc>
+<rect width="380" height="160" rx="10" fill="#fff9ed"/>
+<g stroke="#886747" stroke-width="12" fill="none" stroke-linecap="round">
+<path d="M190 140V100L90 57M190 100l100-43"/>
+</g>
+<g fill="#382d22" font-family="sans-serif" text-anchor="middle" font-size="18">
+<text x="88" y="28">Rabbah</text><text x="88" y="47" font-size="14">Ammon</text>
+<text x="292" y="28">Jerusalem</text><text x="292" y="47" font-size="14">Judah</text>
+</g></svg>
