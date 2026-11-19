@@ -971,6 +971,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 8. [Proverbs 8 — Wisdom calls to everyone](proverbs/proverbs8_1757452479.md)
 9. [Proverbs 9 — Two invitations](proverbs/proverbs9_1757452618.md)
 10. [Proverbs 10 — Wise choices in work and speech](proverbs/proverbs10_1757452734.md)
+11. [Proverbs 11 — An honest weight and an open hand](proverbs/proverbs11_1757452860.md)
 
 ## Reading with a learner
 
