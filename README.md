@@ -200,7 +200,7 @@ See [paraphrases](/paraphrases/) and [stories](/stories/)
 <details>
 <summary>Amos</summary>
 
-[6](paraphrases/0.3.5-easy/amos/amos6_1757479562.md)
+[3](paraphrases/0.3.5-easy/amos/amos3_1757479322.md) · [6](paraphrases/0.3.5-easy/amos/amos6_1757479562.md)
 
 </details>
 

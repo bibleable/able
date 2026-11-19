@@ -1131,6 +1131,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 
 ## Amos
 
+3. [Amos 3 — Amos explains why he must speak](amos/amos3_1757479322.md)
 6. [Amos 6 — A warning to leaders who feel safe](amos/amos6_1757479562.md)
 
 ## Jonah
