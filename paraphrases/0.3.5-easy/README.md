@@ -862,6 +862,7 @@ Pause at the question. You can answer by talking, signing, pointing, or using yo
 52. [Psalm 52 — David trusts in God’s faithful love](psalms/psalms52_1757442861.md)
 53. [Psalm 53 — God looks down from heaven](psalms/psalms53_1757442940.md)
 54. [Psalm 54 — God is my helper](psalms/psalms54_1757443001.md)
+55. [Psalm 55 — When a close friend turns against me](psalms/psalms55_1757443166.md)
 
 ## Reading with a learner
 
