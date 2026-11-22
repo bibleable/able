@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="144" viewBox="0 0 240 144" role="img">
+  <title>A tall reed bending to one side</title>
+  <rect width="240" height="144" rx="8" fill="#fffaf1"/>
+  <path d="M36 131 Q87 122 137 131" fill="none" stroke="#74553a" stroke-width="5"/>
+  <g stroke="#315544" stroke-linecap="round" stroke-width="4">
+    <path d="M81 125 Q85 57 147 35" fill="none"/>
+    <path d="M88 94 Q65 84 63 56 Q82 66 88 94Z M96 77 Q117 54 139 57 Q123 74 96 77Z" fill="#8bb37a"/>
+    <path d="M145 36 Q161 23 181 28 Q168 42 145 36Z" fill="#c89d5d"/>
+  </g>
+</svg>
